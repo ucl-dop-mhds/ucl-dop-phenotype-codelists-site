@@ -1,0 +1,21 @@
+site_name: UCL DoP Phenotype Codelists
+site_description: A lightweight portal for phenotype codelists (MVP)
+theme:
+  name: material
+  features:
+    - search.suggest
+    - search.highlight
+    - navigation.sections
+    - content.code.copy
+nav:
+  - Home: index.md
+  - Catalog: catalog.md
+  - Phenotypes:
+      - Browse: phenotypes/index.md
+plugins:
+  - search
+markdown_extensions:
+  - admonition
+  - tables
+  - toc:
+      permalink: true
