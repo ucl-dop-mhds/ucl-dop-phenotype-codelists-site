@@ -23,20 +23,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # Recommended for GitHub Pages deployments
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
-      - name: Checkout hub data repo
+      - name: Checkout private hub data repo
         uses: actions/checkout@v4
         with:
-          repository: dop-mhds/ucl-dop-phenotype-codelists
+          repository: ucl-dop-mhds/ucl-dop-phenotype-codelists
           ref: main
           path: _data
-
-          # Uncomment this only if the hub repo is private.
-          # The token needs read access to that repo.
-          # token: ${{ secrets.SITE_REPO_TOKEN }}
+          token: ${{ secrets.UCL_DOP_REPO_READ_TOKEN }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
