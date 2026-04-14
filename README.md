@@ -1,4 +1,4 @@
-# ucl-dop-phenotype-codelists-site (MVP)
+# ucl-dop-phenotype-codelists-site
 
 Static site (MkDocs) that renders phenotype pages from the hub repo:
 `dop-mhds/ucl-dop-phenotype-codelists`

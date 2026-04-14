@@ -1,5 +1,8 @@
 site_name: UCL DoP Phenotype Codelists
-site_description: A lightweight portal for phenotype codelists (MVP)
+site_description: A lightweight portal for phenotype codelists
+site_url: https://dop-mhds.github.io/ucl-dop-phenotype-codelists-site/
+repo_url: https://github.com/dop-mhds/ucl-dop-phenotype-codelists-site
+
 theme:
   name: material
   features:
@@ -7,15 +10,21 @@ theme:
     - search.highlight
     - navigation.sections
     - content.code.copy
+
 nav:
   - Home: index.md
   - Catalog: catalog.md
-  - Phenotypes:
-      - Browse: phenotypes/index.md
+
 plugins:
   - search
+
 markdown_extensions:
   - admonition
   - tables
   - toc:
       permalink: true
+  - attr_list
+  - md_in_html
+
+extra_css:
+  - stylesheets/extra.css

@@ -1,0 +1,48 @@
+.metadata-summary {
+  margin: 0.4rem 0 1rem 0;
+}
+
+.metadata-score {
+  font-weight: 600;
+  margin-right: 0.5rem;
+}
+
+.metadata-stars,
+.metadata-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.9rem;
+  align-items: center;
+}
+
+.metadata-legend {
+  margin: 1rem 0 1.25rem 0;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(0,0,0,0.12);
+  border-radius: 0.6rem;
+}
+
+.meta-star {
+  font-size: 1.15rem;
+  line-height: 1;
+  margin-right: 0.2rem;
+  vertical-align: middle;
+}
+
+.meta-star-1 { color: #1f77b4; } /* dataset */
+.meta-star-2 { color: #ff7f0e; } /* version */
+.meta-star-3 { color: #2ca02c; } /* incl/excl */
+.meta-star-4 { color: #d62728; } /* publication/protocol */
+.meta-star-5 { color: #9467bd; } /* role */
+.meta-star-6 { color: #8c564b; } /* reviewer */
+.meta-star-7 { color: #e377c2; } /* citation file */
+.meta-star-8 { color: #17becf; } /* coding system */
+.meta-star-9 { color: #bcbd22; } /* description/usage */
+
+.catalog-meta-cell {
+  min-width: 12rem;
+}
+
+small.meta-note {
+  color: rgba(0,0,0,0.65);
+}
