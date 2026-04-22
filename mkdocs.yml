@@ -1,19 +1,27 @@
 site_name: UCL DoP Phenotype Codelists
-site_description: A lightweight portal for phenotype codelists
+site_description: UCL Division of Psychiatry Mental Health Data Science phenotype codelists
 site_url: https://dop-mhds.github.io/ucl-dop-phenotype-codelists-site/
 repo_url: https://github.com/dop-mhds/ucl-dop-phenotype-codelists-site
 
 theme:
   name: material
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
   features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.sections
+    - navigation.instant
     - search.suggest
     - search.highlight
-    - navigation.sections
     - content.code.copy
+    - content.action.edit
 
 nav:
   - Home: index.md
-  - Catalog: catalog.md
+  - Catalogue: catalog.md
 
 plugins:
   - search

@@ -5,7 +5,7 @@ This repository stores phenotype codelists used by our team members.
 
 ## 🗂️ Repository layout and codelist browsing
 
-Use the [**Catalog**](catalog.md) to browse codelists by dataset type and phenotype grouping.
+Use the [**Catalogue**](catalog.md) to browse codelists by dataset type and phenotype grouping.
 
 You can also:
 

@@ -1,26 +1,18 @@
 # Substance Misuse
-
-<div class="metadata-summary"><span class="metadata-score">3/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
-
-**Display name:** `Substance Misuse`  
+**Name:** `Substance Misuse`  
 **Dataset type:** `CPRD Aurum`  
 **Code name:** `substance-misuse`  
-**Group:** `Substance_Misuse`  
 **ID:** `substance-misuse-cprd-aurum-unknown-substance-misuse-afd10bcd`  
 **Status:** `draft`  
 **Version:** `0.1.0`  
 **Coding system:** `Unknown`  
 **Created:** `2026-03-06`  
-**Imported:** `2026-04-14`  
-**Updated:** `2026-04-14`  
+**Imported:** `2026-04-22`  
+**Updated:** `2026-04-22`  
 
-## Description
-Auto-ingested from smwu/SMI_GLP (main) at 1e3dfaacd5ed63663138e764d88792609878a84e. Source path: code_lists/Substance_Misuse/Aurum_Substance_misuse_codelist_20260306.txt.
+<div class="metadata-summary"><span class="metadata-score">3/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
 
-## Downloads
-- [Download codelist CSV](../csv/substance-misuse-cprd-aurum-unknown-substance-misuse-afd10bcd.csv)
-- [Download R script: Substance_Misuse_code_list.R](../r/substance-misuse-cprd-aurum-unknown-substance-misuse-afd10bcd/Substance_Misuse_code_list.R)
-## Metadata star legend
+### Metadata star legend
 
 <div class="metadata-legend">
 <div><span class="meta-star meta-star-1">★</span> 1. Dataset used</div>
@@ -34,6 +26,13 @@ Auto-ingested from smwu/SMI_GLP (main) at 1e3dfaacd5ed63663138e764d88792609878a8
 <div><span class="meta-star meta-star-9">★</span> 9. Brief phenotype description and usage</div>
 </div>
 
+## Downloads
+- [Download codelist CSV](../csv/substance-misuse-cprd-aurum-unknown-substance-misuse-afd10bcd.csv)
+- [Download R script: Substance_Misuse_code_list.R](../r/substance-misuse-cprd-aurum-unknown-substance-misuse-afd10bcd/Substance_Misuse_code_list.R)
+
+## Description
+Auto-ingested from smwu/SMI_GLP (main) at 1e3dfaacd5ed63663138e764d88792609878a84e. Source path: Code_Lists/Substance_Misuse/Aurum_Substance_misuse_codelist_20260306.txt.
+
 ## Metadata
 ```yaml
 id: substance-misuse-cprd-aurum-unknown-substance-misuse-afd10bcd
@@ -42,7 +41,7 @@ display_name: Substance Misuse
 code_name: substance-misuse
 phenotype_group: Substance_Misuse
 description: 'Auto-ingested from smwu/SMI_GLP (main) at 1e3dfaacd5ed63663138e764d88792609878a84e.
-  Source path: code_lists/Substance_Misuse/Aurum_Substance_misuse_codelist_20260306.txt.'
+  Source path: Code_Lists/Substance_Misuse/Aurum_Substance_misuse_codelist_20260306.txt.'
 version: 0.1.0
 status: draft
 coding_systems:
@@ -58,8 +57,8 @@ contacts:
 license: MIT
 tags: []
 created: '2026-03-06'
-updated: '2026-04-14'
-imported: '2026-04-14'
+updated: '2026-04-22'
+imported: '2026-04-22'
 dataset_type: CPRD Aurum
 coding_system: Unknown
 ```

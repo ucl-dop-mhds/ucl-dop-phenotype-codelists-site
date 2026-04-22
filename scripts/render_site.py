@@ -221,7 +221,7 @@ def render_star_html(flags: dict[str, bool]) -> str:
 
 def render_star_legend_html() -> list[str]:
     lines = [
-        "## Metadata star legend",
+        "### Metadata star legend",
         "",
         '<div class="metadata-legend">',
     ]
@@ -230,6 +230,8 @@ def render_star_legend_html() -> list[str]:
     lines.extend(["</div>", ""])
     return lines
 
+def phenotype_anchor(dataset_type: str, display_name: str) -> str:
+    return slug_anchor(f"{dataset_type}--{display_name}")
 
 def main() -> None:
     ap = argparse.ArgumentParser()
@@ -283,20 +285,20 @@ def main() -> None:
         for code_name in code_names:
             dataset_code_groups[dataset_type][code_name] = sorted(
                 dataset_code_groups[dataset_type][code_name],
-                key=lambda it: (
-                    str(it.get("display_name") or "").lower(),
-                    str(it.get("group") or "").lower(),
-                    str(it.get("title") or it.get("id") or "").lower(),
-                    str(it.get("id") or ""),
-                ),
+                key=lambda it: str(
+                    it.get("display_name")
+                    or it.get("title")
+                    or it.get("id")
+                    or ""
+                ).lower(),
             )
 
     catalog_lines = [
-        "# Catalog",
+        "# Catalogue",
         "",
         f"Total phenotypes: **{catalog.get('count', len(items))}**",
         "",
-        "This catalog shows a colored metadata-star summary for each codelist.",
+        "This catalogue shows a colored metadata-star summary for each codelist.",
         "",
     ]
     catalog_lines.extend(render_star_legend_html())
@@ -305,34 +307,57 @@ def main() -> None:
         [
             "## Browse",
             "",
+            '<div class="browse-accordion">',
+            "",
         ]
     )
 
     for dataset_type in dataset_type_names:
         dataset_anchor = slug_anchor(dataset_type)
-        catalog_lines.append(f"- [{dataset_type}](#{dataset_anchor})")
 
-        code_names = sorted(dataset_code_groups[dataset_type].keys(), key=lambda x: str(x).lower())
+        code_names = sorted(
+            dataset_code_groups[dataset_type].keys(),
+            key=lambda code_name: str(code_display_names.get(code_name, code_name)).lower(),
+        )
+
+        catalog_lines.append('<details class="browse-dataset">')
+        catalog_lines.append(
+            f'<summary>{html.escape(str(dataset_type))}</summary>'
+        )
+        catalog_lines.append('<ul class="browse-phenotypes">')
+
         for code_name in code_names:
             display_name = code_display_names.get(code_name, code_name)
-            code_anchor = slug_anchor(display_name)
-            catalog_lines.append(f"    - [{display_name}](#{code_anchor})")
+            code_anchor = phenotype_anchor(dataset_type, display_name)
+            catalog_lines.append(
+                f'  <li><a href="#{code_anchor}">{html.escape(str(display_name))}</a></li>'
+            )
 
+        catalog_lines.append("</ul>")
+        catalog_lines.append("</details>")
+        catalog_lines.append("")
+
+    catalog_lines.append("</div>")
     catalog_lines.append("")
 
     for dataset_type in dataset_type_names:
         catalog_lines.append(f"## {dataset_type}")
         catalog_lines.append("")
 
-        code_names = sorted(dataset_code_groups[dataset_type].keys(), key=lambda x: str(x).lower())
+        code_names = sorted(
+            dataset_code_groups[dataset_type].keys(),
+            key=lambda x: str(code_display_names.get(x, x)).lower(),
+        )
 
         for code_name in code_names:
             display_name = code_display_names.get(code_name, code_name)
+            section_anchor = phenotype_anchor(dataset_type, display_name)
 
+            catalog_lines.append(f'<a id="{section_anchor}"></a>')
             catalog_lines.append(f"### {display_name}")
             catalog_lines.append("")
-            catalog_lines.append("| ID | Title | Group | Coding System | Status | Version | Metadata | Downloads |")
-            catalog_lines.append("|---|---|---|---|---|---|---|---|")
+            catalog_lines.append("| ID | Title | Coding System | Status | Version | Metadata | Downloads |")
+            catalog_lines.append("|---|---|---|---|---|---|---|")
 
             for item in dataset_code_groups[dataset_type][code_name]:
                 pid = item.get("id")
@@ -384,13 +409,9 @@ def main() -> None:
                 page_title = title if title and title != pid else display_name
                 page = [
                     f"# {page_title}",
-                    "",
-                    star_html,
-                    "",
-                    f"**Display name:** `{display_name}`  ",
+                    f"**Name:** `{display_name}`  ",
                     f"**Dataset type:** `{dataset_type}`  ",
                     f"**Code name:** `{code_name}`  ",
-                    f"**Group:** `{group}`  ",
                     f"**ID:** `{pid}`  ",
                     f"**Status:** `{status}`  ",
                     f"**Version:** `{version}`  ",
@@ -408,15 +429,16 @@ def main() -> None:
                     page.append(f"**Imported:** `{meta.get('imported')}`  ")
                 if meta.get("updated"):
                     page.append(f"**Updated:** `{meta.get('updated')}`  ")
-
+                
                 page.extend(
                     [
                         "",
-                        "## Description",
-                        meta.get("description", ""),
+                        star_html,
                         "",
                     ]
                 )
+
+                page.extend(render_star_legend_html())
 
                 if documentation.get("usage_notes"):
                     page.extend(
@@ -442,7 +464,14 @@ def main() -> None:
                 if cff_link:
                     page.append(f"- [Download citation file (.cff)]({cff_link})")
 
-                page.extend(render_star_legend_html())
+                page.extend(
+                    [
+                        "",
+                        "## Description",
+                        meta.get("description", ""),
+                        "",
+                    ]
+                )
 
                 page.extend(
                     [
@@ -464,7 +493,7 @@ def main() -> None:
                     downloads.append(f"[cff](cff/{pid}.cff)")
 
                 catalog_lines.append(
-                    f"| [`{pid}`](phenotypes/{pid}.md) | {title} | {group} | {coding_system} | {status} | {version} | <div class=\"catalog-meta-cell\">{star_html}</div> | {', '.join(downloads)} |"
+                    f"| [`{pid}`](phenotypes/{pid}.md) | {title} | {coding_system} | {status} | {version} | <div class=\"catalog-meta-cell\">{star_html}</div> | {', '.join(downloads)} |"
                 )
 
             catalog_lines.append("")
