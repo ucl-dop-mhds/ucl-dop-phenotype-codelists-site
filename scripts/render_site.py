@@ -230,6 +230,156 @@ def render_star_legend_html() -> list[str]:
     lines.extend(["</div>", ""])
     return lines
 
+
+
+def clean_text(value) -> str | None:
+    if value is None:
+        return None
+    if isinstance(value, str):
+        text = value.strip()
+        if not text or text.lower() == "unknown":
+            return None
+        return text
+    text = str(value).strip()
+    return text or None
+
+
+def render_dl_rows(rows: list[tuple[str, str | None]]) -> str:
+    items = []
+    for label, value in rows:
+        cleaned = clean_text(value)
+        if cleaned is None:
+            cleaned = "NA"
+        items.append(
+            '<div class="phenotype-meta-row">'
+            f'<dt>{html.escape(label)}</dt>'
+            f'<dd>{cleaned}</dd>'
+            '</div>'
+        )
+    return '<div class="phenotype-meta-grid">' + ''.join(items) + '</div>'
+
+
+def render_section(title: str, rows: list[tuple[str, str | None]]) -> list[str]:
+    return [
+        f"## {title}",
+        "",
+        render_dl_rows(rows),
+        "",
+    ]
+
+
+def render_download_list(downloads: list[tuple[str, str]]) -> str:
+    items = []
+    for label, href in downloads:
+        items.append(
+            '<li>'
+            f'<a href="{html.escape(href, quote=True)}">{html.escape(label)}</a>'
+            '</li>'
+        )
+    return '<ul class="phenotype-download-list">' + ''.join(items) + '</ul>'
+
+
+def format_contacts(contacts) -> str | None:
+    if not isinstance(contacts, list):
+        return None
+    parts = []
+    for contact in contacts:
+        if not isinstance(contact, dict):
+            continue
+        name = clean_text(contact.get("name"))
+        if not name:
+            continue
+        extras = []
+        team = clean_text(contact.get("team"))
+        email = clean_text(contact.get("email"))
+        if team:
+            extras.append(team)
+        if email:
+            extras.append(email)
+        if extras:
+            parts.append(f"{name} ({', '.join(extras)})")
+        else:
+            parts.append(name)
+    return '; '.join(parts) if parts else None
+
+
+def format_dataset_context(dataset_context) -> str | None:
+    if not isinstance(dataset_context, list):
+        return None
+    parts = []
+    for row in dataset_context:
+        if not isinstance(row, dict):
+            continue
+        dataset = clean_text(row.get("dataset")) or "Unknown dataset"
+        setting = clean_text(row.get("setting"))
+        population_notes = clean_text(row.get("population_notes"))
+        segment = dataset
+        if setting:
+            segment += f" ({setting})"
+        if population_notes:
+            segment += f" - {population_notes}"
+        parts.append(segment)
+    return '; '.join(parts) if parts else None
+
+
+def format_coding_systems(coding_systems) -> str | None:
+    if not isinstance(coding_systems, list):
+        return None
+    parts = []
+    for row in coding_systems:
+        if not isinstance(row, dict):
+            continue
+        system = clean_text(row.get("system")) or "Unknown"
+        version = clean_text(row.get("version"))
+        notes = clean_text(row.get("notes"))
+        segment = system
+        if version:
+            segment += f" (version: {version})"
+        if notes:
+            segment += f" - {notes}"
+        parts.append(segment)
+    return '; '.join(parts) if parts else None
+
+
+def format_evidence(evidence: dict) -> str | None:
+    if not isinstance(evidence, dict):
+        return None
+    bits = []
+    kind = clean_text(evidence.get("kind"))
+    title = clean_text(evidence.get("title"))
+    doi = clean_text(evidence.get("doi"))
+    url = clean_text(evidence.get("url"))
+    if kind:
+        bits.append(kind.replace("_", " ").title())
+    if title:
+        bits.append(title)
+    if doi:
+        bits.append(f"DOI: {doi}")
+    if url:
+        bits.append(f'<a href="{html.escape(url, quote=True)}">{html.escape(url)}</a>')
+    return ' | '.join(bits) if bits else None
+
+
+def format_review(review: dict) -> str | None:
+    if not isinstance(review, dict):
+        return None
+    status = clean_text(review.get("status"))
+    reviewer_name = clean_text(review.get("reviewer_name"))
+    reviewer_role = clean_text(review.get("reviewer_role"))
+    explanation = clean_text(review.get("explanation"))
+    bits = []
+    if status:
+        bits.append(status.replace("_", " ").title())
+    if reviewer_name and reviewer_role:
+        bits.append(f"{reviewer_name} ({reviewer_role})")
+    elif reviewer_name:
+        bits.append(reviewer_name)
+    elif reviewer_role:
+        bits.append(reviewer_role)
+    if explanation:
+        bits.append(explanation)
+    return ' | '.join(bits) if bits else None
+
 def phenotype_anchor(dataset_type: str, display_name: str) -> str:
     return slug_anchor(f"{dataset_type}--{display_name}")
 
@@ -407,75 +557,77 @@ def main() -> None:
 
                 display_name = item.get("display_name") or group or code_name
                 page_title = title if title and title != pid else display_name
-                page = [
-                    f"# {page_title}",
-                    f"**Name:** `{display_name}`  ",
-                    f"**Dataset type:** `{dataset_type}`  ",
-                    f"**Code name:** `{code_name}`  ",
-                    f"**ID:** `{pid}`  ",
-                    f"**Status:** `{status}`  ",
-                    f"**Version:** `{version}`  ",
-                    f"**Coding system:** `{coding_system}`  ",
+                documentation = meta.get("documentation", {}) if isinstance(meta.get("documentation"), dict) else {}
+                evidence = documentation.get("evidence", {}) if isinstance(documentation.get("evidence"), dict) else {}
+                review = documentation.get("review", {}) if isinstance(documentation.get("review"), dict) else {}
+                provenance = meta.get("provenance", {}) if isinstance(meta.get("provenance"), dict) else {}
+
+                phenotype_role = clean_text(documentation.get("phenotype_role"))
+                formatted_role = phenotype_role.replace("_", " ").title() if phenotype_role else None
+                tag_values = [t.strip() for t in meta.get("tags", []) if isinstance(t, str) and t.strip()]
+
+                download_items = [("Download codelist CSV", f"../csv/{pid}.csv")]
+                for rl in r_links:
+                    fname = rl.split("/")[-1]
+                    download_items.append((f"Download R script: {fname}", rl))
+                if cff_link:
+                    download_items.append(("Download citation file (.cff)", cff_link))
+
+                repository_rows = [
+                    ("Name", html.escape(display_name)),
+                    ("Version", html.escape(version)),
+                    ("ID", f"<code>{html.escape(pid)}</code>"),
+                    ("Status", html.escape(status)),
+                    ("Dataset", html.escape(dataset_type)),
+                    ("Code name", f"<code>{html.escape(code_name)}</code>"),
+                    ("Phenotype group", html.escape(str(group))),
+                    ("Coding system", html.escape(coding_system)),
+                    ("Coding systems", html.escape(format_coding_systems(meta.get("coding_systems")) or "NA")),
+                    ("Phenotype role", html.escape(formatted_role) if formatted_role else None),
+                    ("Created", html.escape(str(meta.get("created"))) if meta.get("created") else None),
+                    ("Imported", html.escape(str(meta.get("imported"))) if meta.get("imported") else None),
+                    ("Updated", html.escape(str(meta.get("updated"))) if meta.get("updated") else None),
                 ]
 
-                documentation = meta.get("documentation", {}) if isinstance(meta.get("documentation"), dict) else {}
+                background_rows = [
+                    ("Summary", html.escape(meta.get("description", "")) if clean_text(meta.get("description")) else None),
+                    ("Usage notes", html.escape(str(documentation.get("usage_notes"))) if clean_text(documentation.get("usage_notes")) else None),
+                    ("Dataset context", html.escape(format_dataset_context(meta.get("dataset_context")) or "NA")),
+                    ("Provenance", html.escape(str(provenance.get("source_type"))).replace("_", " ").title() if clean_text(provenance.get("source_type")) else None),
+                    ("Source citation", html.escape(str(provenance.get("source_citation"))) if clean_text(provenance.get("source_citation")) else None),
+                    ("Source repository", html.escape(str(provenance.get("source_repository"))) if clean_text(provenance.get("source_repository")) else None),
+                    ("Source path", f"<code>{html.escape(str(provenance.get('source_path')))}</code>" if clean_text(provenance.get("source_path")) else None),
+                    ("Evidence", format_evidence(evidence)),
+                    ("Review", html.escape(format_review(review)) if format_review(review) else None),
+                    ("Contacts", html.escape(format_contacts(meta.get("contacts")) or "NA")),
+                    ("License", html.escape(str(meta.get("license"))) if clean_text(meta.get("license")) else None),
+                    ("Tags", html.escape(", ".join(tag_values)) if tag_values else None),
+                ]
 
-                if documentation.get("phenotype_role"):
-                    page.append(f"**Phenotype role:** `{documentation.get('phenotype_role')}`  ")
+                page = [
+                    f"# {page_title}",
+                    "",
+                    '<div class="phenotype-header-card">',
+                    f'<p class="phenotype-kicker">{html.escape(dataset_type)} phenotype</p>',
+                    f'<h2>{html.escape(page_title)}</h2>',
+                    f'<p class="phenotype-subtitle">Code name: <code>{html.escape(code_name)}</code></p>',
+                    star_html,
+                    '</div>',
+                    '',
+                ]
 
-                if meta.get("created"):
-                    page.append(f"**Created:** `{meta.get('created')}`  ")
-                if meta.get("imported"):
-                    page.append(f"**Imported:** `{meta.get('imported')}`  ")
-                if meta.get("updated"):
-                    page.append(f"**Updated:** `{meta.get('updated')}`  ")
-                
-                page.extend(
-                    [
-                        "",
-                        star_html,
-                        "",
-                    ]
-                )
-
+                page.extend(render_section("Repository details", repository_rows))
+                page.extend(render_section("Background information", background_rows))
+                page.extend([
+                    "## Downloads",
+                    "",
+                    render_download_list(download_items),
+                    "",
+                ])
                 page.extend(render_star_legend_html())
-
-                if documentation.get("usage_notes"):
-                    page.extend(
-                        [
-                            "## Usage notes",
-                            str(documentation.get("usage_notes")),
-                            "",
-                        ]
-                    )
-
                 page.extend(
                     [
-                        "## Downloads",
-                        f"- [Download codelist CSV](../csv/{pid}.csv)",
-                    ]
-                )
-
-                if r_links:
-                    for rl in r_links:
-                        fname = rl.split("/")[-1]
-                        page.append(f"- [Download R script: {fname}]({rl})")
-
-                if cff_link:
-                    page.append(f"- [Download citation file (.cff)]({cff_link})")
-
-                page.extend(
-                    [
-                        "",
-                        "## Description",
-                        meta.get("description", ""),
-                        "",
-                    ]
-                )
-
-                page.extend(
-                    [
-                        "## Metadata",
+                        "## Raw metadata",
                         "```yaml",
                         yaml.safe_dump(meta, sort_keys=False, allow_unicode=True).strip(),
                         "```",
