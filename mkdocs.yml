@@ -21,6 +21,7 @@ theme:
 
 nav:
   - Home: index.md
+  - Codelist Generation: generate-codelist.md
   - Catalogue: catalog.md
 
 plugins:

@@ -1,0 +1,612 @@
+#Note: if you're using this script as a template, please search 🔴///
+#in the search bar to jump immediately to sections that need changing
+
+#=============================================================*
+#   0. DOCUMENTATION
+#=============================================================*
+# 🔴 CHANGE: write metadata relevant to your project
+# --- METADATA START ---
+# File: 1a_Depression_codelist_script
+# Author: Jane Sungmin Hahn
+# Date Created: 15/04/2026
+# Last Modified: 15/04/2026
+# Phenotype description: To look at codelists for depression in primary care
+# Variable type: Exposure
+# Database: CPRD Aurum and CPRD Gold
+# Database version: Jan 2026
+# Code type: Read code and SNOMEDCT
+# Name of clinician who reviewed: Not applicable
+# Date clinician approved: Not applicable
+# Reason if not reviewed: This is a codelist generation template
+# --- METADATA END ---
+
+#
+#=============================================================
+#   1. SET UP
+#=============================================================
+rm(list = ls())
+
+library(readr)
+library(dplyr)
+library(stringr)
+library(tidyr)
+library(readxl)
+library(openxlsx)
+library(writexl)
+
+# 🔴 CHANGE: work directories, input files and output file according to your filepaths
+wd <- "C:/Users/uctvhah/OneDrive - University College London/DATAMIND/CPRD/codelist_testrun"
+setwd(wd)
+path_input <- "/input_files/"
+path_output <- "/output_files/"
+
+#=============================================================*
+#   2. LOAD DATASETS
+#=============================================================*
+
+#-------------------------------------------------------------*
+#   2.1 Medical dictionaries
+#-------------------------------------------------------------*
+#----Load AURUM medical dictionary---- 
+# 🔴 CHANGE: file name for Aurum medical dictionary
+cprd_aurum_medical <- read_delim(
+  paste0(wd, path_input, "CPRDAurumMedical.txt"),
+  delim = "\t", escape_double = FALSE,
+  col_types = cols(MedCodeId = col_character(),
+                   OriginalReadCode = col_character(),
+                   Observations = col_character(),
+                   CleansedReadCode = col_character(),
+                   SnomedCTConceptId = col_character(),
+                   SnomedCTDescriptionId = col_character(),
+                   EmisCodeCategoryId = col_character()),
+  trim_ws = TRUE
+)
+aurum_medical <- cprd_aurum_medical |>
+  select(-Release) |>
+  rename(term = Term, medcodeid = MedCodeId) |>
+  mutate(term = str_to_lower(term))
+
+#----Load GOLD medical dictionary----
+# 🔴 CHANGE: file name for Gold medical dictionary
+cprd_gold_medical <- read_delim(
+  paste0(wd, path_input, "CPRDGoldMedical.txt"),
+  delim = "\t", escape_double = FALSE,
+  col_types = cols(medcode = col_character(),
+                   readcode = col_character(),
+                   clinicalevents = col_character(),
+                   immunisationevents = col_character(),
+                   referralevents = col_character(),
+                   testevents = col_character(),
+                   term = col_character(),
+                   databaserelease = col_character()),
+  trim_ws = TRUE
+)
+
+gold_medical <- cprd_gold_medical |>
+  rename(term = readterm) |>
+  mutate(term = str_to_lower(term))
+
+#--------------------------------------------------------
+#OUTPUT
+#   -aurum_medical: CPRD Aurum medical dictionary
+#   -gold_medical: CPRD Gold medical dictionary
+#--------------------------------------------------------
+
+#-------------------------------------------------------------*
+#   2.2 Reference codelists
+#-------------------------------------------------------------*
+#Here we provide several examples of codelists from various sources.
+#If you decide to a codelist from an alternative source///
+#you may need to clean the code lists further depending on how they're coded
+
+#----Load old AURUM codelist----
+# 🔴 CHANGE: URLs of reference codelist
+aurum_ref <- read_delim(
+  paste0("https://raw.githubusercontent.com/smwu/SMI_GLP/main/Code_Lists/Depression/Aurum_Depression_codelist_20250725.txt"),
+  delim = "\t", escape_double = FALSE, col_types = cols(
+    medcodeid = col_character(),
+    Observations = col_character(),
+    OriginalReadCode = col_character(),
+    SnomedCTConceptId = col_character(),
+    SnomedCTDescriptionId = col_character(),
+    EmisCodeCategoryId = col_character()
+  ),
+  trim_ws = TRUE
+)
+
+#----Load old GOLD codelist----*
+# 🔴 CHANGE: URLs of reference codelist
+gold_ref <- read_delim(
+  paste0("https://raw.githubusercontent.com/smwu/SMI_GLP/refs/heads/main/Code_Lists/Depression/Gold_Depression_codelist_20250725.txt"),
+  delim = "\t", escape_double = FALSE, col_types = cols(
+    medcode = col_character(),
+    readcode = col_character(),
+    clinicalevents = col_character(),
+    immunisationevents = col_character(),
+    referralevents = col_character(),
+    testevents = col_character(),
+    term = col_character(),
+    databaserelease = col_character()
+  ), trim_ws = TRUE)
+
+#----Load codelist from HDRUK phenotype library----
+# 🔴 CHANGE: file name of phenotype from HDRUK phenotype library
+hdruk_raw <- read.csv(
+  paste0(wd, path_input, "hdrukcodelist.csv"),
+  header = TRUE, sep = ",", quote = "\"",
+  stringsAsFactors = FALSE)
+
+hdruk_ref <- hdruk_raw |>
+  rename(term = description,
+    readcode = code) |>
+  mutate(readcode = as.character(readcode),
+         term = str_to_lower(term)) |>
+  select(-c(concept_id, concept_version_id, concept_name, phenotype_id,
+            phenotype_version_id, phenotype_name, code_attributes, coding_system))
+
+#--------------------------------------------------------
+#OUTPUT
+#   -aurum_ref: codelists from a previous research CPRD Aurum project
+#   -gold_ref: codelists from a previous research CPRD Gold project
+#   -hdruk_ref: hdruk phenotype library codes for depression and anxiety
+#--------------------------------------------------------
+#-------------------------------------------------------------*
+#   2.4 QOF clusters for incentivised codes
+#-------------------------------------------------------------*
+#You will have to download the qof from NHS Digital website
+qof <-read_excel(
+  paste0(wd, path_input, "qof.xlsm"),
+  sheet = "Expanded Cluster List")
+
+qof_unique <- qof |>
+  select(`Cluster ID`, `Cluster description`) |>
+  distinct()
+# 🔴 CHANGE: cluster ID
+qof_ref <- qof |>
+  filter(`Cluster ID` %in% c("DEPR_COD"))
+
+#--------------------------------------------------------
+#OUTPUT
+#   -qof_ref: qof codes for depression
+#--------------------------------------------------------
+
+#=============================================================
+  # 3. SEARCH TERMS
+#=============================================================
+#-------------------------------------------------------------
+#   3.1 Aurum
+#-------------------------------------------------------------
+#	Inclusion criteria: any form of depression
+# 🔴 CHANGE: inclustion criteria (e.g., c("depress"...))
+include_terms <- paste0(
+  "(?i)",
+  paste(
+  c("depress", "major depress", "recurrent depress",
+                  "depressive episode", "low mood", "dysthemi", "melanchol" 
+                  ),
+  collapse = "|"))
+
+#	Exclusion criteria: screening, administrative terms/ family history/ past history/
+#severe mental illness/organic, dementia-related conditions/ substance use/
+#physical symptoms/ unconfirmed cases/ adverse reaction to medication
+# 🔴 CHANGE: exclusion criteria (e.g., c("fh"....))
+exclude_terms <- paste0(
+  "(?i)",
+  paste(
+    c("fh", "family history", "child", "infant",
+                   "maternal history", "family", "member", "mother", "father",
+                   "parent", "sibling", "carer", "bereave", "life event",
+                   "relative", "screen", "questionnaire", "assessment", "suspected",
+                   "follow-up", "monitor", "check", "scale", "score", "PHQ", "review",
+                   "GAD", "HADS", "schizo", "psychos", "psychot", "bipol",
+                   "mania", "manic", "delusion", "paranoi", "aponeurosis", "vasodepress",
+                   "dement","alzheimer","delirium","organic","brain disorder",
+                   "cognitive impairment", "alcohol","drug misuse", "misuse", "drug abuse", "abuse", "overdose",
+                   "substance misuse","dependence","withdrawal","intoxication",
+                   "cardiac","chest pain","palpitation","breathless", "tympanic", 
+                    "tongue", "smear", "poisoning", "crowd", "hydrophobia",
+                    "puerperal", "cerebral", "porphobilinogen", "marrow",
+                    "gastric", "admin", "papanicolaou", "skull", "cannabis", "beck",
+                    "adverse reaction", "indicator", "monitoring", "keele enhance trial",
+                    "palsy" 
+      ),
+    collapse = "|"))
+
+#----Search terms in AURUM medical dictionary----
+aurum_search <- aurum_medical |>
+  filter(grepl(paste0(include_terms), term)) |>
+  filter(!grepl(paste0(exclude_terms), term)) |>
+  mutate(across(everything(), as.character))
+
+#----Manually exclude irrelevant terms----*
+# 🔴 CHANGE: terms you would like to manually exclude
+f_exclude_terms_aurum <- c("2017961000006113", "2282371000000116",
+                           "2740671000000110","2834591000006112",
+                           "2834601000006116", "3198471000006110",
+                           "16079541000006116")
+aurum_search <- aurum_search |>
+  filter(!medcodeid %in% f_exclude_terms_aurum)
+#Terms excluded: keele include study - anxiety depression, no history of depression,///
+#harmful use of antidepressant drugs, depressor anguli oris muscle,///
+#depressor anguli oris, depressed fracture, harmful pattern of antidepressant use
+
+#--------------------------------------------------------
+#OUTPUT
+#   -aurum_search: newly searched terms in CPRD Aurum
+#--------------------------------------------------------
+
+#-------------------------------------------------------------
+#   3.2 Gold
+#-------------------------------------------------------------
+  
+#----Search terms in GOLD medical dictionary----
+gold_search <- gold_medical |>
+  filter(grepl(paste0(include_terms), term)) |>
+  filter(!grepl(paste0(exclude_terms), term)) |>
+  mutate(across(everything(), as.character))
+
+#----Manually exclude irrelevant terms----*
+# 🔴 CHANGE: terms you would like to manually exclude
+f_exclude_terms_gold <- c("101401", "34632", "44936", "31496")
+gold_search <- gold_search |>
+  filter(!medcode %in% f_exclude_terms_gold)
+#Terms excluded:removed from depression register, postnatal depression not discussed, ///
+#elevation of depressed fracture of cranium, fetus/neonate affected-plac./breast transfer uterine depress
+
+#--------------------------------------------------------
+#OUTPUT
+#   -gold_ref: newly searched terms in CPRD Gold
+#--------------------------------------------------------
+
+
+#=============================================================
+# 3. COMPARISONS
+#=============================================================
+#-------------------------------------------------------------
+#   3.3 AURUM
+#-------------------------------------------------------------
+#----Compare terms in an old AURUM code list and save new terms---
+#New terms that are not already included in aurum_ref
+aurum_search_new <- aurum_search |>
+  filter(!(medcodeid %in% aurum_ref$medcodeid))
+
+#Old terms that are not already included in aurum_search
+aurum_search_miss <- aurum_ref |>
+  filter(!(medcodeid %in% aurum_search$medcodeid)) |>
+  filter(medcodeid %in% aurum_medical$medcodeid)
+
+#--------------------------------------------------------
+#OUTPUT
+#   -aurum_search_new: new terms that are not included in aurum_ref
+#   -aurum_search_miss: terms that are included in aurum_ref but not
+#   ///aurum_cmd
+#--------------------------------------------------------
+
+#-------------------------------------------------------------
+#   3.3 GOLD
+#-------------------------------------------------------------
+#----Compare terms in an old GOLD code list and save new terms---
+#New terms that are not already included in gold_ref
+gold_search_new <- gold_search |>
+  filter(!(medcode %in% gold_ref$medcode))
+
+#Old terms that are not already included in gold_search
+gold_search_miss <- gold_ref |>
+  filter(!(medcode %in% gold_search$medcode)) |>
+  filter(medcode %in% gold_medical$medcode)
+
+#--------------------------------------------------------
+#OUTPUT
+#   -gold_search_new: new terms that are not included in gold_ref
+#   -gold_search_miss: terms that are included in gold_ref but not
+#   ///aurum_cmd
+#--------------------------------------------------------
+
+#-------------------------------------------------------------
+#   3.3 QoF
+#-------------------------------------------------------------
+#----Searching terms that are in the QOF but not in searched terms----
+qof_aurum_search_miss <- qof_ref |>
+   filter(!(`SNOMED concept ID` %in% aurum_search$medcodeid))
+qof_gold_search_miss <- qof_ref |>
+   filter(!(`SNOMED concept ID` %in% gold_search$medcode))
+
+#--------------------------------------------------------
+#OUTPUT
+#   -qof_aurum_cmd_miss: terms that are included in qof_cmd but not in aurum_cmd
+#   -qof_gold_cmd_miss: terms that are included in qof_cmd but not in gold_cmd
+#--------------------------------------------------------
+
+#-------------------------------------------------------------
+#   3.3 HDRUK phenotype
+#-------------------------------------------------------------
+#----Searching terms that are in the HDRUK phenotype list but not in searched terms----
+hdruk_aurum_search_miss <- hdruk_ref|>
+  filter(!(`readcode` %in% aurum_search$CleansedReadCode))
+hdruk_gold_search_miss <- hdruk_ref |>
+  filter(!(`readcode` %in% gold_search$readcode))
+
+#--------------------------------------------------------
+#OUTPUT
+#   -hdruk_aurum_search_miss: terms that are included in qof_cmd but not in aurum_cmd
+#   -qof_gold_cmd_miss: terms that are included in qof_cmd but not in gold_cmd
+#--------------------------------------------------------
+
+#-------------------------------------------------------------
+#   3.3 Appending across comparisons
+#-------------------------------------------------------------
+#-----Aurum----
+#Appending reference codelist
+aurum_ref2 <- aurum_ref |>
+  mutate(clinicianreview  = "Reviewed",
+         source="Old search terms")
+
+aurum_search2 <-aurum_search_new |>
+  mutate(clinicianreview = "Needs review",
+         source="New search terms")
+
+aurum_ref2_search2 <- bind_rows(aurum_ref2, aurum_search2)
+
+aurum_ref2_search2 <- aurum_ref2_search2 |>
+  arrange(medcodeid, clinicianreview) |>
+  distinct(medcodeid, .keep_all = TRUE)
+
+#Appending QOF terms and HDRUK phenotype list
+qof_aurum_subset <- qof_aurum_search_miss |>
+  select(-c(`Coding ID`, `Cluster ID`, `Cluster description`,
+            `Type of inclusion (in code string)`, `Included under`,
+            `Active status`)) |>
+  transmute(
+    SnomedCTConceptId = `SNOMED concept ID`,
+    source = "QoF",
+    clinicianreview = "Needs review",
+    term = str_to_lower(`Code description`) |>
+      str_remove(" \\(disorder\\)$") |>
+      str_trim(),
+    medcodeid = NA_character_,
+    Observations = NA_character_,
+    OriginalReadCode = NA_character_,
+    CleansedReadCode = NA_character_,
+    SnomedCTDescriptionId = NA_character_
+  )
+
+hdruk_subset <- hdruk_aurum_search_miss |>
+  transmute(
+    SnomedCTConceptId = NA_character_,
+    source = "HDRUK",
+    clinicianreview = "Reviewed",
+    term = term,
+    medcodeid = NA_character_,
+    Observations = NA_character_,
+    OriginalReadCode = NA_character_,
+    CleansedReadCode = NA_character_,
+    SnomedCTDescriptionId = NA_character_
+  )
+
+aurum_codelist <- bind_rows(aurum_ref2_search2, qof_aurum_subset, hdruk_subset)
+
+#----Gold----
+#Appending reference code list
+gold_ref2 <-gold_ref |>
+  mutate(clinicianreview = "Reviewed", source = "Old search terms")
+
+gold_search2 <- gold_search_new |>
+  mutate(clinicianreview = "Needs review", source = "New search terms")
+
+gold_ref2_search2 <- bind_rows(gold_ref2, gold_search2)
+
+gold_ref2_search2 <- gold_ref2_search2 |>
+  arrange(medcode, clinicianreview) |>
+  distinct(medcode, .keep_all = TRUE)
+
+#Appending QOF terms and HDRUK phenotype list
+qof_gold_subset <- qof_gold_search_miss |>
+  select(-c(`Coding ID`, `Cluster ID`, `Cluster description`,
+            `Type of inclusion (in code string)`, `Included under`,
+            `Active status`)) |>
+  transmute(
+    term = str_to_lower(`Code description`) |>
+      str_remove(" \\(disorder\\)$") |>
+      str_trim(),
+    source = "QoF",
+    clinicianreview = "Needs review",
+    medcode = NA_character_,
+    clinicalevents = NA_character_,
+    immunisationevents = NA_character_,
+    referralevents = NA_character_,
+    testevents = NA_character_,
+    databaserelease = NA_character_
+  )
+
+hdruk_gold_subset <- hdruk_gold_search_miss |>
+  transmute(
+    readcode = readcode,
+    source = "HDRUK",
+    clinicianreview = "Reviewed",
+    term = term,
+    medcode = NA_character_,
+    clinicalevents = NA_character_,
+    immunisationevents = NA_character_,
+    referralevents = NA_character_,
+    testevents = NA_character_,
+    databaserelease = NA_character_
+  )
+
+gold_codelist <-bind_rows(gold_ref2_search2, qof_gold_subset, hdruk_gold_subset)
+
+#=============================================================*
+#   4. CODE CATEGORISATION
+#=============================================================*
+# 🔴 CHANGE according to your group categorizations
+aurum_codelist <- aurum_codelist |>
+  mutate(cmd_type = case_when(
+    grepl("depress", term) ~ "depression"))
+
+gold_codelist <- gold_codelist |>
+  mutate(cmd_type = case_when(
+    grepl("depress", term) ~ "depression"))
+
+#=============================================================*
+#   5. MERGING INFORMATION FROM MEDICAL DICTIONARY
+#=============================================================*
+
+#-------------------------------------------------------------
+#   5.1 Merging
+#-------------------------------------------------------------
+#----Aurum----
+aurum_codelist <- aurum_codelist |>
+left_join(aurum_medical, 
+          by = "term", suffix = c("_1","_2"))
+
+aurum_codelist <- aurum_codelist |>
+  mutate(MedCodeId = coalesce(medcodeid_1, medcodeid_2),
+         Observations = coalesce(Observations_1, Observations_2),
+         CleansedReadCode = coalesce(CleansedReadCode_1, CleansedReadCode_2),
+                 OriginalReadCode = coalesce(OriginalReadCode_1, OriginalReadCode_2),
+                 Term = term,
+                 SnomedCTConceptId = coalesce(SnomedCTConceptId_1, SnomedCTDescriptionId_2),
+                 SnomedCTDescriptionId = coalesce(SnomedCTDescriptionId_1, SnomedCTDescriptionId_2),
+                 EmisCodeCategoryId = coalesce(EmisCodeCategoryId_1, EmisCodeCategoryId_2),
+                 ClinicianReview = clinicianreview,
+                 Source = source
+                 ) |>
+  select(MedCodeId, Observations, CleansedReadCode, OriginalReadCode, Term, SnomedCTConceptId, SnomedCTDescriptionId,
+         EmisCodeCategoryId, ClinicianReview, Source) |>
+  drop_na(MedCodeId)
+
+#----Gold----
+
+gold_codelist <- gold_codelist |>
+  left_join(gold_medical, 
+            by = "term", suffix = c("_1","_2"))
+
+gold_codelist <- gold_codelist |>
+  mutate(medcode = coalesce(medcode_1, medcode_2),
+         readcode = coalesce(readcode_1, readcode_2),
+         clinicalevents = coalesce(clinicalevents_1, clinicalevents_2),
+         immunisationevents = coalesce(immunisationevents_1, immunisationevents_2),
+         referralevents = coalesce(referralevents_1, referralevents_2),
+         term = term,
+         testevents = coalesce(testevents_1, testevents_2),
+         databaserelease = coalesce(databaserelease_1, databaserelease_2),
+         clinicianreview = clinicianreview,
+         source = source
+  ) |>
+  select(readcode, medcode, clinicalevents,
+         immunisationevents, referralevents, term, testevents, databaserelease,
+         clinicianreview, source) |>
+  drop_na(medcode)
+
+#--------------------------------------------------------
+#OUTPUT
+#   -aurum_codelist: aurum codelist for clinical review
+#   -gold_codelist: gold codelist for clinical review
+#--------------------------------------------------------
+
+#=============================================================*
+#   5. CLINICIAN REVIEW
+#=============================================================*
+
+#-------------------------------------------------------------
+#   5.1 Export for clinician review
+#-------------------------------------------------------------
+# 🔴 CHANGE: phenotype and dates on files name
+write.csv(aurum_codelist,
+            file = paste0(wd, path_output, "aurum_depression_codelist_15042026_tobereviewed.csv"),
+            sep = "\t", row.names = FALSE)
+# 🔴 CHANGE: phenotype and dates on files name
+write.csv(gold_codelist,
+            file = paste0(wd, path_output, "gold_depression_codelist_15042026_tobereviewed.csv"),
+            sep = "\t", row.names = FALSE)
+
+#-------------------------------------------------------------
+#   5.1. Restrict your code list to approved codes
+#-------------------------------------------------------------
+# 🔴 CHANGE: review details
+#----Review details----
+#Clinician name:
+#Review date:
+#Terms that were excluded:
+
+#----Exclude unapproved codes----
+# 🔴 CHANGE: phenotype and dates on files names
+aurum_clinician_exclude <- c()
+gold_clinician_exclude <- c()
+
+aurum_codelist <- aurum_codelist |>
+  filter(!(MedCodeId %in% aurum_clinician_exclude))
+
+gold_codelist <- gold_codelist |>
+  filter(!(medcode %in% gold_clinician_exclude))
+
+#----Export final table----
+# 🔴 CHANGE: phenotype and dates on files names
+write.table(aurum_codelist,
+            file = paste0(wd, path_output, "aurum_depression_codelist_15042026.txt"),
+            sep = "\t", row.names = FALSE)
+
+
+write.table(gold_codelist,
+            file = paste0(wd, path_output, "gold_depression_codelist_15042026.txt"),
+            sep = "\t", row.names = FALSE)
+
+
+#---Export metadata----
+
+extract_metadata <- function(filepath, filename) {
+  
+  if (!file.exists(filepath)) {
+    stop(paste("Script not found:", filepath))
+  }
+  
+  output_file <- paste0(wd, path_output, filename)
+  
+  lines <- readLines(filepath)
+  
+  start_idx <- grep("METADATA START", lines)[1]
+  end_idx   <- grep("METADATA END", lines)[1]
+  
+  if (length(start_idx) == 0 | length(end_idx) == 0) {
+    stop("Metadata markers not found.")
+  }
+  
+  meta_lines <- lines[(start_idx + 1):(end_idx - 1)]
+  meta_lines <- meta_lines[grepl("^#", meta_lines)]
+  meta_lines <- gsub("^#\\s*", "", meta_lines)
+  
+  split_lines <- strsplit(meta_lines, ":", fixed = TRUE)
+  
+  metadata <- do.call(rbind, lapply(split_lines, function(x) {
+    key <- trimws(x[1])
+    value <- ifelse(length(x) > 1,
+                    trimws(paste(x[-1], collapse=":")),
+                    "")
+    c(key = key, value = value)
+  }))
+  
+  metadata2 <- data.frame(
+    Key = metadata[,1],
+    Value = metadata[,2],
+    stringsAsFactors = FALSE
+  )
+  
+  dir.create(paste0(wd, path_output), showWarnings = FALSE)
+  
+  write.table(
+    metadata2,
+    file = output_file,
+    sep = "\t",
+    row.names = FALSE,
+    quote = FALSE
+  )
+  
+  print(paste("Metadata saved to:", output_file))
+  
+  return(metadata2)
+}
+
+# 🔴 CHANGE: filepath/filename for script and metadata.txt
+extract_metadata(
+  filepath = "C:/Users/uctvhah/OneDrive - University College London/DATAMIND/CPRD/CMD_CVD/1a_Depression_codelist_script_r.R",
+  filename = "Depression_metadata_15042026.txt"
+)
