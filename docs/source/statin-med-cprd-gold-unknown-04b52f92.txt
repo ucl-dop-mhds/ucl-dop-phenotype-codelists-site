@@ -1,0 +1,8 @@
+"medcode"	"readcode"	"desc"
+"10780"	"8B6A.00"	"statin prophylaxis"
+"11416"	"U60CA00"	"[x]statin causing adverse effect in therapeutic use"
+"13031"	"TJC2400"	"adverse reaction to simvastatin"
+"13034"	"TJC2500"	"adverse reaction to pravastatin"
+"42600"	"8B3z.00"	"over the counter statin therapy"
+"56401"	"U60C615"	"[x] adverse reaction to simvastatin"
+"73855"	"U60C616"	"[x] adverse reaction to pravastatin"

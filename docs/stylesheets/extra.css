@@ -17,10 +17,10 @@ body,
 
 .metadata-summary {
   margin: 0.75rem 0 0 0;
-  padding: 0.7rem 0.9rem;
-  background: #faf8fc;
-  border: 1px solid rgba(76, 38, 117, 0.10);
-  border-radius: 0.75rem;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
 }
 
 .metadata-score {
@@ -192,11 +192,11 @@ body,
 .md-nav__link--active,
 .md-nav__link:focus,
 .md-nav__link:hover {
-  color: #a100ff;
+  color: #993bff;
 }
 
 .md-typeset a:hover {
-  color: #bf4dff;
+  color: #993bff;
 }
 
 @media screen and (min-width: 76.25em) {
@@ -208,3 +208,31 @@ body,
   }
 }
 
+
+.codelist-preview {
+  max-height: 28rem;
+  overflow: auto;
+  border: 1px solid rgba(76, 38, 117, 0.14);
+  border-radius: 0.75rem;
+  background: #ffffff;
+  margin: 0.75rem 0 1.5rem 0;
+}
+
+.codelist-preview table {
+  margin: 0;
+  min-width: 100%;
+  border-collapse: collapse;
+}
+
+.codelist-preview th {
+  position: sticky;
+  top: 0;
+  background: #faf8fc;
+  z-index: 1;
+}
+
+.codelist-preview th,
+.codelist-preview td {
+  white-space: nowrap;
+  padding: 0.45rem 0.65rem;
+}

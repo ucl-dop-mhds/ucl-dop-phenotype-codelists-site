@@ -4,7 +4,7 @@
 <p class="phenotype-kicker">CPRD Gold phenotype</p>
 <h2>Statin Med</h2>
 <p class="phenotype-subtitle">Code name: <code>statin-med</code></p>
-<div class="metadata-summary"><span class="metadata-score">4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-4" title="4. Pre-print / publication / protocol information" aria-label="4. Pre-print / publication / protocol information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
+<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-4" title="4. Pre-print / publication / protocol information" aria-label="4. Pre-print / publication / protocol information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
 </div>
 
 ## Repository details
@@ -17,7 +17,81 @@
 
 ## Downloads
 
-<ul class="phenotype-download-list"><li><a href="../csv/statin-med-cprd-gold-unknown-04b52f92.csv">Download codelist CSV</a></li></ul>
+<ul class="phenotype-download-list"><li><a href="../source/statin-med-cprd-gold-unknown-04b52f92.txt">Download original codelist.txt</a></li><li><a href="../csv/statin-med-cprd-gold-unknown-04b52f92.csv">Download normalized CSV</a></li></ul>
+
+## Codelist preview
+
+<div class="codelist-preview">
+<table>
+<thead>
+<tr>
+<th>code</th>
+<th>code_system</th>
+<th>include</th>
+<th>term</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&quot;medcode&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;readcode&quot;	&quot;desc&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;10780&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;8B6A.00&quot;	&quot;statin prophylaxis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;11416&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;U60CA00&quot;	&quot;[x]statin causing adverse effect in therapeutic use&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;13031&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;TJC2400&quot;	&quot;adverse reaction to simvastatin&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;13034&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;TJC2500&quot;	&quot;adverse reaction to pravastatin&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;42600&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;8B3z.00&quot;	&quot;over the counter statin therapy&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;56401&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;U60C615&quot;	&quot;[x] adverse reaction to simvastatin&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;73855&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;U60C616&quot;	&quot;[x] adverse reaction to pravastatin&quot;</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
 
 ### Metadata star legend
 
@@ -32,34 +106,4 @@
 <div><span class="meta-star meta-star-8">★</span> 8. Coding system information</div>
 <div><span class="meta-star meta-star-9">★</span> 9. Brief phenotype description and usage</div>
 </div>
-
-## Raw metadata
-```yaml
-id: statin-med-cprd-gold-unknown-04b52f92
-title: Statin Med
-display_name: Statin Med
-code_name: statin-med
-phenotype_group: Code lists
-description: 'Auto-ingested from NaomiLaunders/Repurposing-statins-in-SMI (main) at
-  55a86d5fcf8e8cb851419ea126e9563b69ed1135. Source path: Code lists/StatinGoldmed.txt.'
-version: 0.1.0
-status: draft
-coding_systems:
-- system: Unknown
-  version: UNKNOWN
-dataset_context:
-- dataset: CPRD Gold
-  setting: UNKNOWN
-provenance:
-  source_type: imported
-contacts:
-- name: UNKNOWN
-license: MIT
-tags: []
-created: '2026-04-22'
-updated: '2026-04-22'
-imported: '2026-04-22'
-dataset_type: CPRD Gold
-coding_system: Unknown
-```
 

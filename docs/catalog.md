@@ -4,6 +4,9 @@ Total phenotypes: **73**
 
 This catalogue shows a colored metadata-star summary for each codelist.
 
+!!! note "Phenotype ID format"
+    Catalogue IDs are shortened for readability. They are derived as: `phenotype-GitHubID-firstRepoWord`, where `GitHubID` is the owner of the spoke repository and `firstRepoWord` is the first word of the spoke repository name.
+
 ### Metadata star legend
 
 <div class="metadata-legend">

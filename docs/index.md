@@ -23,7 +23,7 @@ You can:
   
 ## ✍️ How to contribute to the repository
 
-You must have a GitHub account to contribute to the repository.
+You must have a GitHub account to contribute to the repository. To contribute codelists to this repository, please email your GitHub repository name to **dop.mhds@ucl.ac.uk**.
 
 Your repository must include a code list file such as a `.txt` file or CSV-derived phenotype output, and a code list generating script (R, STATA, or otherwise).  Please make sure that your file name or folder name contains:
 

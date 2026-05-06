@@ -4,7 +4,7 @@
 <p class="phenotype-kicker">CPRD Aurum phenotype</p>
 <h2>Severe Mental Illness</h2>
 <p class="phenotype-subtitle">Code name: <code>severe-mental-illness</code></p>
-<div class="metadata-summary"><span class="metadata-score">4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-4" title="4. Pre-print / publication / protocol information" aria-label="4. Pre-print / publication / protocol information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
+<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-4" title="4. Pre-print / publication / protocol information" aria-label="4. Pre-print / publication / protocol information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
 </div>
 
 ## Repository details
@@ -17,7 +17,726 @@
 
 ## Downloads
 
-<ul class="phenotype-download-list"><li><a href="../csv/severe-mental-illness-cprd-aurum-unknown-539ac8be.csv">Download codelist CSV</a></li></ul>
+<ul class="phenotype-download-list"><li><a href="../source/severe-mental-illness-cprd-aurum-unknown-539ac8be.txt">Download original codelist.txt</a></li><li><a href="../csv/severe-mental-illness-cprd-aurum-unknown-539ac8be.csv">Download normalized CSV</a></li></ul>
+
+## Codelist preview
+
+<div class="codelist-preview">
+<table>
+<thead>
+<tr>
+<th>code</th>
+<th>code_system</th>
+<th>include</th>
+<th>term</th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>&quot;medcodeid&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;TermEMIS&quot;	&quot;EMIS&quot;	&quot;TermRead&quot;	&quot;READ&quot;	&quot;TermSNOMED&quot;	&quot;SNOMED&quot;	&quot;Group&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;10122017&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Brief reactive psychosis&quot;	&quot;E13y1&quot;	&quot;Brief reactive psychosis&quot;	&quot;5464005&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;105029017&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Paranoid schizophrenia in remission&quot;	&quot;E1035&quot;	&quot;Paranoid schizophrenia in remission&quot;	&quot;63181006&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;107878010&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Paranoid schizophrenia&quot;	&quot;E103&quot;	&quot;Paranoid schizophrenia&quot;	&quot;64905009&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;109941000006110&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;Test request : Lithium&quot;	&quot;EMISREQ|44W8.&quot;	NA	NA	NA	NA	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1141911000000113&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Lithium monitoring first letter&quot;	&quot;9Ol5&quot;	NA	NA	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1141951000000112&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Lithium monitoring second letter&quot;	&quot;9Ol6&quot;	NA	NA	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1141991000000116&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Lithium monitoring third letter&quot;	&quot;9Ol7&quot;	NA	NA	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;114616017&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Chronic catatonic schizophrenia&quot;	&quot;E1022&quot;	&quot;Chronic catatonic schizophrenia&quot;	&quot;68995007&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;12059201000006117&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	NA	NA	&quot;\\&quot;Bipolar disorder, most recent episode depression (disorder)\\&quot;&quot;	&quot;767631007&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;12059211000006119&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	NA	NA	&quot;\\&quot;Bipolar disorder, most recent episode manic (disorder)\\&quot;&quot;	&quot;767632000&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;12059221000006110&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	NA	NA	&quot;\\&quot;Bipolar affective disorder, most recent episode mixed (disorder)\\&quot;&quot;	&quot;767633005&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1219653018&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Atypical schizophrenia&quot;	&quot;E10y0&quot;	&quot;Atypical schizophrenia&quot;	&quot;111484002&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1230030015&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Chronic lithium nephrotoxicity&quot;	&quot;K0C6&quot;	NA	NA	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1234861017&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Chronic schizophrenic&quot;	&quot;E1002&quot;	&quot;Chronic schizophrenic&quot;	&quot;83746006&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;123611000006110&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Subchronic schizo-affective schizophrenia&quot;	&quot;E1071&quot;	&quot;Subchronic schizo-affective schizophrenia&quot;	&quot;191569002&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;12480451000006112&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;\\&quot;[X]Schizophrenia, schizotypal and delusional disorders\\&quot;&quot;	&quot;^ESCT1248045&quot;	NA	NA	&quot;\\&quot;[X]Schizophrenia, schizotypal and delusional disorders\\&quot;&quot;	&quot;417601000000102&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;12736721000006110&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	NA	NA	&quot;First episode psychosis (finding)&quot;	&quot;1127191000000108&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;132503015&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Subchronic paranoid schizophrenia&quot;	&quot;E1031&quot;	&quot;Subchronic paranoid schizophrenia&quot;	&quot;79866005&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;13716031000006110&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	NA	NA	&quot;Bipolar disorder caused by drug (disorder)&quot;	&quot;16238741000119105&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;13911951000006118&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	NA	NA	&quot;Rapid cycling bipolar II disorder (disorder)&quot;	&quot;789061003&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1452014&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Delusion of persecution&quot;	&quot;1BH0&quot;	&quot;Delusion of persecution (finding)&quot;	&quot;216004&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;155141000006116&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Schizo-affective schizophrenia&quot;	&quot;E107&quot;	&quot;Schizo-affective schizophrenia&quot;	&quot;191567000&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;155151000006119&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Schizo-affective schizophrenia in remission&quot;	&quot;E1075&quot;	&quot;Schizo-affective schizophrenia in remission&quot;	&quot;191574005&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;155161000006117&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Schizo-affective schizophrenia NOS&quot;	&quot;E107z&quot;	&quot;Schizo-affective schizophrenia NOS&quot;	&quot;191567000&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;155281000006119&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Schizotypal personality&quot;	&quot;E2122&quot;	&quot;Schizotypal personality&quot;	&quot;31027006&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;161371000006118&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Sander&#x27;s disease&quot;	&quot;E121-1&quot;	&quot;Sanders disease&quot;	&quot;268622001&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1648881000000118&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Lithium patient information booklet given&quot;	&quot;8CE90&quot;	NA	NA	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1648961000000116&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Advice given about lithium side-effects and toxicity&quot;	&quot;8Cd5&quot;	&quot;Advice given about lithium side-effects and toxicity (situation)&quot;	&quot;750101000000105&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1658491000000117&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Lithium annual review&quot;	&quot;8BM00&quot;	&quot;Annual review of lithium therapy (procedure)&quot;	&quot;753951000000101&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1662121000000117&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Lithium level checked at 3 monthly intervals&quot;	&quot;665J&quot;	NA	NA	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1667141000000114&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Lithium therapy record book completed&quot;	&quot;665K&quot;	NA	NA	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1667581000000114&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;[X]Paranoid state in remission&quot;	&quot;Eu223&quot;	&quot;[X]Paranoid state in remission&quot;	&quot;755301000000102&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1667591000000111&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;[X]Nonorganic psychosis in remission&quot;	&quot;Eu26&quot;	&quot;[X]Nonorganic psychosis in remission&quot;	&quot;755311000000100&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;169061000006112&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Restzustand - schizophrenia&quot;	&quot;E106-1&quot;	&quot;Restzustand - schizophrenia&quot;	&quot;26025008&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1747721000006112&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;Patient lithium therapy pack given&quot;	&quot;EMISNQPA105&quot;	NA	NA	NA	NA	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1780205015&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;H/O: manic depressive disorder&quot;	&quot;146D&quot;	&quot;H/O: manic depressive disorder&quot;	&quot;400998002&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1785851000006110&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;[X]Bipolar affective disorder type I&quot;	&quot;Eu318&quot;	&quot;[X]Bipolar affective disorder type I&quot;	&quot;371596008&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1785861000006112&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;[X]Bipolar affective disorder type II&quot;	&quot;Eu319&quot;	&quot;[X]Bipolar affective disorder type II&quot;	&quot;83225003&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1785871000006117&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;[X]Bipolar II disorder&quot;	&quot;Eu319-1&quot;	&quot;[X]Bipolar II disorder&quot;	&quot;83225003&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;178723016&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Catatonic schizophrenia in remission&quot;	&quot;E1025&quot;	&quot;Catatonic schizophrenia in remission&quot;	&quot;111483008&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;182861000006110&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;\\&quot;Recurrent manic episodes, partial or unspecified remission\\&quot;&quot;	&quot;E1115&quot;	&quot;\\&quot;Recurrent manic episodes, partial or unspecified remission\\&quot;&quot;	&quot;764671000000105&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;182871000006115&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;\\&quot;Recurrent manic episodes, severe without mention psychosis\\&quot;&quot;	&quot;E1113&quot;	&quot;\\&quot;Recurrent manic episodes, severe without mention psychosis\\&quot;&quot;	&quot;764621000000106&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1975081000006110&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;\\&quot;Undifferentiated schizophrenia, complete remission\\&quot;&quot;	&quot;EMISICD10|F2035&quot;	NA	NA	&quot;\\&quot;Undifferentiated schizophrenia, complete remission\\&quot;&quot;	&quot;1975081000006106&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1975211000006110&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;\\&quot;Post-schizophrenic depression, episodic with progressive deficit\\&quot;&quot;	&quot;EMISICD10|F2041&quot;	NA	NA	&quot;\\&quot;Post-schizophrenic depression, episodic with progressive deficit\\&quot;&quot;	&quot;1975211000006106&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1975441000006110&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;\\&quot;Residual schizophrenia, incomplete remission\\&quot;&quot;	&quot;EMISICD10|F2054&quot;	NA	NA	&quot;\\&quot;Residual schizophrenia, incomplete remission\\&quot;&quot;	&quot;1975441000006106&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1975601000006110&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;\\&quot;Simple schizophrenia, complete remission\\&quot;&quot;	&quot;EMISICD10|F2065&quot;	NA	NA	&quot;\\&quot;Simple schizophrenia, complete remission\\&quot;&quot;	&quot;1975601000006106&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1975851000006110&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;\\&quot;Other acute and transient psychotic disorders, with associated acute stress\\&quot;&quot;	&quot;EMISICD10|F2381&quot;	NA	NA	NA	NA	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1976891000006110&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;\\&quot;Hebephrenic schizophrenia, other\\&quot;&quot;	&quot;EMISICD10|F2018&quot;	NA	NA	&quot;\\&quot;Hebephrenic schizophrenia, other\\&quot;&quot;	&quot;1976891000006106&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;1976961000006110&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;\\&quot;Schizophrenia, unspecified, other\\&quot;&quot;	&quot;EMISICD10|F2098&quot;	NA	NA	&quot;\\&quot;Schizophrenia, unspecified, other\\&quot;&quot;	&quot;1976961000006106&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2157096015&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Manic mood&quot;	&quot;1S42&quot;	&quot;Manic mood&quot;	&quot;405273008&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;215841000000114&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;[X]Delusional disorder&quot;	&quot;Eu220&quot;	&quot;[X]Delusional disorder&quot;	&quot;48500005&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;215851000000112&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;[X]Paranoid psychosis&quot;	&quot;Eu220-1&quot;	&quot;[X]Paranoid psychosis&quot;	&quot;191667009&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;215871000000115&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;[X]Paranoia&quot;	&quot;Eu220-5&quot;	&quot;[X]Paranoia&quot;	&quot;417233008&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;223601000000119&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Manic psychoses&quot;	&quot;E11-3&quot;	&quot;Manic psychoses&quot;	&quot;231494001&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;223611000000117&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Nonorganic psychosis NOS&quot;	&quot;E13z&quot;	&quot;Nonorganic psychosis NOS&quot;	&quot;191525009&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2322241000000116&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Urine lithium concentration&quot;	&quot;46P30&quot;	NA	NA	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;243361000006117&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Paranoid states&quot;	&quot;E12&quot;	&quot;Paranoid states&quot;	&quot;191667009&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2501011000006119&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;\\&quot;Severe bipolar I disorder, most recent episode manic, without psychotic features\\&quot;&quot;	&quot;^ESCTSE250101&quot;	NA	NA	&quot;\\&quot;Severe bipolar I disorder, most recent episode manic, without psychotic features\\&quot;&quot;	&quot;162004&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2501991000006111&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	NA	NA	&quot;Delusion of persecution (finding)&quot;	&quot;216004&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2502001000006113&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	NA	NA	&quot;Delusion of persecution (finding)&quot;	&quot;216004&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;251628010&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;H/O: schizophrenia&quot;	&quot;1464&quot;	&quot;H/O: schizophrenia&quot;	&quot;161468000&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;253124017&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	NA	NA	&quot;Morbid jealousy (disorder)&quot;	&quot;162313000&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2531671000006114&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	NA	NA	&quot;Delusions (finding)&quot;	&quot;2073000&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2531681000006112&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	NA	NA	&quot;Delusions (finding)&quot;	&quot;2073000&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2532965018&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;[X]Erotomania&quot;	&quot;Eu528&quot;	&quot;[X]Erotomania&quot;	&quot;280949006&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;25461000006115&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Other nonorganic psychoses&quot;	&quot;E13&quot;	&quot;Other nonorganic psychoses&quot;	&quot;191525009&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2548181016&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Paranoid ideation&quot;	&quot;1BH3&quot;	&quot;Paranoid ideation&quot;	&quot;417233008&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2549129012&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;O/E - paranoid delusions&quot;	&quot;225E&quot;	NA	NA	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2549426013&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;O/E - delusion of persecution&quot;	&quot;225F&quot;	NA	NA	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2577941000006118&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;\\&quot;Schizophrenia, in remission\\&quot;&quot;	&quot;^ESCTSC257794&quot;	NA	NA	&quot;\\&quot;Schizophrenia, in remission\\&quot;&quot;	&quot;4926007&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2586801000006115&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;Brief psychotic disorder&quot;	&quot;^ESCTBR258680&quot;	NA	NA	&quot;Brief psychotic disorder&quot;	&quot;5464005&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;259417018&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Lithium level therapeutic&quot;	&quot;44vE&quot;	NA	NA	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;259418011&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Lithium level high - toxic&quot;	&quot;44W81&quot;	NA	NA	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;259419015&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Lithium level low&quot;	&quot;44W82&quot;	NA	NA	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2632941000006110&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	NA	NA	&quot;Delusion of infidelity (finding)&quot;	&quot;8330006&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;264612016&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Lithium stopped&quot;	&quot;665B&quot;	NA	NA	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2705561000006112&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;Chronic disorganised schizophrenia&quot;	&quot;^ESCTCH270556&quot;	NA	NA	&quot;Chronic disorganised schizophrenia&quot;	&quot;12939007&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2705571000006117&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;Chronic disorganized schizophrenia&quot;	&quot;^ESCTCH270557&quot;	NA	NA	&quot;Chronic disorganized schizophrenia&quot;	&quot;12939007&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2717981000006118&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;MDI - Manic-depressive illness&quot;	&quot;^ESCTMD271798&quot;	NA	NA	&quot;MDI - Manic-depressive illness&quot;	&quot;13746004&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2726261000006113&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;Subchronic disorganised schizophrenia with acute exacerbations&quot;	&quot;^ESCTSU272626&quot;	NA	NA	&quot;Subchronic disorganised schizophrenia with acute exacerbations&quot;	&quot;14291003&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2726271000006118&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;Subchronic disorganized schizophrenia with acute exacerbations&quot;	&quot;^ESCTSU272627&quot;	NA	NA	&quot;Subchronic disorganized schizophrenia with acute exacerbations&quot;	&quot;14291003&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2730051000000114&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	NA	NA	&quot;Mania with mood-congruent psychotic features (disorder)&quot;	&quot;1089661000000104&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2730071000000117&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	NA	NA	&quot;Mania with mood-incongruent psychotic features (disorder)&quot;	&quot;1089671000000106&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2730091000000118&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	NA	NA	&quot;Mania with psychotic features (disorder)&quot;	&quot;1089681000000108&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2730111000000111&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	NA	NA	&quot;Acute predominantly delusional psychotic disorder (disorder)&quot;	&quot;1089691000000105&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2761681000006119&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;\\&quot;Bipolar I disorder, most recent episode mixed\\&quot;&quot;	&quot;^ESCTBI276168&quot;	NA	NA	&quot;\\&quot;Bipolar I disorder, most recent episode mixed\\&quot;&quot;	&quot;16506000&quot;	&quot;bipolar&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;28758018&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Subchronic schizophrenia&quot;	&quot;E1001&quot;	&quot;Subchronic schizophrenia&quot;	&quot;16990005&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2916361000006118&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;Restzustand&quot;	&quot;^ESCTRE291636&quot;	NA	NA	&quot;Restzustand&quot;	&quot;26025008&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2938951000006113&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;Subchronic disorganised schizophrenia&quot;	&quot;^ESCTSU293895&quot;	NA	NA	&quot;Subchronic disorganised schizophrenia&quot;	&quot;27387000&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;2938961000006110&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>&quot;Subchronic disorganized schizophrenia&quot;	&quot;^ESCTSU293896&quot;	NA	NA	&quot;Subchronic disorganized schizophrenia&quot;	&quot;27387000&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;294724012&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Non-organic psychoses&quot;	&quot;E1&quot;	&quot;Non-organic psychoses&quot;	&quot;191525009&quot;	&quot;other psychosis&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;294725013&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Schizophrenic disorders&quot;	&quot;E10&quot;	&quot;Schizophrenic disorders&quot;	&quot;191526005&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;294726014&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Schizophrenia simplex&quot;	&quot;E100-1&quot;	&quot;Schizophrenia simplex&quot;	&quot;191527001&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;294727017&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Simple schizophrenia&quot;	&quot;E100&quot;	&quot;Simple schizophrenia&quot;	&quot;191527001&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;294728010&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Unspecified schizophrenia&quot;	&quot;E1000&quot;	&quot;Unspecified schizophrenia&quot;	&quot;58214004&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;294730012&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Acute exacerbation of subchronic schizophrenia&quot;	&quot;E1003&quot;	&quot;Acute exacerbation of subchronic schizophrenia&quot;	&quot;111482003&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;294731011&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Acute exacerbation of chronic schizophrenia&quot;	&quot;E1004&quot;	&quot;Acute exacerbation of chronic schizophrenia&quot;	&quot;191531007&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;294734015&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Simple schizophrenia NOS&quot;	&quot;E100z&quot;	&quot;Simple schizophrenia NOS&quot;	&quot;191527001&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+<tr>
+<td>&quot;294735019&quot;</td>
+<td>UNKNOWN</td>
+<td>true</td>
+<td>NA	NA	&quot;Unspecified hebephrenic schizophrenia&quot;	&quot;E1010&quot;	&quot;Unspecified hebephrenic schizophrenia&quot;	&quot;35252006&quot;	&quot;schizophrenia&quot;</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p><em>Preview shows first 100 rows.</em></p>
 
 ### Metadata star legend
 
@@ -32,34 +751,4 @@
 <div><span class="meta-star meta-star-8">★</span> 8. Coding system information</div>
 <div><span class="meta-star meta-star-9">★</span> 9. Brief phenotype description and usage</div>
 </div>
-
-## Raw metadata
-```yaml
-id: severe-mental-illness-cprd-aurum-unknown-539ac8be
-title: Severe Mental Illness
-display_name: Severe Mental Illness
-code_name: smi
-phenotype_group: SMI
-description: 'Auto-ingested from Alvin-RB/antipsychotics_descriptive_study_cprd (main)
-  at 6d9d6db995b4c0e30842a15fa942fbce6fd74507. Source path: Aurum_SMI_codelist_21032024.txt.'
-version: 0.1.0
-status: draft
-coding_systems:
-- system: Unknown
-  version: UNKNOWN
-dataset_context:
-- dataset: CPRD Aurum
-  setting: UNKNOWN
-provenance:
-  source_type: imported
-contacts:
-- name: UNKNOWN
-license: MIT
-tags: []
-created: '2024-03-21'
-updated: '2026-04-22'
-imported: '2026-04-22'
-dataset_type: CPRD Aurum
-coding_system: Unknown
-```
 

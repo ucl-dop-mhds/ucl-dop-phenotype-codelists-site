@@ -30,7 +30,7 @@ def ensure_dir(path: pathlib.Path) -> None:
 
 
 def reset_generated_dirs(docs: pathlib.Path) -> None:
-    for subdir in ["phenotypes", "csv", "r", "cff"]:
+    for subdir in ["phenotypes", "csv", "source", "r", "cff"]:
         target = docs / subdir
         if target.exists():
             shutil.rmtree(target)
@@ -199,7 +199,7 @@ def infer_star_flags(meta: dict, phen_path: pathlib.Path) -> dict[str, bool]:
     }
 
 
-def render_star_html(flags: dict[str, bool]) -> str:
+def render_star_html(flags: dict[str, bool], label_score: bool = False) -> str:
     parts = []
     score = sum(bool(flags.get(key)) for _, _, key in STAR_RULES)
 
@@ -213,7 +213,7 @@ def render_star_html(flags: dict[str, bool]) -> str:
     star_markup = "".join(parts) if parts else '<span class="meta-note">No metadata stars yet</span>'
     return (
         '<div class="metadata-summary">'
-        f'<span class="metadata-score">{score}/9</span>'
+        f'<span class="metadata-score">{"Metadata score: " if label_score else ""}{score}/9</span>'
         f'<span class="metadata-stars">{star_markup}</span>'
         "</div>"
     )
@@ -422,6 +422,115 @@ def format_review(review: dict) -> str | None:
 def phenotype_anchor(dataset_type: str, display_name: str) -> str:
     return slug_anchor(f"{dataset_type}--{display_name}")
 
+
+def github_repo_url(repo: str | None) -> str | None:
+    repo = clean_text(repo)
+    if not repo:
+        return None
+    if repo.startswith("http://") or repo.startswith("https://"):
+        return repo
+    return f"https://github.com/{repo}"
+
+
+def github_repo_id(repo: str | None) -> str:
+    repo = clean_text(repo)
+    if not repo:
+        return "unknown"
+    repo = repo.rstrip("/")
+    if repo.startswith("http://") or repo.startswith("https://"):
+        repo = repo.split("github.com/")[-1]
+    return repo.split("/")[0] if "/" in repo else repo
+
+
+def first_repo_word(repo: str | None) -> str:
+    repo = clean_text(repo)
+    if not repo:
+        return "unknown"
+    repo_name = repo.rstrip("/").split("/")[-1]
+    repo_name = re.sub(r"[^A-Za-z0-9]+", "-", repo_name).strip("-")
+    return repo_name.split("-")[0] if repo_name else "unknown"
+
+
+def short_catalog_id(item: dict, provenance: dict) -> str:
+    code_name = clean_text(item.get("code_name")) or clean_text(item.get("group")) or "unknown"
+    repo = provenance.get("source_repository")
+    return f"{slug_anchor(code_name)}-{github_repo_id(repo)}-{first_repo_word(repo)}"
+
+
+def original_source_extension(provenance: dict) -> str:
+    fmt = clean_text(provenance.get("source_format"))
+    if fmt:
+        fmt = fmt.lower().lstrip(".")
+        if fmt in {"txt", "csv", "tsv", "xlsx", "xls", "json", "r", "md"}:
+            return f".{fmt}"
+
+    source_path = clean_text(provenance.get("source_path"))
+    if source_path:
+        suffix = pathlib.Path(source_path).suffix
+        if suffix:
+            return suffix
+
+    return ".txt"
+
+
+def render_codelist_preview_table(csv_path: pathlib.Path, max_rows: int = 100) -> str:
+    """
+    Renders the normalized codelist.csv as a scrollable HTML table.
+    Uses only the Python standard library.
+    """
+    import csv
+
+    if not csv_path.exists():
+        return "<p>No codelist preview available.</p>"
+
+    try:
+        with csv_path.open("r", encoding="utf-8", errors="ignore", newline="") as f:
+            reader = csv.reader(f)
+            rows = list(reader)
+    except Exception:
+        return "<p>No codelist preview available.</p>"
+
+    if not rows:
+        return "<p>No codelist preview available.</p>"
+
+    header = rows[0]
+    body = rows[1:max_rows + 1]
+
+    lines = [
+        '<div class="codelist-preview">',
+        '<table>',
+        '<thead>',
+        '<tr>',
+    ]
+
+    for col in header:
+        lines.append(f"<th>{html.escape(str(col))}</th>")
+
+    lines.extend([
+        "</tr>",
+        "</thead>",
+        "<tbody>",
+    ])
+
+    for row in body:
+        lines.append("<tr>")
+        padded = row + [""] * max(0, len(header) - len(row))
+        for value in padded[:len(header)]:
+            lines.append(f"<td>{html.escape(str(value))}</td>")
+        lines.append("</tr>")
+
+    lines.extend([
+        "</tbody>",
+        "</table>",
+        "</div>",
+    ])
+
+    if len(rows) - 1 > max_rows:
+        lines.append(f"<p><em>Preview shows first {max_rows} rows.</em></p>")
+
+    return "\n".join(lines)
+
+
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("--data-repo", required=True, help="Path to checked out hub repo")
@@ -488,6 +597,9 @@ def main() -> None:
         f"Total phenotypes: **{catalog.get('count', len(items))}**",
         "",
         "This catalogue shows a colored metadata-star summary for each codelist.",
+        "",
+        "!!! note \"Phenotype ID format\"",
+        "    Catalogue IDs are shortened for readability. They are derived as: `phenotype-GitHubID-firstRepoWord`, where `GitHubID` is the owner of the spoke repository and `firstRepoWord` is the first word of the spoke repository name.",
         "",
     ]
     catalog_lines.extend(render_star_legend_html())
@@ -574,6 +686,17 @@ def main() -> None:
                 out_csv = docs / "csv" / f"{pid}.csv"
                 shutil.copy2(csv_path, out_csv)
 
+                provenance_path = phen_path / "PROVENANCE.yml"
+                provenance_file = load_yaml_dict(provenance_path)
+                source_txt = phen_path / "SOURCE.txt"
+
+                source_link = None
+                source_ext = original_source_extension(provenance_file)
+                if source_txt.exists():
+                    out_source = docs / "source" / f"{pid}{source_ext}"
+                    shutil.copy2(source_txt, out_source)
+                    source_link = f"../source/{pid}{source_ext}"
+
                 r_links = []
                 out_r_dir = docs / "r" / pid
                 if code_dir.exists() and code_dir.is_dir():
@@ -600,12 +723,17 @@ def main() -> None:
                 evidence = documentation.get("evidence", {}) if isinstance(documentation.get("evidence"), dict) else {}
                 review = documentation.get("review", {}) if isinstance(documentation.get("review"), dict) else {}
                 provenance = meta.get("provenance", {}) if isinstance(meta.get("provenance"), dict) else {}
+                if not provenance:
+                    provenance = provenance_file
 
                 phenotype_role = clean_text(documentation.get("phenotype_role"))
                 formatted_role = phenotype_role.replace("_", " ").title() if phenotype_role else None
                 tag_values = [t.strip() for t in meta.get("tags", []) if isinstance(t, str) and t.strip()]
 
-                download_items = [("Download codelist CSV", f"../csv/{pid}.csv")]
+                download_items = []
+                if source_link:
+                    download_items.append((f"Download original codelist{source_ext}", source_link))
+                download_items.append(("Download normalized CSV", f"../csv/{pid}.csv"))
                 for rl in r_links:
                     fname = rl.split("/")[-1]
                     download_items.append((f"Download R script: {fname}", rl))
@@ -650,7 +778,7 @@ def main() -> None:
                     f'<p class="phenotype-kicker">{html.escape(dataset_type)} phenotype</p>',
                     f'<h2>{html.escape(page_title)}</h2>',
                     f'<p class="phenotype-subtitle">Code name: <code>{html.escape(code_name)}</code></p>',
-                    star_html,
+                    render_star_html(star_flags, label_score=True),
                     '</div>',
                     '',
                 ]
@@ -662,17 +790,12 @@ def main() -> None:
                     "",
                     render_download_list(download_items),
                     "",
+                    "## Codelist preview",
+                    "",
+                    render_codelist_preview_table(csv_path),
+                    "",
                 ])
                 page.extend(render_star_legend_html())
-                page.extend(
-                    [
-                        "## Raw metadata",
-                        "```yaml",
-                        yaml.safe_dump(meta, sort_keys=False, allow_unicode=True).strip(),
-                        "```",
-                        "",
-                    ]
-                )
 
                 out_page = docs / "phenotypes" / f"{pid}.md"
                 out_page.write_text("\n".join(page) + "\n", encoding="utf-8")
