@@ -1,23 +1,38 @@
 # Lipid
 
 <div class="phenotype-header-card">
-<p class="phenotype-kicker">CPRD Gold phenotype</p>
-<h2>Lipid</h2>
-<p class="phenotype-subtitle">Code name: <code>lipid</code></p>
-<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-4" title="4. Pre-print / publication / protocol information" aria-label="4. Pre-print / publication / protocol information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
+<div class="phenotype-header-fields">
+<div><strong>Dataset:</strong> CPRD Gold</div>
+<div><strong>ID (phenotype-githubID-repoStart):</strong> <code>lipid-naomilaunders-repurposing</code></div>
+<div><strong>Source:</strong> <a href="https://github.com/NaomiLaunders/Repurposing-statins-in-SMI">NaomiLaunders/Repurposing-statins-in-SMI</a></div>
+<div><strong>License:</strong> MIT</div>
+<div><strong>Date Created:</strong> 2026-04-22</div>
+<div><strong>Date Imported:</strong> 2026-04-22</div>
+<div><strong>Date Updated:</strong> 2026-04-22</div>
+</div>
 </div>
 
-## Repository details
+## Metadata
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Name</dt><dd>Lipid</dd></div><div class="phenotype-meta-row"><dt>Version</dt><dd>0.1.0</dd></div><div class="phenotype-meta-row"><dt>ID</dt><dd><code>lipid-cprd-gold-unknown-2d0f6c02</code></dd></div><div class="phenotype-meta-row"><dt>Status</dt><dd>draft</dd></div><div class="phenotype-meta-row"><dt>Dataset</dt><dd>CPRD Gold</dd></div><div class="phenotype-meta-row"><dt>Code name</dt><dd><code>lipid</code></dd></div><div class="phenotype-meta-row"><dt>Phenotype group</dt><dd>Code lists</dd></div><div class="phenotype-meta-row"><dt>Coding system</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Coding systems</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Phenotype role</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Created</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Imported</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Updated</dt><dd>2026-04-22</dd></div></div>
+<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-4" title="4. Pre-print / publication / protocol information" aria-label="4. Pre-print / publication / protocol information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
 
-## Background information
+<br>
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Summary</dt><dd>Auto-ingested from NaomiLaunders/Repurposing-statins-in-SMI (main) at 55a86d5fcf8e8cb851419ea126e9563b69ed1135. Source path: Code lists/LipidGold.txt.</dd></div><div class="phenotype-meta-row"><dt>Usage notes</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Dataset context</dt><dd>CPRD Gold</dd></div><div class="phenotype-meta-row"><dt>Provenance</dt><dd>Imported</dd></div><div class="phenotype-meta-row"><dt>Source citation</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source repository</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source path</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Evidence</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Review</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Contacts</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>License</dt><dd>MIT</dd></div><div class="phenotype-meta-row"><dt>Tags</dt><dd>NA</dd></div></div>
+<div class="metadata-detail-list">
+<div class="metadata-detail-row"><span class="meta-star meta-star-1">★</span> <strong>Dataset used:</strong> CPRD Gold</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-2">★</span> <strong>Version information:</strong> 0.1.0</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-3">☆</span> <strong>Inclusion / exclusion criteria in generating script:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-4">★</span> <strong>Pre-print / publication / protocol information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-5">☆</span> <strong>Exposure / outcome / covariate flag:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-6">☆</span> <strong>Clinical or alternative reviewer information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-7">☆</span> <strong>Citation file (.cff):</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-8">☆</span> <strong>Coding system information:</strong> Unknown</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-9">★</span> <strong>Brief phenotype description and usage:</strong> Auto-ingested from NaomiLaunders/Repurposing-statins-in-SMI (main) at 55a86d5fcf8e8cb851419ea126e9563b69ed1135. Source path: Code lists/LipidGold.txt.</div>
+</div>
 
 ## Downloads
 
-<ul class="phenotype-download-list"><li><a href="../source/lipid-cprd-gold-unknown-2d0f6c02.txt">Download original codelist.txt</a></li><li><a href="../csv/lipid-cprd-gold-unknown-2d0f6c02.csv">Download normalized CSV</a></li></ul>
+<ul class="phenotype-download-list"><li><a href="../../source/lipid-cprd-gold-unknown-2d0f6c02.txt" download="lipid-cprd-gold-unknown-2d0f6c02.txt">Download original codelist (.txt)</a></li></ul>
 
 ## Codelist preview
 
@@ -25,730 +40,514 @@
 <table>
 <thead>
 <tr>
-<th>code</th>
-<th>code_system</th>
-<th>include</th>
-<th>term</th>
-<th>notes</th>
+<th>medcode</th>
+<th>readcode</th>
+<th>desc</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>&quot;medcode&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;readcode&quot;	&quot;desc&quot;</td>
-<td></td>
+<td>46225</td>
+<td>44OD.00</td>
+<td>plasma lipids</td>
 </tr>
 <tr>
-<td>&quot;46225&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44OD.00&quot;	&quot;plasma lipids&quot;</td>
-<td></td>
+<td>858</td>
+<td>44O2.00</td>
+<td>serum lipids normal</td>
 </tr>
 <tr>
-<td>&quot;858&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44O2.00&quot;	&quot;serum lipids normal&quot;</td>
-<td></td>
+<td>94177</td>
+<td>4QA..00</td>
+<td>lipid level</td>
 </tr>
 <tr>
-<td>&quot;94177&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;4QA..00&quot;	&quot;lipid level&quot;</td>
-<td></td>
+<td>7205</td>
+<td>6879.12</td>
+<td>lipid screen</td>
 </tr>
 <tr>
-<td>&quot;7205&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;6879.12&quot;	&quot;lipid screen&quot;</td>
-<td></td>
+<td>15195</td>
+<td>44OZ.00</td>
+<td>serum lipids nos</td>
 </tr>
 <tr>
-<td>&quot;15195&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44OZ.00&quot;	&quot;serum lipids nos&quot;</td>
-<td></td>
+<td>23125</td>
+<td>44O3.00</td>
+<td>serum lipids borderline raised</td>
 </tr>
 <tr>
-<td>&quot;23125&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44O3.00&quot;	&quot;serum lipids borderline raised&quot;</td>
-<td></td>
+<td>7574</td>
+<td>6879.00</td>
+<td>hyperlipidaemia screen</td>
 </tr>
 <tr>
-<td>&quot;7574&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;6879.00&quot;	&quot;hyperlipidaemia screen&quot;</td>
-<td></td>
+<td>856</td>
+<td>44O6.00</td>
+<td>lipids abnormal</td>
 </tr>
 <tr>
-<td>&quot;856&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44O6.00&quot;	&quot;lipids abnormal&quot;</td>
-<td></td>
+<td>14781</td>
+<td>44O4.00</td>
+<td>serum lipids high</td>
 </tr>
 <tr>
-<td>&quot;14781&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44O4.00&quot;	&quot;serum lipids high&quot;</td>
-<td></td>
+<td>102004</td>
+<td>44q8.00</td>
+<td>hyperlipidaemia screening test</td>
 </tr>
 <tr>
-<td>&quot;102004&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44q8.00&quot;	&quot;hyperlipidaemia screening test&quot;</td>
-<td></td>
+<td>62</td>
+<td>44O..00</td>
+<td>serum lipids</td>
 </tr>
 <tr>
-<td>&quot;62&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44O..00&quot;	&quot;serum lipids&quot;</td>
-<td></td>
+<td>6363</td>
+<td>44O5.00</td>
+<td>fasting blood lipids</td>
 </tr>
 <tr>
-<td>&quot;6363&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44O5.00&quot;	&quot;fasting blood lipids&quot;</td>
-<td></td>
+<td>108302</td>
+<td>44PL000</td>
+<td>serum non high density lipoprotein cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;108302&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44PL000&quot;	&quot;serum non high density lipoprotein cholesterol level&quot;</td>
-<td></td>
+<td>50393</td>
+<td>44lI.00</td>
+<td>plasma cholesterol/ldl ratio</td>
 </tr>
 <tr>
-<td>&quot;50393&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44lI.00&quot;	&quot;plasma cholesterol/ldl ratio&quot;</td>
-<td></td>
+<td>109989</td>
+<td>44lzY00</td>
+<td>serum hdl cholesterol:triglyceride ratio</td>
 </tr>
 <tr>
-<td>&quot;109989&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44lzY00&quot;	&quot;serum hdl cholesterol:triglyceride ratio&quot;</td>
-<td></td>
+<td>108902</td>
+<td>44PL100</td>
+<td>estimated serum non-hdl cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;108902&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44PL100&quot;	&quot;estimated serum non-hdl cholesterol level&quot;</td>
-<td></td>
+<td>63314</td>
+<td>44lJ.00</td>
+<td>serum cholesterol/vldl ratio</td>
 </tr>
 <tr>
-<td>&quot;63314&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44lJ.00&quot;	&quot;serum cholesterol/vldl ratio&quot;</td>
-<td></td>
+<td>35583</td>
+<td>44lH.00</td>
+<td>serum cholesterol/ldl ratio</td>
 </tr>
 <tr>
-<td>&quot;35583&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44lH.00&quot;	&quot;serum cholesterol/ldl ratio&quot;</td>
-<td></td>
+<td>13816</td>
+<td>44P7.00</td>
+<td>serum vldl cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;13816&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44P7.00&quot;	&quot;serum vldl cholesterol level&quot;</td>
-<td></td>
+<td>34548</td>
+<td>44dA.00</td>
+<td>plasma hdl cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;34548&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44dA.00&quot;	&quot;plasma hdl cholesterol level&quot;</td>
-<td></td>
+<td>46224</td>
+<td>44PE.00</td>
+<td>serum random ldl cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;46224&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44PE.00&quot;	&quot;serum random ldl cholesterol level&quot;</td>
-<td></td>
+<td>40935</td>
+<td>44lG.00</td>
+<td>plasma cholesterol/hdl ratio</td>
 </tr>
 <tr>
-<td>&quot;40935&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44lG.00&quot;	&quot;plasma cholesterol/hdl ratio&quot;</td>
-<td></td>
+<td>14136</td>
+<td>4I3O.00</td>
+<td>fluid sample cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;14136&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;4I3O.00&quot;	&quot;fluid sample cholesterol level&quot;</td>
-<td></td>
+<td>19764</td>
+<td>44dB.00</td>
+<td>plasma ldl cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;19764&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44dB.00&quot;	&quot;plasma ldl cholesterol level&quot;</td>
-<td></td>
+<td>13766</td>
+<td>44PI.00</td>
+<td>calculated ldl cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;13766&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44PI.00&quot;	&quot;calculated ldl cholesterol level&quot;</td>
-<td></td>
+<td>13765</td>
+<td>44PD.00</td>
+<td>serum fasting ldl cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;13765&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44PD.00&quot;	&quot;serum fasting ldl cholesterol level&quot;</td>
-<td></td>
+<td>33304</td>
+<td>44d4.00</td>
+<td>plasma random ldl cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;33304&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44d4.00&quot;	&quot;plasma random ldl cholesterol level&quot;</td>
-<td></td>
+<td>93756</td>
+<td>44PL.00</td>
+<td>non hdl cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;93756&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44PL.00&quot;	&quot;non hdl cholesterol level&quot;</td>
-<td></td>
+<td>26915</td>
+<td>44d2.00</td>
+<td>plasma random hdl cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;26915&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44d2.00&quot;	&quot;plasma random hdl cholesterol level&quot;</td>
-<td></td>
+<td>13762</td>
+<td>44d3.00</td>
+<td>plasma fasting hdl cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;13762&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44d3.00&quot;	&quot;plasma fasting hdl cholesterol level&quot;</td>
-<td></td>
+<td>35720</td>
+<td>44P4.00</td>
+<td>serum cholesterol very high</td>
 </tr>
 <tr>
-<td>&quot;35720&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44P4.00&quot;	&quot;serum cholesterol very high&quot;</td>
-<td></td>
+<td>37206</td>
+<td>44P9.00</td>
+<td>serum cholesterol studies</td>
 </tr>
 <tr>
-<td>&quot;37206&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44P9.00&quot;	&quot;serum cholesterol studies&quot;</td>
-<td></td>
+<td>14108</td>
+<td>44PG.00</td>
+<td>hdl : total cholesterol ratio</td>
 </tr>
 <tr>
-<td>&quot;14108&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44PG.00&quot;	&quot;hdl : total cholesterol ratio&quot;</td>
-<td></td>
+<td>29202</td>
+<td>44P2.00</td>
+<td>serum cholesterol borderline</td>
 </tr>
 <tr>
-<td>&quot;29202&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44P2.00&quot;	&quot;serum cholesterol borderline&quot;</td>
-<td></td>
+<td>14371</td>
+<td>44lF.00</td>
+<td>serum cholesterol/hdl ratio</td>
 </tr>
 <tr>
-<td>&quot;14371&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44lF.00&quot;	&quot;serum cholesterol/hdl ratio&quot;</td>
-<td></td>
+<td>14372</td>
+<td>44PF.00</td>
+<td>total cholesterol:hdl ratio</td>
 </tr>
 <tr>
-<td>&quot;14372&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44PF.00&quot;	&quot;total cholesterol:hdl ratio&quot;</td>
-<td></td>
+<td>26902</td>
+<td>44PZ.00</td>
+<td>serum cholesterol nos</td>
 </tr>
 <tr>
-<td>&quot;26902&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44PZ.00&quot;	&quot;serum cholesterol nos&quot;</td>
-<td></td>
+<td>29699</td>
+<td>44d5.00</td>
+<td>plasma fasting ldl cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;29699&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44d5.00&quot;	&quot;plasma fasting ldl cholesterol level&quot;</td>
-<td></td>
+<td>18443</td>
+<td>662a.00</td>
+<td>pre-treatment serum cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;18443&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662a.00&quot;	&quot;pre-treatment serum cholesterol level&quot;</td>
-<td></td>
+<td>18040</td>
+<td>44OE.00</td>
+<td>plasma total cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;18040&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44OE.00&quot;	&quot;plasma total cholesterol level&quot;</td>
-<td></td>
+<td>14105</td>
+<td>44l2.00</td>
+<td>cholesterol/hdl ratio</td>
 </tr>
 <tr>
-<td>&quot;14105&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44l2.00&quot;	&quot;cholesterol/hdl ratio&quot;</td>
-<td></td>
+<td>13733</td>
+<td>44PJ.00</td>
+<td>serum total cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;13733&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44PJ.00&quot;	&quot;serum total cholesterol level&quot;</td>
-<td></td>
+<td>18147</td>
+<td>44PH.00</td>
+<td>total cholesterol measurement</td>
 </tr>
 <tr>
-<td>&quot;18147&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44PH.00&quot;	&quot;total cholesterol measurement&quot;</td>
-<td></td>
+<td>14370</td>
+<td>44P8.00</td>
+<td>serum hdl:non-hdl cholesterol ratio</td>
 </tr>
 <tr>
-<td>&quot;14370&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44P8.00&quot;	&quot;serum hdl:non-hdl cholesterol ratio&quot;</td>
-<td></td>
+<td>13760</td>
+<td>44PB.00</td>
+<td>serum fasting hdl cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;13760&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44PB.00&quot;	&quot;serum fasting hdl cholesterol level&quot;</td>
-<td></td>
+<td>13761</td>
+<td>44PC.00</td>
+<td>serum random hdl cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;13761&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44PC.00&quot;	&quot;serum random hdl cholesterol level&quot;</td>
-<td></td>
+<td>12821</td>
+<td>44PK.00</td>
+<td>serum fasting total cholesterol</td>
 </tr>
 <tr>
-<td>&quot;12821&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44PK.00&quot;	&quot;serum fasting total cholesterol&quot;</td>
-<td></td>
+<td>65</td>
+<td>44P6.00</td>
+<td>serum ldl cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;65&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44P6.00&quot;	&quot;serum ldl cholesterol level&quot;</td>
-<td></td>
+<td>44</td>
+<td>44P5.00</td>
+<td>serum hdl cholesterol level</td>
 </tr>
 <tr>
-<td>&quot;44&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44P5.00&quot;	&quot;serum hdl cholesterol level&quot;</td>
-<td></td>
+<td>622</td>
+<td>44P1.00</td>
+<td>serum cholesterol normal</td>
 </tr>
 <tr>
-<td>&quot;622&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44P1.00&quot;	&quot;serum cholesterol normal&quot;</td>
-<td></td>
+<td>2493</td>
+<td>44P3.00</td>
+<td>serum cholesterol raised</td>
 </tr>
 <tr>
-<td>&quot;2493&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44P3.00&quot;	&quot;serum cholesterol raised&quot;</td>
-<td></td>
+<td>10940</td>
+<td>6879.11</td>
+<td>cholesterol screen</td>
 </tr>
 <tr>
-<td>&quot;10940&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;6879.11&quot;	&quot;cholesterol screen&quot;</td>
-<td></td>
+<td>12</td>
+<td>44P..00</td>
+<td>serum cholesterol</td>
 </tr>
 <tr>
-<td>&quot;12&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44P..00&quot;	&quot;serum cholesterol&quot;</td>
-<td></td>
+<td>49197</td>
+<td>44R4.11</td>
+<td>ldl - electrophoresis</td>
 </tr>
 <tr>
-<td>&quot;49197&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44R4.11&quot;	&quot;ldl - electrophoresis&quot;</td>
-<td></td>
+<td>49695</td>
+<td>44lM.00</td>
+<td>plasma ldl/hdl ratio</td>
 </tr>
 <tr>
-<td>&quot;49695&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44lM.00&quot;	&quot;plasma ldl/hdl ratio&quot;</td>
-<td></td>
+<td>54066</td>
+<td>44R5.11</td>
+<td>vldl - electrophoresis</td>
 </tr>
 <tr>
-<td>&quot;54066&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44R5.11&quot;	&quot;vldl - electrophoresis&quot;</td>
-<td></td>
+<td>15405</td>
+<td>44R4.00</td>
+<td>lipoprotein electroph. - ldl</td>
 </tr>
 <tr>
-<td>&quot;15405&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44R4.00&quot;	&quot;lipoprotein electroph. - ldl&quot;</td>
-<td></td>
+<td>19853</td>
+<td>44lL.00</td>
+<td>serum ldl/hdl ratio</td>
 </tr>
 <tr>
-<td>&quot;19853&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44lL.00&quot;	&quot;serum ldl/hdl ratio&quot;</td>
-<td></td>
+<td>14369</td>
+<td>44PA.00</td>
+<td>hdl : ldl ratio</td>
 </tr>
 <tr>
-<td>&quot;14369&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44PA.00&quot;	&quot;hdl : ldl ratio&quot;</td>
-<td></td>
+<td>64564</td>
+<td>44R5.00</td>
+<td>lipoprotein electroph. - vldl</td>
 </tr>
 <tr>
-<td>&quot;64564&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44R5.00&quot;	&quot;lipoprotein electroph. - vldl&quot;</td>
-<td></td>
+<td>66037</td>
+<td>44OB.00</td>
+<td>serum vldl triglyceride level</td>
 </tr>
 <tr>
-<td>&quot;66037&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44OB.00&quot;	&quot;serum vldl triglyceride level&quot;</td>
-<td></td>
+<td>13834</td>
+<td>44O8.00</td>
+<td>plasma vldl triglyceride level</td>
 </tr>
 <tr>
-<td>&quot;13834&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44O8.00&quot;	&quot;plasma vldl triglyceride level&quot;</td>
-<td></td>
+<td>26940</td>
+<td>44Q1.00</td>
+<td>serum triglycerides normal</td>
 </tr>
 <tr>
-<td>&quot;26940&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44Q1.00&quot;	&quot;serum triglycerides normal&quot;</td>
-<td></td>
+<td>26941</td>
+<td>44Q3.00</td>
+<td>serum triglycerides raised</td>
 </tr>
 <tr>
-<td>&quot;26941&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44Q3.00&quot;	&quot;serum triglycerides raised&quot;</td>
-<td></td>
+<td>41074</td>
+<td>44Q5.00</td>
+<td>serum random triglyceride level</td>
 </tr>
 <tr>
-<td>&quot;41074&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44Q5.00&quot;	&quot;serum random triglyceride level&quot;</td>
-<td></td>
+<td>37</td>
+<td>44Q..00</td>
+<td>serum triglycerides</td>
 </tr>
 <tr>
-<td>&quot;37&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44Q..00&quot;	&quot;serum triglycerides&quot;</td>
-<td></td>
+<td>63627</td>
+<td>44e0.00</td>
+<td>plasma random triglyceride level</td>
 </tr>
 <tr>
-<td>&quot;63627&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44e0.00&quot;	&quot;plasma random triglyceride level&quot;</td>
-<td></td>
+<td>30870</td>
+<td>44QZ.00</td>
+<td>serum triglycerides nos</td>
 </tr>
 <tr>
-<td>&quot;30870&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44QZ.00&quot;	&quot;serum triglycerides nos&quot;</td>
-<td></td>
+<td>38273</td>
+<td>4QA1.00</td>
+<td>triglyceride level</td>
 </tr>
 <tr>
-<td>&quot;38273&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;4QA1.00&quot;	&quot;triglyceride level&quot;</td>
-<td></td>
+<td>13808</td>
+<td>44Q4.00</td>
+<td>serum fasting triglyceride level</td>
 </tr>
 <tr>
-<td>&quot;13808&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44Q4.00&quot;	&quot;serum fasting triglyceride level&quot;</td>
-<td></td>
+<td>17416</td>
+<td>44e..00</td>
+<td>plasma triglyceride level</td>
 </tr>
 <tr>
-<td>&quot;17416&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44e..00&quot;	&quot;plasma triglyceride level&quot;</td>
-<td></td>
+<td>13809</td>
+<td>44e1.00</td>
+<td>plasma fasting triglyceride level</td>
 </tr>
 <tr>
-<td>&quot;13809&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44e1.00&quot;	&quot;plasma fasting triglyceride level&quot;</td>
-<td></td>
+<td>29559</td>
+<td>44Q2.00</td>
+<td>serum triglycerides borderline</td>
 </tr>
 <tr>
-<td>&quot;29559&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44Q2.00&quot;	&quot;serum triglycerides borderline&quot;</td>
-<td></td>
+<td>108779</td>
+<td>4I3W.00</td>
+<td>fluid sample triglyceride level</td>
 </tr>
 <tr>
-<td>&quot;108779&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;4I3W.00&quot;	&quot;fluid sample triglyceride level&quot;</td>
-<td></td>
+<td>44463</td>
+<td>44R3.11</td>
+<td>hdl - electrophoresis</td>
 </tr>
 <tr>
-<td>&quot;44463&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44R3.11&quot;	&quot;hdl - electrophoresis&quot;</td>
-<td></td>
+<td>19635</td>
+<td>44R3.00</td>
+<td>lipoprotein electroph. - hdl</td>
 </tr>
 <tr>
-<td>&quot;19635&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44R3.00&quot;	&quot;lipoprotein electroph. - hdl&quot;</td>
-<td></td>
+<td>67195</td>
+<td>44c0.00</td>
+<td>serum random lipoprotein level</td>
 </tr>
 <tr>
-<td>&quot;67195&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44c0.00&quot;	&quot;serum random lipoprotein level&quot;</td>
-<td></td>
+<td>55059</td>
+<td>44d0.00</td>
+<td>plasma random lipoprotein level</td>
 </tr>
 <tr>
-<td>&quot;55059&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44d0.00&quot;	&quot;plasma random lipoprotein level&quot;</td>
-<td></td>
+<td>23884</td>
+<td>44d1.00</td>
+<td>plasma fasting lipoprotein level</td>
 </tr>
 <tr>
-<td>&quot;23884&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44d1.00&quot;	&quot;plasma fasting lipoprotein level&quot;</td>
-<td></td>
+<td>53539</td>
+<td>44c1.00</td>
+<td>serum fasting lipoprotein level</td>
 </tr>
 <tr>
-<td>&quot;53539&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44c1.00&quot;	&quot;serum fasting lipoprotein level&quot;</td>
-<td></td>
+<td>57391</td>
+<td>44d..00</td>
+<td>plasma lipoprotein level</td>
 </tr>
 <tr>
-<td>&quot;57391&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44d..00&quot;	&quot;plasma lipoprotein level&quot;</td>
-<td></td>
+<td>45116</td>
+<td>44R2.00</td>
+<td>lipoprotein electroph.abnormal</td>
 </tr>
 <tr>
-<td>&quot;45116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44R2.00&quot;	&quot;lipoprotein electroph.abnormal&quot;</td>
-<td></td>
+<td>23244</td>
+<td>44c..00</td>
+<td>serum lipoprotein level</td>
 </tr>
 <tr>
-<td>&quot;23244&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44c..00&quot;	&quot;serum lipoprotein level&quot;</td>
-<td></td>
+<td>73390</td>
+<td>44RZ.00</td>
+<td>lipoprotein electroph. nos</td>
 </tr>
 <tr>
-<td>&quot;73390&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44RZ.00&quot;	&quot;lipoprotein electroph. nos&quot;</td>
-<td></td>
+<td>55745</td>
+<td>44R1.00</td>
+<td>lipoprotein electroph. normal</td>
 </tr>
 <tr>
-<td>&quot;55745&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44R1.00&quot;	&quot;lipoprotein electroph. normal&quot;</td>
-<td></td>
+<td>19840</td>
+<td>44R..00</td>
+<td>lipoprotein electrophoresis</td>
 </tr>
 <tr>
-<td>&quot;19840&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44R..00&quot;	&quot;lipoprotein electrophoresis&quot;</td>
-<td></td>
+<td>23124</td>
+<td>44O1.00</td>
+<td>blood sent for serum lipids</td>
 </tr>
 <tr>
-<td>&quot;23124&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;44O1.00&quot;	&quot;blood sent for serum lipids&quot;</td>
-<td></td>
+<td>2091</td>
+<td>9N0J.00</td>
+<td>seen in cholesterol clinic</td>
 </tr>
 <tr>
-<td>&quot;2091&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9N0J.00&quot;	&quot;seen in cholesterol clinic&quot;</td>
-<td></td>
+<td>93761</td>
+<td>9Oc2.00</td>
+<td>lipid disorder monitoring first letter</td>
 </tr>
 <tr>
-<td>&quot;93761&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9Oc2.00&quot;	&quot;lipid disorder monitoring first letter&quot;</td>
-<td></td>
+<td>39849</td>
+<td>8I3J.00</td>
+<td>lipid lowering therapy declined</td>
 </tr>
 <tr>
-<td>&quot;39849&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8I3J.00&quot;	&quot;lipid lowering therapy declined&quot;</td>
-<td></td>
+<td>66240</td>
+<td>Cyu8D00</td>
+<td>[x]other hyperlipidaemia</td>
 </tr>
 <tr>
-<td>&quot;66240&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Cyu8D00&quot;	&quot;[x]other hyperlipidaemia&quot;</td>
-<td></td>
+<td>26019</td>
+<td>C320200</td>
+<td>hyperlipidaemia, group a</td>
 </tr>
 <tr>
-<td>&quot;26019&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C320200&quot;	&quot;hyperlipidaemia, group a&quot;</td>
-<td></td>
+<td>16085</td>
+<td>1442</td>
+<td>h/o: raised blood lipids</td>
 </tr>
 <tr>
-<td>&quot;16085&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;1442&quot;	&quot;h/o: raised blood lipids&quot;</td>
-<td></td>
+<td>104540</td>
+<td>8CP6.00</td>
+<td>discussion about lipid lowering therapy</td>
 </tr>
 <tr>
-<td>&quot;104540&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8CP6.00&quot;	&quot;discussion about lipid lowering therapy&quot;</td>
-<td></td>
+<td>6243</td>
+<td>8CA4700</td>
+<td>patient advised re low cholesterol diet</td>
 </tr>
 <tr>
-<td>&quot;6243&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8CA4700&quot;	&quot;patient advised re low cholesterol diet&quot;</td>
-<td></td>
+<td>105783</td>
+<td>7L1j000</td>
+<td>low density lipoprotein apheresis</td>
 </tr>
 <tr>
-<td>&quot;105783&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;7L1j000&quot;	&quot;low density lipoprotein apheresis&quot;</td>
-<td></td>
+<td>12569</td>
+<td>ZV65317</td>
+<td>[v]dietary surveillance in hypercholesterolaemia</td>
 </tr>
 <tr>
-<td>&quot;12569&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZV65317&quot;	&quot;[v]dietary surveillance in hypercholesterolaemia&quot;</td>
-<td></td>
+<td>16937</td>
+<td>8B28.00</td>
+<td>lipid lowering therapy</td>
 </tr>
 <tr>
-<td>&quot;16937&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8B28.00&quot;	&quot;lipid lowering therapy&quot;</td>
-<td></td>
+<td>12439</td>
+<td>C321000</td>
+<td>hypertriglyceridaemia</td>
 </tr>
 <tr>
-<td>&quot;12439&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C321000&quot;	&quot;hypertriglyceridaemia&quot;</td>
-<td></td>
+<td>101028</td>
+<td>1W1..00</td>
+<td>possible familial hypercholesterolaemia</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p><em>Preview shows first 100 rows.</em></p>
-
-### Metadata star legend
-
-<div class="metadata-legend">
-<div><span class="meta-star meta-star-1">★</span> 1. Dataset used</div>
-<div><span class="meta-star meta-star-2">★</span> 2. Version information</div>
-<div><span class="meta-star meta-star-3">★</span> 3. Inclusion / exclusion criteria in generating script</div>
-<div><span class="meta-star meta-star-4">★</span> 4. Pre-print / publication / protocol information</div>
-<div><span class="meta-star meta-star-5">★</span> 5. Exposure / outcome / covariate flag</div>
-<div><span class="meta-star meta-star-6">★</span> 6. Clinical or alternative reviewer information</div>
-<div><span class="meta-star meta-star-7">★</span> 7. Citation file (.cff)</div>
-<div><span class="meta-star meta-star-8">★</span> 8. Coding system information</div>
-<div><span class="meta-star meta-star-9">★</span> 9. Brief phenotype description and usage</div>
-</div>
+<p><em>Preview shows first 100 rows from the original codelist file.</em></p>
 

@@ -1,23 +1,38 @@
 # Insulin
 
 <div class="phenotype-header-card">
-<p class="phenotype-kicker">CPRD Gold phenotype</p>
-<h2>Insulin</h2>
-<p class="phenotype-subtitle">Code name: <code>insulin</code></p>
-<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-3" title="3. Inclusion / exclusion criteria in generating script" aria-label="3. Inclusion / exclusion criteria in generating script">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
+<div class="phenotype-header-fields">
+<div><strong>Dataset:</strong> CPRD Gold</div>
+<div><strong>ID (phenotype-githubID-repoStart):</strong> <code>insulin-smwu-smi</code></div>
+<div><strong>Source:</strong> <a href="https://github.com/smwu/SMI_GLP">smwu/SMI_GLP</a></div>
+<div><strong>License:</strong> MIT</div>
+<div><strong>Date Created:</strong> 2025-08-01</div>
+<div><strong>Date Imported:</strong> 2026-04-22</div>
+<div><strong>Date Updated:</strong> 2026-04-22</div>
+</div>
 </div>
 
-## Repository details
+## Metadata
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Name</dt><dd>Insulin</dd></div><div class="phenotype-meta-row"><dt>Version</dt><dd>0.1.0</dd></div><div class="phenotype-meta-row"><dt>ID</dt><dd><code>insulin-cprd-gold-unknown-883463a8</code></dd></div><div class="phenotype-meta-row"><dt>Status</dt><dd>draft</dd></div><div class="phenotype-meta-row"><dt>Dataset</dt><dd>CPRD Gold</dd></div><div class="phenotype-meta-row"><dt>Code name</dt><dd><code>insulin</code></dd></div><div class="phenotype-meta-row"><dt>Phenotype group</dt><dd>Insulin</dd></div><div class="phenotype-meta-row"><dt>Coding system</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Coding systems</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Phenotype role</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Created</dt><dd>2025-08-01</dd></div><div class="phenotype-meta-row"><dt>Imported</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Updated</dt><dd>2026-04-22</dd></div></div>
+<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-3" title="3. Inclusion / exclusion criteria in generating script" aria-label="3. Inclusion / exclusion criteria in generating script">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
 
-## Background information
+<br>
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Summary</dt><dd>Auto-ingested from smwu/SMI_GLP (main) at 1e3dfaacd5ed63663138e764d88792609878a84e. Source path: Code_Lists/Insulin/Gold_Insulin_codelist_20250801.txt.</dd></div><div class="phenotype-meta-row"><dt>Usage notes</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Dataset context</dt><dd>CPRD Gold</dd></div><div class="phenotype-meta-row"><dt>Provenance</dt><dd>Imported</dd></div><div class="phenotype-meta-row"><dt>Source citation</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source repository</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source path</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Evidence</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Review</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Contacts</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>License</dt><dd>MIT</dd></div><div class="phenotype-meta-row"><dt>Tags</dt><dd>NA</dd></div></div>
+<div class="metadata-detail-list">
+<div class="metadata-detail-row"><span class="meta-star meta-star-1">★</span> <strong>Dataset used:</strong> CPRD Gold</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-2">★</span> <strong>Version information:</strong> 0.1.0</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-3">★</span> <strong>Inclusion / exclusion criteria in generating script:</strong> Found in generating script</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-4">☆</span> <strong>Pre-print / publication / protocol information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-5">☆</span> <strong>Exposure / outcome / covariate flag:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-6">☆</span> <strong>Clinical or alternative reviewer information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-7">☆</span> <strong>Citation file (.cff):</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-8">☆</span> <strong>Coding system information:</strong> Unknown</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-9">★</span> <strong>Brief phenotype description and usage:</strong> Auto-ingested from smwu/SMI_GLP (main) at 1e3dfaacd5ed63663138e764d88792609878a84e. Source path: Code_Lists/Insulin/Gold_Insulin_codelist_20250801.txt.</div>
+</div>
 
 ## Downloads
 
-<ul class="phenotype-download-list"><li><a href="../source/insulin-cprd-gold-unknown-883463a8.txt">Download original codelist.txt</a></li><li><a href="../csv/insulin-cprd-gold-unknown-883463a8.csv">Download normalized CSV</a></li><li><a href="../r/insulin-cprd-gold-unknown-883463a8/0g_Insulin_code_list.R">Download R script: 0g_Insulin_code_list.R</a></li></ul>
+<ul class="phenotype-download-list"><li><a href="../../source/insulin-cprd-gold-unknown-883463a8.txt" download="insulin-cprd-gold-unknown-883463a8.txt">Download original codelist (.txt)</a></li><li><a href="../../r/insulin-cprd-gold-unknown-883463a8/0g_Insulin_code_list.R">Download R script: 0g_Insulin_code_list.R</a></li></ul>
 
 ## Codelist preview
 
@@ -25,730 +40,1120 @@
 <table>
 <thead>
 <tr>
-<th>code</th>
-<th>code_system</th>
-<th>include</th>
-<th>term</th>
-<th>notes</th>
+<th>prodcode</th>
+<th>therapyevents</th>
+<th>productname</th>
+<th>ingredient</th>
+<th>strength</th>
+<th>formulation</th>
+<th>route</th>
+<th>bnftext</th>
+<th>Insulin</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>&quot;prodcode&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;therapyevents&quot;	&quot;productname&quot;	&quot;ingredient&quot;	&quot;strength&quot;	&quot;formulation&quot;	&quot;route&quot;	&quot;bnftext&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;56857&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>149	&quot;Insulin isophane biphasic human 15/85 100units/ml suspension for injection 3ml cartridges&quot;	&quot;Insulin&quot;	&quot;15unit/1ml + 85unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Subcutaneous&quot;	&quot;Biphasic Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;10547&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>3086	&quot;Humulin Lente 100units/ml suspension for injection 10ml vials (Eli Lilly and Company Ltd)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Subcutaneous&quot;	&quot;Unknown&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;9363&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>54646	&quot;U100 Insulin syringe 0.5ml&quot;	&quot;Insulin&quot;	&quot;0.5ml&quot;	&quot;Insulin Syringe&quot;	NA	&quot;Diabetic Hypodermic Equipment&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;68745&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>4887	&quot;Neon Verifine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Neon Diagnostics Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;56656&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>230	&quot;Kendall Magellan hypodermic U100 insulin syringe sterile single use / single patient use 0.3ml with 8mm safety needle 0.3mm/30gauge (Covidien (UK) Commercial Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;U100 Insulin Syringe With Needle Sterile Single-Use Or Single Patient Use&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;88756&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>7	&quot;Trurapi 100units/ml solution for injection 3ml cartridges (Sanofi)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Subcutaneous&quot;	&quot;Short-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;90067&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>98	&quot;Insupen Original hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/33gauge (Spirit Healthcare Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Suppository&quot;	&quot;Rectal&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;54629&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1247	&quot;Insupen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Spirit Healthcare Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Suppository&quot;	&quot;Rectal&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;36031&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>111	&quot;Insulin isophane biphasic porcine 30/70 100units/ml suspension for injection 3ml cartridges&quot;	&quot;Insulin&quot;	&quot;70unit/1ml + 30unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Intramuscular/Subcutaneous&quot;	&quot;Biphasic Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;56879&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1400	&quot;HumaPen Savvio hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Graphite (Eli Lilly and Company Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Reusable Pens&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;59500&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1	&quot;Insulin isophane human 100units/ml suspension for injection 5ml vials&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Subcutaneous&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;15040&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>54	&quot;INSULIN MONOPHANE (ISOPHANE) 100 I/U INJ&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Unknown&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;7400&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>94378	&quot;Insulin glargine 100units/ml solution for injection 3ml pre-filled disposable devices&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Subcutaneous&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;41120&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>5	&quot;Insulin isophane biphasic human 50/50 100units/ml suspension for injection 3ml pre-filled disposable devices&quot;	&quot;Insulin&quot;	&quot;50unit/1ml + 50unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Subcutaneous&quot;	&quot;Biphasic Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;73718&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>3973	&quot;4SURE hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/31gauge (Nipro Diagnostics (UK) Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;68939&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1	&quot;PROFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Prosum Medical Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;22945&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>816	&quot;Insuman rapid 100iu/ml Injection (Aventis Pharma)&quot;	&quot;Insulin&quot;	&quot;100iu/ml&quot;	&quot;Injection&quot;	&quot;Subcutaneous Injection&quot;	&quot;Short-Acting Insulins/Diabetic Ketoacidosis&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;63726&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>7706	&quot;NovoPen 5 hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Blue (Novo Nordisk Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Reusable Pens&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;85931&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>410	&quot;Trurapi 100units/ml solution for injection 3ml pre-filled Solostar pens (Sanofi)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Subcutaneous&quot;	&quot;Short-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;10225&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>52350	&quot;Lantus 100units/ml solution for injection 3ml OptiClik cartridges (Sanofi)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Subcutaneous&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;10910&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>2249	&quot;Humaject m2 100iu/ml M2 pen (Eli Lilly and Company Ltd)&quot;	&quot;Insulin&quot;	&quot;100iu/ml&quot;	&quot;M2 Pen&quot;	&quot;Subcutaneous Injection&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;2221&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>196695	&quot;Mixtard 30 NovoLet 100units/ml suspension for injection (Novo Nordisk Ltd)&quot;	&quot;Insulin&quot;	&quot;30unit/1ml + 70unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Intramuscular/Subcutaneous&quot;	&quot;Biphasic Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;12840&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>3189	&quot;B-d u-100 0.5ml Insulin syringe (Becton, Dickinson UK Ltd)&quot;	&quot;Insulin&quot;	&quot;0.5ml&quot;	&quot;Insulin Syringe&quot;	NA	&quot;Diabetic Hypodermic Equipment&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;71351&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1115	&quot;Lantus 100units/ml solution for injection 3ml cartridges (Waymade Healthcare Plc)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Subcutaneous&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;16142&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>7336	&quot;Insulin aspart 100units/ml solution for injection 3ml cartridges&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Subcutaneous&quot;	&quot;Short-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;56691&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1133	&quot;Insulin degludec 200units/ml solution for injection 3ml pre-filled disposable devices&quot;	&quot;Insulin&quot;	&quot;200unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Subcutaneous&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;31267&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>2	&quot;INSULIN PUR-IN MIX 50/50 100 I/U INJ&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Unknown&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;24845&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>155	&quot;INSULIN PUR-IN ISOPHANE 100 I/U INJ&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Unknown&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;14504&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1187	&quot;INSULIN HYPURIN PROTAMINE ZINC 100 I/U INJ&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Unknown&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;82124&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1229	&quot;Lyumjev 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Intravenous/Intramuscular/Subcutaneous&quot;	&quot;Short-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;11271&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>4313	&quot;B-d u-100 1ml Insulin syringe (Becton, Dickinson UK Ltd)&quot;	&quot;Insulin&quot;	&quot;1ml&quot;	&quot;Insulin Syringe&quot;	NA	&quot;Diabetic Hypodermic Equipment&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;49172&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>6250	&quot;NovoPen Echo hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 0.5-30 units Red (Novo Nordisk Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Reusable Pens&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;67324&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>163	&quot;Humulin M3 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)&quot;	&quot;Insulin&quot;	&quot;70unit/1ml + 30unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Subcutaneous&quot;	&quot;Biphasic Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;74996&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>5	&quot;Neon Verifine Safety hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/30gauge (Neon Diagnostics Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;14619&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1982	&quot;Insulin isophane biphasic porcine 30/70 100units/ml suspension for injection 1.5ml cartridges&quot;	&quot;Insulin&quot;	&quot;30unit/1ml + 70unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Intramuscular/Subcutaneous&quot;	&quot;Unknown&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;53251&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>2	&quot;NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (DE Pharmaceuticals)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Subcutaneous&quot;	&quot;Short-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;70900&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>37	&quot;Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/32.5gauge&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;65421&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>19942	&quot;TriCare hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Owen Mumford Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;56983&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>2020	&quot;Insupen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Spirit Healthcare Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Suppository&quot;	&quot;Rectal&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;18592&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>76	&quot;Insulin soluble bovine 100units/ml solution for injection 10ml vials&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Subcutaneous/Intravenous/Intramuscular&quot;	&quot;Short-Acting Insulins/Diabetic Ketoacidosis&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;7318&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>427923	&quot;Humalog 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Intravenous/Intramuscular/Subcutaneous&quot;	&quot;Short-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;6958&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>689610	&quot;Levemir FlexPen 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Subcutaneous&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;57529&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1203	&quot;Humalog 100units/ml solution for injection 10ml vials (Dowelhurst Ltd)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Intravenous/Intramuscular/Subcutaneous&quot;	&quot;Short-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;24795&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1145	&quot;Insulin aspart biphasic 30/70 100units/ml suspension for injection 3ml cartridges&quot;	&quot;Insulin&quot;	&quot;30unit/1ml + 70unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Subcutaneous&quot;	&quot;Biphasic Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;16700&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>40	&quot;Insulin zinc mixed bovine vial 100unit/ml Sterile suspension injection&quot;	&quot;Insulin&quot;	&quot;100unit/ml&quot;	&quot;Sterile Suspension Injection&quot;	&quot;Subcutaneous Injection&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;84314&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>518	&quot;Lyumjev KwikPen 200units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)&quot;	&quot;Insulin&quot;	&quot;200unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Subcutaneous&quot;	&quot;Short-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;69442&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>407	&quot;Neon Verifine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Neon Diagnostics Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;5345&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>7958	&quot;Monoject hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 12mm needle 0.36mm/28gauge (Covidien (UK) Commercial Ltd)&quot;	&quot;Insulin&quot;	&quot;0.5ml&quot;	&quot;Insulin Syringe With 12Mm Needle(28G)&quot;	NA	&quot;U100 Insulin Syringe With Needle Sterile Single-Use Or Single Patient Use&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;35468&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>188	&quot;Insuman Basal 100units/ml suspension for injection 5ml vials (Sanofi)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Subcutaneous&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;13516&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>13119	&quot;Hypurin bovine isophane 100unit/ml Injection (C P Pharmaceuticals Ltd)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Intramuscular/Subcutaneous&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;63707&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>20443	&quot;GlucoRx FinePoint Ultra hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (GlucoRx Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;69440&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1636	&quot;Neon Verifine Ultra hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Neon Diagnostics Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;10067&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>2861	&quot;Insulin biphasic aspart human pyr 30:70; 100 units/ml Injection&quot;	&quot;Insulin&quot;	&quot;30:70; 100 units/ml&quot;	&quot;Injection&quot;	&quot;Intramuscular&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;54886&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>469	&quot;Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/32gauge&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;65638&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>200	&quot;Glucoject hypodermic insulin needles for pre-filled / reusable pen injectors screw on 10mm/29gauge (A. Menarini Diagnostics Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;69583&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>417	&quot;Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)&quot;	&quot;Insulin&quot;	&quot;25unit/1ml + 75unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Subcutaneous&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;24554&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>89	&quot;Unifine single use Insulin syringe with 30gauge needle 8mm 0.3ml (Owen Mumford Ltd)&quot;	&quot;Insulin&quot;	&quot;0.3ml&quot;	&quot;Insulin Syringe With 30Gauge Needle 8Mm&quot;	NA	&quot;Diabetic Hypodermic Equipment&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;10915&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>945	&quot;Humaject m1 100iu/ml M1 pen (Eli Lilly and Company Ltd)&quot;	&quot;Insulin&quot;	&quot;100iu/ml&quot;	&quot;M1 Pen&quot;	&quot;Subcutaneous Injection&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;64987&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>4060	&quot;Abasaglar 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Subcutaneous&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;24722&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>232	&quot;INSULIN ISOPHANE 50%/NEUTRAL 50% 100 I/U INJ&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Unknown&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;82533&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>102	&quot;Humulin S 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Intravenous/Subcutaneous&quot;	&quot;Short-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;72324&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>7204	&quot;GlucoRx CarePoint Ultra hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (GlucoRx Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;59793&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>702	&quot;Microdot Droplet hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Cambridge Sensors Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;1592&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>312963	&quot;Actrapid penfill 100 100iu/ml Penfill (Novo Nordisk Ltd)&quot;	&quot;Insulin&quot;	&quot;100iu/ml&quot;	&quot;Penfill&quot;	&quot;Subcutaneous Injection&quot;	&quot;Short-Acting Insulins/Diabetic Ketoacidosis&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;24002&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>836	&quot;Insuman Comb 25 100units/ml suspension for injection 5ml vials (Sanofi)&quot;	&quot;Insulin&quot;	&quot;25unit/1ml + 75unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Subcutaneous&quot;	&quot;Biphasic Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;48342&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>3180	&quot;HumaPen Luxura hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Burgundy (Eli Lilly and Company Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Reusable Pens&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;61562&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>95	&quot;Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/29gauge&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;21554&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>664	&quot;Insuman comb 50 100iu/ml Injection (Aventis Pharma)&quot;	&quot;Insulin&quot;	&quot;50unit/1ml + 50unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Subcutaneous&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;51650&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>43254	&quot;Omnican Fine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (B.Braun Medical Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;11107&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>4891	&quot;Humulin m4 100unit/ml M4 injection (Eli Lilly and Company Ltd)&quot;	&quot;Insulin&quot;	&quot;100unit/ml&quot;	&quot;M4 Injection&quot;	&quot;Subcutaneous Injection&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;82475&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>507	&quot;NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc)&quot;	&quot;Insulin&quot;	&quot;30unit/1ml + 70unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Subcutaneous&quot;	&quot;Biphasic Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;60938&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>722	&quot;Mixtard 30 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc)&quot;	&quot;Insulin&quot;	&quot;30unit/1ml + 70unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Subcutaneous&quot;	&quot;Biphasic Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;12300&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>470	&quot;SYRINGE INSULIN (BS1619/1) 2ML&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Unknown&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;37427&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>5296	&quot;HumaPen Luxura HD hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 1-30 units (Eli Lilly and Company Ltd)&quot;	&quot;Insulin&quot;	&quot;3ml/1-30 units&quot;	&quot;Insulin Pen&quot;	NA	&quot;Reusable Pens&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;71804&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>391	&quot;AllStar Pro hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-80 units Silver (Sanofi)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Reusable Pens&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;16682&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>10	&quot;Tempulin 100unit/ml Injection (Knoll Ltd)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Subcutaneous&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;5634&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>3050	&quot;Hypodermic U100 insulin syringe sterile single use / single patient use 1ml with not less than 12mm needle 0.36mm/28gauge&quot;	&quot;Insulin&quot;	&quot;1ml&quot;	&quot;Insulin Syringe With 12Mm Needle(28G)&quot;	NA	&quot;U100 Insulin Syringe With Needle Sterile Single-Use Or Single Patient Use&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;87716&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>7	&quot;Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc)&quot;	&quot;Insulin&quot;	&quot;50unit/1ml + 50unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Subcutaneous&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;19707&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>8	&quot;INSULIN HUMULIN S (NEUTRAL SOLUBLE)&quot;	&quot;Insulin&quot;	NA	NA	NA	&quot;Unknown&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;5214&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>16169	&quot;Insulin lispro 100units/ml solution for injection 1.5ml cartridges&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Subcutaneous&quot;	&quot;Unknown&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;76660&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>49	&quot;Insulin lispro Sanofi 100units/ml solution for injection 3ml cartridges (Sanofi)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Intravenous/Intramuscular/Subcutaneous&quot;	&quot;Short-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;3551&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>45372	&quot;Mixtard 20 penfill 100 100iu/ml Penfill (Novo Nordisk Ltd)&quot;	&quot;Insulin&quot;	&quot;100iu/ml&quot;	&quot;Penfill&quot;	&quot;Subcutaneous Injection&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;1649&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>15085	&quot;Human actraphane 100iu/ml Injection (Novo Nordisk Ltd)&quot;	&quot;Insulin&quot;	&quot;100iu/ml&quot;	&quot;Injection&quot;	&quot;Intramuscular&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;22155&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>43	&quot;Humaject m5 100iu/ml M5 pen (Eli Lilly and Company Ltd)&quot;	&quot;Insulin&quot;	&quot;100iu/ml&quot;	&quot;M5 Pen&quot;	&quot;Subcutaneous Injection&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;18446&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>467	&quot;Unifine hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 12mm needle 0.33mm/29gauge (Owen Mumford Ltd)&quot;	&quot;Insulin&quot;	&quot;1ml&quot;	&quot;Insulin Syringe With 12Mm Needle(29G)&quot;	NA	&quot;U100 Insulin Syringe With Needle Sterile Single-Use Or Single Patient Use&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;10145&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>17636	&quot;Humapen luxura insulin pen 3ml/1-60 units Insulin pen 3ml/1-60 units (Eli Lilly and Company Ltd)&quot;	&quot;Insulin&quot;	&quot;3ml/1-60 units&quot;	&quot;Insulin Pen&quot;	NA	&quot;Diabetic Hypodermic Equipment&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;18149&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1003	&quot;Monoject u100 insulin syringe 12mm(29g)0.5ml 12mm29G 0.5ml Insulin syringe (Covidien (UK) Commercial Ltd)&quot;	&quot;Insulin&quot;	&quot;12mm29G 0.5ml&quot;	&quot;Insulin Syringe&quot;	NA	&quot;Diabetic Hypodermic Equipment&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;22823&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>9	&quot;INSULIN ISOPHANE (PURIFIED) 100 I/U INJ&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Unknown&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;60028&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>859	&quot;Hypodermic insulin needles for pre-filled / reusable pen injectors snap on 4mm/32gauge&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector-Snap On&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;18593&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>55579	&quot;Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Eli Lilly and Company Ltd)&quot;	&quot;Insulin&quot;	&quot;50unit/1ml + 50unit/1ml&quot;	&quot;Suspension for injection&quot;	&quot;Subcutaneous&quot;	&quot;Intermediate- And Long-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;7757&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>197	&quot;INSULIN NEULENTE (ZINC SUSP)(PURIFIED) 100 I/U INJ&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Unknown&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;5892&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1528346	&quot;NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Subcutaneous&quot;	&quot;Short-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;5267&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>79173	&quot;BD Micro-Fine + hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 8mm needle 0.3mm/30gauge (Becton, Dickinson UK Ltd)&quot;	&quot;Insulin&quot;	&quot;0.5ml&quot;	&quot;Insulin Syringe With 8Mm Needle(30G)&quot;	NA	&quot;U100 Insulin Syringe With Needle Sterile Single-Use Or Single Patient Use&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;7349&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>40358	&quot;Actrapid 100units/ml solution for injection 10ml vials (Novo Nordisk Ltd)&quot;	&quot;Insulin&quot;	&quot;100unit/1ml&quot;	&quot;Solution for injection&quot;	&quot;Intravenous/Subcutaneous&quot;	&quot;Short-Acting Insulins&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;14506&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>247	&quot;INSULIN BOVINE PROTAMINE ZINC 100 I/U INJ&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Unknown&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;10242&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>10777	&quot;Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge&quot;	&quot;Insulin&quot;	&quot;6mm/31gauge&quot;	&quot;Hypodermic Needle&quot;	NA	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;66098&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>93	&quot;JuniorSTAR hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 1-30 units Silver (Sanofi)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Reusable Pens&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;44810&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>833	&quot;Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/32gauge&quot;	&quot;Insulin&quot;	&quot;5mm/32 gauge&quot;	&quot;Hypodermic Needle&quot;	NA	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;66150&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>4987	&quot;Glucoject hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (A. Menarini Diagnostics Ltd)&quot;	&quot;Insulin&quot;	NA	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Needle For Pre-Filled And Reusable Pen Injector&quot;	&quot;Insulin&quot;</td>
-<td></td>
+<td>56857</td>
+<td>149</td>
+<td>Insulin isophane biphasic human 15/85 100units/ml suspension for injection 3ml cartridges</td>
+<td>Insulin</td>
+<td>15unit/1ml + 85unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Subcutaneous</td>
+<td>Biphasic Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>10547</td>
+<td>3086</td>
+<td>Humulin Lente 100units/ml suspension for injection 10ml vials (Eli Lilly and Company Ltd)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Subcutaneous</td>
+<td>Unknown</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>9363</td>
+<td>54646</td>
+<td>U100 Insulin syringe 0.5ml</td>
+<td>Insulin</td>
+<td>0.5ml</td>
+<td>Insulin Syringe</td>
+<td>NA</td>
+<td>Diabetic Hypodermic Equipment</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>68745</td>
+<td>4887</td>
+<td>Neon Verifine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Neon Diagnostics Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>56656</td>
+<td>230</td>
+<td>Kendall Magellan hypodermic U100 insulin syringe sterile single use / single patient use 0.3ml with 8mm safety needle 0.3mm/30gauge (Covidien (UK) Commercial Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>U100 Insulin Syringe With Needle Sterile Single-Use Or Single Patient Use</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>88756</td>
+<td>7</td>
+<td>Trurapi 100units/ml solution for injection 3ml cartridges (Sanofi)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Subcutaneous</td>
+<td>Short-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>90067</td>
+<td>98</td>
+<td>Insupen Original hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/33gauge (Spirit Healthcare Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Suppository</td>
+<td>Rectal</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>54629</td>
+<td>1247</td>
+<td>Insupen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Spirit Healthcare Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Suppository</td>
+<td>Rectal</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>36031</td>
+<td>111</td>
+<td>Insulin isophane biphasic porcine 30/70 100units/ml suspension for injection 3ml cartridges</td>
+<td>Insulin</td>
+<td>70unit/1ml + 30unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Intramuscular/Subcutaneous</td>
+<td>Biphasic Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>56879</td>
+<td>1400</td>
+<td>HumaPen Savvio hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Graphite (Eli Lilly and Company Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Reusable Pens</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>59500</td>
+<td>1</td>
+<td>Insulin isophane human 100units/ml suspension for injection 5ml vials</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Subcutaneous</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>15040</td>
+<td>54</td>
+<td>INSULIN MONOPHANE (ISOPHANE) 100 I/U INJ</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Unknown</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>7400</td>
+<td>94378</td>
+<td>Insulin glargine 100units/ml solution for injection 3ml pre-filled disposable devices</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Subcutaneous</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>41120</td>
+<td>5</td>
+<td>Insulin isophane biphasic human 50/50 100units/ml suspension for injection 3ml pre-filled disposable devices</td>
+<td>Insulin</td>
+<td>50unit/1ml + 50unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Subcutaneous</td>
+<td>Biphasic Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>73718</td>
+<td>3973</td>
+<td>4SURE hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/31gauge (Nipro Diagnostics (UK) Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>68939</td>
+<td>1</td>
+<td>PROFine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/31gauge (Prosum Medical Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>22945</td>
+<td>816</td>
+<td>Insuman rapid 100iu/ml Injection (Aventis Pharma)</td>
+<td>Insulin</td>
+<td>100iu/ml</td>
+<td>Injection</td>
+<td>Subcutaneous Injection</td>
+<td>Short-Acting Insulins/Diabetic Ketoacidosis</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>63726</td>
+<td>7706</td>
+<td>NovoPen 5 hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Blue (Novo Nordisk Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Reusable Pens</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>85931</td>
+<td>410</td>
+<td>Trurapi 100units/ml solution for injection 3ml pre-filled Solostar pens (Sanofi)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Subcutaneous</td>
+<td>Short-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>10225</td>
+<td>52350</td>
+<td>Lantus 100units/ml solution for injection 3ml OptiClik cartridges (Sanofi)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Subcutaneous</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>10910</td>
+<td>2249</td>
+<td>Humaject m2 100iu/ml M2 pen (Eli Lilly and Company Ltd)</td>
+<td>Insulin</td>
+<td>100iu/ml</td>
+<td>M2 Pen</td>
+<td>Subcutaneous Injection</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>2221</td>
+<td>196695</td>
+<td>Mixtard 30 NovoLet 100units/ml suspension for injection (Novo Nordisk Ltd)</td>
+<td>Insulin</td>
+<td>30unit/1ml + 70unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Intramuscular/Subcutaneous</td>
+<td>Biphasic Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>12840</td>
+<td>3189</td>
+<td>B-d u-100 0.5ml Insulin syringe (Becton, Dickinson UK Ltd)</td>
+<td>Insulin</td>
+<td>0.5ml</td>
+<td>Insulin Syringe</td>
+<td>NA</td>
+<td>Diabetic Hypodermic Equipment</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>71351</td>
+<td>1115</td>
+<td>Lantus 100units/ml solution for injection 3ml cartridges (Waymade Healthcare Plc)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Subcutaneous</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>16142</td>
+<td>7336</td>
+<td>Insulin aspart 100units/ml solution for injection 3ml cartridges</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Subcutaneous</td>
+<td>Short-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>56691</td>
+<td>1133</td>
+<td>Insulin degludec 200units/ml solution for injection 3ml pre-filled disposable devices</td>
+<td>Insulin</td>
+<td>200unit/1ml</td>
+<td>Solution for injection</td>
+<td>Subcutaneous</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>31267</td>
+<td>2</td>
+<td>INSULIN PUR-IN MIX 50/50 100 I/U INJ</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Unknown</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>24845</td>
+<td>155</td>
+<td>INSULIN PUR-IN ISOPHANE 100 I/U INJ</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Unknown</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>14504</td>
+<td>1187</td>
+<td>INSULIN HYPURIN PROTAMINE ZINC 100 I/U INJ</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Unknown</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>82124</td>
+<td>1229</td>
+<td>Lyumjev 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Intravenous/Intramuscular/Subcutaneous</td>
+<td>Short-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>11271</td>
+<td>4313</td>
+<td>B-d u-100 1ml Insulin syringe (Becton, Dickinson UK Ltd)</td>
+<td>Insulin</td>
+<td>1ml</td>
+<td>Insulin Syringe</td>
+<td>NA</td>
+<td>Diabetic Hypodermic Equipment</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>49172</td>
+<td>6250</td>
+<td>NovoPen Echo hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 0.5-30 units Red (Novo Nordisk Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Reusable Pens</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>67324</td>
+<td>163</td>
+<td>Humulin M3 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)</td>
+<td>Insulin</td>
+<td>70unit/1ml + 30unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Subcutaneous</td>
+<td>Biphasic Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>74996</td>
+<td>5</td>
+<td>Neon Verifine Safety hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/30gauge (Neon Diagnostics Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>14619</td>
+<td>1982</td>
+<td>Insulin isophane biphasic porcine 30/70 100units/ml suspension for injection 1.5ml cartridges</td>
+<td>Insulin</td>
+<td>30unit/1ml + 70unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Intramuscular/Subcutaneous</td>
+<td>Unknown</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>53251</td>
+<td>2</td>
+<td>NovoRapid Penfill 100units/ml solution for injection 3ml cartridges (DE Pharmaceuticals)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Subcutaneous</td>
+<td>Short-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>70900</td>
+<td>37</td>
+<td>Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/32.5gauge</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>65421</td>
+<td>19942</td>
+<td>TriCare hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Owen Mumford Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>56983</td>
+<td>2020</td>
+<td>Insupen hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (Spirit Healthcare Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Suppository</td>
+<td>Rectal</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>18592</td>
+<td>76</td>
+<td>Insulin soluble bovine 100units/ml solution for injection 10ml vials</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Subcutaneous/Intravenous/Intramuscular</td>
+<td>Short-Acting Insulins/Diabetic Ketoacidosis</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>7318</td>
+<td>427923</td>
+<td>Humalog 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Intravenous/Intramuscular/Subcutaneous</td>
+<td>Short-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>6958</td>
+<td>689610</td>
+<td>Levemir FlexPen 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Subcutaneous</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>57529</td>
+<td>1203</td>
+<td>Humalog 100units/ml solution for injection 10ml vials (Dowelhurst Ltd)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Intravenous/Intramuscular/Subcutaneous</td>
+<td>Short-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>24795</td>
+<td>1145</td>
+<td>Insulin aspart biphasic 30/70 100units/ml suspension for injection 3ml cartridges</td>
+<td>Insulin</td>
+<td>30unit/1ml + 70unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Subcutaneous</td>
+<td>Biphasic Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>16700</td>
+<td>40</td>
+<td>Insulin zinc mixed bovine vial 100unit/ml Sterile suspension injection</td>
+<td>Insulin</td>
+<td>100unit/ml</td>
+<td>Sterile Suspension Injection</td>
+<td>Subcutaneous Injection</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>84314</td>
+<td>518</td>
+<td>Lyumjev KwikPen 200units/ml solution for injection 3ml pre-filled pens (Eli Lilly and Company Ltd)</td>
+<td>Insulin</td>
+<td>200unit/1ml</td>
+<td>Solution for injection</td>
+<td>Subcutaneous</td>
+<td>Short-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>69442</td>
+<td>407</td>
+<td>Neon Verifine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/31gauge (Neon Diagnostics Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>5345</td>
+<td>7958</td>
+<td>Monoject hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 12mm needle 0.36mm/28gauge (Covidien (UK) Commercial Ltd)</td>
+<td>Insulin</td>
+<td>0.5ml</td>
+<td>Insulin Syringe With 12Mm Needle(28G)</td>
+<td>NA</td>
+<td>U100 Insulin Syringe With Needle Sterile Single-Use Or Single Patient Use</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>35468</td>
+<td>188</td>
+<td>Insuman Basal 100units/ml suspension for injection 5ml vials (Sanofi)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Subcutaneous</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>13516</td>
+<td>13119</td>
+<td>Hypurin bovine isophane 100unit/ml Injection (C P Pharmaceuticals Ltd)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Intramuscular/Subcutaneous</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>63707</td>
+<td>20443</td>
+<td>GlucoRx FinePoint Ultra hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (GlucoRx Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>69440</td>
+<td>1636</td>
+<td>Neon Verifine Ultra hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Neon Diagnostics Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>10067</td>
+<td>2861</td>
+<td>Insulin biphasic aspart human pyr 30:70; 100 units/ml Injection</td>
+<td>Insulin</td>
+<td>30:70; 100 units/ml</td>
+<td>Injection</td>
+<td>Intramuscular</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>54886</td>
+<td>469</td>
+<td>Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/32gauge</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>65638</td>
+<td>200</td>
+<td>Glucoject hypodermic insulin needles for pre-filled / reusable pen injectors screw on 10mm/29gauge (A. Menarini Diagnostics Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>69583</td>
+<td>417</td>
+<td>Humalog Mix25 100units/ml suspension for injection 3ml cartridges (Waymade Healthcare Plc)</td>
+<td>Insulin</td>
+<td>25unit/1ml + 75unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Subcutaneous</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>24554</td>
+<td>89</td>
+<td>Unifine single use Insulin syringe with 30gauge needle 8mm 0.3ml (Owen Mumford Ltd)</td>
+<td>Insulin</td>
+<td>0.3ml</td>
+<td>Insulin Syringe With 30Gauge Needle 8Mm</td>
+<td>NA</td>
+<td>Diabetic Hypodermic Equipment</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>10915</td>
+<td>945</td>
+<td>Humaject m1 100iu/ml M1 pen (Eli Lilly and Company Ltd)</td>
+<td>Insulin</td>
+<td>100iu/ml</td>
+<td>M1 Pen</td>
+<td>Subcutaneous Injection</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>64987</td>
+<td>4060</td>
+<td>Abasaglar 100units/ml solution for injection 3ml cartridges (Eli Lilly and Company Ltd)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Subcutaneous</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>24722</td>
+<td>232</td>
+<td>INSULIN ISOPHANE 50%/NEUTRAL 50% 100 I/U INJ</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Unknown</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>82533</td>
+<td>102</td>
+<td>Humulin S 100units/ml solution for injection 10ml vials (Waymade Healthcare Plc)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Intravenous/Subcutaneous</td>
+<td>Short-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>72324</td>
+<td>7204</td>
+<td>GlucoRx CarePoint Ultra hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (GlucoRx Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>59793</td>
+<td>702</td>
+<td>Microdot Droplet hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (Cambridge Sensors Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>1592</td>
+<td>312963</td>
+<td>Actrapid penfill 100 100iu/ml Penfill (Novo Nordisk Ltd)</td>
+<td>Insulin</td>
+<td>100iu/ml</td>
+<td>Penfill</td>
+<td>Subcutaneous Injection</td>
+<td>Short-Acting Insulins/Diabetic Ketoacidosis</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>24002</td>
+<td>836</td>
+<td>Insuman Comb 25 100units/ml suspension for injection 5ml vials (Sanofi)</td>
+<td>Insulin</td>
+<td>25unit/1ml + 75unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Subcutaneous</td>
+<td>Biphasic Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>48342</td>
+<td>3180</td>
+<td>HumaPen Luxura hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-60 units Burgundy (Eli Lilly and Company Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Reusable Pens</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>61562</td>
+<td>95</td>
+<td>Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 8mm/29gauge</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>21554</td>
+<td>664</td>
+<td>Insuman comb 50 100iu/ml Injection (Aventis Pharma)</td>
+<td>Insulin</td>
+<td>50unit/1ml + 50unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Subcutaneous</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>51650</td>
+<td>43254</td>
+<td>Omnican Fine hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge (B.Braun Medical Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>11107</td>
+<td>4891</td>
+<td>Humulin m4 100unit/ml M4 injection (Eli Lilly and Company Ltd)</td>
+<td>Insulin</td>
+<td>100unit/ml</td>
+<td>M4 Injection</td>
+<td>Subcutaneous Injection</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>82475</td>
+<td>507</td>
+<td>NovoMix 30 FlexPen 100units/ml suspension for injection 3ml pre-filled pens (Waymade Healthcare Plc)</td>
+<td>Insulin</td>
+<td>30unit/1ml + 70unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Subcutaneous</td>
+<td>Biphasic Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>60938</td>
+<td>722</td>
+<td>Mixtard 30 100units/ml suspension for injection 10ml vials (Waymade Healthcare Plc)</td>
+<td>Insulin</td>
+<td>30unit/1ml + 70unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Subcutaneous</td>
+<td>Biphasic Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>12300</td>
+<td>470</td>
+<td>SYRINGE INSULIN (BS1619/1) 2ML</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Unknown</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>37427</td>
+<td>5296</td>
+<td>HumaPen Luxura HD hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 1-30 units (Eli Lilly and Company Ltd)</td>
+<td>Insulin</td>
+<td>3ml/1-30 units</td>
+<td>Insulin Pen</td>
+<td>NA</td>
+<td>Reusable Pens</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>71804</td>
+<td>391</td>
+<td>AllStar Pro hypodermic insulin injection pen reusable for 3ml cartridge 1 unit dial up / range 1-80 units Silver (Sanofi)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Reusable Pens</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>16682</td>
+<td>10</td>
+<td>Tempulin 100unit/ml Injection (Knoll Ltd)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Subcutaneous</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>5634</td>
+<td>3050</td>
+<td>Hypodermic U100 insulin syringe sterile single use / single patient use 1ml with not less than 12mm needle 0.36mm/28gauge</td>
+<td>Insulin</td>
+<td>1ml</td>
+<td>Insulin Syringe With 12Mm Needle(28G)</td>
+<td>NA</td>
+<td>U100 Insulin Syringe With Needle Sterile Single-Use Or Single Patient Use</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>87716</td>
+<td>7</td>
+<td>Humalog Mix50 Pen 100units/ml suspension for injection 3ml pre-filled pens (Sigma Pharmaceuticals Plc)</td>
+<td>Insulin</td>
+<td>50unit/1ml + 50unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Subcutaneous</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>19707</td>
+<td>8</td>
+<td>INSULIN HUMULIN S (NEUTRAL SOLUBLE)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>NA</td>
+<td>NA</td>
+<td>Unknown</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>5214</td>
+<td>16169</td>
+<td>Insulin lispro 100units/ml solution for injection 1.5ml cartridges</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Subcutaneous</td>
+<td>Unknown</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>76660</td>
+<td>49</td>
+<td>Insulin lispro Sanofi 100units/ml solution for injection 3ml cartridges (Sanofi)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Intravenous/Intramuscular/Subcutaneous</td>
+<td>Short-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>3551</td>
+<td>45372</td>
+<td>Mixtard 20 penfill 100 100iu/ml Penfill (Novo Nordisk Ltd)</td>
+<td>Insulin</td>
+<td>100iu/ml</td>
+<td>Penfill</td>
+<td>Subcutaneous Injection</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>1649</td>
+<td>15085</td>
+<td>Human actraphane 100iu/ml Injection (Novo Nordisk Ltd)</td>
+<td>Insulin</td>
+<td>100iu/ml</td>
+<td>Injection</td>
+<td>Intramuscular</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>22155</td>
+<td>43</td>
+<td>Humaject m5 100iu/ml M5 pen (Eli Lilly and Company Ltd)</td>
+<td>Insulin</td>
+<td>100iu/ml</td>
+<td>M5 Pen</td>
+<td>Subcutaneous Injection</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>18446</td>
+<td>467</td>
+<td>Unifine hypodermic U100 insulin syringe sterile single use / single patient use 1ml with 12mm needle 0.33mm/29gauge (Owen Mumford Ltd)</td>
+<td>Insulin</td>
+<td>1ml</td>
+<td>Insulin Syringe With 12Mm Needle(29G)</td>
+<td>NA</td>
+<td>U100 Insulin Syringe With Needle Sterile Single-Use Or Single Patient Use</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>10145</td>
+<td>17636</td>
+<td>Humapen luxura insulin pen 3ml/1-60 units Insulin pen 3ml/1-60 units (Eli Lilly and Company Ltd)</td>
+<td>Insulin</td>
+<td>3ml/1-60 units</td>
+<td>Insulin Pen</td>
+<td>NA</td>
+<td>Diabetic Hypodermic Equipment</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>18149</td>
+<td>1003</td>
+<td>Monoject u100 insulin syringe 12mm(29g)0.5ml 12mm29G 0.5ml Insulin syringe (Covidien (UK) Commercial Ltd)</td>
+<td>Insulin</td>
+<td>12mm29G 0.5ml</td>
+<td>Insulin Syringe</td>
+<td>NA</td>
+<td>Diabetic Hypodermic Equipment</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>22823</td>
+<td>9</td>
+<td>INSULIN ISOPHANE (PURIFIED) 100 I/U INJ</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Unknown</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>60028</td>
+<td>859</td>
+<td>Hypodermic insulin needles for pre-filled / reusable pen injectors snap on 4mm/32gauge</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector-Snap On</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>18593</td>
+<td>55579</td>
+<td>Humalog Mix50 100units/ml suspension for injection 3ml cartridges (Eli Lilly and Company Ltd)</td>
+<td>Insulin</td>
+<td>50unit/1ml + 50unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Subcutaneous</td>
+<td>Intermediate- And Long-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>7757</td>
+<td>197</td>
+<td>INSULIN NEULENTE (ZINC SUSP)(PURIFIED) 100 I/U INJ</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Unknown</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>5892</td>
+<td>1528346</td>
+<td>NovoRapid FlexPen 100units/ml solution for injection 3ml pre-filled pens (Novo Nordisk Ltd)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Subcutaneous</td>
+<td>Short-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>5267</td>
+<td>79173</td>
+<td>BD Micro-Fine + hypodermic U100 insulin syringe sterile single use / single patient use 0.5ml with 8mm needle 0.3mm/30gauge (Becton, Dickinson UK Ltd)</td>
+<td>Insulin</td>
+<td>0.5ml</td>
+<td>Insulin Syringe With 8Mm Needle(30G)</td>
+<td>NA</td>
+<td>U100 Insulin Syringe With Needle Sterile Single-Use Or Single Patient Use</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>7349</td>
+<td>40358</td>
+<td>Actrapid 100units/ml solution for injection 10ml vials (Novo Nordisk Ltd)</td>
+<td>Insulin</td>
+<td>100unit/1ml</td>
+<td>Solution for injection</td>
+<td>Intravenous/Subcutaneous</td>
+<td>Short-Acting Insulins</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>14506</td>
+<td>247</td>
+<td>INSULIN BOVINE PROTAMINE ZINC 100 I/U INJ</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Unknown</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>10242</td>
+<td>10777</td>
+<td>Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 6mm/31gauge</td>
+<td>Insulin</td>
+<td>6mm/31gauge</td>
+<td>Hypodermic Needle</td>
+<td>NA</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>66098</td>
+<td>93</td>
+<td>JuniorSTAR hypodermic insulin injection pen reusable for 3ml cartridge 0.5 unit dial up / range 1-30 units Silver (Sanofi)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Reusable Pens</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>44810</td>
+<td>833</td>
+<td>Hypodermic insulin needles for pre-filled / reusable pen injectors screw on 5mm/32gauge</td>
+<td>Insulin</td>
+<td>5mm/32 gauge</td>
+<td>Hypodermic Needle</td>
+<td>NA</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>66150</td>
+<td>4987</td>
+<td>Glucoject hypodermic insulin needles for pre-filled / reusable pen injectors screw on 4mm/32gauge (A. Menarini Diagnostics Ltd)</td>
+<td>Insulin</td>
+<td>NA</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Needle For Pre-Filled And Reusable Pen Injector</td>
+<td>Insulin</td>
+</tr>
+<tr>
+<td>74680</td>
+<td>1</td>
+<td>NovoMix 30 Penfill 100units/ml suspension for injection 3ml cartridges (DE Pharmaceuticals)</td>
+<td>Insulin</td>
+<td>30unit/1ml + 70unit/1ml</td>
+<td>Suspension for injection</td>
+<td>Subcutaneous</td>
+<td>Biphasic Insulins</td>
+<td>Insulin</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p><em>Preview shows first 100 rows.</em></p>
-
-### Metadata star legend
-
-<div class="metadata-legend">
-<div><span class="meta-star meta-star-1">★</span> 1. Dataset used</div>
-<div><span class="meta-star meta-star-2">★</span> 2. Version information</div>
-<div><span class="meta-star meta-star-3">★</span> 3. Inclusion / exclusion criteria in generating script</div>
-<div><span class="meta-star meta-star-4">★</span> 4. Pre-print / publication / protocol information</div>
-<div><span class="meta-star meta-star-5">★</span> 5. Exposure / outcome / covariate flag</div>
-<div><span class="meta-star meta-star-6">★</span> 6. Clinical or alternative reviewer information</div>
-<div><span class="meta-star meta-star-7">★</span> 7. Citation file (.cff)</div>
-<div><span class="meta-star meta-star-8">★</span> 8. Coding system information</div>
-<div><span class="meta-star meta-star-9">★</span> 9. Brief phenotype description and usage</div>
-</div>
+<p><em>Preview shows first 100 rows from the original codelist file.</em></p>
 

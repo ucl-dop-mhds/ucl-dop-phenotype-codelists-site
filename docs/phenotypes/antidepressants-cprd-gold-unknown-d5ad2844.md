@@ -1,23 +1,38 @@
 # Antidepressants
 
 <div class="phenotype-header-card">
-<p class="phenotype-kicker">CPRD Gold phenotype</p>
-<h2>Antidepressants</h2>
-<p class="phenotype-subtitle">Code name: <code>antidepressants</code></p>
-<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-4" title="4. Pre-print / publication / protocol information" aria-label="4. Pre-print / publication / protocol information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
+<div class="phenotype-header-fields">
+<div><strong>Dataset:</strong> CPRD Gold</div>
+<div><strong>ID (phenotype-githubID-repoStart):</strong> <code>antidepressants-naomilaunders-repurposing</code></div>
+<div><strong>Source:</strong> <a href="https://github.com/NaomiLaunders/Repurposing-statins-in-SMI">NaomiLaunders/Repurposing-statins-in-SMI</a></div>
+<div><strong>License:</strong> MIT</div>
+<div><strong>Date Created:</strong> 2026-04-22</div>
+<div><strong>Date Imported:</strong> 2026-04-22</div>
+<div><strong>Date Updated:</strong> 2026-04-22</div>
+</div>
 </div>
 
-## Repository details
+## Metadata
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Name</dt><dd>Antidepressants</dd></div><div class="phenotype-meta-row"><dt>Version</dt><dd>0.1.0</dd></div><div class="phenotype-meta-row"><dt>ID</dt><dd><code>antidepressants-cprd-gold-unknown-d5ad2844</code></dd></div><div class="phenotype-meta-row"><dt>Status</dt><dd>draft</dd></div><div class="phenotype-meta-row"><dt>Dataset</dt><dd>CPRD Gold</dd></div><div class="phenotype-meta-row"><dt>Code name</dt><dd><code>antidepressants</code></dd></div><div class="phenotype-meta-row"><dt>Phenotype group</dt><dd>Code lists</dd></div><div class="phenotype-meta-row"><dt>Coding system</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Coding systems</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Phenotype role</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Created</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Imported</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Updated</dt><dd>2026-04-22</dd></div></div>
+<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-4" title="4. Pre-print / publication / protocol information" aria-label="4. Pre-print / publication / protocol information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
 
-## Background information
+<br>
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Summary</dt><dd>Auto-ingested from NaomiLaunders/Repurposing-statins-in-SMI (main) at 55a86d5fcf8e8cb851419ea126e9563b69ed1135. Source path: Code lists/ADGold.txt.</dd></div><div class="phenotype-meta-row"><dt>Usage notes</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Dataset context</dt><dd>CPRD Gold</dd></div><div class="phenotype-meta-row"><dt>Provenance</dt><dd>Imported</dd></div><div class="phenotype-meta-row"><dt>Source citation</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source repository</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source path</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Evidence</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Review</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Contacts</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>License</dt><dd>MIT</dd></div><div class="phenotype-meta-row"><dt>Tags</dt><dd>NA</dd></div></div>
+<div class="metadata-detail-list">
+<div class="metadata-detail-row"><span class="meta-star meta-star-1">★</span> <strong>Dataset used:</strong> CPRD Gold</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-2">★</span> <strong>Version information:</strong> 0.1.0</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-3">☆</span> <strong>Inclusion / exclusion criteria in generating script:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-4">★</span> <strong>Pre-print / publication / protocol information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-5">☆</span> <strong>Exposure / outcome / covariate flag:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-6">☆</span> <strong>Clinical or alternative reviewer information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-7">☆</span> <strong>Citation file (.cff):</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-8">☆</span> <strong>Coding system information:</strong> Unknown</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-9">★</span> <strong>Brief phenotype description and usage:</strong> Auto-ingested from NaomiLaunders/Repurposing-statins-in-SMI (main) at 55a86d5fcf8e8cb851419ea126e9563b69ed1135. Source path: Code lists/ADGold.txt.</div>
+</div>
 
 ## Downloads
 
-<ul class="phenotype-download-list"><li><a href="../source/antidepressants-cprd-gold-unknown-d5ad2844.txt">Download original codelist.txt</a></li><li><a href="../csv/antidepressants-cprd-gold-unknown-d5ad2844.csv">Download normalized CSV</a></li></ul>
+<ul class="phenotype-download-list"><li><a href="../../source/antidepressants-cprd-gold-unknown-d5ad2844.txt" download="antidepressants-cprd-gold-unknown-d5ad2844.txt">Download original codelist (.txt)</a></li></ul>
 
 ## Codelist preview
 
@@ -25,730 +40,1019 @@
 <table>
 <thead>
 <tr>
-<th>code</th>
-<th>code_system</th>
-<th>include</th>
-<th>term</th>
-<th>notes</th>
+<th>productname</th>
+<th>formulation</th>
+<th>route</th>
+<th>drugsubstance</th>
+<th>strength</th>
+<th>productcode</th>
+<th>BNFcode</th>
+<th>AD</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>&quot;productname&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;formulation&quot;	&quot;route&quot;	&quot;drugsubstance&quot;	&quot;strength&quot;	&quot;productcode&quot;	&quot;BNFcode&quot;	&quot;AD&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Valdoxan 25mg tablets (Servier Laboratories Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Agomelatine&quot;	&quot;25mg&quot;	&quot;40295&quot;	&quot;0403040Z2&quot;	&quot;agomelatine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Agomelatine 25mg tablets&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Agomelatine&quot;	&quot;25mg&quot;	&quot;40494&quot;	&quot;0403040Z3&quot;	&quot;agomelatine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;49&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg tablets&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;83&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Tryptizol 10mg/ml Injection (Merck Sharp &amp; Dohme Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Injection&quot;	&quot;&quot;	&quot;Amitriptyline Hydrochloride&quot;	&quot;10mg/ml&quot;	&quot;182&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg modified-release capsules&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Modified-release capsule&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;487&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 50mg tablets&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;50mg&quot;	&quot;1888&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Lentizol 25mg modified-release capsules (Pfizer Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Modified-release capsule&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;2486&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 75mg modified-release capsules&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Modified Release Capsules&quot;	&quot;Oral&quot;	&quot;Amitriptyline Hydrochloride&quot;	&quot;75mg&quot;	&quot;2525&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Lentizol 50mg modified-release capsules (Pfizer Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Modified-release capsule&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;50mg&quot;	&quot;2985&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg/5ml sugar free oral solution&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Oral Solution Sugar-free&quot;	&quot;Oral&quot;	&quot;Amitriptyline Hydrochloride&quot;	&quot;10mg/5ml&quot;	&quot;3777&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 50mg modified-release capsules&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Modified-release capsule&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;50mg&quot;	&quot;4682&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 50mg/5ml oral solution sugar free&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg/1ml&quot;	&quot;4690&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg/5ml oral solution sugar free&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;5mg/1ml&quot;	&quot;6312&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Tryptizol 25mg Tablet (Merck Sharp &amp; Dohme Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;7751&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Tryptizol 50mg Tablet (Merck Sharp &amp; Dohme Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;50mg&quot;	&quot;8332&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Tryptizol 10mg Tablet (Merck Sharp &amp; Dohme Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;8726&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Tryptizol mr 75mg Modified-release capsule (Merck Sharp &amp; Dohme Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Modified-release Capsule&quot;	&quot;Oral&quot;	&quot;Amitriptyline Hydrochloride&quot;	&quot;75mg&quot;	&quot;8831&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Tryptizol 10mg/5ml sugar free Oral solution (Merck Sharp and Dohme Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Oral Solution&quot;	&quot;Oral&quot;	&quot;Amitriptyline Hydrochloride&quot;	&quot;10mg/5ml&quot;	&quot;8878&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg/ml injection&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Injection&quot;	&quot;&quot;	&quot;Amitriptyline Hydrochloride&quot;	&quot;10mg/ml&quot;	&quot;19779&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Domical 25mg Tablet (Berk Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;20026&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg/5ml Oral solution (Rosemont Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Oral Solution&quot;	&quot;Oral&quot;	&quot;Amitriptyline Hydrochloride&quot;	&quot;10mg/5ml&quot;	&quot;22070&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets (Kent Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;24134&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg tablets (Actavis UK Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;24141&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets (Actavis UK Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;24145&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets (Teva UK Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;24147&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg tablets (Teva UK Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;24152&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Elavil 10mg Tablet (DDSA Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;24680&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Domical 10mg Tablet (Berk Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;26213&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Domical 50mg Tablet (Berk Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;50mg&quot;	&quot;27008&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg Tablet (Sussex Pharmaceutical Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;32439&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg tablets (A A H Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;33090&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 50mg tablets (Teva UK Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;50mg&quot;	&quot;33624&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 50mg tablets (Wockhardt UK Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;50mg&quot;	&quot;34107&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets (Wockhardt UK Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;34129&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 50mg tablets (Kent Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;50mg&quot;	&quot;34182&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg Tablet (Berk Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;34197&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;5mg/1ml&quot;	&quot;34224&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 50mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg/1ml&quot;	&quot;34251&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 50mg tablets (A A H Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;50mg&quot;	&quot;34274&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg tablets (Wockhardt UK Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;34401&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg Tablet (Regent Laboratories Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;34474&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets (IVAX Pharmaceuticals UK Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;34503&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 50mg tablets (Actavis UK Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;50mg&quot;	&quot;34634&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg tablets (Kent Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;34731&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets (A A H Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;34782&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg Tablet (Berk Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;34916&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 50mg Tablet (Berk Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;50mg&quot;	&quot;40396&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg Tablet (Celltech Pharma Europe Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;41729&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets (Almus Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;42078&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg Tablet (Crosspharma Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;42394&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg tablets (IVAX Pharmaceuticals UK Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;45233&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg Tablet (Sussex Pharmaceutical Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;45242&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg/5ml oral solution&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;2mg/1ml&quot;	&quot;46801&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg/5ml oral suspension&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Oral suspension&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;2mg/1ml&quot;	&quot;46818&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 50mg tablets (IVAX Pharmaceuticals UK Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;50mg&quot;	&quot;46970&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline oral solution&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Oral Liquid&quot;	&quot;Oral&quot;	&quot;Amitriptyline Hydrochloride&quot;	&quot;&quot;	&quot;48065&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg tablets (Accord Healthcare Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;52867&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets (Accord Healthcare Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;54877&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;55139&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg tablets (Almus Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;55491&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg tablets (Phoenix Healthcare Distribution Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;57107&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;57972&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg tablets (Waymade Healthcare Plc)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;59161&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 50mg/5ml oral solution sugar free (Wockhardt UK Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg/1ml&quot;	&quot;59820&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets (Phoenix Healthcare Distribution Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;60355&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg/5ml oral solution sugar free (Wockhardt UK Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;5mg/1ml&quot;	&quot;60410&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg tablets (DE Pharmaceuticals)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;61835&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg/5ml oral solution sugar free&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;2mg/1ml&quot;	&quot;64000&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 5mg/5ml oral solution&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;1mg/1ml&quot;	&quot;64141&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 50mg tablets (Almus Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;50mg&quot;	&quot;64330&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets (DE Pharmaceuticals)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;64647&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets (Sandoz Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;65439&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg tablets (Sigma Pharmaceuticals Plc)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;65879&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets (Crescent Pharma Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;65987&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets (Sigma Pharmaceuticals Plc)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;66572&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg tablets (Mawdsley-Brooks &amp; Company Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;66578&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets (Mawdsley-Brooks &amp; Company Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;66579&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg/5ml oral solution sugar free (DE Pharmaceuticals)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;5mg/1ml&quot;	&quot;67127&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 50mg tablets (Sigma Pharmaceuticals Plc)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;50mg&quot;	&quot;69712&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;2mg/1ml&quot;	&quot;70300&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg tablets (Arrow Generics Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;10mg&quot;	&quot;70991&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg tablets (Arrow Generics Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride&quot;	&quot;25mg&quot;	&quot;71042&quot;	&quot;0403010B6&quot;	&quot;amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Limbitrol 10 Capsule (Roche Products Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Capsule&quot;	&quot;Oral&quot;	&quot;Amitriptyline Hydrochloride/Chlordiazepoxide&quot;	&quot;&quot;	&quot;11963&quot;	&quot;&quot;	&quot;amitriptyline_chlordiazepoxide&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Limbitrol 5 Capsule (Roche Products Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Capsule&quot;	&quot;Oral&quot;	&quot;Amitriptyline Hydrochloride/Chlordiazepoxide&quot;	&quot;&quot;	&quot;14534&quot;	&quot;&quot;	&quot;amitriptyline_chlordiazepoxide&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg / Chlordiazepoxide 10mg capsules&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Capsules&quot;	&quot;Oral&quot;	&quot;Amitriptyline Hydrochloride/Chlordiazepoxide&quot;	&quot;25mg + 10mg&quot;	&quot;18342&quot;	&quot;&quot;	&quot;amitriptyline_chlordiazepoxide&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 12.5mg / Chlordiazepoxide 5mg capsules&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Capsules&quot;	&quot;Oral&quot;	&quot;Amitriptyline Hydrochloride/Chlordiazepoxide&quot;	&quot;12.5mg + 5mg&quot;	&quot;21081&quot;	&quot;&quot;	&quot;amitriptyline_chlordiazepoxide&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 25mg / Perphenazine 2mg tablets&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride/Perphenazine&quot;	&quot;25mg + 2mg&quot;	&quot;595&quot;	&quot;&quot;	&quot;amitriptyline_perphenazine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Triptafen tablets (AMCo)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride/Perphenazine&quot;	&quot;25mg + 2mg&quot;	&quot;1208&quot;	&quot;&quot;	&quot;amitriptyline_perphenazine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Triptafen m 2mg+10mg Tablet (Goldshield Pharmaceuticals Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride/Perphenazine&quot;	&quot;10mg + 2mg&quot;	&quot;1453&quot;	&quot;&quot;	&quot;amitriptyline_perphenazine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amitriptyline 10mg / Perphenazine 2mg tablets&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride/Perphenazine&quot;	&quot;10mg + 2mg&quot;	&quot;3490&quot;	&quot;&quot;	&quot;amitriptyline_perphenazine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Perphenazine 2mg with Amitriptyline 25mg tablet&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablets&quot;	&quot;Oral&quot;	&quot;Amitriptyline Hydrochloride/Perphenazine&quot;	&quot;2mg + 25mg&quot;	&quot;6894&quot;	&quot;&quot;	&quot;amitriptyline_perphenazine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Perphenazine 2mg with Amitriptyline 10mg tablet&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablets&quot;	&quot;Oral&quot;	&quot;Amitriptyline Hydrochloride/Perphenazine&quot;	&quot;2mg + 10mg&quot;	&quot;16323&quot;	&quot;&quot;	&quot;amitriptyline_perphenazine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Triptafen-M tablets (Mercury Pharma Group Ltd)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline hydrochloride/Perphenazine&quot;	&quot;10mg + 2mg&quot;	&quot;38827&quot;	&quot;&quot;	&quot;amitriptyline_perphenazine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amoxapine 50mg tablets&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amoxapine&quot;	&quot;50mg&quot;	&quot;3351&quot;	&quot;0403010C0&quot;	&quot;amoxapine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amoxapine 100mg tablets&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amoxapine&quot;	&quot;100mg&quot;	&quot;3652&quot;	&quot;0403010C0&quot;	&quot;amoxapine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Amoxapine 150mg tablets&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablets&quot;	&quot;Oral&quot;	&quot;Amoxapine&quot;	&quot;150mg&quot;	&quot;4411&quot;	&quot;0403010C0&quot;	&quot;amoxapine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Asendis 50mg Tablet (Wyeth Pharmaceuticals)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amoxapine&quot;	&quot;50mg&quot;	&quot;14398&quot;	&quot;0403010C0&quot;	&quot;amoxapine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;Asendis 25mg Tablet (Wyeth Pharmaceuticals)&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amoxapine&quot;	&quot;25mg&quot;	&quot;15380&quot;	&quot;0403010C0&quot;	&quot;amoxapine&quot;</td>
-<td></td>
+<td>Valdoxan 25mg tablets (Servier Laboratories Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Agomelatine</td>
+<td>25mg</td>
+<td>40295</td>
+<td>0403040Z2</td>
+<td>agomelatine</td>
+</tr>
+<tr>
+<td>Agomelatine 25mg tablets</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Agomelatine</td>
+<td>25mg</td>
+<td>40494</td>
+<td>0403040Z3</td>
+<td>agomelatine</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>49</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg tablets</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>83</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Tryptizol 10mg/ml Injection (Merck Sharp &amp; Dohme Ltd)</td>
+<td>Injection</td>
+<td></td>
+<td>Amitriptyline Hydrochloride</td>
+<td>10mg/ml</td>
+<td>182</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg modified-release capsules</td>
+<td>Modified-release capsule</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>487</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 50mg tablets</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>50mg</td>
+<td>1888</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Lentizol 25mg modified-release capsules (Pfizer Ltd)</td>
+<td>Modified-release capsule</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>2486</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 75mg modified-release capsules</td>
+<td>Modified Release Capsules</td>
+<td>Oral</td>
+<td>Amitriptyline Hydrochloride</td>
+<td>75mg</td>
+<td>2525</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Lentizol 50mg modified-release capsules (Pfizer Ltd)</td>
+<td>Modified-release capsule</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>50mg</td>
+<td>2985</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg/5ml sugar free oral solution</td>
+<td>Oral Solution Sugar-free</td>
+<td>Oral</td>
+<td>Amitriptyline Hydrochloride</td>
+<td>10mg/5ml</td>
+<td>3777</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 50mg modified-release capsules</td>
+<td>Modified-release capsule</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>50mg</td>
+<td>4682</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 50mg/5ml oral solution sugar free</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg/1ml</td>
+<td>4690</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg/5ml oral solution sugar free</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>5mg/1ml</td>
+<td>6312</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Tryptizol 25mg Tablet (Merck Sharp &amp; Dohme Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>7751</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Tryptizol 50mg Tablet (Merck Sharp &amp; Dohme Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>50mg</td>
+<td>8332</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Tryptizol 10mg Tablet (Merck Sharp &amp; Dohme Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>8726</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Tryptizol mr 75mg Modified-release capsule (Merck Sharp &amp; Dohme Ltd)</td>
+<td>Modified-release Capsule</td>
+<td>Oral</td>
+<td>Amitriptyline Hydrochloride</td>
+<td>75mg</td>
+<td>8831</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Tryptizol 10mg/5ml sugar free Oral solution (Merck Sharp and Dohme Ltd)</td>
+<td>Oral Solution</td>
+<td>Oral</td>
+<td>Amitriptyline Hydrochloride</td>
+<td>10mg/5ml</td>
+<td>8878</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg/ml injection</td>
+<td>Injection</td>
+<td></td>
+<td>Amitriptyline Hydrochloride</td>
+<td>10mg/ml</td>
+<td>19779</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Domical 25mg Tablet (Berk Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>20026</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg/5ml Oral solution (Rosemont Pharmaceuticals Ltd)</td>
+<td>Oral Solution</td>
+<td>Oral</td>
+<td>Amitriptyline Hydrochloride</td>
+<td>10mg/5ml</td>
+<td>22070</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets (Kent Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>24134</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg tablets (Actavis UK Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>24141</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets (Actavis UK Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>24145</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets (Teva UK Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>24147</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg tablets (Teva UK Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>24152</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Elavil 10mg Tablet (DDSA Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>24680</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Domical 10mg Tablet (Berk Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>26213</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Domical 50mg Tablet (Berk Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>50mg</td>
+<td>27008</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg Tablet (Sussex Pharmaceutical Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>32439</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg tablets (A A H Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>33090</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 50mg tablets (Teva UK Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>50mg</td>
+<td>33624</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 50mg tablets (Wockhardt UK Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>50mg</td>
+<td>34107</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets (Wockhardt UK Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>34129</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 50mg tablets (Kent Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>50mg</td>
+<td>34182</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg Tablet (Berk Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>34197</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>5mg/1ml</td>
+<td>34224</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 50mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg/1ml</td>
+<td>34251</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 50mg tablets (A A H Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>50mg</td>
+<td>34274</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg tablets (Wockhardt UK Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>34401</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg Tablet (Regent Laboratories Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>34474</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets (IVAX Pharmaceuticals UK Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>34503</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 50mg tablets (Actavis UK Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>50mg</td>
+<td>34634</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg tablets (Kent Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>34731</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets (A A H Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>34782</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg Tablet (Berk Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>34916</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 50mg Tablet (Berk Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>50mg</td>
+<td>40396</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg Tablet (Celltech Pharma Europe Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>41729</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets (Almus Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>42078</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg Tablet (Crosspharma Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>42394</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg tablets (IVAX Pharmaceuticals UK Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>45233</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg Tablet (Sussex Pharmaceutical Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>45242</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg/5ml oral solution</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>2mg/1ml</td>
+<td>46801</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg/5ml oral suspension</td>
+<td>Oral suspension</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>2mg/1ml</td>
+<td>46818</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 50mg tablets (IVAX Pharmaceuticals UK Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>50mg</td>
+<td>46970</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline oral solution</td>
+<td>Oral Liquid</td>
+<td>Oral</td>
+<td>Amitriptyline Hydrochloride</td>
+<td></td>
+<td>48065</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg tablets (Accord Healthcare Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>52867</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets (Accord Healthcare Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>54877</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets (Alliance Healthcare (Distribution) Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>55139</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg tablets (Almus Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>55491</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg tablets (Phoenix Healthcare Distribution Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>57107</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg tablets (Alliance Healthcare (Distribution) Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>57972</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg tablets (Waymade Healthcare Plc)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>59161</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 50mg/5ml oral solution sugar free (Wockhardt UK Ltd)</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg/1ml</td>
+<td>59820</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets (Phoenix Healthcare Distribution Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>60355</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg/5ml oral solution sugar free (Wockhardt UK Ltd)</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>5mg/1ml</td>
+<td>60410</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg tablets (DE Pharmaceuticals)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>61835</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg/5ml oral solution sugar free</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>2mg/1ml</td>
+<td>64000</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 5mg/5ml oral solution</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>1mg/1ml</td>
+<td>64141</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 50mg tablets (Almus Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>50mg</td>
+<td>64330</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets (DE Pharmaceuticals)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>64647</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets (Sandoz Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>65439</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg tablets (Sigma Pharmaceuticals Plc)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>65879</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets (Crescent Pharma Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>65987</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets (Sigma Pharmaceuticals Plc)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>66572</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg tablets (Mawdsley-Brooks &amp; Company Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>66578</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets (Mawdsley-Brooks &amp; Company Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>66579</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg/5ml oral solution sugar free (DE Pharmaceuticals)</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>5mg/1ml</td>
+<td>67127</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 50mg tablets (Sigma Pharmaceuticals Plc)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>50mg</td>
+<td>69712</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>2mg/1ml</td>
+<td>70300</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg tablets (Arrow Generics Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>10mg</td>
+<td>70991</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg tablets (Arrow Generics Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride</td>
+<td>25mg</td>
+<td>71042</td>
+<td>0403010B6</td>
+<td>amitriptyline</td>
+</tr>
+<tr>
+<td>Limbitrol 10 Capsule (Roche Products Ltd)</td>
+<td>Capsule</td>
+<td>Oral</td>
+<td>Amitriptyline Hydrochloride/Chlordiazepoxide</td>
+<td></td>
+<td>11963</td>
+<td></td>
+<td>amitriptyline_chlordiazepoxide</td>
+</tr>
+<tr>
+<td>Limbitrol 5 Capsule (Roche Products Ltd)</td>
+<td>Capsule</td>
+<td>Oral</td>
+<td>Amitriptyline Hydrochloride/Chlordiazepoxide</td>
+<td></td>
+<td>14534</td>
+<td></td>
+<td>amitriptyline_chlordiazepoxide</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg / Chlordiazepoxide 10mg capsules</td>
+<td>Capsules</td>
+<td>Oral</td>
+<td>Amitriptyline Hydrochloride/Chlordiazepoxide</td>
+<td>25mg + 10mg</td>
+<td>18342</td>
+<td></td>
+<td>amitriptyline_chlordiazepoxide</td>
+</tr>
+<tr>
+<td>Amitriptyline 12.5mg / Chlordiazepoxide 5mg capsules</td>
+<td>Capsules</td>
+<td>Oral</td>
+<td>Amitriptyline Hydrochloride/Chlordiazepoxide</td>
+<td>12.5mg + 5mg</td>
+<td>21081</td>
+<td></td>
+<td>amitriptyline_chlordiazepoxide</td>
+</tr>
+<tr>
+<td>Amitriptyline 25mg / Perphenazine 2mg tablets</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride/Perphenazine</td>
+<td>25mg + 2mg</td>
+<td>595</td>
+<td></td>
+<td>amitriptyline_perphenazine</td>
+</tr>
+<tr>
+<td>Triptafen tablets (AMCo)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride/Perphenazine</td>
+<td>25mg + 2mg</td>
+<td>1208</td>
+<td></td>
+<td>amitriptyline_perphenazine</td>
+</tr>
+<tr>
+<td>Triptafen m 2mg+10mg Tablet (Goldshield Pharmaceuticals Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride/Perphenazine</td>
+<td>10mg + 2mg</td>
+<td>1453</td>
+<td></td>
+<td>amitriptyline_perphenazine</td>
+</tr>
+<tr>
+<td>Amitriptyline 10mg / Perphenazine 2mg tablets</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride/Perphenazine</td>
+<td>10mg + 2mg</td>
+<td>3490</td>
+<td></td>
+<td>amitriptyline_perphenazine</td>
+</tr>
+<tr>
+<td>Perphenazine 2mg with Amitriptyline 25mg tablet</td>
+<td>Tablets</td>
+<td>Oral</td>
+<td>Amitriptyline Hydrochloride/Perphenazine</td>
+<td>2mg + 25mg</td>
+<td>6894</td>
+<td></td>
+<td>amitriptyline_perphenazine</td>
+</tr>
+<tr>
+<td>Perphenazine 2mg with Amitriptyline 10mg tablet</td>
+<td>Tablets</td>
+<td>Oral</td>
+<td>Amitriptyline Hydrochloride/Perphenazine</td>
+<td>2mg + 10mg</td>
+<td>16323</td>
+<td></td>
+<td>amitriptyline_perphenazine</td>
+</tr>
+<tr>
+<td>Triptafen-M tablets (Mercury Pharma Group Ltd)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline hydrochloride/Perphenazine</td>
+<td>10mg + 2mg</td>
+<td>38827</td>
+<td></td>
+<td>amitriptyline_perphenazine</td>
+</tr>
+<tr>
+<td>Amoxapine 50mg tablets</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amoxapine</td>
+<td>50mg</td>
+<td>3351</td>
+<td>0403010C0</td>
+<td>amoxapine</td>
+</tr>
+<tr>
+<td>Amoxapine 100mg tablets</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amoxapine</td>
+<td>100mg</td>
+<td>3652</td>
+<td>0403010C0</td>
+<td>amoxapine</td>
+</tr>
+<tr>
+<td>Amoxapine 150mg tablets</td>
+<td>Tablets</td>
+<td>Oral</td>
+<td>Amoxapine</td>
+<td>150mg</td>
+<td>4411</td>
+<td>0403010C0</td>
+<td>amoxapine</td>
+</tr>
+<tr>
+<td>Asendis 50mg Tablet (Wyeth Pharmaceuticals)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amoxapine</td>
+<td>50mg</td>
+<td>14398</td>
+<td>0403010C0</td>
+<td>amoxapine</td>
+</tr>
+<tr>
+<td>Asendis 25mg Tablet (Wyeth Pharmaceuticals)</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amoxapine</td>
+<td>25mg</td>
+<td>15380</td>
+<td>0403010C0</td>
+<td>amoxapine</td>
+</tr>
+<tr>
+<td>Amoxapine 25mg tablets</td>
+<td>Tablets</td>
+<td>Oral</td>
+<td>Amoxapine</td>
+<td>25mg</td>
+<td>17319</td>
+<td>0403010C0</td>
+<td>amoxapine</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p><em>Preview shows first 100 rows.</em></p>
-
-### Metadata star legend
-
-<div class="metadata-legend">
-<div><span class="meta-star meta-star-1">★</span> 1. Dataset used</div>
-<div><span class="meta-star meta-star-2">★</span> 2. Version information</div>
-<div><span class="meta-star meta-star-3">★</span> 3. Inclusion / exclusion criteria in generating script</div>
-<div><span class="meta-star meta-star-4">★</span> 4. Pre-print / publication / protocol information</div>
-<div><span class="meta-star meta-star-5">★</span> 5. Exposure / outcome / covariate flag</div>
-<div><span class="meta-star meta-star-6">★</span> 6. Clinical or alternative reviewer information</div>
-<div><span class="meta-star meta-star-7">★</span> 7. Citation file (.cff)</div>
-<div><span class="meta-star meta-star-8">★</span> 8. Coding system information</div>
-<div><span class="meta-star meta-star-9">★</span> 9. Brief phenotype description and usage</div>
-</div>
+<p><em>Preview shows first 100 rows from the original codelist file.</em></p>
 

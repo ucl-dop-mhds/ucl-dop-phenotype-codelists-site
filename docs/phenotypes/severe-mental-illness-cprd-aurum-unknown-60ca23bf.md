@@ -1,23 +1,38 @@
 # Severe Mental Illness
 
 <div class="phenotype-header-card">
-<p class="phenotype-kicker">CPRD Aurum phenotype</p>
-<h2>Severe Mental Illness</h2>
-<p class="phenotype-subtitle">Code name: <code>severe-mental-illness</code></p>
-<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-3" title="3. Inclusion / exclusion criteria in generating script" aria-label="3. Inclusion / exclusion criteria in generating script">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
+<div class="phenotype-header-fields">
+<div><strong>Dataset:</strong> CPRD Aurum</div>
+<div><strong>ID (phenotype-githubID-repoStart):</strong> <code>severe-mental-illness-smwu-smi</code></div>
+<div><strong>Source:</strong> <a href="https://github.com/smwu/SMI_GLP">smwu/SMI_GLP</a></div>
+<div><strong>License:</strong> MIT</div>
+<div><strong>Date Created:</strong> 2025-07-25</div>
+<div><strong>Date Imported:</strong> 2026-04-22</div>
+<div><strong>Date Updated:</strong> 2026-04-22</div>
+</div>
 </div>
 
-## Repository details
+## Metadata
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Name</dt><dd>Severe Mental Illness</dd></div><div class="phenotype-meta-row"><dt>Version</dt><dd>0.1.0</dd></div><div class="phenotype-meta-row"><dt>ID</dt><dd><code>severe-mental-illness-cprd-aurum-unknown-60ca23bf</code></dd></div><div class="phenotype-meta-row"><dt>Status</dt><dd>draft</dd></div><div class="phenotype-meta-row"><dt>Dataset</dt><dd>CPRD Aurum</dd></div><div class="phenotype-meta-row"><dt>Code name</dt><dd><code>severe-mental-illness</code></dd></div><div class="phenotype-meta-row"><dt>Phenotype group</dt><dd>SMI</dd></div><div class="phenotype-meta-row"><dt>Coding system</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Coding systems</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Phenotype role</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Created</dt><dd>2025-07-25</dd></div><div class="phenotype-meta-row"><dt>Imported</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Updated</dt><dd>2026-04-22</dd></div></div>
+<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-3" title="3. Inclusion / exclusion criteria in generating script" aria-label="3. Inclusion / exclusion criteria in generating script">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
 
-## Background information
+<br>
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Summary</dt><dd>Auto-ingested from smwu/SMI_GLP (main) at 1e3dfaacd5ed63663138e764d88792609878a84e. Source path: Code_Lists/SMI/Aurum_SMI_codelist_20250725.txt.</dd></div><div class="phenotype-meta-row"><dt>Usage notes</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Dataset context</dt><dd>CPRD Aurum</dd></div><div class="phenotype-meta-row"><dt>Provenance</dt><dd>Imported</dd></div><div class="phenotype-meta-row"><dt>Source citation</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source repository</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source path</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Evidence</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Review</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Contacts</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>License</dt><dd>MIT</dd></div><div class="phenotype-meta-row"><dt>Tags</dt><dd>NA</dd></div></div>
+<div class="metadata-detail-list">
+<div class="metadata-detail-row"><span class="meta-star meta-star-1">★</span> <strong>Dataset used:</strong> CPRD Aurum</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-2">★</span> <strong>Version information:</strong> 0.1.0</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-3">★</span> <strong>Inclusion / exclusion criteria in generating script:</strong> Found in generating script</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-4">☆</span> <strong>Pre-print / publication / protocol information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-5">☆</span> <strong>Exposure / outcome / covariate flag:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-6">☆</span> <strong>Clinical or alternative reviewer information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-7">☆</span> <strong>Citation file (.cff):</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-8">☆</span> <strong>Coding system information:</strong> Unknown</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-9">★</span> <strong>Brief phenotype description and usage:</strong> Auto-ingested from smwu/SMI_GLP (main) at 1e3dfaacd5ed63663138e764d88792609878a84e. Source path: Code_Lists/SMI/Aurum_SMI_codelist_20250725.txt.</div>
+</div>
 
 ## Downloads
 
-<ul class="phenotype-download-list"><li><a href="../source/severe-mental-illness-cprd-aurum-unknown-60ca23bf.txt">Download original codelist.txt</a></li><li><a href="../csv/severe-mental-illness-cprd-aurum-unknown-60ca23bf.csv">Download normalized CSV</a></li><li><a href="../r/severe-mental-illness-cprd-aurum-unknown-60ca23bf/0a_SMI_code_list.R">Download R script: 0a_SMI_code_list.R</a></li></ul>
+<ul class="phenotype-download-list"><li><a href="../../source/severe-mental-illness-cprd-aurum-unknown-60ca23bf.txt" download="severe-mental-illness-cprd-aurum-unknown-60ca23bf.txt">Download original codelist (.txt)</a></li><li><a href="../../r/severe-mental-illness-cprd-aurum-unknown-60ca23bf/0a_SMI_code_list.R">Download R script: 0a_SMI_code_list.R</a></li></ul>
 
 ## Codelist preview
 
@@ -25,730 +40,1120 @@
 <table>
 <thead>
 <tr>
-<th>code</th>
-<th>code_system</th>
-<th>include</th>
-<th>term</th>
-<th>notes</th>
+<th>medcodeid</th>
+<th>TermRead</th>
+<th>TermSNOMED</th>
+<th>TermEMIS</th>
+<th>SNOMED</th>
+<th>OriginalReadCode</th>
+<th>CleansedReadCode</th>
+<th>Group</th>
+<th>Observations</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>&quot;medcodeid&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TermRead&quot;	&quot;TermSNOMED&quot;	&quot;TermEMIS&quot;	&quot;SNOMED&quot;	&quot;OriginalReadCode&quot;	&quot;CleansedReadCode&quot;	&quot;Group&quot;	&quot;Observations&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;1452014&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Delusion of persecution&quot;	&quot;Delusion of persecution (finding)&quot;	NA	&quot;216004&quot;	&quot;1BH0&quot;	&quot;1BH0.00&quot;	&quot;other psychosis&quot;	3852</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;4569010&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Delusion&quot;	&quot;Delusions (finding)&quot;	NA	&quot;2073000&quot;	&quot;1BH-1&quot;	&quot;1BH..11&quot;	&quot;other psychosis&quot;	3408</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;9225016&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Schizophrenia in remission&quot;	&quot;Schizophrenia in remission&quot;	NA	&quot;4926007&quot;	&quot;E1005&quot;	&quot;E100500&quot;	&quot;schizophrenia&quot;	16471</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;10122017&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Brief reactive psychosis&quot;	&quot;Brief reactive psychosis&quot;	NA	&quot;5464005&quot;	&quot;E13y1&quot;	&quot;E13y100&quot;	&quot;other psychosis&quot;	1426</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;28758018&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Subchronic schizophrenia&quot;	&quot;Subchronic schizophrenia&quot;	NA	&quot;16990005&quot;	&quot;E1001&quot;	&quot;E100100&quot;	&quot;schizophrenia&quot;	51</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;43595011&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Residual schizophrenia&quot;	&quot;Residual schizophrenia&quot;	NA	&quot;26025008&quot;	&quot;E106&quot;	&quot;E106.00&quot;	&quot;schizophrenia&quot;	2926</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;44335019&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Paraphrenia&quot;	&quot;Paraphrenia&quot;	NA	&quot;26472000&quot;	&quot;E122&quot;	&quot;E122.00&quot;	&quot;other psychosis&quot;	7852</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;52897013&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Chronic paranoid schizophrenia&quot;	&quot;Chronic paranoid schizophrenia&quot;	NA	&quot;31658008&quot;	&quot;E1032&quot;	&quot;E103200&quot;	&quot;schizophrenia&quot;	13136</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;71539017&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Subchronic catatonic schizophrenia&quot;	&quot;Subchronic catatonic schizophrenia&quot;	NA	&quot;42868002&quot;	&quot;E1021&quot;	&quot;E102100&quot;	&quot;schizophrenia&quot;	38</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;105029017&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Paranoid schizophrenia in remission&quot;	&quot;Paranoid schizophrenia in remission&quot;	NA	&quot;63181006&quot;	&quot;E1035&quot;	&quot;E103500&quot;	&quot;schizophrenia&quot;	6434</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;107878010&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Paranoid schizophrenia&quot;	&quot;Paranoid schizophrenia&quot;	NA	&quot;64905009&quot;	&quot;E103&quot;	&quot;E103.00&quot;	&quot;schizophrenia&quot;	669437</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;114616017&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Chronic catatonic schizophrenia&quot;	&quot;Chronic catatonic schizophrenia&quot;	NA	&quot;68995007&quot;	&quot;E1022&quot;	&quot;E102200&quot;	&quot;schizophrenia&quot;	34</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;132503015&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Subchronic paranoid schizophrenia&quot;	&quot;Subchronic paranoid schizophrenia&quot;	NA	&quot;79866005&quot;	&quot;E1031&quot;	&quot;E103100&quot;	&quot;schizophrenia&quot;	320</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;178723016&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Catatonic schizophrenia in remission&quot;	&quot;Catatonic schizophrenia in remission&quot;	NA	&quot;111483008&quot;	&quot;E1025&quot;	&quot;E102500&quot;	&quot;schizophrenia&quot;	150</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;251628010&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;H/O: schizophrenia&quot;	&quot;H/O: schizophrenia&quot;	NA	&quot;161468000&quot;	&quot;1464&quot;	&quot;1464.00&quot;	&quot;schizophrenia&quot;	70092</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;253124017&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Morbid jealousy&quot;	&quot;Morbid jealousy (disorder)&quot;	NA	&quot;162313000&quot;	&quot;1BC&quot;	&quot;1BC..00&quot;	&quot;other psychosis&quot;	5447</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294724012&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Non-organic psychoses&quot;	&quot;Non-organic psychoses&quot;	NA	&quot;191525009&quot;	&quot;E1&quot;	&quot;E1...00&quot;	&quot;other psychosis&quot;	38968</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294725013&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Schizophrenic disorders&quot;	&quot;Schizophrenic disorders&quot;	NA	&quot;191526005&quot;	&quot;E10&quot;	&quot;E10..00&quot;	&quot;schizophrenia&quot;	551947</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294726014&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Schizophrenia simplex&quot;	&quot;Schizophrenia simplex&quot;	NA	&quot;191527001&quot;	&quot;E100-1&quot;	&quot;E100.11&quot;	&quot;schizophrenia&quot;	370</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294727017&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Simple schizophrenia&quot;	&quot;Simple schizophrenia&quot;	NA	&quot;191527001&quot;	&quot;E100&quot;	&quot;E100.00&quot;	&quot;schizophrenia&quot;	44383</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294728010&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Unspecified schizophrenia&quot;	&quot;Unspecified schizophrenia&quot;	NA	&quot;58214004&quot;	&quot;E1000&quot;	&quot;E100000&quot;	&quot;schizophrenia&quot;	29831</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294730012&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Acute exacerbation of subchronic schizophrenia&quot;	&quot;Acute exacerbation of subchronic schizophrenia&quot;	NA	&quot;111482003&quot;	&quot;E1003&quot;	&quot;E100300&quot;	&quot;schizophrenia&quot;	122</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294731011&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Acute exacerbation of chronic schizophrenia&quot;	&quot;Acute exacerbation of chronic schizophrenia&quot;	NA	&quot;191531007&quot;	&quot;E1004&quot;	&quot;E100400&quot;	&quot;schizophrenia&quot;	1799</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294734015&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Simple schizophrenia NOS&quot;	&quot;Simple schizophrenia NOS&quot;	NA	&quot;191527001&quot;	&quot;E100z&quot;	&quot;E100z00&quot;	&quot;schizophrenia&quot;	644</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294735019&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Unspecified hebephrenic schizophrenia&quot;	&quot;Unspecified hebephrenic schizophrenia&quot;	NA	&quot;35252006&quot;	&quot;E1010&quot;	&quot;E101000&quot;	&quot;schizophrenia&quot;	100</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294736018&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Subchronic hebephrenic schizophrenia&quot;	&quot;Subchronic hebephrenic schizophrenia&quot;	NA	&quot;27387000&quot;	&quot;E1011&quot;	&quot;E101100&quot;	&quot;schizophrenia&quot;	2</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294737010&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Chronic hebephrenic schizophrenia&quot;	&quot;Chronic hebephrenic schizophrenia&quot;	NA	&quot;12939007&quot;	&quot;E1012&quot;	&quot;E101200&quot;	&quot;schizophrenia&quot;	65</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294738017&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Acute exacerbation of subchronic hebephrenic schizophrenia&quot;	&quot;Acute exacerbation of subchronic hebephrenic schizophrenia&quot;	NA	&quot;14291003&quot;	&quot;E1013&quot;	&quot;E101300&quot;	&quot;schizophrenia&quot;	6</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294739013&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Acute exacerbation of chronic hebephrenic schizophrenia&quot;	&quot;Acute exacerbation of chronic hebephrenic schizophrenia&quot;	NA	&quot;191539009&quot;	&quot;E1014&quot;	&quot;E101400&quot;	&quot;schizophrenia&quot;	16</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294740010&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Hebephrenic schizophrenia in remission&quot;	&quot;Hebephrenic schizophrenia in remission&quot;	NA	&quot;31373002&quot;	&quot;E1015&quot;	&quot;E101500&quot;	&quot;schizophrenia&quot;	79</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294741014&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Hebephrenic schizophrenia NOS&quot;	&quot;Hebephrenic schizophrenia NOS&quot;	NA	&quot;35252006&quot;	&quot;E101z&quot;	&quot;E101z00&quot;	&quot;schizophrenia&quot;	388</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294742019&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Catatonic schizophrenia&quot;	&quot;Catatonic schizophrenia&quot;	NA	&quot;191542003&quot;	&quot;E102&quot;	&quot;E102.00&quot;	&quot;schizophrenia&quot;	3884</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294743012&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;[X]Schizophrenic flexibilatis cerea&quot;	&quot;[X]Schizophrenic flexibilatis cerea&quot;	NA	&quot;191542003&quot;	&quot;Eu202-4&quot;	&quot;Eu20214&quot;	&quot;schizophrenia&quot;	2</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294744018&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Unspecified catatonic schizophrenia&quot;	&quot;Unspecified catatonic schizophrenia&quot;	NA	&quot;191542003&quot;	&quot;E1020&quot;	&quot;E102000&quot;	&quot;schizophrenia&quot;	112</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294750011&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Acute exacerbation of subchronic catatonic schizophrenia&quot;	&quot;Acute exacerbation of subchronic catatonic schizophrenia&quot;	NA	&quot;191547009&quot;	&quot;E1023&quot;	&quot;E102300&quot;	&quot;schizophrenia&quot;	12</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294751010&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Acute exacerbation of chronic catatonic schizophrenia&quot;	&quot;Acute exacerbation of chronic catatonic schizophrenia&quot;	NA	&quot;191548004&quot;	&quot;E1024&quot;	&quot;E102400&quot;	&quot;schizophrenia&quot;	14</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294753013&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Catatonic schizophrenia NOS&quot;	&quot;Catatonic schizophrenia NOS&quot;	NA	&quot;191542003&quot;	&quot;E102z&quot;	&quot;E102z00&quot;	&quot;schizophrenia&quot;	104</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294754019&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Unspecified paranoid schizophrenia&quot;	&quot;Unspecified paranoid schizophrenia&quot;	NA	&quot;64905009&quot;	&quot;E1030&quot;	&quot;E103000&quot;	&quot;schizophrenia&quot;	2177</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294757014&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Acute exacerbation of subchronic paranoid schizophrenia&quot;	&quot;Acute exacerbation of subchronic paranoid schizophrenia&quot;	NA	&quot;191554003&quot;	&quot;E1033&quot;	&quot;E103300&quot;	&quot;schizophrenia&quot;	154</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294758016&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Acute exacerbation of chronic paranoid schizophrenia&quot;	&quot;Acute exacerbation of chronic paranoid schizophrenia&quot;	NA	&quot;191555002&quot;	&quot;E1034&quot;	&quot;E103400&quot;	&quot;schizophrenia&quot;	1120</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294760019&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Paranoid schizophrenia NOS&quot;	&quot;Paranoid schizophrenia NOS&quot;	NA	&quot;64905009&quot;	&quot;E103z&quot;	&quot;E103z00&quot;	&quot;schizophrenia&quot;	9037</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294764011&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Latent schizophrenia&quot;	&quot;Latent schizophrenia&quot;	NA	&quot;191559008&quot;	&quot;E105&quot;	&quot;E105.00&quot;	&quot;other psychosis&quot;	199</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294765012&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Unspecified latent schizophrenia&quot;	&quot;Unspecified latent schizophrenia&quot;	NA	&quot;191559008&quot;	&quot;E1050&quot;	&quot;E105000&quot;	&quot;other psychosis&quot;	8</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294766013&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Subchronic latent schizophrenia&quot;	&quot;Subchronic latent schizophrenia&quot;	NA	&quot;191561004&quot;	&quot;E1051&quot;	&quot;E105100&quot;	&quot;other psychosis&quot;	18</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294767016&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Chronic latent schizophrenia&quot;	&quot;Chronic latent schizophrenia&quot;	NA	&quot;191562006&quot;	&quot;E1052&quot;	&quot;E105200&quot;	&quot;other psychosis&quot;	44</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294768014&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Acute exacerbation of subchronic latent schizophrenia&quot;	&quot;Acute exacerbation of subchronic latent schizophrenia&quot;	NA	&quot;191563001&quot;	&quot;E1053&quot;	&quot;E105300&quot;	&quot;other psychosis&quot;	4</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294769018&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Acute exacerbation of chronic latent schizophrenia&quot;	&quot;Acute exacerbation of chronic latent schizophrenia&quot;	NA	&quot;191564007&quot;	&quot;E1054&quot;	&quot;E105400&quot;	&quot;other psychosis&quot;	17</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294770017&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Latent schizophrenia in remission&quot;	&quot;Latent schizophrenia in remission&quot;	NA	&quot;191565008&quot;	&quot;E1055&quot;	&quot;E105500&quot;	&quot;other psychosis&quot;	237</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294771018&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Latent schizophrenia NOS&quot;	&quot;Latent schizophrenia NOS&quot;	NA	&quot;191559008&quot;	&quot;E105z&quot;	&quot;E105z00&quot;	&quot;other psychosis&quot;	326</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294773015&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Cyclic schizophrenia&quot;	&quot;Cyclic schizophrenia&quot;	NA	&quot;191567000&quot;	&quot;E107-1&quot;	&quot;E107.11&quot;	&quot;schizophrenia&quot;	3</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294787015&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Coenesthopathic schizophrenia&quot;	&quot;Coenesthopathic schizophrenia&quot;	NA	&quot;191577003&quot;	&quot;E10y1&quot;	&quot;E10y100&quot;	&quot;schizophrenia&quot;	14</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294788013&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Cenesthopathic schizophrenia&quot;	&quot;Cenesthopathic schizophrenia&quot;	NA	&quot;191577003&quot;	&quot;E10y-1&quot;	&quot;E10y.11&quot;	&quot;schizophrenia&quot;	4</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294789017&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Other schizophrenia NOS&quot;	&quot;Other schizophrenia NOS&quot;	NA	&quot;58214004&quot;	&quot;E10yz&quot;	&quot;E10yz00&quot;	&quot;schizophrenia&quot;	410</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294790014&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Schizophrenia&quot;	&quot;Schizophrenia NOS&quot;	NA	&quot;58214004&quot;	&quot;E10z&quot;	&quot;E10z.00&quot;	&quot;schizophrenia&quot;	416276</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294802018&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Single manic episode, unspecified&quot;	&quot;Single manic episode, unspecified&quot;	NA	&quot;268619003&quot;	&quot;E1100&quot;	&quot;E110000&quot;	&quot;bipolar&quot;	2298</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294803011&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Single manic episode, mild&quot;	&quot;Single manic episode, mild&quot;	NA	&quot;191583000&quot;	&quot;E1101&quot;	&quot;E110100&quot;	&quot;bipolar&quot;	2509</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294804017&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Single manic episode, moderate&quot;	&quot;Single manic episode, moderate&quot;	NA	&quot;191584006&quot;	&quot;E1102&quot;	&quot;E110200&quot;	&quot;bipolar&quot;	419</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294805016&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Single manic episode, severe&quot;	&quot;Single manic episode, severe without mention of psychosis&quot;	NA	&quot;764641000000104&quot;	&quot;E1103&quot;	&quot;E110300&quot;	&quot;bipolar&quot;	349</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294806015&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Single manic episode, severe, with psychosis&quot;	&quot;Single manic episode, severe, with psychosis&quot;	NA	&quot;191586008&quot;	&quot;E1104&quot;	&quot;E110400&quot;	&quot;bipolar&quot;	1753</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294807012&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Single manic episode in partial remission&quot;	&quot;Single manic episode in partial or unspecified remission&quot;	NA	&quot;764731000000103&quot;	&quot;E1105&quot;	&quot;E110500&quot;	&quot;bipolar&quot;	53</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294808019&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Single manic episode in full remission&quot;	&quot;Single manic episode in full remission&quot;	NA	&quot;191588009&quot;	&quot;E1106&quot;	&quot;E110600&quot;	&quot;bipolar&quot;	2229</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294809010&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Manic disorder, single episode NOS&quot;	&quot;Manic disorder, single episode NOS&quot;	NA	&quot;268619003&quot;	&quot;E110z&quot;	&quot;E110z00&quot;	&quot;bipolar&quot;	510</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294810017&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Recurrent manic episodes&quot;	&quot;Recurrent manic episodes&quot;	NA	&quot;191590005&quot;	&quot;E111&quot;	&quot;E111.00&quot;	&quot;bipolar&quot;	3123</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294811018&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Recurrent manic episodes, unspecified&quot;	&quot;Recurrent manic episodes, unspecified&quot;	NA	&quot;191590005&quot;	&quot;E1110&quot;	&quot;E111000&quot;	&quot;bipolar&quot;	466</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294812013&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Recurrent manic episodes, mild&quot;	&quot;Recurrent manic episodes, mild&quot;	NA	&quot;191592002&quot;	&quot;E1111&quot;	&quot;E111100&quot;	&quot;bipolar&quot;	246</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294813015&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Recurrent manic episodes, moderate&quot;	&quot;Recurrent manic episodes, moderate&quot;	NA	&quot;191593007&quot;	&quot;E1112&quot;	&quot;E111200&quot;	&quot;bipolar&quot;	316</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294815010&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Recurrent manic episodes, severe, with psychosis&quot;	&quot;Recurrent manic episodes, severe, with psychosis&quot;	NA	&quot;191595000&quot;	&quot;E1114&quot;	&quot;E111400&quot;	&quot;bipolar&quot;	715</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294817019&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Recurrent manic episodes, in full remission&quot;	&quot;Recurrent manic episodes, in full remission&quot;	NA	&quot;191597008&quot;	&quot;E1116&quot;	&quot;E111600&quot;	&quot;bipolar&quot;	750</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294818012&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Recurrent manic episode NOS&quot;	&quot;Recurrent manic episode NOS&quot;	NA	&quot;191590005&quot;	&quot;E111z&quot;	&quot;E111z00&quot;	&quot;bipolar&quot;	360</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294847017&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Manic-depressive - now manic&quot;	&quot;Manic-depressive - now manic&quot;	NA	&quot;191618007&quot;	&quot;E114-1&quot;	&quot;E114.11&quot;	&quot;bipolar&quot;	1908</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294848010&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Bipolar affective disorder, currently manic, unspecified&quot;	&quot;Bipolar affective disorder, currently manic, unspecified&quot;	NA	&quot;191618007&quot;	&quot;E1140&quot;	&quot;E114000&quot;	&quot;bipolar&quot;	3333</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294849019&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Bipolar affective disorder, currently manic, mild&quot;	&quot;Bipolar affective disorder, currently manic, mild&quot;	NA	&quot;191620005&quot;	&quot;E1141&quot;	&quot;E114100&quot;	&quot;bipolar&quot;	1931</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294850019&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Bipolar affective disorder, currently manic, moderate&quot;	&quot;Bipolar affective disorder, currently manic, moderate&quot;	NA	&quot;191621009&quot;	&quot;E1142&quot;	&quot;E114200&quot;	&quot;bipolar&quot;	1804</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294858014&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Bipolar affective disorder, currently manic, NOS&quot;	&quot;Bipolar affective disorder, currently manic, NOS&quot;	NA	&quot;191618007&quot;	&quot;E114z&quot;	&quot;E114z00&quot;	&quot;bipolar&quot;	1296</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294860011&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Manic-depressive - now depressed&quot;	&quot;Manic-depressive - now depressed&quot;	NA	&quot;191627008&quot;	&quot;E115-1&quot;	&quot;E115.11&quot;	&quot;bipolar&quot;	5194</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294861010&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Bipolar affective disorder, currently depressed, unspecified&quot;	&quot;Bipolar affective disorder, currently depressed, unspecified&quot;	NA	&quot;191627008&quot;	&quot;E1150&quot;	&quot;E115000&quot;	&quot;bipolar&quot;	2493</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294862015&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Bipolar affective disorder, currently depressed, mild&quot;	&quot;Bipolar affective disorder, currently depressed, mild&quot;	NA	&quot;191629006&quot;	&quot;E1151&quot;	&quot;E115100&quot;	&quot;bipolar&quot;	2553</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294863013&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Bipolar affective disorder, currently depressed, moderate&quot;	&quot;Bipolar affective disorder, currently depressed, moderate&quot;	NA	&quot;191630001&quot;	&quot;E1152&quot;	&quot;E115200&quot;	&quot;bipolar&quot;	2293</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294868016&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Bipolar affective disorder, currently depressed, NOS&quot;	&quot;Bipolar affective disorder, currently depressed, NOS&quot;	NA	&quot;191627008&quot;	&quot;E115z&quot;	&quot;E115z00&quot;	&quot;bipolar&quot;	1730</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294869012&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Mixed bipolar affective disorder&quot;	&quot;Mixed bipolar affective disorder&quot;	NA	&quot;191636007&quot;	&quot;E116&quot;	&quot;E116.00&quot;	&quot;bipolar&quot;	82559</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294870013&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Mixed bipolar affective disorder, unspecified&quot;	&quot;Mixed bipolar affective disorder, unspecified&quot;	NA	&quot;191636007&quot;	&quot;E1160&quot;	&quot;E116000&quot;	&quot;bipolar&quot;	4202</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294871012&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Mixed bipolar affective disorder, mild&quot;	&quot;Mixed bipolar affective disorder, mild&quot;	NA	&quot;191638008&quot;	&quot;E1161&quot;	&quot;E116100&quot;	&quot;bipolar&quot;	1046</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294872017&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Mixed bipolar affective disorder, moderate&quot;	&quot;Mixed bipolar affective disorder, moderate&quot;	NA	&quot;191639000&quot;	&quot;E1162&quot;	&quot;E116200&quot;	&quot;bipolar&quot;	1576</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294874016&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Mixed bipolar affective disorder, severe, with psychosis&quot;	&quot;Mixed bipolar affective disorder, severe, with psychosis&quot;	NA	&quot;191641004&quot;	&quot;E1164&quot;	&quot;E116400&quot;	&quot;bipolar&quot;	2763</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294876019&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Mixed bipolar affective disorder, in full remission&quot;	&quot;Mixed bipolar affective disorder, in full remission&quot;	NA	&quot;191643001&quot;	&quot;E1166&quot;	&quot;E116600&quot;	&quot;bipolar&quot;	2015</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294877011&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Mixed bipolar affective disorder, NOS&quot;	&quot;Mixed bipolar affective disorder, NOS&quot;	NA	&quot;191636007&quot;	&quot;E116z&quot;	&quot;E116z00&quot;	&quot;bipolar&quot;	11826</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294880012&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Unspecified bipolar affective disorder&quot;	&quot;Unspecified bipolar affective disorder&quot;	NA	&quot;13746004&quot;	&quot;E117&quot;	&quot;E117.00&quot;	&quot;bipolar&quot;	58499</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294881011&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Unspecified bipolar affective disorder, unspecified&quot;	&quot;Unspecified bipolar affective disorder, unspecified&quot;	NA	&quot;13746004&quot;	&quot;E1170&quot;	&quot;E117000&quot;	&quot;bipolar&quot;	1120</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294882016&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Mild bipolar disorder&quot;	&quot;Unspecified bipolar affective disorder, mild&quot;	NA	&quot;13313007&quot;	&quot;E1171&quot;	&quot;E117100&quot;	&quot;bipolar&quot;	561</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294883014&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Moderate bipolar disorder&quot;	&quot;Unspecified bipolar affective disorder, moderate&quot;	NA	&quot;79584002&quot;	&quot;E1172&quot;	&quot;E117200&quot;	&quot;bipolar&quot;	459</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294887010&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Bipolar disorder in full remission&quot;	&quot;Unspecified bipolar affective disorder, in full remission&quot;	NA	&quot;41836007&quot;	&quot;E1176&quot;	&quot;E117600&quot;	&quot;bipolar&quot;	4214</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294888017&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Unspecified bipolar affective disorder, NOS&quot;	&quot;Unspecified bipolar affective disorder, NOS&quot;	NA	&quot;13746004&quot;	&quot;E117z&quot;	&quot;E117z00&quot;	&quot;bipolar&quot;	3926</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294891017&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Other and unspecified manic-depressive psychoses&quot;	&quot;Other and unspecified manic-depressive psychoses&quot;	NA	&quot;13746004&quot;	&quot;E11y&quot;	&quot;E11y.00&quot;	&quot;bipolar&quot;	13398</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294892012&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Unspecified manic-depressive psychoses&quot;	&quot;Unspecified manic-depressive psychoses&quot;	NA	&quot;13746004&quot;	&quot;E11y0&quot;	&quot;E11y000&quot;	&quot;bipolar&quot;	6367</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294893019&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Atypical manic disorder&quot;	&quot;Atypical manic disorder&quot;	NA	&quot;191658009&quot;	&quot;E11y1&quot;	&quot;E11y100&quot;	&quot;bipolar&quot;	224</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294895014&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Mixed bipolar I disorder&quot;	&quot;Other mixed manic-depressive psychoses&quot;	NA	&quot;16506000&quot;	&quot;E11y3&quot;	&quot;E11y300&quot;	&quot;bipolar&quot;	397</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294896010&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Other and unspecified manic-depressive psychoses NOS&quot;	&quot;Other and unspecified manic-depressive psychoses NOS&quot;	NA	&quot;13746004&quot;	&quot;E11yz&quot;	&quot;E11yz00&quot;	&quot;bipolar&quot;	937</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294897018&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Affective psychosis&quot;	&quot;Other and unspecified affective psychoses&quot;	NA	&quot;441704009&quot;	&quot;E11z&quot;	&quot;E11z.00&quot;	&quot;other psychosis&quot;	5174</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;294898011&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Unspecified affective psychoses NOS&quot;	&quot;Unspecified affective psychoses NOS&quot;	NA	&quot;441704009&quot;	&quot;E11z0&quot;	&quot;E11z000&quot;	&quot;other psychosis&quot;	2466</td>
-<td></td>
+<td>1452014</td>
+<td>Delusion of persecution</td>
+<td>Delusion of persecution (finding)</td>
+<td>NA</td>
+<td>216004</td>
+<td>1BH0</td>
+<td>1BH0.00</td>
+<td>other psychosis</td>
+<td>3852</td>
+</tr>
+<tr>
+<td>4569010</td>
+<td>Delusion</td>
+<td>Delusions (finding)</td>
+<td>NA</td>
+<td>2073000</td>
+<td>1BH-1</td>
+<td>1BH..11</td>
+<td>other psychosis</td>
+<td>3408</td>
+</tr>
+<tr>
+<td>9225016</td>
+<td>Schizophrenia in remission</td>
+<td>Schizophrenia in remission</td>
+<td>NA</td>
+<td>4926007</td>
+<td>E1005</td>
+<td>E100500</td>
+<td>schizophrenia</td>
+<td>16471</td>
+</tr>
+<tr>
+<td>10122017</td>
+<td>Brief reactive psychosis</td>
+<td>Brief reactive psychosis</td>
+<td>NA</td>
+<td>5464005</td>
+<td>E13y1</td>
+<td>E13y100</td>
+<td>other psychosis</td>
+<td>1426</td>
+</tr>
+<tr>
+<td>28758018</td>
+<td>Subchronic schizophrenia</td>
+<td>Subchronic schizophrenia</td>
+<td>NA</td>
+<td>16990005</td>
+<td>E1001</td>
+<td>E100100</td>
+<td>schizophrenia</td>
+<td>51</td>
+</tr>
+<tr>
+<td>43595011</td>
+<td>Residual schizophrenia</td>
+<td>Residual schizophrenia</td>
+<td>NA</td>
+<td>26025008</td>
+<td>E106</td>
+<td>E106.00</td>
+<td>schizophrenia</td>
+<td>2926</td>
+</tr>
+<tr>
+<td>44335019</td>
+<td>Paraphrenia</td>
+<td>Paraphrenia</td>
+<td>NA</td>
+<td>26472000</td>
+<td>E122</td>
+<td>E122.00</td>
+<td>other psychosis</td>
+<td>7852</td>
+</tr>
+<tr>
+<td>52897013</td>
+<td>Chronic paranoid schizophrenia</td>
+<td>Chronic paranoid schizophrenia</td>
+<td>NA</td>
+<td>31658008</td>
+<td>E1032</td>
+<td>E103200</td>
+<td>schizophrenia</td>
+<td>13136</td>
+</tr>
+<tr>
+<td>71539017</td>
+<td>Subchronic catatonic schizophrenia</td>
+<td>Subchronic catatonic schizophrenia</td>
+<td>NA</td>
+<td>42868002</td>
+<td>E1021</td>
+<td>E102100</td>
+<td>schizophrenia</td>
+<td>38</td>
+</tr>
+<tr>
+<td>105029017</td>
+<td>Paranoid schizophrenia in remission</td>
+<td>Paranoid schizophrenia in remission</td>
+<td>NA</td>
+<td>63181006</td>
+<td>E1035</td>
+<td>E103500</td>
+<td>schizophrenia</td>
+<td>6434</td>
+</tr>
+<tr>
+<td>107878010</td>
+<td>Paranoid schizophrenia</td>
+<td>Paranoid schizophrenia</td>
+<td>NA</td>
+<td>64905009</td>
+<td>E103</td>
+<td>E103.00</td>
+<td>schizophrenia</td>
+<td>669437</td>
+</tr>
+<tr>
+<td>114616017</td>
+<td>Chronic catatonic schizophrenia</td>
+<td>Chronic catatonic schizophrenia</td>
+<td>NA</td>
+<td>68995007</td>
+<td>E1022</td>
+<td>E102200</td>
+<td>schizophrenia</td>
+<td>34</td>
+</tr>
+<tr>
+<td>132503015</td>
+<td>Subchronic paranoid schizophrenia</td>
+<td>Subchronic paranoid schizophrenia</td>
+<td>NA</td>
+<td>79866005</td>
+<td>E1031</td>
+<td>E103100</td>
+<td>schizophrenia</td>
+<td>320</td>
+</tr>
+<tr>
+<td>178723016</td>
+<td>Catatonic schizophrenia in remission</td>
+<td>Catatonic schizophrenia in remission</td>
+<td>NA</td>
+<td>111483008</td>
+<td>E1025</td>
+<td>E102500</td>
+<td>schizophrenia</td>
+<td>150</td>
+</tr>
+<tr>
+<td>251628010</td>
+<td>H/O: schizophrenia</td>
+<td>H/O: schizophrenia</td>
+<td>NA</td>
+<td>161468000</td>
+<td>1464</td>
+<td>1464.00</td>
+<td>schizophrenia</td>
+<td>70092</td>
+</tr>
+<tr>
+<td>253124017</td>
+<td>Morbid jealousy</td>
+<td>Morbid jealousy (disorder)</td>
+<td>NA</td>
+<td>162313000</td>
+<td>1BC</td>
+<td>1BC..00</td>
+<td>other psychosis</td>
+<td>5447</td>
+</tr>
+<tr>
+<td>294724012</td>
+<td>Non-organic psychoses</td>
+<td>Non-organic psychoses</td>
+<td>NA</td>
+<td>191525009</td>
+<td>E1</td>
+<td>E1...00</td>
+<td>other psychosis</td>
+<td>38968</td>
+</tr>
+<tr>
+<td>294725013</td>
+<td>Schizophrenic disorders</td>
+<td>Schizophrenic disorders</td>
+<td>NA</td>
+<td>191526005</td>
+<td>E10</td>
+<td>E10..00</td>
+<td>schizophrenia</td>
+<td>551947</td>
+</tr>
+<tr>
+<td>294726014</td>
+<td>Schizophrenia simplex</td>
+<td>Schizophrenia simplex</td>
+<td>NA</td>
+<td>191527001</td>
+<td>E100-1</td>
+<td>E100.11</td>
+<td>schizophrenia</td>
+<td>370</td>
+</tr>
+<tr>
+<td>294727017</td>
+<td>Simple schizophrenia</td>
+<td>Simple schizophrenia</td>
+<td>NA</td>
+<td>191527001</td>
+<td>E100</td>
+<td>E100.00</td>
+<td>schizophrenia</td>
+<td>44383</td>
+</tr>
+<tr>
+<td>294728010</td>
+<td>Unspecified schizophrenia</td>
+<td>Unspecified schizophrenia</td>
+<td>NA</td>
+<td>58214004</td>
+<td>E1000</td>
+<td>E100000</td>
+<td>schizophrenia</td>
+<td>29831</td>
+</tr>
+<tr>
+<td>294730012</td>
+<td>Acute exacerbation of subchronic schizophrenia</td>
+<td>Acute exacerbation of subchronic schizophrenia</td>
+<td>NA</td>
+<td>111482003</td>
+<td>E1003</td>
+<td>E100300</td>
+<td>schizophrenia</td>
+<td>122</td>
+</tr>
+<tr>
+<td>294731011</td>
+<td>Acute exacerbation of chronic schizophrenia</td>
+<td>Acute exacerbation of chronic schizophrenia</td>
+<td>NA</td>
+<td>191531007</td>
+<td>E1004</td>
+<td>E100400</td>
+<td>schizophrenia</td>
+<td>1799</td>
+</tr>
+<tr>
+<td>294734015</td>
+<td>Simple schizophrenia NOS</td>
+<td>Simple schizophrenia NOS</td>
+<td>NA</td>
+<td>191527001</td>
+<td>E100z</td>
+<td>E100z00</td>
+<td>schizophrenia</td>
+<td>644</td>
+</tr>
+<tr>
+<td>294735019</td>
+<td>Unspecified hebephrenic schizophrenia</td>
+<td>Unspecified hebephrenic schizophrenia</td>
+<td>NA</td>
+<td>35252006</td>
+<td>E1010</td>
+<td>E101000</td>
+<td>schizophrenia</td>
+<td>100</td>
+</tr>
+<tr>
+<td>294736018</td>
+<td>Subchronic hebephrenic schizophrenia</td>
+<td>Subchronic hebephrenic schizophrenia</td>
+<td>NA</td>
+<td>27387000</td>
+<td>E1011</td>
+<td>E101100</td>
+<td>schizophrenia</td>
+<td>2</td>
+</tr>
+<tr>
+<td>294737010</td>
+<td>Chronic hebephrenic schizophrenia</td>
+<td>Chronic hebephrenic schizophrenia</td>
+<td>NA</td>
+<td>12939007</td>
+<td>E1012</td>
+<td>E101200</td>
+<td>schizophrenia</td>
+<td>65</td>
+</tr>
+<tr>
+<td>294738017</td>
+<td>Acute exacerbation of subchronic hebephrenic schizophrenia</td>
+<td>Acute exacerbation of subchronic hebephrenic schizophrenia</td>
+<td>NA</td>
+<td>14291003</td>
+<td>E1013</td>
+<td>E101300</td>
+<td>schizophrenia</td>
+<td>6</td>
+</tr>
+<tr>
+<td>294739013</td>
+<td>Acute exacerbation of chronic hebephrenic schizophrenia</td>
+<td>Acute exacerbation of chronic hebephrenic schizophrenia</td>
+<td>NA</td>
+<td>191539009</td>
+<td>E1014</td>
+<td>E101400</td>
+<td>schizophrenia</td>
+<td>16</td>
+</tr>
+<tr>
+<td>294740010</td>
+<td>Hebephrenic schizophrenia in remission</td>
+<td>Hebephrenic schizophrenia in remission</td>
+<td>NA</td>
+<td>31373002</td>
+<td>E1015</td>
+<td>E101500</td>
+<td>schizophrenia</td>
+<td>79</td>
+</tr>
+<tr>
+<td>294741014</td>
+<td>Hebephrenic schizophrenia NOS</td>
+<td>Hebephrenic schizophrenia NOS</td>
+<td>NA</td>
+<td>35252006</td>
+<td>E101z</td>
+<td>E101z00</td>
+<td>schizophrenia</td>
+<td>388</td>
+</tr>
+<tr>
+<td>294742019</td>
+<td>Catatonic schizophrenia</td>
+<td>Catatonic schizophrenia</td>
+<td>NA</td>
+<td>191542003</td>
+<td>E102</td>
+<td>E102.00</td>
+<td>schizophrenia</td>
+<td>3884</td>
+</tr>
+<tr>
+<td>294743012</td>
+<td>[X]Schizophrenic flexibilatis cerea</td>
+<td>[X]Schizophrenic flexibilatis cerea</td>
+<td>NA</td>
+<td>191542003</td>
+<td>Eu202-4</td>
+<td>Eu20214</td>
+<td>schizophrenia</td>
+<td>2</td>
+</tr>
+<tr>
+<td>294744018</td>
+<td>Unspecified catatonic schizophrenia</td>
+<td>Unspecified catatonic schizophrenia</td>
+<td>NA</td>
+<td>191542003</td>
+<td>E1020</td>
+<td>E102000</td>
+<td>schizophrenia</td>
+<td>112</td>
+</tr>
+<tr>
+<td>294750011</td>
+<td>Acute exacerbation of subchronic catatonic schizophrenia</td>
+<td>Acute exacerbation of subchronic catatonic schizophrenia</td>
+<td>NA</td>
+<td>191547009</td>
+<td>E1023</td>
+<td>E102300</td>
+<td>schizophrenia</td>
+<td>12</td>
+</tr>
+<tr>
+<td>294751010</td>
+<td>Acute exacerbation of chronic catatonic schizophrenia</td>
+<td>Acute exacerbation of chronic catatonic schizophrenia</td>
+<td>NA</td>
+<td>191548004</td>
+<td>E1024</td>
+<td>E102400</td>
+<td>schizophrenia</td>
+<td>14</td>
+</tr>
+<tr>
+<td>294753013</td>
+<td>Catatonic schizophrenia NOS</td>
+<td>Catatonic schizophrenia NOS</td>
+<td>NA</td>
+<td>191542003</td>
+<td>E102z</td>
+<td>E102z00</td>
+<td>schizophrenia</td>
+<td>104</td>
+</tr>
+<tr>
+<td>294754019</td>
+<td>Unspecified paranoid schizophrenia</td>
+<td>Unspecified paranoid schizophrenia</td>
+<td>NA</td>
+<td>64905009</td>
+<td>E1030</td>
+<td>E103000</td>
+<td>schizophrenia</td>
+<td>2177</td>
+</tr>
+<tr>
+<td>294757014</td>
+<td>Acute exacerbation of subchronic paranoid schizophrenia</td>
+<td>Acute exacerbation of subchronic paranoid schizophrenia</td>
+<td>NA</td>
+<td>191554003</td>
+<td>E1033</td>
+<td>E103300</td>
+<td>schizophrenia</td>
+<td>154</td>
+</tr>
+<tr>
+<td>294758016</td>
+<td>Acute exacerbation of chronic paranoid schizophrenia</td>
+<td>Acute exacerbation of chronic paranoid schizophrenia</td>
+<td>NA</td>
+<td>191555002</td>
+<td>E1034</td>
+<td>E103400</td>
+<td>schizophrenia</td>
+<td>1120</td>
+</tr>
+<tr>
+<td>294760019</td>
+<td>Paranoid schizophrenia NOS</td>
+<td>Paranoid schizophrenia NOS</td>
+<td>NA</td>
+<td>64905009</td>
+<td>E103z</td>
+<td>E103z00</td>
+<td>schizophrenia</td>
+<td>9037</td>
+</tr>
+<tr>
+<td>294764011</td>
+<td>Latent schizophrenia</td>
+<td>Latent schizophrenia</td>
+<td>NA</td>
+<td>191559008</td>
+<td>E105</td>
+<td>E105.00</td>
+<td>other psychosis</td>
+<td>199</td>
+</tr>
+<tr>
+<td>294765012</td>
+<td>Unspecified latent schizophrenia</td>
+<td>Unspecified latent schizophrenia</td>
+<td>NA</td>
+<td>191559008</td>
+<td>E1050</td>
+<td>E105000</td>
+<td>other psychosis</td>
+<td>8</td>
+</tr>
+<tr>
+<td>294766013</td>
+<td>Subchronic latent schizophrenia</td>
+<td>Subchronic latent schizophrenia</td>
+<td>NA</td>
+<td>191561004</td>
+<td>E1051</td>
+<td>E105100</td>
+<td>other psychosis</td>
+<td>18</td>
+</tr>
+<tr>
+<td>294767016</td>
+<td>Chronic latent schizophrenia</td>
+<td>Chronic latent schizophrenia</td>
+<td>NA</td>
+<td>191562006</td>
+<td>E1052</td>
+<td>E105200</td>
+<td>other psychosis</td>
+<td>44</td>
+</tr>
+<tr>
+<td>294768014</td>
+<td>Acute exacerbation of subchronic latent schizophrenia</td>
+<td>Acute exacerbation of subchronic latent schizophrenia</td>
+<td>NA</td>
+<td>191563001</td>
+<td>E1053</td>
+<td>E105300</td>
+<td>other psychosis</td>
+<td>4</td>
+</tr>
+<tr>
+<td>294769018</td>
+<td>Acute exacerbation of chronic latent schizophrenia</td>
+<td>Acute exacerbation of chronic latent schizophrenia</td>
+<td>NA</td>
+<td>191564007</td>
+<td>E1054</td>
+<td>E105400</td>
+<td>other psychosis</td>
+<td>17</td>
+</tr>
+<tr>
+<td>294770017</td>
+<td>Latent schizophrenia in remission</td>
+<td>Latent schizophrenia in remission</td>
+<td>NA</td>
+<td>191565008</td>
+<td>E1055</td>
+<td>E105500</td>
+<td>other psychosis</td>
+<td>237</td>
+</tr>
+<tr>
+<td>294771018</td>
+<td>Latent schizophrenia NOS</td>
+<td>Latent schizophrenia NOS</td>
+<td>NA</td>
+<td>191559008</td>
+<td>E105z</td>
+<td>E105z00</td>
+<td>other psychosis</td>
+<td>326</td>
+</tr>
+<tr>
+<td>294773015</td>
+<td>Cyclic schizophrenia</td>
+<td>Cyclic schizophrenia</td>
+<td>NA</td>
+<td>191567000</td>
+<td>E107-1</td>
+<td>E107.11</td>
+<td>schizophrenia</td>
+<td>3</td>
+</tr>
+<tr>
+<td>294787015</td>
+<td>Coenesthopathic schizophrenia</td>
+<td>Coenesthopathic schizophrenia</td>
+<td>NA</td>
+<td>191577003</td>
+<td>E10y1</td>
+<td>E10y100</td>
+<td>schizophrenia</td>
+<td>14</td>
+</tr>
+<tr>
+<td>294788013</td>
+<td>Cenesthopathic schizophrenia</td>
+<td>Cenesthopathic schizophrenia</td>
+<td>NA</td>
+<td>191577003</td>
+<td>E10y-1</td>
+<td>E10y.11</td>
+<td>schizophrenia</td>
+<td>4</td>
+</tr>
+<tr>
+<td>294789017</td>
+<td>Other schizophrenia NOS</td>
+<td>Other schizophrenia NOS</td>
+<td>NA</td>
+<td>58214004</td>
+<td>E10yz</td>
+<td>E10yz00</td>
+<td>schizophrenia</td>
+<td>410</td>
+</tr>
+<tr>
+<td>294790014</td>
+<td>Schizophrenia</td>
+<td>Schizophrenia NOS</td>
+<td>NA</td>
+<td>58214004</td>
+<td>E10z</td>
+<td>E10z.00</td>
+<td>schizophrenia</td>
+<td>416276</td>
+</tr>
+<tr>
+<td>294802018</td>
+<td>Single manic episode, unspecified</td>
+<td>Single manic episode, unspecified</td>
+<td>NA</td>
+<td>268619003</td>
+<td>E1100</td>
+<td>E110000</td>
+<td>bipolar</td>
+<td>2298</td>
+</tr>
+<tr>
+<td>294803011</td>
+<td>Single manic episode, mild</td>
+<td>Single manic episode, mild</td>
+<td>NA</td>
+<td>191583000</td>
+<td>E1101</td>
+<td>E110100</td>
+<td>bipolar</td>
+<td>2509</td>
+</tr>
+<tr>
+<td>294804017</td>
+<td>Single manic episode, moderate</td>
+<td>Single manic episode, moderate</td>
+<td>NA</td>
+<td>191584006</td>
+<td>E1102</td>
+<td>E110200</td>
+<td>bipolar</td>
+<td>419</td>
+</tr>
+<tr>
+<td>294805016</td>
+<td>Single manic episode, severe</td>
+<td>Single manic episode, severe without mention of psychosis</td>
+<td>NA</td>
+<td>764641000000104</td>
+<td>E1103</td>
+<td>E110300</td>
+<td>bipolar</td>
+<td>349</td>
+</tr>
+<tr>
+<td>294806015</td>
+<td>Single manic episode, severe, with psychosis</td>
+<td>Single manic episode, severe, with psychosis</td>
+<td>NA</td>
+<td>191586008</td>
+<td>E1104</td>
+<td>E110400</td>
+<td>bipolar</td>
+<td>1753</td>
+</tr>
+<tr>
+<td>294807012</td>
+<td>Single manic episode in partial remission</td>
+<td>Single manic episode in partial or unspecified remission</td>
+<td>NA</td>
+<td>764731000000103</td>
+<td>E1105</td>
+<td>E110500</td>
+<td>bipolar</td>
+<td>53</td>
+</tr>
+<tr>
+<td>294808019</td>
+<td>Single manic episode in full remission</td>
+<td>Single manic episode in full remission</td>
+<td>NA</td>
+<td>191588009</td>
+<td>E1106</td>
+<td>E110600</td>
+<td>bipolar</td>
+<td>2229</td>
+</tr>
+<tr>
+<td>294809010</td>
+<td>Manic disorder, single episode NOS</td>
+<td>Manic disorder, single episode NOS</td>
+<td>NA</td>
+<td>268619003</td>
+<td>E110z</td>
+<td>E110z00</td>
+<td>bipolar</td>
+<td>510</td>
+</tr>
+<tr>
+<td>294810017</td>
+<td>Recurrent manic episodes</td>
+<td>Recurrent manic episodes</td>
+<td>NA</td>
+<td>191590005</td>
+<td>E111</td>
+<td>E111.00</td>
+<td>bipolar</td>
+<td>3123</td>
+</tr>
+<tr>
+<td>294811018</td>
+<td>Recurrent manic episodes, unspecified</td>
+<td>Recurrent manic episodes, unspecified</td>
+<td>NA</td>
+<td>191590005</td>
+<td>E1110</td>
+<td>E111000</td>
+<td>bipolar</td>
+<td>466</td>
+</tr>
+<tr>
+<td>294812013</td>
+<td>Recurrent manic episodes, mild</td>
+<td>Recurrent manic episodes, mild</td>
+<td>NA</td>
+<td>191592002</td>
+<td>E1111</td>
+<td>E111100</td>
+<td>bipolar</td>
+<td>246</td>
+</tr>
+<tr>
+<td>294813015</td>
+<td>Recurrent manic episodes, moderate</td>
+<td>Recurrent manic episodes, moderate</td>
+<td>NA</td>
+<td>191593007</td>
+<td>E1112</td>
+<td>E111200</td>
+<td>bipolar</td>
+<td>316</td>
+</tr>
+<tr>
+<td>294815010</td>
+<td>Recurrent manic episodes, severe, with psychosis</td>
+<td>Recurrent manic episodes, severe, with psychosis</td>
+<td>NA</td>
+<td>191595000</td>
+<td>E1114</td>
+<td>E111400</td>
+<td>bipolar</td>
+<td>715</td>
+</tr>
+<tr>
+<td>294817019</td>
+<td>Recurrent manic episodes, in full remission</td>
+<td>Recurrent manic episodes, in full remission</td>
+<td>NA</td>
+<td>191597008</td>
+<td>E1116</td>
+<td>E111600</td>
+<td>bipolar</td>
+<td>750</td>
+</tr>
+<tr>
+<td>294818012</td>
+<td>Recurrent manic episode NOS</td>
+<td>Recurrent manic episode NOS</td>
+<td>NA</td>
+<td>191590005</td>
+<td>E111z</td>
+<td>E111z00</td>
+<td>bipolar</td>
+<td>360</td>
+</tr>
+<tr>
+<td>294847017</td>
+<td>Manic-depressive - now manic</td>
+<td>Manic-depressive - now manic</td>
+<td>NA</td>
+<td>191618007</td>
+<td>E114-1</td>
+<td>E114.11</td>
+<td>bipolar</td>
+<td>1908</td>
+</tr>
+<tr>
+<td>294848010</td>
+<td>Bipolar affective disorder, currently manic, unspecified</td>
+<td>Bipolar affective disorder, currently manic, unspecified</td>
+<td>NA</td>
+<td>191618007</td>
+<td>E1140</td>
+<td>E114000</td>
+<td>bipolar</td>
+<td>3333</td>
+</tr>
+<tr>
+<td>294849019</td>
+<td>Bipolar affective disorder, currently manic, mild</td>
+<td>Bipolar affective disorder, currently manic, mild</td>
+<td>NA</td>
+<td>191620005</td>
+<td>E1141</td>
+<td>E114100</td>
+<td>bipolar</td>
+<td>1931</td>
+</tr>
+<tr>
+<td>294850019</td>
+<td>Bipolar affective disorder, currently manic, moderate</td>
+<td>Bipolar affective disorder, currently manic, moderate</td>
+<td>NA</td>
+<td>191621009</td>
+<td>E1142</td>
+<td>E114200</td>
+<td>bipolar</td>
+<td>1804</td>
+</tr>
+<tr>
+<td>294858014</td>
+<td>Bipolar affective disorder, currently manic, NOS</td>
+<td>Bipolar affective disorder, currently manic, NOS</td>
+<td>NA</td>
+<td>191618007</td>
+<td>E114z</td>
+<td>E114z00</td>
+<td>bipolar</td>
+<td>1296</td>
+</tr>
+<tr>
+<td>294860011</td>
+<td>Manic-depressive - now depressed</td>
+<td>Manic-depressive - now depressed</td>
+<td>NA</td>
+<td>191627008</td>
+<td>E115-1</td>
+<td>E115.11</td>
+<td>bipolar</td>
+<td>5194</td>
+</tr>
+<tr>
+<td>294861010</td>
+<td>Bipolar affective disorder, currently depressed, unspecified</td>
+<td>Bipolar affective disorder, currently depressed, unspecified</td>
+<td>NA</td>
+<td>191627008</td>
+<td>E1150</td>
+<td>E115000</td>
+<td>bipolar</td>
+<td>2493</td>
+</tr>
+<tr>
+<td>294862015</td>
+<td>Bipolar affective disorder, currently depressed, mild</td>
+<td>Bipolar affective disorder, currently depressed, mild</td>
+<td>NA</td>
+<td>191629006</td>
+<td>E1151</td>
+<td>E115100</td>
+<td>bipolar</td>
+<td>2553</td>
+</tr>
+<tr>
+<td>294863013</td>
+<td>Bipolar affective disorder, currently depressed, moderate</td>
+<td>Bipolar affective disorder, currently depressed, moderate</td>
+<td>NA</td>
+<td>191630001</td>
+<td>E1152</td>
+<td>E115200</td>
+<td>bipolar</td>
+<td>2293</td>
+</tr>
+<tr>
+<td>294868016</td>
+<td>Bipolar affective disorder, currently depressed, NOS</td>
+<td>Bipolar affective disorder, currently depressed, NOS</td>
+<td>NA</td>
+<td>191627008</td>
+<td>E115z</td>
+<td>E115z00</td>
+<td>bipolar</td>
+<td>1730</td>
+</tr>
+<tr>
+<td>294869012</td>
+<td>Mixed bipolar affective disorder</td>
+<td>Mixed bipolar affective disorder</td>
+<td>NA</td>
+<td>191636007</td>
+<td>E116</td>
+<td>E116.00</td>
+<td>bipolar</td>
+<td>82559</td>
+</tr>
+<tr>
+<td>294870013</td>
+<td>Mixed bipolar affective disorder, unspecified</td>
+<td>Mixed bipolar affective disorder, unspecified</td>
+<td>NA</td>
+<td>191636007</td>
+<td>E1160</td>
+<td>E116000</td>
+<td>bipolar</td>
+<td>4202</td>
+</tr>
+<tr>
+<td>294871012</td>
+<td>Mixed bipolar affective disorder, mild</td>
+<td>Mixed bipolar affective disorder, mild</td>
+<td>NA</td>
+<td>191638008</td>
+<td>E1161</td>
+<td>E116100</td>
+<td>bipolar</td>
+<td>1046</td>
+</tr>
+<tr>
+<td>294872017</td>
+<td>Mixed bipolar affective disorder, moderate</td>
+<td>Mixed bipolar affective disorder, moderate</td>
+<td>NA</td>
+<td>191639000</td>
+<td>E1162</td>
+<td>E116200</td>
+<td>bipolar</td>
+<td>1576</td>
+</tr>
+<tr>
+<td>294874016</td>
+<td>Mixed bipolar affective disorder, severe, with psychosis</td>
+<td>Mixed bipolar affective disorder, severe, with psychosis</td>
+<td>NA</td>
+<td>191641004</td>
+<td>E1164</td>
+<td>E116400</td>
+<td>bipolar</td>
+<td>2763</td>
+</tr>
+<tr>
+<td>294876019</td>
+<td>Mixed bipolar affective disorder, in full remission</td>
+<td>Mixed bipolar affective disorder, in full remission</td>
+<td>NA</td>
+<td>191643001</td>
+<td>E1166</td>
+<td>E116600</td>
+<td>bipolar</td>
+<td>2015</td>
+</tr>
+<tr>
+<td>294877011</td>
+<td>Mixed bipolar affective disorder, NOS</td>
+<td>Mixed bipolar affective disorder, NOS</td>
+<td>NA</td>
+<td>191636007</td>
+<td>E116z</td>
+<td>E116z00</td>
+<td>bipolar</td>
+<td>11826</td>
+</tr>
+<tr>
+<td>294880012</td>
+<td>Unspecified bipolar affective disorder</td>
+<td>Unspecified bipolar affective disorder</td>
+<td>NA</td>
+<td>13746004</td>
+<td>E117</td>
+<td>E117.00</td>
+<td>bipolar</td>
+<td>58499</td>
+</tr>
+<tr>
+<td>294881011</td>
+<td>Unspecified bipolar affective disorder, unspecified</td>
+<td>Unspecified bipolar affective disorder, unspecified</td>
+<td>NA</td>
+<td>13746004</td>
+<td>E1170</td>
+<td>E117000</td>
+<td>bipolar</td>
+<td>1120</td>
+</tr>
+<tr>
+<td>294882016</td>
+<td>Mild bipolar disorder</td>
+<td>Unspecified bipolar affective disorder, mild</td>
+<td>NA</td>
+<td>13313007</td>
+<td>E1171</td>
+<td>E117100</td>
+<td>bipolar</td>
+<td>561</td>
+</tr>
+<tr>
+<td>294883014</td>
+<td>Moderate bipolar disorder</td>
+<td>Unspecified bipolar affective disorder, moderate</td>
+<td>NA</td>
+<td>79584002</td>
+<td>E1172</td>
+<td>E117200</td>
+<td>bipolar</td>
+<td>459</td>
+</tr>
+<tr>
+<td>294887010</td>
+<td>Bipolar disorder in full remission</td>
+<td>Unspecified bipolar affective disorder, in full remission</td>
+<td>NA</td>
+<td>41836007</td>
+<td>E1176</td>
+<td>E117600</td>
+<td>bipolar</td>
+<td>4214</td>
+</tr>
+<tr>
+<td>294888017</td>
+<td>Unspecified bipolar affective disorder, NOS</td>
+<td>Unspecified bipolar affective disorder, NOS</td>
+<td>NA</td>
+<td>13746004</td>
+<td>E117z</td>
+<td>E117z00</td>
+<td>bipolar</td>
+<td>3926</td>
+</tr>
+<tr>
+<td>294891017</td>
+<td>Other and unspecified manic-depressive psychoses</td>
+<td>Other and unspecified manic-depressive psychoses</td>
+<td>NA</td>
+<td>13746004</td>
+<td>E11y</td>
+<td>E11y.00</td>
+<td>bipolar</td>
+<td>13398</td>
+</tr>
+<tr>
+<td>294892012</td>
+<td>Unspecified manic-depressive psychoses</td>
+<td>Unspecified manic-depressive psychoses</td>
+<td>NA</td>
+<td>13746004</td>
+<td>E11y0</td>
+<td>E11y000</td>
+<td>bipolar</td>
+<td>6367</td>
+</tr>
+<tr>
+<td>294893019</td>
+<td>Atypical manic disorder</td>
+<td>Atypical manic disorder</td>
+<td>NA</td>
+<td>191658009</td>
+<td>E11y1</td>
+<td>E11y100</td>
+<td>bipolar</td>
+<td>224</td>
+</tr>
+<tr>
+<td>294895014</td>
+<td>Mixed bipolar I disorder</td>
+<td>Other mixed manic-depressive psychoses</td>
+<td>NA</td>
+<td>16506000</td>
+<td>E11y3</td>
+<td>E11y300</td>
+<td>bipolar</td>
+<td>397</td>
+</tr>
+<tr>
+<td>294896010</td>
+<td>Other and unspecified manic-depressive psychoses NOS</td>
+<td>Other and unspecified manic-depressive psychoses NOS</td>
+<td>NA</td>
+<td>13746004</td>
+<td>E11yz</td>
+<td>E11yz00</td>
+<td>bipolar</td>
+<td>937</td>
+</tr>
+<tr>
+<td>294897018</td>
+<td>Affective psychosis</td>
+<td>Other and unspecified affective psychoses</td>
+<td>NA</td>
+<td>441704009</td>
+<td>E11z</td>
+<td>E11z.00</td>
+<td>other psychosis</td>
+<td>5174</td>
+</tr>
+<tr>
+<td>294898011</td>
+<td>Unspecified affective psychoses NOS</td>
+<td>Unspecified affective psychoses NOS</td>
+<td>NA</td>
+<td>441704009</td>
+<td>E11z0</td>
+<td>E11z000</td>
+<td>other psychosis</td>
+<td>2466</td>
+</tr>
+<tr>
+<td>294902017</td>
+<td>Other affective psychosis NOS</td>
+<td>Other affective psychosis NOS</td>
+<td>NA</td>
+<td>441704009</td>
+<td>E11zz</td>
+<td>E11zz00</td>
+<td>other psychosis</td>
+<td>3561</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p><em>Preview shows first 100 rows.</em></p>
-
-### Metadata star legend
-
-<div class="metadata-legend">
-<div><span class="meta-star meta-star-1">★</span> 1. Dataset used</div>
-<div><span class="meta-star meta-star-2">★</span> 2. Version information</div>
-<div><span class="meta-star meta-star-3">★</span> 3. Inclusion / exclusion criteria in generating script</div>
-<div><span class="meta-star meta-star-4">★</span> 4. Pre-print / publication / protocol information</div>
-<div><span class="meta-star meta-star-5">★</span> 5. Exposure / outcome / covariate flag</div>
-<div><span class="meta-star meta-star-6">★</span> 6. Clinical or alternative reviewer information</div>
-<div><span class="meta-star meta-star-7">★</span> 7. Citation file (.cff)</div>
-<div><span class="meta-star meta-star-8">★</span> 8. Coding system information</div>
-<div><span class="meta-star meta-star-9">★</span> 9. Brief phenotype description and usage</div>
-</div>
+<p><em>Preview shows first 100 rows from the original codelist file.</em></p>
 

@@ -1,23 +1,38 @@
 # Selfharm
 
 <div class="phenotype-header-card">
-<p class="phenotype-kicker">CPRD Gold phenotype</p>
-<h2>Selfharm</h2>
-<p class="phenotype-subtitle">Code name: <code>selfharm</code></p>
-<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-4" title="4. Pre-print / publication / protocol information" aria-label="4. Pre-print / publication / protocol information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
+<div class="phenotype-header-fields">
+<div><strong>Dataset:</strong> CPRD Gold</div>
+<div><strong>ID (phenotype-githubID-repoStart):</strong> <code>selfharm-naomilaunders-repurposing</code></div>
+<div><strong>Source:</strong> <a href="https://github.com/NaomiLaunders/Repurposing-statins-in-SMI">NaomiLaunders/Repurposing-statins-in-SMI</a></div>
+<div><strong>License:</strong> MIT</div>
+<div><strong>Date Created:</strong> 2026-04-22</div>
+<div><strong>Date Imported:</strong> 2026-04-22</div>
+<div><strong>Date Updated:</strong> 2026-04-22</div>
+</div>
 </div>
 
-## Repository details
+## Metadata
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Name</dt><dd>Selfharm</dd></div><div class="phenotype-meta-row"><dt>Version</dt><dd>0.1.0</dd></div><div class="phenotype-meta-row"><dt>ID</dt><dd><code>selfharm-cprd-gold-unknown-f7d53dec</code></dd></div><div class="phenotype-meta-row"><dt>Status</dt><dd>draft</dd></div><div class="phenotype-meta-row"><dt>Dataset</dt><dd>CPRD Gold</dd></div><div class="phenotype-meta-row"><dt>Code name</dt><dd><code>selfharm</code></dd></div><div class="phenotype-meta-row"><dt>Phenotype group</dt><dd>Code lists</dd></div><div class="phenotype-meta-row"><dt>Coding system</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Coding systems</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Phenotype role</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Created</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Imported</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Updated</dt><dd>2026-04-22</dd></div></div>
+<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-4" title="4. Pre-print / publication / protocol information" aria-label="4. Pre-print / publication / protocol information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
 
-## Background information
+<br>
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Summary</dt><dd>Auto-ingested from NaomiLaunders/Repurposing-statins-in-SMI (main) at 55a86d5fcf8e8cb851419ea126e9563b69ed1135. Source path: Code lists/SelfHarmGold.txt.</dd></div><div class="phenotype-meta-row"><dt>Usage notes</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Dataset context</dt><dd>CPRD Gold</dd></div><div class="phenotype-meta-row"><dt>Provenance</dt><dd>Imported</dd></div><div class="phenotype-meta-row"><dt>Source citation</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source repository</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source path</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Evidence</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Review</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Contacts</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>License</dt><dd>MIT</dd></div><div class="phenotype-meta-row"><dt>Tags</dt><dd>NA</dd></div></div>
+<div class="metadata-detail-list">
+<div class="metadata-detail-row"><span class="meta-star meta-star-1">★</span> <strong>Dataset used:</strong> CPRD Gold</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-2">★</span> <strong>Version information:</strong> 0.1.0</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-3">☆</span> <strong>Inclusion / exclusion criteria in generating script:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-4">★</span> <strong>Pre-print / publication / protocol information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-5">☆</span> <strong>Exposure / outcome / covariate flag:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-6">☆</span> <strong>Clinical or alternative reviewer information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-7">☆</span> <strong>Citation file (.cff):</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-8">☆</span> <strong>Coding system information:</strong> Unknown</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-9">★</span> <strong>Brief phenotype description and usage:</strong> Auto-ingested from NaomiLaunders/Repurposing-statins-in-SMI (main) at 55a86d5fcf8e8cb851419ea126e9563b69ed1135. Source path: Code lists/SelfHarmGold.txt.</div>
+</div>
 
 ## Downloads
 
-<ul class="phenotype-download-list"><li><a href="../source/selfharm-cprd-gold-unknown-f7d53dec.txt">Download original codelist.txt</a></li><li><a href="../csv/selfharm-cprd-gold-unknown-f7d53dec.csv">Download normalized CSV</a></li></ul>
+<ul class="phenotype-download-list"><li><a href="../../source/selfharm-cprd-gold-unknown-f7d53dec.txt" download="selfharm-cprd-gold-unknown-f7d53dec.txt">Download original codelist (.txt)</a></li></ul>
 
 ## Codelist preview
 
@@ -25,730 +40,716 @@
 <table>
 <thead>
 <tr>
-<th>code</th>
-<th>code_system</th>
-<th>include</th>
-<th>term</th>
-<th>notes</th>
+<th>medcode</th>
+<th>readcode</th>
+<th>desc</th>
+<th>SH</th>
+<th>Group</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>&quot;medcode&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;readcode&quot;	&quot;desc&quot;	&quot;SH&quot;	&quot;Group&quot;</td>
-<td></td>
+<td>171</td>
+<td>SL...15</td>
+<td>overdose of drug</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;171&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;SL...15&quot;	&quot;overdose of drug&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>697</td>
+<td>U20..11</td>
+<td>[x]deliberate drug overdose / other poisoning</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;697&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U20..11&quot;	&quot;[x]deliberate drug overdose / other poisoning&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>2557</td>
+<td>TK05.00</td>
+<td>suicide + selfinflicted poisoning by drug or medicine nos</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;2557&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK05.00&quot;	&quot;suicide + selfinflicted poisoning by drug or medicine nos&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>3246</td>
+<td>TK...15</td>
+<td>attempted suicide</td>
+<td>1</td>
+<td>attempted suicide</td>
 </tr>
 <tr>
-<td>&quot;3246&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK...15&quot;	&quot;attempted suicide&quot;	1	&quot;attempted suicide&quot;</td>
-<td></td>
+<td>3406</td>
+<td>TK...17</td>
+<td>para-suicide</td>
+<td>1</td>
+<td>attempted suicide</td>
 </tr>
 <tr>
-<td>&quot;3406&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK...17&quot;	&quot;para-suicide&quot;	1	&quot;attempted suicide&quot;</td>
-<td></td>
+<td>3423</td>
+<td>TK...12</td>
+<td>injury - self-inflicted</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;3423&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK...12&quot;	&quot;injury - self-inflicted&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>3985</td>
+<td>U2...13</td>
+<td>[x]suicide</td>
+<td>1</td>
+<td>attempted suicide</td>
 </tr>
 <tr>
-<td>&quot;3985&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U2...13&quot;	&quot;[x]suicide&quot;	1	&quot;attempted suicide&quot;</td>
-<td></td>
+<td>5140</td>
+<td>TN61.00</td>
+<td>injury ?accidental, by stabbing instrument</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;5140&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TN61.00&quot;	&quot;injury ?accidental, by stabbing instrument&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>5242</td>
+<td>U2E..00</td>
+<td>[x]self mutilation</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;5242&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U2E..00&quot;	&quot;[x]self mutilation&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>5616</td>
+<td>TK3y.00</td>
+<td>suicide + selfinflicted inj oth mean hang/strangle/suffocate</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;5616&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK3y.00&quot;	&quot;suicide + selfinflicted inj oth mean hang/strangle/suffocate&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>6595</td>
+<td>TK...11</td>
+<td>cause of overdose - deliberate</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;6595&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK...11&quot;	&quot;cause of overdose - deliberate&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>7606</td>
+<td>TN82.00</td>
+<td>injury ?accidental, by scald</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;7606&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TN82.00&quot;	&quot;injury ?accidental, by scald&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>8229</td>
+<td>U2...15</td>
+<td>[x]para-suicide</td>
+<td>1</td>
+<td>attempted suicide</td>
 </tr>
 <tr>
-<td>&quot;8229&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U2...15&quot;	&quot;[x]para-suicide&quot;	1	&quot;attempted suicide&quot;</td>
-<td></td>
+<td>9604</td>
+<td>TK60111</td>
+<td>slashed wrists self inflicted</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;9604&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK60111&quot;	&quot;slashed wrists self inflicted&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>10057</td>
+<td>ZX1..13</td>
+<td>deliberate self-harm</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;10057&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZX1..13&quot;	&quot;deliberate self-harm&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>10436</td>
+<td>TN81.00</td>
+<td>injury ?accidental, by burns or fire</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;10436&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TN81.00&quot;	&quot;injury ?accidental, by burns or fire&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>10463</td>
+<td>U209.00</td>
+<td>[x]intent self poison/exposure to alcohol</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;10463&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U209.00&quot;	&quot;[x]intent self poison/exposure to alcohol&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>10464</td>
+<td>ZX...00</td>
+<td>self-harm</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;10464&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZX...00&quot;	&quot;self-harm&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>10644</td>
+<td>TK...13</td>
+<td>poisoning - self-inflicted</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;10644&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK...13&quot;	&quot;poisoning - self-inflicted&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>10717</td>
+<td>U2...11</td>
+<td>[x]self inflicted injury</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;10717&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U2...11&quot;	&quot;[x]self inflicted injury&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>10843</td>
+<td>TN60.00</td>
+<td>injury ?accidental, by cutting instrument</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;10843&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TN60.00&quot;	&quot;injury ?accidental, by cutting instrument&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>11122</td>
+<td>TK60100</td>
+<td>self inflicted lacerations to wrist</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;11122&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK60100&quot;	&quot;self inflicted lacerations to wrist&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>11708</td>
+<td>SL...14</td>
+<td>overdose of biological substance</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;11708&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;SL...14&quot;	&quot;overdose of biological substance&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>12333</td>
+<td>ZX13.00</td>
+<td>cutting self</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;12333&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZX13.00&quot;	&quot;cutting self&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>13557</td>
+<td>TK30.00</td>
+<td>suicide and selfinflicted injury by hanging</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;13557&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK30.00&quot;	&quot;suicide and selfinflicted injury by hanging&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>14853</td>
+<td>TK00.00</td>
+<td>suicide + selfinflicted poisoning by analgesic/antipyretic</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;14853&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK00.00&quot;	&quot;suicide + selfinflicted poisoning by analgesic/antipyretic&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>15177</td>
+<td>TK60.00</td>
+<td>suicide and selfinflicted injury by cutting</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;15177&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK60.00&quot;	&quot;suicide and selfinflicted injury by cutting&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>16485</td>
+<td>TK01.00</td>
+<td>suicide + selfinflicted poisoning by barbiturates</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;16485&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK01.00&quot;	&quot;suicide + selfinflicted poisoning by barbiturates&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>16907</td>
+<td>U30..11</td>
+<td>[x]deliberate drug poisoning</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;16907&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U30..11&quot;	&quot;[x]deliberate drug poisoning&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>17046</td>
+<td>U2...00</td>
+<td>[x]intentional self-harm</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;17046&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U2...00&quot;	&quot;[x]intentional self-harm&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>17097</td>
+<td>TN...00</td>
+<td>injury undetermined whether accidentally/purposely inflicted</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;17097&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TN...00&quot;	&quot;injury undetermined whether accidentally/purposely inflicted&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>17378</td>
+<td>U2...14</td>
+<td>[x]attempted suicide</td>
+<td>1</td>
+<td>attempted suicide</td>
 </tr>
 <tr>
-<td>&quot;17378&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U2...14&quot;	&quot;[x]attempted suicide&quot;	1	&quot;attempted suicide&quot;</td>
-<td></td>
+<td>18182</td>
+<td>U4...00</td>
+<td>[x]event of undetermined intent</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;18182&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U4...00&quot;	&quot;[x]event of undetermined intent&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>18379</td>
+<td>U200.11</td>
+<td>[x]overdose - paracetamol</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;18379&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U200.11&quot;	&quot;[x]overdose - paracetamol&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>18983</td>
+<td>ZX1I.00</td>
+<td>self-scalding</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;18983&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZX1I.00&quot;	&quot;self-scalding&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>20625</td>
+<td>U2...12</td>
+<td>[x]injury - self-inflicted</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;20625&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U2...12&quot;	&quot;[x]injury - self-inflicted&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>20650</td>
+<td>U200z00</td>
+<td>[x]intent self poison nonopioid analgesic unspecif place</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;20650&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U200z00&quot;	&quot;[x]intent self poison nonopioid analgesic unspecif place&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>20668</td>
+<td>TN7..00</td>
+<td>injury ?accidental, fall from high place</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;20668&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TN7..00&quot;	&quot;injury ?accidental, fall from high place&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>21027</td>
+<td>TK...14</td>
+<td>suicide and self harm</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;21027&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK...14&quot;	&quot;suicide and self harm&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>21029</td>
+<td>TK...00</td>
+<td>suicide and selfinflicted injury</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;21029&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK...00&quot;	&quot;suicide and selfinflicted injury&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>21211</td>
+<td>U200.00</td>
+<td>[x]intent self poison/exposure to nonopioid analgesic</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;21211&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U200.00&quot;	&quot;[x]intent self poison/exposure to nonopioid analgesic&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>22199</td>
+<td>TK04.00</td>
+<td>suicide + selfinflicted poisoning by other drugs/medicines</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;22199&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK04.00&quot;	&quot;suicide + selfinflicted poisoning by other drugs/medicines&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>22281</td>
+<td>ZX11.00</td>
+<td>biting self</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;22281&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZX11.00&quot;	&quot;biting self&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>23080</td>
+<td>TK3..00</td>
+<td>suicide + selfinflicted injury by hang/strangulate/suffocate</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;23080&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK3..00&quot;	&quot;suicide + selfinflicted injury by hang/strangulate/suffocate&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>23753</td>
+<td>TK7..00</td>
+<td>suicide and selfinflicted injury by jumping from high place</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;23753&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK7..00&quot;	&quot;suicide and selfinflicted injury by jumping from high place&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>23823</td>
+<td>U40..00</td>
+<td>[x]poisoning/expos to noxious substance,undetermined intent</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;23823&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U40..00&quot;	&quot;[x]poisoning/expos to noxious substance,undetermined intent&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>24086</td>
+<td>U20A.11</td>
+<td>[x]self poisoning from glue solvent</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;24086&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U20A.11&quot;	&quot;[x]self poisoning from glue solvent&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>24461</td>
+<td>U27..00</td>
+<td>[x]intentional self harm by smoke, fire and flames</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;24461&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U27..00&quot;	&quot;[x]intentional self harm by smoke, fire and flames&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>24463</td>
+<td>U20B.11</td>
+<td>[x]self carbon monoxide poisoning</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;24463&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U20B.11&quot;	&quot;[x]self carbon monoxide poisoning&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>25274</td>
+<td>TNz..00</td>
+<td>injury undetermined accidental or purposely inflicted nos</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;25274&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TNz..00&quot;	&quot;injury undetermined accidental or purposely inflicted nos&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>25854</td>
+<td>ZX19.00</td>
+<td>hitting self</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;25854&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZX19.00&quot;	&quot;hitting self&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>25859</td>
+<td>ZX1G.00</td>
+<td>scratches self</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;25859&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZX1G.00&quot;	&quot;scratches self&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>26465</td>
+<td>U29..00</td>
+<td>[x]intentional self harm by sharp object</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;26465&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U29..00&quot;	&quot;[x]intentional self harm by sharp object&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>27470</td>
+<td>TK61.00</td>
+<td>suicide and selfinflicted injury by stabbing</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;27470&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK61.00&quot;	&quot;suicide and selfinflicted injury by stabbing&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>27522</td>
+<td>TK03.00</td>
+<td>suicide + selfinflicted poisoning tranquilliser/psychotropic</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;27522&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK03.00&quot;	&quot;suicide + selfinflicted poisoning tranquilliser/psychotropic&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>27713</td>
+<td>U20..00</td>
+<td>[x]intentional self poisoning/exposure to noxious substances</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;27713&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U20..00&quot;	&quot;[x]intentional self poisoning/exposure to noxious substances&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>27812</td>
+<td>U40y.00</td>
+<td>[x]poisoning/exposure, ? intent, to unspecif chemical</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;27812&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U40y.00&quot;	&quot;[x]poisoning/exposure, ? intent, to unspecif chemical&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>28080</td>
+<td>TK07.00</td>
+<td>suicide + selfinflicted poisoning by corrosive/caustic subst</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;28080&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK07.00&quot;	&quot;suicide + selfinflicted poisoning by corrosive/caustic subst&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>28115</td>
+<td>TK51.00</td>
+<td>suicide and selfinflicted injury by shotgun</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;28115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK51.00&quot;	&quot;suicide and selfinflicted injury by shotgun&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>28399</td>
+<td>TN51.00</td>
+<td>injury ?accidental, by shotgun</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;28399&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TN51.00&quot;	&quot;injury ?accidental, by shotgun&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>28531</td>
+<td>U45..00</td>
+<td>[x]other+unspecified firearm discharge undetermined intent</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;28531&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U45..00&quot;	&quot;[x]other+unspecified firearm discharge undetermined intent&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>28680</td>
+<td>ZX1LD00</td>
+<td>[x]self mutilation</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;28680&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZX1LD00&quot;	&quot;[x]self mutilation&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>28683</td>
+<td>ZX1..14</td>
+<td>self-abusive behaviour</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;28683&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZX1..14&quot;	&quot;self-abusive behaviour&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>28694</td>
+<td>ZX18.00</td>
+<td>hanging self</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;28694&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZX18.00&quot;	&quot;hanging self&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>28710</td>
+<td>U205.11</td>
+<td>[x]overdose - heroin</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;28710&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U205.11&quot;	&quot;[x]overdose - heroin&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>29134</td>
+<td>TN5..00</td>
+<td>injury ?accidental, by firearms and explosives</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;29134&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TN5..00&quot;	&quot;injury ?accidental, by firearms and explosives&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>29861</td>
+<td>U200.13</td>
+<td>[x]overdose - aspirin</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;29861&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U200.13&quot;	&quot;[x]overdose - aspirin&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>30036</td>
+<td>U409.00</td>
+<td>[x]poisoning/exposure, ? intent, to alcohol</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;30036&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U409.00&quot;	&quot;[x]poisoning/exposure, ? intent, to alcohol&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>30074</td>
+<td>U290.00</td>
+<td>[x]intentional self harm by sharp object occurrence at home</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;30074&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U290.00&quot;	&quot;[x]intentional self harm by sharp object occurrence at home&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>30286</td>
+<td>TN3..00</td>
+<td>injury ?accidental, hanging, strangulation and suffocation</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;30286&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TN3..00&quot;	&quot;injury ?accidental, hanging, strangulation and suffocation&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>30292</td>
+<td>TK0..00</td>
+<td>suicide + selfinflicted poisoning by solid/liquid substances</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;30292&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK0..00&quot;	&quot;suicide + selfinflicted poisoning by solid/liquid substances&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>30360</td>
+<td>U21..00</td>
+<td>[x]intent self harm by hanging strangulation / suffocation</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;30360&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U21..00&quot;	&quot;[x]intent self harm by hanging strangulation / suffocation&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>30370</td>
+<td>ZX1H100</td>
+<td>self-strangulation</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;30370&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZX1H100&quot;	&quot;self-strangulation&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>31836</td>
+<td>TN1..00</td>
+<td>injury ?accidental, poisoning by gases in domestic use</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;31836&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TN1..00&quot;	&quot;injury ?accidental, poisoning by gases in domestic use&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>31854</td>
+<td>TK4..00</td>
+<td>suicide and selfinflicted injury by drowning</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;31854&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK4..00&quot;	&quot;suicide and selfinflicted injury by drowning&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>32267</td>
+<td>ZX1L.00</td>
+<td>self-mutilation</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;32267&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZX1L.00&quot;	&quot;self-mutilation&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>33596</td>
+<td>TK02.00</td>
+<td>suicide + selfinflicted poisoning by oth sedatives/hypnotics</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;33596&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK02.00&quot;	&quot;suicide + selfinflicted poisoning by oth sedatives/hypnotics&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>34156</td>
+<td>U2z..00</td>
+<td>[x]intentional self harm by unspecified means</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;34156&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U2z..00&quot;	&quot;[x]intentional self harm by unspecified means&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>34703</td>
+<td>U204.12</td>
+<td>[x]overdose - amitriptyline</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;34703&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U204.12&quot;	&quot;[x]overdose - amitriptyline&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>34827</td>
+<td>TN83.00</td>
+<td>injury ?accidental, by extremes of cold</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;34827&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TN83.00&quot;	&quot;injury ?accidental, by extremes of cold&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>35123</td>
+<td>ZX1L100</td>
+<td>self-mutilation of hands</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;35123&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZX1L100&quot;	&quot;self-mutilation of hands&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>35247</td>
+<td>ZX1..00</td>
+<td>self-injurious behaviour</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;35247&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZX1..00&quot;	&quot;self-injurious behaviour&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>35798</td>
+<td>U4D0.00</td>
+<td>[x]crashng of motor vehicle undetermined intent occ at home</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;35798&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U4D0.00&quot;	&quot;[x]crashng of motor vehicle undetermined intent occ at home&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>35868</td>
+<td>U2D4.00</td>
+<td>[x]intent self harm by crash motor vehicl occ street/highway</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;35868&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U2D4.00&quot;	&quot;[x]intent self harm by crash motor vehicl occ street/highway&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>35879</td>
+<td>U208.00</td>
+<td>[x]int self poison/exposure to other/unspec drug/medicament</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;35879&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U208.00&quot;	&quot;[x]int self poison/exposure to other/unspec drug/medicament&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>36084</td>
+<td>TKx2.00</td>
+<td>suicide and selfinflicted injury by scald</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;36084&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TKx2.00&quot;	&quot;suicide and selfinflicted injury by scald&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>36197</td>
+<td>U4B..00</td>
+<td>[x]falling jumping/pushed from high place undeterm intent</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;36197&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U4B..00&quot;	&quot;[x]falling jumping/pushed from high place undeterm intent&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>36255</td>
+<td>TK6..00</td>
+<td>suicide and selfinflicted injury by cutting and stabbing</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;36255&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TK6..00&quot;	&quot;suicide and selfinflicted injury by cutting and stabbing&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>36398</td>
+<td>U204.00</td>
+<td>[x]intent self poison/exposure to psychotropic drug</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;36398&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U204.00&quot;	&quot;[x]intent self poison/exposure to psychotropic drug&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>36863</td>
+<td>ZX13.11</td>
+<td>cuts self</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;36863&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZX13.11&quot;	&quot;cuts self&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>37874</td>
+<td>ZX12.00</td>
+<td>burning self</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;37874&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZX12.00&quot;	&quot;burning self&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>38008</td>
+<td>U27z.00</td>
+<td>[x]intent self harm by smoke fire/flames occ unspecif place</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;38008&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U27z.00&quot;	&quot;[x]intent self harm by smoke fire/flames occ unspecif place&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>38079</td>
+<td>TN54.00</td>
+<td>injury ?accidental, by other firearm</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;38079&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TN54.00&quot;	&quot;injury ?accidental, by other firearm&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>38749</td>
+<td>U20B200</td>
+<td>[x]int self poison other gas/vapour school/pub admin area</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;38749&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U20B200&quot;	&quot;[x]int self poison other gas/vapour school/pub admin area&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>38760</td>
+<td>U2y..00</td>
+<td>[x]intentional self harm by other specified means</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;38760&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U2y..00&quot;	&quot;[x]intentional self harm by other specified means&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>40284</td>
+<td>U41..00</td>
+<td>[x]hanging strangulation + suffocation undetermined intent</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;40284&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U41..00&quot;	&quot;[x]hanging strangulation + suffocation undetermined intent&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>40888</td>
+<td>TN50.00</td>
+<td>injury ?accidental, by handgun</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;40888&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TN50.00&quot;	&quot;injury ?accidental, by handgun&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>41241</td>
+<td>TKz..00</td>
+<td>suicide and selfinflicted injury nos</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 <tr>
-<td>&quot;41241&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TKz..00&quot;	&quot;suicide and selfinflicted injury nos&quot;	1	&quot;self harm&quot;</td>
-<td></td>
+<td>41306</td>
+<td>TN86.00</td>
+<td>injury ?accidental, by crashing of aircraft</td>
+<td>1</td>
+<td>unknown intent</td>
 </tr>
 <tr>
-<td>&quot;41306&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TN86.00&quot;	&quot;injury ?accidental, by crashing of aircraft&quot;	1	&quot;unknown intent&quot;</td>
-<td></td>
+<td>41400</td>
+<td>U22..00</td>
+<td>[x]intentional self harm by drowning and submersion</td>
+<td>1</td>
+<td>self harm</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p><em>Preview shows first 100 rows.</em></p>
-
-### Metadata star legend
-
-<div class="metadata-legend">
-<div><span class="meta-star meta-star-1">★</span> 1. Dataset used</div>
-<div><span class="meta-star meta-star-2">★</span> 2. Version information</div>
-<div><span class="meta-star meta-star-3">★</span> 3. Inclusion / exclusion criteria in generating script</div>
-<div><span class="meta-star meta-star-4">★</span> 4. Pre-print / publication / protocol information</div>
-<div><span class="meta-star meta-star-5">★</span> 5. Exposure / outcome / covariate flag</div>
-<div><span class="meta-star meta-star-6">★</span> 6. Clinical or alternative reviewer information</div>
-<div><span class="meta-star meta-star-7">★</span> 7. Citation file (.cff)</div>
-<div><span class="meta-star meta-star-8">★</span> 8. Coding system information</div>
-<div><span class="meta-star meta-star-9">★</span> 9. Brief phenotype description and usage</div>
-</div>
+<p><em>Preview shows first 100 rows from the original codelist file.</em></p>
 

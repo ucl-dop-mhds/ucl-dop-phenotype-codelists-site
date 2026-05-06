@@ -1,23 +1,38 @@
 # Hypertension
 
 <div class="phenotype-header-card">
-<p class="phenotype-kicker">CPRD Gold phenotype</p>
-<h2>Hypertension</h2>
-<p class="phenotype-subtitle">Code name: <code>hypertension</code></p>
-<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-4" title="4. Pre-print / publication / protocol information" aria-label="4. Pre-print / publication / protocol information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
+<div class="phenotype-header-fields">
+<div><strong>Dataset:</strong> CPRD Gold</div>
+<div><strong>ID (phenotype-githubID-repoStart):</strong> <code>hypertension-naomilaunders-repurposing</code></div>
+<div><strong>Source:</strong> <a href="https://github.com/NaomiLaunders/Repurposing-statins-in-SMI">NaomiLaunders/Repurposing-statins-in-SMI</a></div>
+<div><strong>License:</strong> MIT</div>
+<div><strong>Date Created:</strong> 2026-04-22</div>
+<div><strong>Date Imported:</strong> 2026-04-22</div>
+<div><strong>Date Updated:</strong> 2026-04-22</div>
+</div>
 </div>
 
-## Repository details
+## Metadata
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Name</dt><dd>Hypertension</dd></div><div class="phenotype-meta-row"><dt>Version</dt><dd>0.1.0</dd></div><div class="phenotype-meta-row"><dt>ID</dt><dd><code>hypertension-cprd-gold-unknown-69c5cf42</code></dd></div><div class="phenotype-meta-row"><dt>Status</dt><dd>draft</dd></div><div class="phenotype-meta-row"><dt>Dataset</dt><dd>CPRD Gold</dd></div><div class="phenotype-meta-row"><dt>Code name</dt><dd><code>hypertension</code></dd></div><div class="phenotype-meta-row"><dt>Phenotype group</dt><dd>Code lists</dd></div><div class="phenotype-meta-row"><dt>Coding system</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Coding systems</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Phenotype role</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Created</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Imported</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Updated</dt><dd>2026-04-22</dd></div></div>
+<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-4" title="4. Pre-print / publication / protocol information" aria-label="4. Pre-print / publication / protocol information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
 
-## Background information
+<br>
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Summary</dt><dd>Auto-ingested from NaomiLaunders/Repurposing-statins-in-SMI (main) at 55a86d5fcf8e8cb851419ea126e9563b69ed1135. Source path: Code lists/HypertensionGold.txt.</dd></div><div class="phenotype-meta-row"><dt>Usage notes</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Dataset context</dt><dd>CPRD Gold</dd></div><div class="phenotype-meta-row"><dt>Provenance</dt><dd>Imported</dd></div><div class="phenotype-meta-row"><dt>Source citation</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source repository</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source path</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Evidence</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Review</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Contacts</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>License</dt><dd>MIT</dd></div><div class="phenotype-meta-row"><dt>Tags</dt><dd>NA</dd></div></div>
+<div class="metadata-detail-list">
+<div class="metadata-detail-row"><span class="meta-star meta-star-1">★</span> <strong>Dataset used:</strong> CPRD Gold</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-2">★</span> <strong>Version information:</strong> 0.1.0</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-3">☆</span> <strong>Inclusion / exclusion criteria in generating script:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-4">★</span> <strong>Pre-print / publication / protocol information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-5">☆</span> <strong>Exposure / outcome / covariate flag:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-6">☆</span> <strong>Clinical or alternative reviewer information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-7">☆</span> <strong>Citation file (.cff):</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-8">☆</span> <strong>Coding system information:</strong> Unknown</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-9">★</span> <strong>Brief phenotype description and usage:</strong> Auto-ingested from NaomiLaunders/Repurposing-statins-in-SMI (main) at 55a86d5fcf8e8cb851419ea126e9563b69ed1135. Source path: Code lists/HypertensionGold.txt.</div>
+</div>
 
 ## Downloads
 
-<ul class="phenotype-download-list"><li><a href="../source/hypertension-cprd-gold-unknown-69c5cf42.txt">Download original codelist.txt</a></li><li><a href="../csv/hypertension-cprd-gold-unknown-69c5cf42.csv">Download normalized CSV</a></li></ul>
+<ul class="phenotype-download-list"><li><a href="../../source/hypertension-cprd-gold-unknown-69c5cf42.txt" download="hypertension-cprd-gold-unknown-69c5cf42.txt">Download original codelist (.txt)</a></li></ul>
 
 ## Codelist preview
 
@@ -25,730 +40,514 @@
 <table>
 <thead>
 <tr>
-<th>code</th>
-<th>code_system</th>
-<th>include</th>
-<th>term</th>
-<th>notes</th>
+<th>medcode</th>
+<th>readcode</th>
+<th>desc</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>&quot;medcode&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;readcode&quot;	&quot;desc&quot;</td>
-<td></td>
+<td>101649</td>
+<td>7Q01y00</td>
+<td>other specified high cost hypertension drugs</td>
 </tr>
 <tr>
-<td>&quot;101649&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;7Q01y00&quot;	&quot;other specified high cost hypertension drugs&quot;</td>
-<td></td>
+<td>102406</td>
+<td>662P000</td>
+<td>hypertension 9 month review</td>
 </tr>
 <tr>
-<td>&quot;102406&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662P000&quot;	&quot;hypertension 9 month review&quot;</td>
-<td></td>
+<td>102458</td>
+<td>Gyu2000</td>
+<td>[x]other secondary hypertension</td>
 </tr>
 <tr>
-<td>&quot;102458&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Gyu2000&quot;	&quot;[x]other secondary hypertension&quot;</td>
-<td></td>
+<td>103046</td>
+<td>G210z00</td>
+<td>malignant hypertensive heart disease nos</td>
 </tr>
 <tr>
-<td>&quot;103046&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G210z00&quot;	&quot;malignant hypertensive heart disease nos&quot;</td>
-<td></td>
+<td>105274</td>
+<td>G28..00</td>
+<td>stage 2 hypertension (nice - nat ins for hth clin excl 2011)</td>
 </tr>
 <tr>
-<td>&quot;105274&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G28..00&quot;	&quot;stage 2 hypertension (nice - nat ins for hth clin excl 2011)&quot;</td>
-<td></td>
+<td>105316</td>
+<td>G25..11</td>
+<td>stage 1 hypertension</td>
 </tr>
 <tr>
-<td>&quot;105316&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G25..11&quot;	&quot;stage 1 hypertension&quot;</td>
-<td></td>
+<td>105371</td>
+<td>G25..00</td>
+<td>stage 1 hypertension (nice - nat ins for hth clin excl 2011)</td>
 </tr>
 <tr>
-<td>&quot;105371&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G25..00&quot;	&quot;stage 1 hypertension (nice - nat ins for hth clin excl 2011)&quot;</td>
-<td></td>
+<td>105480</td>
+<td>G27..00</td>
+<td>hypertension resistant to drug therapy</td>
 </tr>
 <tr>
-<td>&quot;105480&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G27..00&quot;	&quot;hypertension resistant to drug therapy&quot;</td>
-<td></td>
+<td>105487</td>
+<td>G26..11</td>
+<td>severe hypertension</td>
 </tr>
 <tr>
-<td>&quot;105487&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G26..11&quot;	&quot;severe hypertension&quot;</td>
-<td></td>
+<td>105938</td>
+<td>G211z00</td>
+<td>benign hypertensive heart disease nos</td>
 </tr>
 <tr>
-<td>&quot;105938&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G211z00&quot;	&quot;benign hypertensive heart disease nos&quot;</td>
-<td></td>
+<td>105989</td>
+<td>G26..00</td>
+<td>severe hypertension (nat inst for health clinical ex 2011)</td>
 </tr>
 <tr>
-<td>&quot;105989&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G26..00&quot;	&quot;severe hypertension (nat inst for health clinical ex 2011)&quot;</td>
-<td></td>
+<td>106279</td>
+<td>8IA5.00</td>
+<td>trial withdrawal of antihypertensive therapy declined</td>
 </tr>
 <tr>
-<td>&quot;106279&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8IA5.00&quot;	&quot;trial withdrawal of antihypertensive therapy declined&quot;</td>
-<td></td>
+<td>107704</td>
+<td>G20..12</td>
+<td>primary hypertension</td>
 </tr>
 <tr>
-<td>&quot;107704&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G20..12&quot;	&quot;primary hypertension&quot;</td>
-<td></td>
+<td>10818</td>
+<td>G20z.00</td>
+<td>essential hypertension nos</td>
 </tr>
 <tr>
-<td>&quot;10818&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G20z.00&quot;	&quot;essential hypertension nos&quot;</td>
-<td></td>
+<td>109611</td>
+<td>661M600</td>
+<td>hypertension self-management plan agreed</td>
 </tr>
 <tr>
-<td>&quot;109611&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;661M600&quot;	&quot;hypertension self-management plan agreed&quot;</td>
-<td></td>
+<td>11056</td>
+<td>8BL0.00</td>
+<td>patient on maximal tolerated antihypertensive therapy</td>
 </tr>
 <tr>
-<td>&quot;11056&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8BL0.00&quot;	&quot;patient on maximal tolerated antihypertensive therapy&quot;</td>
-<td></td>
+<td>12680</td>
+<td>8CR4.00</td>
+<td>hypertension clinical management plan</td>
 </tr>
 <tr>
-<td>&quot;12680&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8CR4.00&quot;	&quot;hypertension clinical management plan&quot;</td>
-<td></td>
+<td>13186</td>
+<td>662P.00</td>
+<td>hypertension monitoring</td>
 </tr>
 <tr>
-<td>&quot;13186&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662P.00&quot;	&quot;hypertension monitoring&quot;</td>
-<td></td>
+<td>13188</td>
+<td>662G.00</td>
+<td>hypertensive treatm.changed</td>
 </tr>
 <tr>
-<td>&quot;13188&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662G.00&quot;	&quot;hypertensive treatm.changed&quot;</td>
-<td></td>
+<td>15106</td>
+<td>G22z.00</td>
+<td>hypertensive renal disease nos</td>
 </tr>
 <tr>
-<td>&quot;15106&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G22z.00&quot;	&quot;hypertensive renal disease nos&quot;</td>
-<td></td>
+<td>15377</td>
+<td>G200.00</td>
+<td>malignant essential hypertension</td>
 </tr>
 <tr>
-<td>&quot;15377&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G200.00&quot;	&quot;malignant essential hypertension&quot;</td>
-<td></td>
+<td>16059</td>
+<td>G24z.00</td>
+<td>secondary hypertension nos</td>
 </tr>
 <tr>
-<td>&quot;16059&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G24z.00&quot;	&quot;secondary hypertension nos&quot;</td>
-<td></td>
+<td>16173</td>
+<td>G21zz00</td>
+<td>hypertensive heart disease nos</td>
 </tr>
 <tr>
-<td>&quot;16173&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G21zz00&quot;	&quot;hypertensive heart disease nos&quot;</td>
-<td></td>
+<td>16292</td>
+<td>G21..00</td>
+<td>hypertensive heart disease</td>
 </tr>
 <tr>
-<td>&quot;16292&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G21..00&quot;	&quot;hypertensive heart disease&quot;</td>
-<td></td>
+<td>16565</td>
+<td>6627.00</td>
+<td>good hypertension control</td>
 </tr>
 <tr>
-<td>&quot;16565&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;6627.00&quot;	&quot;good hypertension control&quot;</td>
-<td></td>
+<td>18057</td>
+<td>8B26.00</td>
+<td>antihypertensive therapy</td>
 </tr>
 <tr>
-<td>&quot;18057&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8B26.00&quot;	&quot;antihypertensive therapy&quot;</td>
-<td></td>
+<td>18482</td>
+<td>662c.00</td>
+<td>hypertension six month review</td>
 </tr>
 <tr>
-<td>&quot;18482&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662c.00&quot;	&quot;hypertension six month review&quot;</td>
-<td></td>
+<td>18590</td>
+<td>662b.00</td>
+<td>moderate hypertension control</td>
 </tr>
 <tr>
-<td>&quot;18590&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662b.00&quot;	&quot;moderate hypertension control&quot;</td>
-<td></td>
+<td>18765</td>
+<td>G2y..00</td>
+<td>other specified hypertensive disease</td>
 </tr>
 <tr>
-<td>&quot;18765&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G2y..00&quot;	&quot;other specified hypertensive disease&quot;</td>
-<td></td>
+<td>1894</td>
+<td>G201.00</td>
+<td>benign essential hypertension</td>
 </tr>
 <tr>
-<td>&quot;1894&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G201.00&quot;	&quot;benign essential hypertension&quot;</td>
-<td></td>
+<td>19070</td>
+<td>662d.00</td>
+<td>hypertension annual review</td>
 </tr>
 <tr>
-<td>&quot;19070&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662d.00&quot;	&quot;hypertension annual review&quot;</td>
-<td></td>
+<td>204</td>
+<td>G2...00</td>
+<td>hypertensive disease</td>
 </tr>
 <tr>
-<td>&quot;204&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G2...00&quot;	&quot;hypertensive disease&quot;</td>
-<td></td>
+<td>21826</td>
+<td>662F.00</td>
+<td>hypertension treatm. started</td>
 </tr>
 <tr>
-<td>&quot;21826&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662F.00&quot;	&quot;hypertension treatm. started&quot;</td>
-<td></td>
+<td>21837</td>
+<td>G232.00</td>
+<td>hypertensive heart&amp;renal dis wth (congestive) heart failure</td>
 </tr>
 <tr>
-<td>&quot;21837&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G232.00&quot;	&quot;hypertensive heart&amp;renal dis wth (congestive) heart failure&quot;</td>
-<td></td>
+<td>22333</td>
+<td>8I3N.00</td>
+<td>hypertension treatment refused</td>
 </tr>
 <tr>
-<td>&quot;22333&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8I3N.00&quot;	&quot;hypertension treatment refused&quot;</td>
-<td></td>
+<td>24127</td>
+<td>9OIA.11</td>
+<td>hypertension monitored</td>
 </tr>
 <tr>
-<td>&quot;24127&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9OIA.11&quot;	&quot;hypertension monitored&quot;</td>
-<td></td>
+<td>25371</td>
+<td>G241000</td>
+<td>secondary benign renovascular hypertension</td>
 </tr>
 <tr>
-<td>&quot;25371&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G241000&quot;	&quot;secondary benign renovascular hypertension&quot;</td>
-<td></td>
+<td>2666</td>
+<td>14A2.00</td>
+<td>h/o: hypertension</td>
 </tr>
 <tr>
-<td>&quot;2666&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;14A2.00&quot;	&quot;h/o: hypertension&quot;</td>
-<td></td>
+<td>27511</td>
+<td>6628.00</td>
+<td>poor hypertension control</td>
 </tr>
 <tr>
-<td>&quot;27511&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;6628.00&quot;	&quot;poor hypertension control&quot;</td>
-<td></td>
+<td>27525</td>
+<td>9OI..11</td>
+<td>hypertension clinic admin.</td>
 </tr>
 <tr>
-<td>&quot;27525&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9OI..11&quot;	&quot;hypertension clinic admin.&quot;</td>
-<td></td>
+<td>27634</td>
+<td>9N1y200</td>
+<td>seen in hypertension clinic</td>
 </tr>
 <tr>
-<td>&quot;27634&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9N1y200&quot;	&quot;seen in hypertension clinic&quot;</td>
-<td></td>
+<td>30770</td>
+<td>U60C511</td>
+<td>[x] adverse reaction to other antihypertensives</td>
 </tr>
 <tr>
-<td>&quot;30770&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U60C511&quot;	&quot;[x] adverse reaction to other antihypertensives&quot;</td>
-<td></td>
+<td>30776</td>
+<td>6629.00</td>
+<td>hypertension:follow-up default</td>
 </tr>
 <tr>
-<td>&quot;30776&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;6629.00&quot;	&quot;hypertension:follow-up default&quot;</td>
-<td></td>
+<td>31341</td>
+<td>G24z100</td>
+<td>hypertension secondary to drug</td>
 </tr>
 <tr>
-<td>&quot;31341&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G24z100&quot;	&quot;hypertension secondary to drug&quot;</td>
-<td></td>
+<td>31387</td>
+<td>G24z000</td>
+<td>secondary renovascular hypertension nos</td>
 </tr>
 <tr>
-<td>&quot;31387&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G24z000&quot;	&quot;secondary renovascular hypertension nos&quot;</td>
-<td></td>
+<td>31464</td>
+<td>G21z.00</td>
+<td>hypertensive heart disease nos</td>
 </tr>
 <tr>
-<td>&quot;31464&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G21z.00&quot;	&quot;hypertensive heart disease nos&quot;</td>
-<td></td>
+<td>31755</td>
+<td>G240.00</td>
+<td>secondary malignant hypertension</td>
 </tr>
 <tr>
-<td>&quot;31755&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G240.00&quot;	&quot;secondary malignant hypertension&quot;</td>
-<td></td>
+<td>31816</td>
+<td>G672.11</td>
+<td>hypertensive crisis</td>
 </tr>
 <tr>
-<td>&quot;31816&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G672.11&quot;	&quot;hypertensive crisis&quot;</td>
-<td></td>
+<td>32423</td>
+<td>G222.00</td>
+<td>hypertensive renal disease with renal failure</td>
 </tr>
 <tr>
-<td>&quot;32423&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G222.00&quot;	&quot;hypertensive renal disease with renal failure&quot;</td>
-<td></td>
+<td>32976</td>
+<td>6146200</td>
+<td>hypertension induced by oral contraceptive pill</td>
 </tr>
 <tr>
-<td>&quot;32976&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;6146200&quot;	&quot;hypertension induced by oral contraceptive pill&quot;</td>
-<td></td>
+<td>3425</td>
+<td>662O.00</td>
+<td>on treatment for hypertension</td>
 </tr>
 <tr>
-<td>&quot;3425&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662O.00&quot;	&quot;on treatment for hypertension&quot;</td>
-<td></td>
+<td>34744</td>
+<td>G244.00</td>
+<td>hypertension secondary to endocrine disorders</td>
 </tr>
 <tr>
-<td>&quot;34744&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G244.00&quot;	&quot;hypertension secondary to endocrine disorders&quot;</td>
-<td></td>
+<td>37086</td>
+<td>F404200</td>
+<td>blind hypertensive eye</td>
 </tr>
 <tr>
-<td>&quot;37086&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;F404200&quot;	&quot;blind hypertensive eye&quot;</td>
-<td></td>
+<td>3712</td>
+<td>G20z.11</td>
+<td>hypertension nos</td>
 </tr>
 <tr>
-<td>&quot;3712&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G20z.11&quot;	&quot;hypertension nos&quot;</td>
-<td></td>
+<td>39649</td>
+<td>G220.00</td>
+<td>malignant hypertensive renal disease</td>
 </tr>
 <tr>
-<td>&quot;39649&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G220.00&quot;	&quot;malignant hypertensive renal disease&quot;</td>
-<td></td>
+<td>42229</td>
+<td>G24zz00</td>
+<td>secondary hypertension nos</td>
 </tr>
 <tr>
-<td>&quot;42229&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G24zz00&quot;	&quot;secondary hypertension nos&quot;</td>
-<td></td>
+<td>4372</td>
+<td>G202.00</td>
+<td>systolic hypertension</td>
 </tr>
 <tr>
-<td>&quot;4372&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G202.00&quot;	&quot;systolic hypertension&quot;</td>
-<td></td>
+<td>43935</td>
+<td>G221.00</td>
+<td>benign hypertensive renal disease</td>
 </tr>
 <tr>
-<td>&quot;43935&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G221.00&quot;	&quot;benign hypertensive renal disease&quot;</td>
-<td></td>
+<td>44350</td>
+<td>U60C51A</td>
+<td>[x] adverse reaction to antihypertensives nos</td>
 </tr>
 <tr>
-<td>&quot;44350&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U60C51A&quot;	&quot;[x] adverse reaction to antihypertensives nos&quot;</td>
-<td></td>
+<td>4444</td>
+<td>662..12</td>
+<td>hypertension monitoring</td>
 </tr>
 <tr>
-<td>&quot;4444&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662..12&quot;	&quot;hypertension monitoring&quot;</td>
-<td></td>
+<td>50157</td>
+<td>G210.00</td>
+<td>malignant hypertensive heart disease</td>
 </tr>
 <tr>
-<td>&quot;50157&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G210.00&quot;	&quot;malignant hypertensive heart disease&quot;</td>
-<td></td>
+<td>51635</td>
+<td>G241z00</td>
+<td>secondary benign hypertension nos</td>
 </tr>
 <tr>
-<td>&quot;51635&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G241z00&quot;	&quot;secondary benign hypertension nos&quot;</td>
-<td></td>
+<td>52127</td>
+<td>G211100</td>
+<td>benign hypertensive heart disease with ccf</td>
 </tr>
 <tr>
-<td>&quot;52127&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G211100&quot;	&quot;benign hypertensive heart disease with ccf&quot;</td>
-<td></td>
+<td>5215</td>
+<td>9OI..00</td>
+<td>hypertension monitoring admin.</td>
 </tr>
 <tr>
-<td>&quot;5215&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9OI..00&quot;	&quot;hypertension monitoring admin.&quot;</td>
-<td></td>
+<td>52427</td>
+<td>G211.00</td>
+<td>benign hypertensive heart disease</td>
 </tr>
 <tr>
-<td>&quot;52427&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G211.00&quot;	&quot;benign hypertensive heart disease&quot;</td>
-<td></td>
+<td>5513</td>
+<td>8HT5.00</td>
+<td>referral to hypertension clinic</td>
 </tr>
 <tr>
-<td>&quot;5513&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8HT5.00&quot;	&quot;referral to hypertension clinic&quot;</td>
-<td></td>
+<td>57288</td>
+<td>G241.00</td>
+<td>secondary benign hypertension</td>
 </tr>
 <tr>
-<td>&quot;57288&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G241.00&quot;	&quot;secondary benign hypertension&quot;</td>
-<td></td>
+<td>57987</td>
+<td>G234.00</td>
+<td>hyperten heart&amp;renal dis+both(congestv)heart and renal fail</td>
 </tr>
 <tr>
-<td>&quot;57987&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G234.00&quot;	&quot;hyperten heart&amp;renal dis+both(congestv)heart and renal fail&quot;</td>
-<td></td>
+<td>59383</td>
+<td>G240000</td>
+<td>secondary malignant renovascular hypertension</td>
 </tr>
 <tr>
-<td>&quot;59383&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G240000&quot;	&quot;secondary malignant renovascular hypertension&quot;</td>
-<td></td>
+<td>61166</td>
+<td>G21z000</td>
+<td>hypertensive heart disease nos without ccf</td>
 </tr>
 <tr>
-<td>&quot;61166&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G21z000&quot;	&quot;hypertensive heart disease nos without ccf&quot;</td>
-<td></td>
+<td>62718</td>
+<td>G21z100</td>
+<td>hypertensive heart disease nos with ccf</td>
 </tr>
 <tr>
-<td>&quot;62718&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G21z100&quot;	&quot;hypertensive heart disease nos with ccf&quot;</td>
-<td></td>
+<td>63000</td>
+<td>G231.00</td>
+<td>benign hypertensive heart and renal disease</td>
 </tr>
 <tr>
-<td>&quot;63000&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G231.00&quot;	&quot;benign hypertensive heart and renal disease&quot;</td>
-<td></td>
+<td>63466</td>
+<td>G23..00</td>
+<td>hypertensive heart and renal disease</td>
 </tr>
 <tr>
-<td>&quot;63466&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G23..00&quot;	&quot;hypertensive heart and renal disease&quot;</td>
-<td></td>
+<td>6702</td>
+<td>F421300</td>
+<td>hypertensive retinopathy</td>
 </tr>
 <tr>
-<td>&quot;6702&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;F421300&quot;	&quot;hypertensive retinopathy&quot;</td>
-<td></td>
+<td>67232</td>
+<td>G230.00</td>
+<td>malignant hypertensive heart and renal disease</td>
 </tr>
 <tr>
-<td>&quot;67232&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G230.00&quot;	&quot;malignant hypertensive heart and renal disease&quot;</td>
-<td></td>
+<td>68659</td>
+<td>G23z.00</td>
+<td>hypertensive heart and renal disease nos</td>
 </tr>
 <tr>
-<td>&quot;68659&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G23z.00&quot;	&quot;hypertensive heart and renal disease nos&quot;</td>
-<td></td>
+<td>69753</td>
+<td>Gyu2.00</td>
+<td>[x]hypertensive diseases</td>
 </tr>
 <tr>
-<td>&quot;69753&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Gyu2.00&quot;	&quot;[x]hypertensive diseases&quot;</td>
-<td></td>
+<td>7057</td>
+<td>G2z..00</td>
+<td>hypertensive disease nos</td>
 </tr>
 <tr>
-<td>&quot;7057&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G2z..00&quot;	&quot;hypertensive disease nos&quot;</td>
-<td></td>
+<td>72668</td>
+<td>G210100</td>
+<td>malignant hypertensive heart disease with ccf</td>
 </tr>
 <tr>
-<td>&quot;72668&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G210100&quot;	&quot;malignant hypertensive heart disease with ccf&quot;</td>
-<td></td>
+<td>7329</td>
+<td>G24..00</td>
+<td>secondary hypertension</td>
 </tr>
 <tr>
-<td>&quot;7329&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G24..00&quot;	&quot;secondary hypertension&quot;</td>
-<td></td>
+<td>73293</td>
+<td>G240z00</td>
+<td>secondary malignant hypertension nos</td>
 </tr>
 <tr>
-<td>&quot;73293&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G240z00&quot;	&quot;secondary malignant hypertension nos&quot;</td>
-<td></td>
+<td>799</td>
+<td>G20..00</td>
+<td>essential hypertension</td>
 </tr>
 <tr>
-<td>&quot;799&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G20..00&quot;	&quot;essential hypertension&quot;</td>
-<td></td>
+<td>83473</td>
+<td>G203.00</td>
+<td>diastolic hypertension</td>
 </tr>
 <tr>
-<td>&quot;83473&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G203.00&quot;	&quot;diastolic hypertension&quot;</td>
-<td></td>
+<td>8732</td>
+<td>G2...11</td>
+<td>bp - hypertensive disease</td>
 </tr>
 <tr>
-<td>&quot;8732&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G2...11&quot;	&quot;bp - hypertensive disease&quot;</td>
-<td></td>
+<td>8857</td>
+<td>G21z011</td>
+<td>cardiomegaly - hypertensive</td>
 </tr>
 <tr>
-<td>&quot;8857&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G21z011&quot;	&quot;cardiomegaly - hypertensive&quot;</td>
-<td></td>
+<td>95334</td>
+<td>G210000</td>
+<td>malignant hypertensive heart disease without ccf</td>
 </tr>
 <tr>
-<td>&quot;95334&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G210000&quot;	&quot;malignant hypertensive heart disease without ccf&quot;</td>
-<td></td>
+<td>97533</td>
+<td>Gyu2100</td>
+<td>[x]hypertension secondary to other renal disorders</td>
 </tr>
 <tr>
-<td>&quot;97533&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Gyu2100&quot;	&quot;[x]hypertension secondary to other renal disorders&quot;</td>
-<td></td>
+<td>98230</td>
+<td>67H8.00</td>
+<td>lifestyle advice regarding hypertension</td>
 </tr>
 <tr>
-<td>&quot;98230&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;67H8.00&quot;	&quot;lifestyle advice regarding hypertension&quot;</td>
-<td></td>
+<td>99259</td>
+<td>662q.00</td>
+<td>trial reduction of antihypertensive therapy</td>
 </tr>
 <tr>
-<td>&quot;99259&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662q.00&quot;	&quot;trial reduction of antihypertensive therapy&quot;</td>
-<td></td>
+<td>4344</td>
+<td>9N03.00</td>
+<td>seen in hypertension clinic</td>
 </tr>
 <tr>
-<td>&quot;4344&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9N03.00&quot;	&quot;seen in hypertension clinic&quot;</td>
-<td></td>
+<td>4668</td>
+<td>G22..00</td>
+<td>hypertensive renal disease</td>
 </tr>
 <tr>
-<td>&quot;4668&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G22..00&quot;	&quot;hypertensive renal disease&quot;</td>
-<td></td>
+<td>10961</td>
+<td>9h31.00</td>
+<td>excepted from hypertension qual indicators: patient unsuit</td>
 </tr>
 <tr>
-<td>&quot;10961&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9h31.00&quot;	&quot;excepted from hypertension qual indicators: patient unsuit&quot;</td>
-<td></td>
+<td>10976</td>
+<td>9h32.00</td>
+<td>excepted from hypertension qual indicators: informed dissent</td>
 </tr>
 <tr>
-<td>&quot;10976&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9h32.00&quot;	&quot;excepted from hypertension qual indicators: informed dissent&quot;</td>
-<td></td>
+<td>12948</td>
+<td>662H.00</td>
+<td>hypertension treatm.stopped</td>
 </tr>
 <tr>
-<td>&quot;12948&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662H.00&quot;	&quot;hypertension treatm.stopped&quot;</td>
-<td></td>
+<td>20497</td>
+<td>TJC7z00</td>
+<td>adverse reaction to antihypertensives nos</td>
 </tr>
 <tr>
-<td>&quot;20497&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TJC7z00&quot;	&quot;adverse reaction to antihypertensives nos&quot;</td>
-<td></td>
+<td>21660</td>
+<td>TJC7.00</td>
+<td>adverse reaction to other antihypertensives</td>
 </tr>
 <tr>
-<td>&quot;21660&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;TJC7.00&quot;	&quot;adverse reaction to other antihypertensives&quot;</td>
-<td></td>
+<td>22356</td>
+<td>1JD..00</td>
+<td>suspected hypertension</td>
 </tr>
 <tr>
-<td>&quot;22356&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;1JD..00&quot;	&quot;suspected hypertension&quot;</td>
-<td></td>
+<td>28684</td>
+<td>G233.00</td>
+<td>hypertensive heart and renal disease with renal failure</td>
 </tr>
 <tr>
-<td>&quot;28684&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G233.00&quot;	&quot;hypertensive heart and renal disease with renal failure&quot;</td>
-<td></td>
+<td>28874</td>
+<td>9OI8.00</td>
+<td>hypertens.monitor phone invite</td>
 </tr>
 <tr>
-<td>&quot;28874&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9OI8.00&quot;	&quot;hypertens.monitor phone invite&quot;</td>
-<td></td>
+<td>29310</td>
+<td>G22z.11</td>
+<td>renal hypertension</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p><em>Preview shows first 100 rows.</em></p>
-
-### Metadata star legend
-
-<div class="metadata-legend">
-<div><span class="meta-star meta-star-1">★</span> 1. Dataset used</div>
-<div><span class="meta-star meta-star-2">★</span> 2. Version information</div>
-<div><span class="meta-star meta-star-3">★</span> 3. Inclusion / exclusion criteria in generating script</div>
-<div><span class="meta-star meta-star-4">★</span> 4. Pre-print / publication / protocol information</div>
-<div><span class="meta-star meta-star-5">★</span> 5. Exposure / outcome / covariate flag</div>
-<div><span class="meta-star meta-star-6">★</span> 6. Clinical or alternative reviewer information</div>
-<div><span class="meta-star meta-star-7">★</span> 7. Citation file (.cff)</div>
-<div><span class="meta-star meta-star-8">★</span> 8. Coding system information</div>
-<div><span class="meta-star meta-star-9">★</span> 9. Brief phenotype description and usage</div>
-</div>
+<p><em>Preview shows first 100 rows from the original codelist file.</em></p>
 

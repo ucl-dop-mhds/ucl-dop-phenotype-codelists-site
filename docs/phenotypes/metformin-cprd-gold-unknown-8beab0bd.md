@@ -1,23 +1,38 @@
 # Metformin
 
 <div class="phenotype-header-card">
-<p class="phenotype-kicker">CPRD Gold phenotype</p>
-<h2>Metformin</h2>
-<p class="phenotype-subtitle">Code name: <code>metformin</code></p>
-<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-3" title="3. Inclusion / exclusion criteria in generating script" aria-label="3. Inclusion / exclusion criteria in generating script">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
+<div class="phenotype-header-fields">
+<div><strong>Dataset:</strong> CPRD Gold</div>
+<div><strong>ID (phenotype-githubID-repoStart):</strong> <code>metformin-smwu-smi</code></div>
+<div><strong>Source:</strong> <a href="https://github.com/smwu/SMI_GLP">smwu/SMI_GLP</a></div>
+<div><strong>License:</strong> MIT</div>
+<div><strong>Date Created:</strong> 2025-08-01</div>
+<div><strong>Date Imported:</strong> 2026-04-22</div>
+<div><strong>Date Updated:</strong> 2026-04-22</div>
+</div>
 </div>
 
-## Repository details
+## Metadata
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Name</dt><dd>Metformin</dd></div><div class="phenotype-meta-row"><dt>Version</dt><dd>0.1.0</dd></div><div class="phenotype-meta-row"><dt>ID</dt><dd><code>metformin-cprd-gold-unknown-8beab0bd</code></dd></div><div class="phenotype-meta-row"><dt>Status</dt><dd>draft</dd></div><div class="phenotype-meta-row"><dt>Dataset</dt><dd>CPRD Gold</dd></div><div class="phenotype-meta-row"><dt>Code name</dt><dd><code>metformin</code></dd></div><div class="phenotype-meta-row"><dt>Phenotype group</dt><dd>Metformin</dd></div><div class="phenotype-meta-row"><dt>Coding system</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Coding systems</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Phenotype role</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Created</dt><dd>2025-08-01</dd></div><div class="phenotype-meta-row"><dt>Imported</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Updated</dt><dd>2026-04-22</dd></div></div>
+<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-3" title="3. Inclusion / exclusion criteria in generating script" aria-label="3. Inclusion / exclusion criteria in generating script">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
 
-## Background information
+<br>
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Summary</dt><dd>Auto-ingested from smwu/SMI_GLP (main) at 1e3dfaacd5ed63663138e764d88792609878a84e. Source path: Code_Lists/Metformin/Gold_Metformin_codelist_20250801.txt.</dd></div><div class="phenotype-meta-row"><dt>Usage notes</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Dataset context</dt><dd>CPRD Gold</dd></div><div class="phenotype-meta-row"><dt>Provenance</dt><dd>Imported</dd></div><div class="phenotype-meta-row"><dt>Source citation</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source repository</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source path</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Evidence</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Review</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Contacts</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>License</dt><dd>MIT</dd></div><div class="phenotype-meta-row"><dt>Tags</dt><dd>NA</dd></div></div>
+<div class="metadata-detail-list">
+<div class="metadata-detail-row"><span class="meta-star meta-star-1">★</span> <strong>Dataset used:</strong> CPRD Gold</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-2">★</span> <strong>Version information:</strong> 0.1.0</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-3">★</span> <strong>Inclusion / exclusion criteria in generating script:</strong> Found in generating script</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-4">☆</span> <strong>Pre-print / publication / protocol information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-5">☆</span> <strong>Exposure / outcome / covariate flag:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-6">☆</span> <strong>Clinical or alternative reviewer information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-7">☆</span> <strong>Citation file (.cff):</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-8">☆</span> <strong>Coding system information:</strong> Unknown</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-9">★</span> <strong>Brief phenotype description and usage:</strong> Auto-ingested from smwu/SMI_GLP (main) at 1e3dfaacd5ed63663138e764d88792609878a84e. Source path: Code_Lists/Metformin/Gold_Metformin_codelist_20250801.txt.</div>
+</div>
 
 ## Downloads
 
-<ul class="phenotype-download-list"><li><a href="../source/metformin-cprd-gold-unknown-8beab0bd.txt">Download original codelist.txt</a></li><li><a href="../csv/metformin-cprd-gold-unknown-8beab0bd.csv">Download normalized CSV</a></li><li><a href="../r/metformin-cprd-gold-unknown-8beab0bd/0h_Metformin_code_list.R">Download R script: 0h_Metformin_code_list.R</a></li></ul>
+<ul class="phenotype-download-list"><li><a href="../../source/metformin-cprd-gold-unknown-8beab0bd.txt" download="metformin-cprd-gold-unknown-8beab0bd.txt">Download original codelist (.txt)</a></li><li><a href="../../r/metformin-cprd-gold-unknown-8beab0bd/0h_Metformin_code_list.R">Download R script: 0h_Metformin_code_list.R</a></li></ul>
 
 ## Codelist preview
 
@@ -25,730 +40,1120 @@
 <table>
 <thead>
 <tr>
-<th>code</th>
-<th>code_system</th>
-<th>include</th>
-<th>term</th>
-<th>notes</th>
+<th>prodcode</th>
+<th>therapyevents</th>
+<th>productname</th>
+<th>ingredient</th>
+<th>strength</th>
+<th>formulation</th>
+<th>route</th>
+<th>bnftext</th>
+<th>Metformin</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>&quot;prodcode&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;therapyevents&quot;	&quot;productname&quot;	&quot;ingredient&quot;	&quot;strength&quot;	&quot;formulation&quot;	&quot;route&quot;	&quot;bnftext&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;43684&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>42448	&quot;Janumet 50mg/1000mg tablets (Merck Sharp &amp; Dohme (UK) Ltd)&quot;	&quot;Metformin&quot;	&quot;1gram + 50mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Gliptins Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;30316&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>8156	&quot;Metformin with pioglitazone 850mg + 15mg Tablet&quot;	&quot;Metformin&quot;	&quot;850mg + 15mg&quot;	&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)/Other Antidiabetic Products&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;73808&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>2	&quot;Metformin 500mg/5ml oral solution sugar free (Accord-UK Ltd)&quot;	&quot;Metformin&quot;	&quot;100mg/1ml&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;62265&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 500mg modified-release tablets (Mawdsley-Brooks &amp; Company Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;60074&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 1g modified-release tablets (Waymade Healthcare Plc)&quot;	&quot;Metformin&quot;	&quot;1gram&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;50570&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1	&quot;Glucophage SR 500mg tablets (Lexon (UK) Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;63031&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>2032	&quot;Dapagliflozin 5mg / Metformin 850mg tablets&quot;	&quot;Metformin&quot;	&quot;850mg + 5mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Gliflozins Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;48149&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1	&quot;Metformin 500mg tablets (Almus Pharmaceuticals Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;58865&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>65	&quot;Komboglyze 2.5mg/850mg tablets (AstraZeneca UK Ltd)&quot;	&quot;Metformin&quot;	&quot;850mg + 2.5mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Gliptins Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;11609&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>569	&quot;Metformin with rosiglitazone 500mg + 1mg Tablet&quot;	&quot;Metformin&quot;	&quot;500mg + 1mg&quot;	&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)/Other Antidiabetic Products&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;49738&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>29	&quot;Metformin 1g modified-release tablets (A A H Pharmaceuticals Ltd)&quot;	&quot;Metformin&quot;	&quot;1gram&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;37874&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>15340	&quot;Vildagliptin 50mg / Metformin 850mg tablets&quot;	&quot;Metformin&quot;	&quot;850mg + 50mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Gliptins Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;52221&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>7489	&quot;Diagemet XL 500mg tablets (Genus Pharmaceuticals Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;7166&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>210786	&quot;Glucophage 500mg tablets (Merck Serono Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;68214&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 500mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)&quot;	&quot;Metformin&quot;	&quot;100mg/1ml&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;40007&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1579	&quot;Glucophage 1000mg oral powder sachets (Merck Serono Ltd)&quot;	&quot;Metformin&quot;	&quot;1gram&quot;	&quot;Powder for oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;85047&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 1g modified-release tablets (Medihealth (Northern) Ltd)&quot;	&quot;Metformin&quot;	&quot;1gram&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;11601&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>32305	&quot;Rosiglitazone 2mg / Metformin 500mg tablets&quot;	&quot;Metformin&quot;	&quot;2mg + 500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Glitazones Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;91178&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>6	&quot;Metformin 850mg modified-release tablets&quot;	&quot;Metformin&quot;	&quot;850mg&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;57457&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 500mg tablets (Milpharm Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;58607&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 500mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd)&quot;	&quot;Metformin&quot;	&quot;100mg/1ml&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;40233&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>11586	&quot;Metformin 1g oral powder sachets sugar free&quot;	&quot;Metformin&quot;	&quot;1gram&quot;	&quot;Powder for oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;52634&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>2	&quot;Glucophage SR 500mg tablets (DE Pharmaceuticals)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;56965&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>456	&quot;Komboglyze 2.5mg/1000mg tablets (AstraZeneca UK Ltd)&quot;	&quot;Metformin&quot;	&quot;1gram + 2.5mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Gliptins Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;42161&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>3	&quot;Orabet 500mg Tablet (Sandoz Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;73525&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 500mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)&quot;	&quot;Metformin&quot;	&quot;100mg/1ml&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;53774&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>661	&quot;Metabet SR 500mg tablets (Actavis UK Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;34598&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>548	&quot;Metformin 500mg tablets (Viatris UK Healthcare Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;63045&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 850mg tablets (Relonchem Ltd)&quot;	&quot;Metformin&quot;	&quot;850mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;84717&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>3	&quot;Metformin 500mg Tablet (Ratiopharm UK Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;84627&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 1g modified-release tablets (Accord-UK Ltd)&quot;	&quot;Metformin&quot;	&quot;1gram&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;71890&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>82	&quot;Metformin 500mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)&quot;	&quot;Metformin&quot;	&quot;100mg/1ml&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;83608&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1	&quot;Metformin 500mg modified-release tablets (Consilient Health Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;74021&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>15	&quot;Metformin 250mg/5ml oral solution&quot;	&quot;Metformin&quot;	&quot;50mg/1ml&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;87325&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Glucophage SR 1000mg tablets (Pilsco Ltd)&quot;	&quot;Metformin&quot;	&quot;1gram&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;38400&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>40043	&quot;Glucophage SR 750mg tablets (Merck Serono Ltd)&quot;	&quot;Metformin&quot;	&quot;750mg&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;74734&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>2	&quot;Metformin 850mg capsules&quot;	&quot;Metformin&quot;	&quot;850mg&quot;	&quot;Oral capsule&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;73303&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 500mg/5ml oral solution sugar free (Colonis Pharma Ltd)&quot;	&quot;Metformin&quot;	&quot;100mg/1ml&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;65083&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>3433	&quot;Synjardy 5mg/1000mg tablets (Boehringer Ingelheim Ltd)&quot;	&quot;Metformin&quot;	&quot;1gram + 5mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Gliflozins Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;69221&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 1g oral powder sachets sugar free (J M McGill Ltd)&quot;	&quot;Metformin&quot;	&quot;1gram&quot;	&quot;Powder for oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;90065&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 850mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)&quot;	&quot;Metformin&quot;	&quot;170mg/1ml&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;7610&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>55555	&quot;Glucophage 850mg tablets (Merck Serono Ltd)&quot;	&quot;Metformin&quot;	&quot;850mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;62605&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 850mg tablets (Kent Pharma (UK) Ltd)&quot;	&quot;Metformin&quot;	&quot;850mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;52442&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 500mg tablets (Pfizer Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;78392&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 850mg tablets (Zentiva Pharma UK Ltd)&quot;	&quot;Metformin&quot;	&quot;850mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;82890&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 850mg tablets (Milpharm Ltd)&quot;	&quot;Metformin&quot;	&quot;850mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;63307&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>11	&quot;Metformin 1g/5ml oral solution&quot;	&quot;Metformin&quot;	&quot;200mg/1ml&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;73285&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 500mg tablets (Waymade Healthcare Plc)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;34135&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1	&quot;Metformin 500mg Tablet (M &amp; A Pharmachem Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;50970&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 500mg tablets (Bristol Laboratories Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;65059&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>173	&quot;Xigduo 5mg/850mg tablets (AstraZeneca UK Ltd)&quot;	&quot;Metformin&quot;	&quot;850mg + 5mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Gliflozins Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;27501&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>8	&quot;Orabet 500mg Tablet (Lagap)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;72695&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>103	&quot;Metformin 500mg Tablet (Celltech Pharma Europe Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;54442&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin (roi) 1000mg Tablet&quot;	&quot;Metformin&quot;	&quot;1000mg&quot;	&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;60643&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1308	&quot;Xigduo 5mg/1000mg tablets (AstraZeneca UK Ltd)&quot;	&quot;Metformin&quot;	&quot;1gram + 5mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Gliflozins Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;73254&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>45528	&quot;Yaltormin SR 1000mg tablets (Wockhardt UK Ltd)&quot;	&quot;Metformin&quot;	&quot;1gram&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;87341&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 1g/5ml oral solution sugar free (Colonis Pharma Ltd)&quot;	&quot;Metformin&quot;	&quot;200mg/1ml&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;66136&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>17	&quot;Glucophage SR 1000mg tablets (Waymade Healthcare Plc)&quot;	&quot;Metformin&quot;	&quot;1gram&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;34504&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>237	&quot;Metformin 500mg tablets (Wockhardt UK Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;60497&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>13984	&quot;Alogliptin 12.5mg / Metformin 1g tablets&quot;	&quot;Metformin&quot;	&quot;1gram + 12.5mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Gliptins Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;88758&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 500mg tablets (Ipca Laboratories UK Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;89656&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 500mg modified-release tablets (Brown &amp; Burk UK Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;16044&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>523659	&quot;Glucophage SR 500mg tablets (Merck Serono Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;81428&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1492	&quot;Sukkarto SR 750mg tablets (Morningside Healthcare Ltd)&quot;	&quot;Metformin&quot;	&quot;750mg&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;78537&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>12	&quot;Metformin 850mg/5ml oral suspension&quot;	&quot;Metformin&quot;	&quot;170mg/1ml&quot;	&quot;Oral suspension&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;18220&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>111287	&quot;Pioglitazone 15mg / Metformin 850mg tablets&quot;	&quot;Metformin&quot;	&quot;850mg + 15mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Glitazones Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;65057&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>10618	&quot;Empagliflozin 5mg / Metformin 1g tablets&quot;	&quot;Metformin&quot;	&quot;1gram + 5mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Gliflozins Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;83088&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>23	&quot;Glucorex SR 500mg tablets (GlucoRx Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;64743&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>389	&quot;Canagliflozin 50mg / Metformin 850mg tablets&quot;	&quot;Metformin&quot;	&quot;850mg + 50mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Gliflozins Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;73460&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>30	&quot;Metformin 500mg/5ml oral solution sugar free (Accord-UK Ltd)&quot;	&quot;Metformin&quot;	&quot;100mg/1ml&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Unknown&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;33674&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>232	&quot;Metformin 850mg tablets (A A H Pharmaceuticals Ltd)&quot;	&quot;Metformin&quot;	&quot;850mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;31077&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>31154	&quot;Competact 15mg/850mg tablets (Neon Healthcare Ltd)&quot;	&quot;Metformin&quot;	&quot;850mg + 15mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Glitazones Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;64939&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>91	&quot;Glucient SR 1000mg tablets (Consilient Health Ltd)&quot;	&quot;Metformin&quot;	&quot;1gram&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;75700&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 500mg/5ml oral solution sugar free (Waymade Healthcare Plc)&quot;	&quot;Metformin&quot;	&quot;100mg/1ml&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;55270&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1	&quot;Duformin 500mg Tablet (Dumex Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;60286&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>145	&quot;Metformin 500mg/5ml oral suspension&quot;	&quot;Metformin&quot;	&quot;100mg/1ml&quot;	&quot;Oral suspension&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;11990&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>65664	&quot;Metformin 500mg/5ml oral solution sugar free&quot;	&quot;Metformin&quot;	&quot;100mg/1ml&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;82855&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>3	&quot;Metformin 500mg modified-release tablets (Medihealth (Northern) Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;34836&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>835	&quot;Metformin 850mg tablets (Actavis UK Ltd)&quot;	&quot;Metformin&quot;	&quot;850mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;11610&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>5642	&quot;Metformin with rosiglitazone 500mg + 2mg Tablet&quot;	&quot;Metformin&quot;	&quot;500mg + 2mg&quot;	&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)/Other Antidiabetic Products&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;43270&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>157	&quot;Metformin 500mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)&quot;	&quot;Metformin&quot;	&quot;100mg/1ml&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;81864&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>95	&quot;Metformin 500mg modified-release tablets (Morningside Healthcare Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;46989&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1040	&quot;Metabet SR 1000mg tablets (Morningside Healthcare Ltd)&quot;	&quot;Metformin&quot;	&quot;1gram&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;72001&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 1g modified-release tablets (DE Pharmaceuticals)&quot;	&quot;Metformin&quot;	&quot;1gram&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;11717&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>53573	&quot;Rosiglitazone 2mg / Metformin 1g tablets&quot;	&quot;Metformin&quot;	&quot;2mg + 1gram&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Glitazones Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;75778&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 500mg tablets (Crescent Pharma Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;66855&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>622	&quot;Empagliflozin 12.5mg / Metformin 850mg tablets&quot;	&quot;Metformin&quot;	&quot;850mg + 12.5mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Gliflozins Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;43619&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>85709	&quot;Metformin 1g / Sitagliptin 50mg tablets&quot;	&quot;Metformin&quot;	&quot;1gram + 50mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Gliptins Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;52445&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>17541	&quot;Linagliptin 2.5mg / Metformin 1g tablets&quot;	&quot;Metformin&quot;	&quot;1000mg + 2.5mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Gliptins Plus Metformin&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;68203&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>15	&quot;Metformin 500mg modified-release tablets (Almus Pharmaceuticals Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;85064&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>9	&quot;Metformin 500mg modified-release tablets (A A H Pharmaceuticals Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;73892&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>6	&quot;Metformin 500mg tablets (Relonchem Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;39988&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>27314	&quot;Metformin 500mg oral powder sachets sugar free&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Powder for oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;84743&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>6	&quot;Metformin Oral solution&quot;	&quot;Metformin&quot;	NA	&quot;Oral Solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;71012&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>0	&quot;Metformin 500mg tablets (Phoenix Healthcare Distribution Ltd)&quot;	&quot;Metformin&quot;	&quot;500mg&quot;	&quot;Oral tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;44250&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>8	&quot;Metformin 500mg/5ml Oral solution (Hillcross Pharmaceuticals Ltd)&quot;	&quot;Metformin&quot;	&quot;100mg/1ml&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;11737&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>6614	&quot;Metformin with rosiglitazone 1000mg + 4mg Tablet&quot;	&quot;Metformin&quot;	&quot;1000mg + 4mg&quot;	&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)/Other Antidiabetic Products&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;7815&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>32	&quot;METFORMIN 800 MG TAB&quot;	&quot;Metformin&quot;	NA	&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Unknown&quot;	&quot;Metformin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;39598&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1876691	&quot;Metformin 1g modified-release tablets&quot;	&quot;Metformin&quot;	&quot;1gram&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Biguanides (Metformin)&quot;	&quot;Metformin&quot;</td>
-<td></td>
+<td>43684</td>
+<td>42448</td>
+<td>Janumet 50mg/1000mg tablets (Merck Sharp &amp; Dohme (UK) Ltd)</td>
+<td>Metformin</td>
+<td>1gram + 50mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Gliptins Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>30316</td>
+<td>8156</td>
+<td>Metformin with pioglitazone 850mg + 15mg Tablet</td>
+<td>Metformin</td>
+<td>850mg + 15mg</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)/Other Antidiabetic Products</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>73808</td>
+<td>2</td>
+<td>Metformin 500mg/5ml oral solution sugar free (Accord-UK Ltd)</td>
+<td>Metformin</td>
+<td>100mg/1ml</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>62265</td>
+<td>0</td>
+<td>Metformin 500mg modified-release tablets (Mawdsley-Brooks &amp; Company Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>60074</td>
+<td>0</td>
+<td>Metformin 1g modified-release tablets (Waymade Healthcare Plc)</td>
+<td>Metformin</td>
+<td>1gram</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>50570</td>
+<td>1</td>
+<td>Glucophage SR 500mg tablets (Lexon (UK) Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>63031</td>
+<td>2032</td>
+<td>Dapagliflozin 5mg / Metformin 850mg tablets</td>
+<td>Metformin</td>
+<td>850mg + 5mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Gliflozins Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>48149</td>
+<td>1</td>
+<td>Metformin 500mg tablets (Almus Pharmaceuticals Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>58865</td>
+<td>65</td>
+<td>Komboglyze 2.5mg/850mg tablets (AstraZeneca UK Ltd)</td>
+<td>Metformin</td>
+<td>850mg + 2.5mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Gliptins Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>11609</td>
+<td>569</td>
+<td>Metformin with rosiglitazone 500mg + 1mg Tablet</td>
+<td>Metformin</td>
+<td>500mg + 1mg</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)/Other Antidiabetic Products</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>49738</td>
+<td>29</td>
+<td>Metformin 1g modified-release tablets (A A H Pharmaceuticals Ltd)</td>
+<td>Metformin</td>
+<td>1gram</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>37874</td>
+<td>15340</td>
+<td>Vildagliptin 50mg / Metformin 850mg tablets</td>
+<td>Metformin</td>
+<td>850mg + 50mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Gliptins Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>52221</td>
+<td>7489</td>
+<td>Diagemet XL 500mg tablets (Genus Pharmaceuticals Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>7166</td>
+<td>210786</td>
+<td>Glucophage 500mg tablets (Merck Serono Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>68214</td>
+<td>0</td>
+<td>Metformin 500mg/5ml oral solution sugar free (A A H Pharmaceuticals Ltd)</td>
+<td>Metformin</td>
+<td>100mg/1ml</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>40007</td>
+<td>1579</td>
+<td>Glucophage 1000mg oral powder sachets (Merck Serono Ltd)</td>
+<td>Metformin</td>
+<td>1gram</td>
+<td>Powder for oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>85047</td>
+<td>0</td>
+<td>Metformin 1g modified-release tablets (Medihealth (Northern) Ltd)</td>
+<td>Metformin</td>
+<td>1gram</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>11601</td>
+<td>32305</td>
+<td>Rosiglitazone 2mg / Metformin 500mg tablets</td>
+<td>Metformin</td>
+<td>2mg + 500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Glitazones Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>91178</td>
+<td>6</td>
+<td>Metformin 850mg modified-release tablets</td>
+<td>Metformin</td>
+<td>850mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>57457</td>
+<td>0</td>
+<td>Metformin 500mg tablets (Milpharm Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>58607</td>
+<td>0</td>
+<td>Metformin 500mg/5ml oral solution sugar free (Zentiva Pharma UK Ltd)</td>
+<td>Metformin</td>
+<td>100mg/1ml</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>40233</td>
+<td>11586</td>
+<td>Metformin 1g oral powder sachets sugar free</td>
+<td>Metformin</td>
+<td>1gram</td>
+<td>Powder for oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>52634</td>
+<td>2</td>
+<td>Glucophage SR 500mg tablets (DE Pharmaceuticals)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>56965</td>
+<td>456</td>
+<td>Komboglyze 2.5mg/1000mg tablets (AstraZeneca UK Ltd)</td>
+<td>Metformin</td>
+<td>1gram + 2.5mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Gliptins Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>42161</td>
+<td>3</td>
+<td>Orabet 500mg Tablet (Sandoz Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>73525</td>
+<td>0</td>
+<td>Metformin 500mg/5ml oral solution sugar free (Alliance Healthcare (Distribution) Ltd)</td>
+<td>Metformin</td>
+<td>100mg/1ml</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>53774</td>
+<td>661</td>
+<td>Metabet SR 500mg tablets (Actavis UK Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>34598</td>
+<td>548</td>
+<td>Metformin 500mg tablets (Viatris UK Healthcare Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>63045</td>
+<td>0</td>
+<td>Metformin 850mg tablets (Relonchem Ltd)</td>
+<td>Metformin</td>
+<td>850mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>84717</td>
+<td>3</td>
+<td>Metformin 500mg Tablet (Ratiopharm UK Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>84627</td>
+<td>0</td>
+<td>Metformin 1g modified-release tablets (Accord-UK Ltd)</td>
+<td>Metformin</td>
+<td>1gram</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>71890</td>
+<td>82</td>
+<td>Metformin 500mg/5ml oral solution sugar free (Almus Pharmaceuticals Ltd)</td>
+<td>Metformin</td>
+<td>100mg/1ml</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>83608</td>
+<td>1</td>
+<td>Metformin 500mg modified-release tablets (Consilient Health Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>74021</td>
+<td>15</td>
+<td>Metformin 250mg/5ml oral solution</td>
+<td>Metformin</td>
+<td>50mg/1ml</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>87325</td>
+<td>0</td>
+<td>Glucophage SR 1000mg tablets (Pilsco Ltd)</td>
+<td>Metformin</td>
+<td>1gram</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>38400</td>
+<td>40043</td>
+<td>Glucophage SR 750mg tablets (Merck Serono Ltd)</td>
+<td>Metformin</td>
+<td>750mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>74734</td>
+<td>2</td>
+<td>Metformin 850mg capsules</td>
+<td>Metformin</td>
+<td>850mg</td>
+<td>Oral capsule</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>73303</td>
+<td>0</td>
+<td>Metformin 500mg/5ml oral solution sugar free (Colonis Pharma Ltd)</td>
+<td>Metformin</td>
+<td>100mg/1ml</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>65083</td>
+<td>3433</td>
+<td>Synjardy 5mg/1000mg tablets (Boehringer Ingelheim Ltd)</td>
+<td>Metformin</td>
+<td>1gram + 5mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Gliflozins Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>69221</td>
+<td>0</td>
+<td>Metformin 1g oral powder sachets sugar free (J M McGill Ltd)</td>
+<td>Metformin</td>
+<td>1gram</td>
+<td>Powder for oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>90065</td>
+<td>0</td>
+<td>Metformin 850mg/5ml oral solution sugar free (Medihealth (Northern) Ltd)</td>
+<td>Metformin</td>
+<td>170mg/1ml</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>7610</td>
+<td>55555</td>
+<td>Glucophage 850mg tablets (Merck Serono Ltd)</td>
+<td>Metformin</td>
+<td>850mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>62605</td>
+<td>0</td>
+<td>Metformin 850mg tablets (Kent Pharma (UK) Ltd)</td>
+<td>Metformin</td>
+<td>850mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>52442</td>
+<td>0</td>
+<td>Metformin 500mg tablets (Pfizer Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>78392</td>
+<td>0</td>
+<td>Metformin 850mg tablets (Zentiva Pharma UK Ltd)</td>
+<td>Metformin</td>
+<td>850mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>82890</td>
+<td>0</td>
+<td>Metformin 850mg tablets (Milpharm Ltd)</td>
+<td>Metformin</td>
+<td>850mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>63307</td>
+<td>11</td>
+<td>Metformin 1g/5ml oral solution</td>
+<td>Metformin</td>
+<td>200mg/1ml</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>73285</td>
+<td>0</td>
+<td>Metformin 500mg tablets (Waymade Healthcare Plc)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>34135</td>
+<td>1</td>
+<td>Metformin 500mg Tablet (M &amp; A Pharmachem Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>50970</td>
+<td>0</td>
+<td>Metformin 500mg tablets (Bristol Laboratories Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>65059</td>
+<td>173</td>
+<td>Xigduo 5mg/850mg tablets (AstraZeneca UK Ltd)</td>
+<td>Metformin</td>
+<td>850mg + 5mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Gliflozins Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>27501</td>
+<td>8</td>
+<td>Orabet 500mg Tablet (Lagap)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>72695</td>
+<td>103</td>
+<td>Metformin 500mg Tablet (Celltech Pharma Europe Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>54442</td>
+<td>0</td>
+<td>Metformin (roi) 1000mg Tablet</td>
+<td>Metformin</td>
+<td>1000mg</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>60643</td>
+<td>1308</td>
+<td>Xigduo 5mg/1000mg tablets (AstraZeneca UK Ltd)</td>
+<td>Metformin</td>
+<td>1gram + 5mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Gliflozins Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>73254</td>
+<td>45528</td>
+<td>Yaltormin SR 1000mg tablets (Wockhardt UK Ltd)</td>
+<td>Metformin</td>
+<td>1gram</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>87341</td>
+<td>0</td>
+<td>Metformin 1g/5ml oral solution sugar free (Colonis Pharma Ltd)</td>
+<td>Metformin</td>
+<td>200mg/1ml</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>66136</td>
+<td>17</td>
+<td>Glucophage SR 1000mg tablets (Waymade Healthcare Plc)</td>
+<td>Metformin</td>
+<td>1gram</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>34504</td>
+<td>237</td>
+<td>Metformin 500mg tablets (Wockhardt UK Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>60497</td>
+<td>13984</td>
+<td>Alogliptin 12.5mg / Metformin 1g tablets</td>
+<td>Metformin</td>
+<td>1gram + 12.5mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Gliptins Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>88758</td>
+<td>0</td>
+<td>Metformin 500mg tablets (Ipca Laboratories UK Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>89656</td>
+<td>0</td>
+<td>Metformin 500mg modified-release tablets (Brown &amp; Burk UK Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>16044</td>
+<td>523659</td>
+<td>Glucophage SR 500mg tablets (Merck Serono Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>81428</td>
+<td>1492</td>
+<td>Sukkarto SR 750mg tablets (Morningside Healthcare Ltd)</td>
+<td>Metformin</td>
+<td>750mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>78537</td>
+<td>12</td>
+<td>Metformin 850mg/5ml oral suspension</td>
+<td>Metformin</td>
+<td>170mg/1ml</td>
+<td>Oral suspension</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>18220</td>
+<td>111287</td>
+<td>Pioglitazone 15mg / Metformin 850mg tablets</td>
+<td>Metformin</td>
+<td>850mg + 15mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Glitazones Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>65057</td>
+<td>10618</td>
+<td>Empagliflozin 5mg / Metformin 1g tablets</td>
+<td>Metformin</td>
+<td>1gram + 5mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Gliflozins Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>83088</td>
+<td>23</td>
+<td>Glucorex SR 500mg tablets (GlucoRx Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>64743</td>
+<td>389</td>
+<td>Canagliflozin 50mg / Metformin 850mg tablets</td>
+<td>Metformin</td>
+<td>850mg + 50mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Gliflozins Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>73460</td>
+<td>30</td>
+<td>Metformin 500mg/5ml oral solution sugar free (Accord-UK Ltd)</td>
+<td>Metformin</td>
+<td>100mg/1ml</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Unknown</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>33674</td>
+<td>232</td>
+<td>Metformin 850mg tablets (A A H Pharmaceuticals Ltd)</td>
+<td>Metformin</td>
+<td>850mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>31077</td>
+<td>31154</td>
+<td>Competact 15mg/850mg tablets (Neon Healthcare Ltd)</td>
+<td>Metformin</td>
+<td>850mg + 15mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Glitazones Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>64939</td>
+<td>91</td>
+<td>Glucient SR 1000mg tablets (Consilient Health Ltd)</td>
+<td>Metformin</td>
+<td>1gram</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>75700</td>
+<td>0</td>
+<td>Metformin 500mg/5ml oral solution sugar free (Waymade Healthcare Plc)</td>
+<td>Metformin</td>
+<td>100mg/1ml</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>55270</td>
+<td>1</td>
+<td>Duformin 500mg Tablet (Dumex Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>60286</td>
+<td>145</td>
+<td>Metformin 500mg/5ml oral suspension</td>
+<td>Metformin</td>
+<td>100mg/1ml</td>
+<td>Oral suspension</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>11990</td>
+<td>65664</td>
+<td>Metformin 500mg/5ml oral solution sugar free</td>
+<td>Metformin</td>
+<td>100mg/1ml</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>82855</td>
+<td>3</td>
+<td>Metformin 500mg modified-release tablets (Medihealth (Northern) Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>34836</td>
+<td>835</td>
+<td>Metformin 850mg tablets (Actavis UK Ltd)</td>
+<td>Metformin</td>
+<td>850mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>11610</td>
+<td>5642</td>
+<td>Metformin with rosiglitazone 500mg + 2mg Tablet</td>
+<td>Metformin</td>
+<td>500mg + 2mg</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)/Other Antidiabetic Products</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>43270</td>
+<td>157</td>
+<td>Metformin 500mg/5ml oral solution sugar free (Rosemont Pharmaceuticals Ltd)</td>
+<td>Metformin</td>
+<td>100mg/1ml</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>81864</td>
+<td>95</td>
+<td>Metformin 500mg modified-release tablets (Morningside Healthcare Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>46989</td>
+<td>1040</td>
+<td>Metabet SR 1000mg tablets (Morningside Healthcare Ltd)</td>
+<td>Metformin</td>
+<td>1gram</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>72001</td>
+<td>0</td>
+<td>Metformin 1g modified-release tablets (DE Pharmaceuticals)</td>
+<td>Metformin</td>
+<td>1gram</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>11717</td>
+<td>53573</td>
+<td>Rosiglitazone 2mg / Metformin 1g tablets</td>
+<td>Metformin</td>
+<td>2mg + 1gram</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Glitazones Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>75778</td>
+<td>0</td>
+<td>Metformin 500mg tablets (Crescent Pharma Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>66855</td>
+<td>622</td>
+<td>Empagliflozin 12.5mg / Metformin 850mg tablets</td>
+<td>Metformin</td>
+<td>850mg + 12.5mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Gliflozins Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>43619</td>
+<td>85709</td>
+<td>Metformin 1g / Sitagliptin 50mg tablets</td>
+<td>Metformin</td>
+<td>1gram + 50mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Gliptins Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>52445</td>
+<td>17541</td>
+<td>Linagliptin 2.5mg / Metformin 1g tablets</td>
+<td>Metformin</td>
+<td>1000mg + 2.5mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Gliptins Plus Metformin</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>68203</td>
+<td>15</td>
+<td>Metformin 500mg modified-release tablets (Almus Pharmaceuticals Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>85064</td>
+<td>9</td>
+<td>Metformin 500mg modified-release tablets (A A H Pharmaceuticals Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>73892</td>
+<td>6</td>
+<td>Metformin 500mg tablets (Relonchem Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>39988</td>
+<td>27314</td>
+<td>Metformin 500mg oral powder sachets sugar free</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Powder for oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>84743</td>
+<td>6</td>
+<td>Metformin Oral solution</td>
+<td>Metformin</td>
+<td>NA</td>
+<td>Oral Solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>71012</td>
+<td>0</td>
+<td>Metformin 500mg tablets (Phoenix Healthcare Distribution Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Oral tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>44250</td>
+<td>8</td>
+<td>Metformin 500mg/5ml Oral solution (Hillcross Pharmaceuticals Ltd)</td>
+<td>Metformin</td>
+<td>100mg/1ml</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>11737</td>
+<td>6614</td>
+<td>Metformin with rosiglitazone 1000mg + 4mg Tablet</td>
+<td>Metformin</td>
+<td>1000mg + 4mg</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)/Other Antidiabetic Products</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>7815</td>
+<td>32</td>
+<td>METFORMIN 800 MG TAB</td>
+<td>Metformin</td>
+<td>NA</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Unknown</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>39598</td>
+<td>1876691</td>
+<td>Metformin 1g modified-release tablets</td>
+<td>Metformin</td>
+<td>1gram</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
+</tr>
+<tr>
+<td>39560</td>
+<td>3290</td>
+<td>Bolamyn SR 500mg tablets (Teva UK Ltd)</td>
+<td>Metformin</td>
+<td>500mg</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Biguanides (Metformin)</td>
+<td>Metformin</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p><em>Preview shows first 100 rows.</em></p>
-
-### Metadata star legend
-
-<div class="metadata-legend">
-<div><span class="meta-star meta-star-1">★</span> 1. Dataset used</div>
-<div><span class="meta-star meta-star-2">★</span> 2. Version information</div>
-<div><span class="meta-star meta-star-3">★</span> 3. Inclusion / exclusion criteria in generating script</div>
-<div><span class="meta-star meta-star-4">★</span> 4. Pre-print / publication / protocol information</div>
-<div><span class="meta-star meta-star-5">★</span> 5. Exposure / outcome / covariate flag</div>
-<div><span class="meta-star meta-star-6">★</span> 6. Clinical or alternative reviewer information</div>
-<div><span class="meta-star meta-star-7">★</span> 7. Citation file (.cff)</div>
-<div><span class="meta-star meta-star-8">★</span> 8. Coding system information</div>
-<div><span class="meta-star meta-star-9">★</span> 9. Brief phenotype description and usage</div>
-</div>
+<p><em>Preview shows first 100 rows from the original codelist file.</em></p>
 

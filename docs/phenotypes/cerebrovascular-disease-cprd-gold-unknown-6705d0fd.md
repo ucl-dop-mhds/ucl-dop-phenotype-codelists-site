@@ -1,23 +1,38 @@
 # Cerebrovascular Disease
 
 <div class="phenotype-header-card">
-<p class="phenotype-kicker">CPRD Gold phenotype</p>
-<h2>Cerebrovascular Disease</h2>
-<p class="phenotype-subtitle">Code name: <code>cerebrovascular-disease</code></p>
-<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-4" title="4. Pre-print / publication / protocol information" aria-label="4. Pre-print / publication / protocol information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
+<div class="phenotype-header-fields">
+<div><strong>Dataset:</strong> CPRD Gold</div>
+<div><strong>ID (phenotype-githubID-repoStart):</strong> <code>cerebrovascular-disease-naomilaunders-repurposing</code></div>
+<div><strong>Source:</strong> <a href="https://github.com/NaomiLaunders/Repurposing-statins-in-SMI">NaomiLaunders/Repurposing-statins-in-SMI</a></div>
+<div><strong>License:</strong> MIT</div>
+<div><strong>Date Created:</strong> 2026-04-22</div>
+<div><strong>Date Imported:</strong> 2026-04-22</div>
+<div><strong>Date Updated:</strong> 2026-04-22</div>
+</div>
 </div>
 
-## Repository details
+## Metadata
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Name</dt><dd>Cerebrovascular Disease</dd></div><div class="phenotype-meta-row"><dt>Version</dt><dd>0.1.0</dd></div><div class="phenotype-meta-row"><dt>ID</dt><dd><code>cerebrovascular-disease-cprd-gold-unknown-6705d0fd</code></dd></div><div class="phenotype-meta-row"><dt>Status</dt><dd>draft</dd></div><div class="phenotype-meta-row"><dt>Dataset</dt><dd>CPRD Gold</dd></div><div class="phenotype-meta-row"><dt>Code name</dt><dd><code>cerebrovascular-disease</code></dd></div><div class="phenotype-meta-row"><dt>Phenotype group</dt><dd>Code lists</dd></div><div class="phenotype-meta-row"><dt>Coding system</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Coding systems</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Phenotype role</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Created</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Imported</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Updated</dt><dd>2026-04-22</dd></div></div>
+<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-4" title="4. Pre-print / publication / protocol information" aria-label="4. Pre-print / publication / protocol information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
 
-## Background information
+<br>
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Summary</dt><dd>Auto-ingested from NaomiLaunders/Repurposing-statins-in-SMI (main) at 55a86d5fcf8e8cb851419ea126e9563b69ed1135. Source path: Code lists/CerebGold.txt.</dd></div><div class="phenotype-meta-row"><dt>Usage notes</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Dataset context</dt><dd>CPRD Gold</dd></div><div class="phenotype-meta-row"><dt>Provenance</dt><dd>Imported</dd></div><div class="phenotype-meta-row"><dt>Source citation</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source repository</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source path</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Evidence</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Review</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Contacts</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>License</dt><dd>MIT</dd></div><div class="phenotype-meta-row"><dt>Tags</dt><dd>NA</dd></div></div>
+<div class="metadata-detail-list">
+<div class="metadata-detail-row"><span class="meta-star meta-star-1">★</span> <strong>Dataset used:</strong> CPRD Gold</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-2">★</span> <strong>Version information:</strong> 0.1.0</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-3">☆</span> <strong>Inclusion / exclusion criteria in generating script:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-4">★</span> <strong>Pre-print / publication / protocol information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-5">☆</span> <strong>Exposure / outcome / covariate flag:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-6">☆</span> <strong>Clinical or alternative reviewer information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-7">☆</span> <strong>Citation file (.cff):</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-8">☆</span> <strong>Coding system information:</strong> Unknown</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-9">★</span> <strong>Brief phenotype description and usage:</strong> Auto-ingested from NaomiLaunders/Repurposing-statins-in-SMI (main) at 55a86d5fcf8e8cb851419ea126e9563b69ed1135. Source path: Code lists/CerebGold.txt.</div>
+</div>
 
 ## Downloads
 
-<ul class="phenotype-download-list"><li><a href="../source/cerebrovascular-disease-cprd-gold-unknown-6705d0fd.txt">Download original codelist.txt</a></li><li><a href="../csv/cerebrovascular-disease-cprd-gold-unknown-6705d0fd.csv">Download normalized CSV</a></li></ul>
+<ul class="phenotype-download-list"><li><a href="../../source/cerebrovascular-disease-cprd-gold-unknown-6705d0fd.txt" download="cerebrovascular-disease-cprd-gold-unknown-6705d0fd.txt">Download original codelist (.txt)</a></li></ul>
 
 ## Codelist preview
 
@@ -25,730 +40,514 @@
 <table>
 <thead>
 <tr>
-<th>code</th>
-<th>code_system</th>
-<th>include</th>
-<th>term</th>
-<th>notes</th>
+<th>medcode</th>
+<th>readcode</th>
+<th>desc</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>&quot;medcode&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;readcode&quot;	&quot;desc&quot;</td>
-<td></td>
+<td>100128</td>
+<td>F124.00</td>
+<td>vascular parkinsonism</td>
 </tr>
 <tr>
-<td>&quot;100128&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;F124.00&quot;	&quot;vascular parkinsonism&quot;</td>
-<td></td>
+<td>10062</td>
+<td>G6z..00</td>
+<td>cerebrovascular disease nos</td>
 </tr>
 <tr>
-<td>&quot;10062&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G6z..00&quot;	&quot;cerebrovascular disease nos&quot;</td>
-<td></td>
+<td>100639</td>
+<td>1M4..00</td>
+<td>central post-stroke pain</td>
 </tr>
 <tr>
-<td>&quot;100639&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;1M4..00&quot;	&quot;central post-stroke pain&quot;</td>
-<td></td>
+<td>104638</td>
+<td>8IEC.00</td>
+<td>ref multidisciplinary stroke function improvement declined</td>
 </tr>
 <tr>
-<td>&quot;104638&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8IEC.00&quot;	&quot;ref multidisciplinary stroke function improvement declined&quot;</td>
-<td></td>
+<td>10504</td>
+<td>G64z300</td>
+<td>right sided cerebral infarction</td>
 </tr>
 <tr>
-<td>&quot;10504&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G64z300&quot;	&quot;right sided cerebral infarction&quot;</td>
-<td></td>
+<td>105100</td>
+<td>662M100</td>
+<td>stroke 6 month review</td>
 </tr>
 <tr>
-<td>&quot;105100&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662M100&quot;	&quot;stroke 6 month review&quot;</td>
-<td></td>
+<td>105520</td>
+<td>8Hd6.00</td>
+<td>admission to stroke unit</td>
 </tr>
 <tr>
-<td>&quot;105520&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8Hd6.00&quot;	&quot;admission to stroke unit&quot;</td>
-<td></td>
+<td>107195</td>
+<td>661M700</td>
+<td>stroke self-management plan agreed</td>
 </tr>
 <tr>
-<td>&quot;107195&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;661M700&quot;	&quot;stroke self-management plan agreed&quot;</td>
-<td></td>
+<td>107440</td>
+<td>G619.00</td>
+<td>lobar cerebral haemorrhage</td>
 </tr>
 <tr>
-<td>&quot;107440&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G619.00&quot;	&quot;lobar cerebral haemorrhage&quot;</td>
-<td></td>
+<td>107886</td>
+<td>662e.11</td>
+<td>stroke annual review</td>
 </tr>
 <tr>
-<td>&quot;107886&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662e.11&quot;	&quot;stroke annual review&quot;</td>
-<td></td>
+<td>10792</td>
+<td>662M.00</td>
+<td>stroke monitoring</td>
 </tr>
 <tr>
-<td>&quot;10792&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662M.00&quot;	&quot;stroke monitoring&quot;</td>
-<td></td>
+<td>10794</td>
+<td>G656.00</td>
+<td>vertebrobasilar insufficiency</td>
 </tr>
 <tr>
-<td>&quot;10794&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G656.00&quot;	&quot;vertebrobasilar insufficiency&quot;</td>
-<td></td>
+<td>108630</td>
+<td>Gyu6E00</td>
+<td>[x]subarachnoid haemorrh from intracranial artery, unspecif</td>
 </tr>
 <tr>
-<td>&quot;108630&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Gyu6E00&quot;	&quot;[x]subarachnoid haemorrh from intracranial artery, unspecif&quot;</td>
-<td></td>
+<td>108668</td>
+<td>Gyu6000</td>
+<td>[x]subarachnoid haemorrhage from other intracranial arteries</td>
 </tr>
 <tr>
-<td>&quot;108668&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Gyu6000&quot;	&quot;[x]subarachnoid haemorrhage from other intracranial arteries&quot;</td>
-<td></td>
+<td>10962</td>
+<td>9h2..00</td>
+<td>exception reporting: stroke quality indicators</td>
 </tr>
 <tr>
-<td>&quot;10962&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9h2..00&quot;	&quot;exception reporting: stroke quality indicators&quot;</td>
-<td></td>
+<td>11039</td>
+<td>9h21.00</td>
+<td>excepted from stroke quality indicators: patient unsuitable</td>
 </tr>
 <tr>
-<td>&quot;11039&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9h21.00&quot;	&quot;excepted from stroke quality indicators: patient unsuitable&quot;</td>
-<td></td>
+<td>11074</td>
+<td>9h22.00</td>
+<td>excepted from stroke quality indicators: informed dissent</td>
 </tr>
 <tr>
-<td>&quot;11074&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9h22.00&quot;	&quot;excepted from stroke quality indicators: informed dissent&quot;</td>
-<td></td>
+<td>12413</td>
+<td>5C10.00</td>
+<td>carotid artery doppler abnormal</td>
 </tr>
 <tr>
-<td>&quot;12413&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;5C10.00&quot;	&quot;carotid artery doppler abnormal&quot;</td>
-<td></td>
+<td>12555</td>
+<td>G671z00</td>
+<td>generalised ischaemic cerebrovascular disease nos</td>
 </tr>
 <tr>
-<td>&quot;12555&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G671z00&quot;	&quot;generalised ischaemic cerebrovascular disease nos&quot;</td>
-<td></td>
+<td>12733</td>
+<td>7A20311</td>
+<td>carotid endarterectomy and patch</td>
 </tr>
 <tr>
-<td>&quot;12733&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;7A20311&quot;	&quot;carotid endarterectomy and patch&quot;</td>
-<td></td>
+<td>12833</td>
+<td>G668.00</td>
+<td>right sided cva</td>
 </tr>
 <tr>
-<td>&quot;12833&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G668.00&quot;	&quot;right sided cva&quot;</td>
-<td></td>
+<td>1298</td>
+<td>G66..11</td>
+<td>cva unspecified</td>
 </tr>
 <tr>
-<td>&quot;1298&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G66..11&quot;	&quot;cva unspecified&quot;</td>
-<td></td>
+<td>13564</td>
+<td>G613.00</td>
+<td>cerebellar haemorrhage</td>
 </tr>
 <tr>
-<td>&quot;13564&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G613.00&quot;	&quot;cerebellar haemorrhage&quot;</td>
-<td></td>
+<td>13577</td>
+<td>G67..00</td>
+<td>other cerebrovascular disease</td>
 </tr>
 <tr>
-<td>&quot;13577&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G67..00&quot;	&quot;other cerebrovascular disease&quot;</td>
-<td></td>
+<td>13707</td>
+<td>8HBJ.00</td>
+<td>stroke / transient ischaemic attack referral</td>
 </tr>
 <tr>
-<td>&quot;13707&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8HBJ.00&quot;	&quot;stroke / transient ischaemic attack referral&quot;</td>
-<td></td>
+<td>1469</td>
+<td>G66..00</td>
+<td>stroke and cerebrovascular accident unspecified</td>
 </tr>
 <tr>
-<td>&quot;1469&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G66..00&quot;	&quot;stroke and cerebrovascular accident unspecified&quot;</td>
-<td></td>
+<td>15019</td>
+<td>G641.00</td>
+<td>cerebral embolism</td>
 </tr>
 <tr>
-<td>&quot;15019&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G641.00&quot;	&quot;cerebral embolism&quot;</td>
-<td></td>
+<td>15252</td>
+<td>G64z.11</td>
+<td>brainstem infarction nos</td>
 </tr>
 <tr>
-<td>&quot;15252&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G64z.11&quot;	&quot;brainstem infarction nos&quot;</td>
-<td></td>
+<td>16507</td>
+<td>G65z100</td>
+<td>intermittent cerebral ischaemia</td>
 </tr>
 <tr>
-<td>&quot;16507&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G65z100&quot;	&quot;intermittent cerebral ischaemia&quot;</td>
-<td></td>
+<td>16517</td>
+<td>G640.00</td>
+<td>cerebral thrombosis</td>
 </tr>
 <tr>
-<td>&quot;16517&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G640.00&quot;	&quot;cerebral thrombosis&quot;</td>
-<td></td>
+<td>17322</td>
+<td>G664.00</td>
+<td>cerebellar stroke syndrome</td>
 </tr>
 <tr>
-<td>&quot;17322&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G664.00&quot;	&quot;cerebellar stroke syndrome&quot;</td>
-<td></td>
+<td>17326</td>
+<td>G60X.00</td>
+<td>subarachnoid haemorrh from intracranial artery, unspecif</td>
 </tr>
 <tr>
-<td>&quot;17326&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G60X.00&quot;	&quot;subarachnoid haemorrh from intracranial artery, unspecif&quot;</td>
-<td></td>
+<td>1786</td>
+<td>G60..00</td>
+<td>subarachnoid haemorrhage</td>
 </tr>
 <tr>
-<td>&quot;1786&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G60..00&quot;	&quot;subarachnoid haemorrhage&quot;</td>
-<td></td>
+<td>18604</td>
+<td>G61..12</td>
+<td>stroke due to intracerebral haemorrhage</td>
 </tr>
 <tr>
-<td>&quot;18604&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G61..12&quot;	&quot;stroke due to intracerebral haemorrhage&quot;</td>
-<td></td>
+<td>18686</td>
+<td>662e.00</td>
+<td>stroke/cva annual review</td>
 </tr>
 <tr>
-<td>&quot;18686&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662e.00&quot;	&quot;stroke/cva annual review&quot;</td>
-<td></td>
+<td>18689</td>
+<td>G660.00</td>
+<td>middle cerebral artery syndrome</td>
 </tr>
 <tr>
-<td>&quot;18689&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G660.00&quot;	&quot;middle cerebral artery syndrome&quot;</td>
-<td></td>
+<td>18912</td>
+<td>G623.00</td>
+<td>subdural haemorrhage nos</td>
 </tr>
 <tr>
-<td>&quot;18912&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G623.00&quot;	&quot;subdural haemorrhage nos&quot;</td>
-<td></td>
+<td>19201</td>
+<td>G61X100</td>
+<td>right sided intracerebral haemorrhage, unspecified</td>
 </tr>
 <tr>
-<td>&quot;19201&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G61X100&quot;	&quot;right sided intracerebral haemorrhage, unspecified&quot;</td>
-<td></td>
+<td>19260</td>
+<td>G662.00</td>
+<td>posterior cerebral artery syndrome</td>
 </tr>
 <tr>
-<td>&quot;19260&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G662.00&quot;	&quot;posterior cerebral artery syndrome&quot;</td>
-<td></td>
+<td>19348</td>
+<td>ZV12511</td>
+<td>[v]personal history of stroke</td>
 </tr>
 <tr>
-<td>&quot;19348&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZV12511&quot;	&quot;[v]personal history of stroke&quot;</td>
-<td></td>
+<td>19412</td>
+<td>G602.00</td>
+<td>subarachnoid haemorrhage from middle cerebral artery</td>
 </tr>
 <tr>
-<td>&quot;19412&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G602.00&quot;	&quot;subarachnoid haemorrhage from middle cerebral artery&quot;</td>
-<td></td>
+<td>20284</td>
+<td>G62z.00</td>
+<td>intracranial haemorrhage nos</td>
 </tr>
 <tr>
-<td>&quot;20284&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G62z.00&quot;	&quot;intracranial haemorrhage nos&quot;</td>
-<td></td>
+<td>21118</td>
+<td>G651000</td>
+<td>vertebro-basilar artery syndrome</td>
 </tr>
 <tr>
-<td>&quot;21118&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G651000&quot;	&quot;vertebro-basilar artery syndrome&quot;</td>
-<td></td>
+<td>2156</td>
+<td>G631.11</td>
+<td>stenosis, carotid artery</td>
 </tr>
 <tr>
-<td>&quot;2156&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G631.11&quot;	&quot;stenosis, carotid artery&quot;</td>
-<td></td>
+<td>22677</td>
+<td>G70y011</td>
+<td>carotid artery disease</td>
 </tr>
 <tr>
-<td>&quot;22677&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G70y011&quot;	&quot;carotid artery disease&quot;</td>
-<td></td>
+<td>23361</td>
+<td>G68..00</td>
+<td>late effects of cerebrovascular disease</td>
 </tr>
 <tr>
-<td>&quot;23361&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G68..00&quot;	&quot;late effects of cerebrovascular disease&quot;</td>
-<td></td>
+<td>23580</td>
+<td>G60z.00</td>
+<td>subarachnoid haemorrhage nos</td>
 </tr>
 <tr>
-<td>&quot;23580&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G60z.00&quot;	&quot;subarachnoid haemorrhage nos&quot;</td>
-<td></td>
+<td>23671</td>
+<td>G63y000</td>
+<td>cerebral infarct due to thrombosis of precerebral arteries</td>
 </tr>
 <tr>
-<td>&quot;23671&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G63y000&quot;	&quot;cerebral infarct due to thrombosis of precerebral arteries&quot;</td>
-<td></td>
+<td>23942</td>
+<td>G650.00</td>
+<td>basilar artery syndrome</td>
 </tr>
 <tr>
-<td>&quot;23942&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G650.00&quot;	&quot;basilar artery syndrome&quot;</td>
-<td></td>
+<td>24035</td>
+<td>E031400</td>
+<td>subacute confusional state, of cerebrovascular origin</td>
 </tr>
 <tr>
-<td>&quot;24035&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;E031400&quot;	&quot;subacute confusional state, of cerebrovascular origin&quot;</td>
-<td></td>
+<td>2417</td>
+<td>G65..13</td>
+<td>vertebro-basilar insufficiency</td>
 </tr>
 <tr>
-<td>&quot;2417&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G65..13&quot;	&quot;vertebro-basilar insufficiency&quot;</td>
-<td></td>
+<td>2418</td>
+<td>G6...00</td>
+<td>cerebrovascular disease</td>
 </tr>
 <tr>
-<td>&quot;2418&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G6...00&quot;	&quot;cerebrovascular disease&quot;</td>
-<td></td>
+<td>24446</td>
+<td>G63y100</td>
+<td>cerebral infarction due to embolism of precerebral arteries</td>
 </tr>
 <tr>
-<td>&quot;24446&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G63y100&quot;	&quot;cerebral infarction due to embolism of precerebral arteries&quot;</td>
-<td></td>
+<td>25114</td>
+<td>E030400</td>
+<td>acute confusional state, of cerebrovascular origin</td>
 </tr>
 <tr>
-<td>&quot;25114&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;E030400&quot;	&quot;acute confusional state, of cerebrovascular origin&quot;</td>
-<td></td>
+<td>25615</td>
+<td>G64z000</td>
+<td>brainstem infarction</td>
 </tr>
 <tr>
-<td>&quot;25615&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G64z000&quot;	&quot;brainstem infarction&quot;</td>
-<td></td>
+<td>26424</td>
+<td>G64z400</td>
+<td>infarction of basal ganglia</td>
 </tr>
 <tr>
-<td>&quot;26424&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G64z400&quot;	&quot;infarction of basal ganglia&quot;</td>
-<td></td>
+<td>2652</td>
+<td>G634.00</td>
+<td>carotid artery stenosis</td>
 </tr>
 <tr>
-<td>&quot;2652&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G634.00&quot;	&quot;carotid artery stenosis&quot;</td>
-<td></td>
+<td>2654</td>
+<td>7A20400</td>
+<td>endarterectomy of carotid artery nec</td>
 </tr>
 <tr>
-<td>&quot;2654&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;7A20400&quot;	&quot;endarterectomy of carotid artery nec&quot;</td>
-<td></td>
+<td>27975</td>
+<td>G641000</td>
+<td>cerebral infarction due to embolism of cerebral arteries</td>
 </tr>
 <tr>
-<td>&quot;27975&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G641000&quot;	&quot;cerebral infarction due to embolism of cerebral arteries&quot;</td>
-<td></td>
+<td>28314</td>
+<td>G61X000</td>
+<td>left sided intracerebral haemorrhage, unspecified</td>
 </tr>
 <tr>
-<td>&quot;28314&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G61X000&quot;	&quot;left sided intracerebral haemorrhage, unspecified&quot;</td>
-<td></td>
+<td>28753</td>
+<td>9Om0.00</td>
+<td>stroke/transient ischaemic attack monitoring first letter</td>
 </tr>
 <tr>
-<td>&quot;28753&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9Om0.00&quot;	&quot;stroke/transient ischaemic attack monitoring first letter&quot;</td>
-<td></td>
+<td>28914</td>
+<td>662o.00</td>
+<td>haemorrhagic stroke monitoring</td>
 </tr>
 <tr>
-<td>&quot;28914&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;662o.00&quot;	&quot;haemorrhagic stroke monitoring&quot;</td>
-<td></td>
+<td>29939</td>
+<td>G600.00</td>
+<td>ruptured berry aneurysm</td>
 </tr>
 <tr>
-<td>&quot;29939&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G600.00&quot;	&quot;ruptured berry aneurysm&quot;</td>
-<td></td>
+<td>30045</td>
+<td>G616.00</td>
+<td>external capsule haemorrhage</td>
 </tr>
 <tr>
-<td>&quot;30045&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G616.00&quot;	&quot;external capsule haemorrhage&quot;</td>
-<td></td>
+<td>30202</td>
+<td>G617.00</td>
+<td>intracerebral haemorrhage, intraventricular</td>
 </tr>
 <tr>
-<td>&quot;30202&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G617.00&quot;	&quot;intracerebral haemorrhage, intraventricular&quot;</td>
-<td></td>
+<td>31060</td>
+<td>G61X.00</td>
+<td>intracerebral haemorrhage in hemisphere, unspecified</td>
 </tr>
 <tr>
-<td>&quot;31060&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G61X.00&quot;	&quot;intracerebral haemorrhage in hemisphere, unspecified&quot;</td>
-<td></td>
+<td>31218</td>
+<td>9Om..00</td>
+<td>stroke/transient ischaemic attack monitoring administration</td>
 </tr>
 <tr>
-<td>&quot;31218&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9Om..00&quot;	&quot;stroke/transient ischaemic attack monitoring administration&quot;</td>
-<td></td>
+<td>31451</td>
+<td>P7y0.00</td>
+<td>cerebrovascular system anomalies</td>
 </tr>
 <tr>
-<td>&quot;31451&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;P7y0.00&quot;	&quot;cerebrovascular system anomalies&quot;</td>
-<td></td>
+<td>3149</td>
+<td>G64z.00</td>
+<td>cerebral infarction nos</td>
 </tr>
 <tr>
-<td>&quot;3149&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G64z.00&quot;	&quot;cerebral infarction nos&quot;</td>
-<td></td>
+<td>31595</td>
+<td>G610.00</td>
+<td>cortical haemorrhage</td>
 </tr>
 <tr>
-<td>&quot;31595&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G610.00&quot;	&quot;cortical haemorrhage&quot;</td>
-<td></td>
+<td>31704</td>
+<td>G677.00</td>
+<td>occlusion/stenosis cerebral arts not result cerebral infarct</td>
 </tr>
 <tr>
-<td>&quot;31704&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G677.00&quot;	&quot;occlusion/stenosis cerebral arts not result cerebral infarct&quot;</td>
-<td></td>
+<td>31805</td>
+<td>G62..00</td>
+<td>other and unspecified intracranial haemorrhage</td>
 </tr>
 <tr>
-<td>&quot;31805&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G62..00&quot;	&quot;other and unspecified intracranial haemorrhage&quot;</td>
-<td></td>
+<td>32447</td>
+<td>G630.00</td>
+<td>basilar artery occlusion</td>
 </tr>
 <tr>
-<td>&quot;32447&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G630.00&quot;	&quot;basilar artery occlusion&quot;</td>
-<td></td>
+<td>33377</td>
+<td>G651.00</td>
+<td>vertebral artery syndrome</td>
 </tr>
 <tr>
-<td>&quot;33377&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G651.00&quot;	&quot;vertebral artery syndrome&quot;</td>
-<td></td>
+<td>33499</td>
+<td>G665.00</td>
+<td>pure motor lacunar syndrome</td>
 </tr>
 <tr>
-<td>&quot;33499&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G665.00&quot;	&quot;pure motor lacunar syndrome&quot;</td>
-<td></td>
+<td>33543</td>
+<td>G6X..00</td>
+<td>cerebrl infarctn due/unspcf occlusn or sten/cerebrl artrs</td>
 </tr>
 <tr>
-<td>&quot;33543&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G6X..00&quot;	&quot;cerebrl infarctn due/unspcf occlusn or sten/cerebrl artrs&quot;</td>
-<td></td>
+<td>34117</td>
+<td>G67y.00</td>
+<td>other cerebrovascular disease os</td>
 </tr>
 <tr>
-<td>&quot;34117&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G67y.00&quot;	&quot;other cerebrovascular disease os&quot;</td>
-<td></td>
+<td>34135</td>
+<td>14A7.00</td>
+<td>h/o: cva/stroke</td>
 </tr>
 <tr>
-<td>&quot;34135&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;14A7.00&quot;	&quot;h/o: cva/stroke&quot;</td>
-<td></td>
+<td>34245</td>
+<td>9Om1.00</td>
+<td>stroke/transient ischaemic attack monitoring second letter</td>
 </tr>
 <tr>
-<td>&quot;34245&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9Om1.00&quot;	&quot;stroke/transient ischaemic attack monitoring second letter&quot;</td>
-<td></td>
+<td>34375</td>
+<td>9Om2.00</td>
+<td>stroke/transient ischaemic attack monitoring third letter</td>
 </tr>
 <tr>
-<td>&quot;34375&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9Om2.00&quot;	&quot;stroke/transient ischaemic attack monitoring third letter&quot;</td>
-<td></td>
+<td>34758</td>
+<td>G641.11</td>
+<td>cerebral embolus</td>
 </tr>
 <tr>
-<td>&quot;34758&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G641.11&quot;	&quot;cerebral embolus&quot;</td>
-<td></td>
+<td>3535</td>
+<td>G61z.00</td>
+<td>intracerebral haemorrhage nos</td>
 </tr>
 <tr>
-<td>&quot;3535&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G61z.00&quot;	&quot;intracerebral haemorrhage nos&quot;</td>
-<td></td>
+<td>35916</td>
+<td>7A20300</td>
+<td>endarterectomy and patch repair of carotid artery</td>
 </tr>
 <tr>
-<td>&quot;35916&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;7A20300&quot;	&quot;endarterectomy and patch repair of carotid artery&quot;</td>
-<td></td>
+<td>36717</td>
+<td>G640000</td>
+<td>cerebral infarction due to thrombosis of cerebral arteries</td>
 </tr>
 <tr>
-<td>&quot;36717&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G640000&quot;	&quot;cerebral infarction due to thrombosis of cerebral arteries&quot;</td>
-<td></td>
+<td>37493</td>
+<td>G67z.00</td>
+<td>other cerebrovascular disease nos</td>
 </tr>
 <tr>
-<td>&quot;37493&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G67z.00&quot;	&quot;other cerebrovascular disease nos&quot;</td>
-<td></td>
+<td>39344</td>
+<td>G676000</td>
+<td>cereb infarct due cerebral venous thrombosis, nonpyogenic</td>
 </tr>
 <tr>
-<td>&quot;39344&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G676000&quot;	&quot;cereb infarct due cerebral venous thrombosis, nonpyogenic&quot;</td>
-<td></td>
+<td>39403</td>
+<td>G683.00</td>
+<td>sequelae of cerebral infarction</td>
 </tr>
 <tr>
-<td>&quot;39403&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G683.00&quot;	&quot;sequelae of cerebral infarction&quot;</td>
-<td></td>
+<td>40053</td>
+<td>G671.00</td>
+<td>generalised ischaemic cerebrovascular disease nos</td>
 </tr>
 <tr>
-<td>&quot;40053&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G671.00&quot;	&quot;generalised ischaemic cerebrovascular disease nos&quot;</td>
-<td></td>
+<td>40338</td>
+<td>G611.00</td>
+<td>internal capsule haemorrhage</td>
 </tr>
 <tr>
-<td>&quot;40338&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G611.00&quot;	&quot;internal capsule haemorrhage&quot;</td>
-<td></td>
+<td>40758</td>
+<td>G6W..00</td>
+<td>cereb infarct due unsp occlus/stenos precerebr arteries</td>
 </tr>
 <tr>
-<td>&quot;40758&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G6W..00&quot;	&quot;cereb infarct due unsp occlus/stenos precerebr arteries&quot;</td>
-<td></td>
+<td>40847</td>
+<td>G632.00</td>
+<td>vertebral artery occlusion</td>
 </tr>
 <tr>
-<td>&quot;40847&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G632.00&quot;	&quot;vertebral artery occlusion&quot;</td>
-<td></td>
+<td>41577</td>
+<td>1477.00</td>
+<td>h/o: cerebrovascular disease</td>
 </tr>
 <tr>
-<td>&quot;41577&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;1477.00&quot;	&quot;h/o: cerebrovascular disease&quot;</td>
-<td></td>
+<td>41910</td>
+<td>G605.00</td>
+<td>subarachnoid haemorrhage from basilar artery</td>
 </tr>
 <tr>
-<td>&quot;41910&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G605.00&quot;	&quot;subarachnoid haemorrhage from basilar artery&quot;</td>
-<td></td>
+<td>42283</td>
+<td>S63z.00</td>
+<td>other cerebral haemorrhage following injury nos</td>
 </tr>
 <tr>
-<td>&quot;42283&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;S63z.00&quot;	&quot;other cerebral haemorrhage following injury nos&quot;</td>
-<td></td>
+<td>42331</td>
+<td>G603.00</td>
+<td>subarachnoid haemorrhage from anterior communicating artery</td>
 </tr>
 <tr>
-<td>&quot;42331&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G603.00&quot;	&quot;subarachnoid haemorrhage from anterior communicating artery&quot;</td>
-<td></td>
+<td>42335</td>
+<td>L440.00</td>
+<td>cerebrovascular disorders in the puerperium</td>
 </tr>
 <tr>
-<td>&quot;42335&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;L440.00&quot;	&quot;cerebrovascular disorders in the puerperium&quot;</td>
-<td></td>
+<td>4240</td>
+<td>G631.00</td>
+<td>carotid artery occlusion</td>
 </tr>
 <tr>
-<td>&quot;4240&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G631.00&quot;	&quot;carotid artery occlusion&quot;</td>
-<td></td>
+<td>4273</td>
+<td>G621.00</td>
+<td>subdural haemorrhage - nontraumatic</td>
 </tr>
 <tr>
-<td>&quot;4273&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G621.00&quot;	&quot;subdural haemorrhage - nontraumatic&quot;</td>
-<td></td>
+<td>43451</td>
+<td>G682.00</td>
+<td>sequelae of other nontraumatic intracranial haemorrhage</td>
 </tr>
 <tr>
-<td>&quot;43451&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;G682.00&quot;	&quot;sequelae of other nontraumatic intracranial haemorrhage&quot;</td>
-<td></td>
+<td>44740</td>
+<td>G680.00</td>
+<td>sequelae of subarachnoid haemorrhage</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p><em>Preview shows first 100 rows.</em></p>
-
-### Metadata star legend
-
-<div class="metadata-legend">
-<div><span class="meta-star meta-star-1">★</span> 1. Dataset used</div>
-<div><span class="meta-star meta-star-2">★</span> 2. Version information</div>
-<div><span class="meta-star meta-star-3">★</span> 3. Inclusion / exclusion criteria in generating script</div>
-<div><span class="meta-star meta-star-4">★</span> 4. Pre-print / publication / protocol information</div>
-<div><span class="meta-star meta-star-5">★</span> 5. Exposure / outcome / covariate flag</div>
-<div><span class="meta-star meta-star-6">★</span> 6. Clinical or alternative reviewer information</div>
-<div><span class="meta-star meta-star-7">★</span> 7. Citation file (.cff)</div>
-<div><span class="meta-star meta-star-8">★</span> 8. Coding system information</div>
-<div><span class="meta-star meta-star-9">★</span> 9. Brief phenotype description and usage</div>
-</div>
+<p><em>Preview shows first 100 rows from the original codelist file.</em></p>
 

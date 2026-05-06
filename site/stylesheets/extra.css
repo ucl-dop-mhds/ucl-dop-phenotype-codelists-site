@@ -192,11 +192,11 @@ body,
 .md-nav__link--active,
 .md-nav__link:focus,
 .md-nav__link:hover {
-  color: #a100ff;
+  color: #993bff;
 }
 
 .md-typeset a:hover {
-  color: #bf4dff;
+  color: #993bff;
 }
 
 @media screen and (min-width: 76.25em) {

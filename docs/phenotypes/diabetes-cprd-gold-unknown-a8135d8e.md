@@ -1,23 +1,38 @@
 # Diabetes
 
 <div class="phenotype-header-card">
-<p class="phenotype-kicker">CPRD Gold phenotype</p>
-<h2>Diabetes</h2>
-<p class="phenotype-subtitle">Code name: <code>diabetes</code></p>
-<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-4" title="4. Pre-print / publication / protocol information" aria-label="4. Pre-print / publication / protocol information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
+<div class="phenotype-header-fields">
+<div><strong>Dataset:</strong> CPRD Gold</div>
+<div><strong>ID (phenotype-githubID-repoStart):</strong> <code>diabetes-naomilaunders-repurposing</code></div>
+<div><strong>Source:</strong> <a href="https://github.com/NaomiLaunders/Repurposing-statins-in-SMI">NaomiLaunders/Repurposing-statins-in-SMI</a></div>
+<div><strong>License:</strong> MIT</div>
+<div><strong>Date Created:</strong> 2026-04-22</div>
+<div><strong>Date Imported:</strong> 2026-04-22</div>
+<div><strong>Date Updated:</strong> 2026-04-22</div>
+</div>
 </div>
 
-## Repository details
+## Metadata
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Name</dt><dd>Diabetes</dd></div><div class="phenotype-meta-row"><dt>Version</dt><dd>0.1.0</dd></div><div class="phenotype-meta-row"><dt>ID</dt><dd><code>diabetes-cprd-gold-unknown-a8135d8e</code></dd></div><div class="phenotype-meta-row"><dt>Status</dt><dd>draft</dd></div><div class="phenotype-meta-row"><dt>Dataset</dt><dd>CPRD Gold</dd></div><div class="phenotype-meta-row"><dt>Code name</dt><dd><code>diabetes</code></dd></div><div class="phenotype-meta-row"><dt>Phenotype group</dt><dd>Code lists</dd></div><div class="phenotype-meta-row"><dt>Coding system</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Coding systems</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Phenotype role</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Created</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Imported</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Updated</dt><dd>2026-04-22</dd></div></div>
+<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-4" title="4. Pre-print / publication / protocol information" aria-label="4. Pre-print / publication / protocol information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
 
-## Background information
+<br>
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Summary</dt><dd>Auto-ingested from NaomiLaunders/Repurposing-statins-in-SMI (main) at 55a86d5fcf8e8cb851419ea126e9563b69ed1135. Source path: Code lists/DiabGold.txt.</dd></div><div class="phenotype-meta-row"><dt>Usage notes</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Dataset context</dt><dd>CPRD Gold</dd></div><div class="phenotype-meta-row"><dt>Provenance</dt><dd>Imported</dd></div><div class="phenotype-meta-row"><dt>Source citation</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source repository</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source path</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Evidence</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Review</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Contacts</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>License</dt><dd>MIT</dd></div><div class="phenotype-meta-row"><dt>Tags</dt><dd>NA</dd></div></div>
+<div class="metadata-detail-list">
+<div class="metadata-detail-row"><span class="meta-star meta-star-1">★</span> <strong>Dataset used:</strong> CPRD Gold</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-2">★</span> <strong>Version information:</strong> 0.1.0</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-3">☆</span> <strong>Inclusion / exclusion criteria in generating script:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-4">★</span> <strong>Pre-print / publication / protocol information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-5">☆</span> <strong>Exposure / outcome / covariate flag:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-6">☆</span> <strong>Clinical or alternative reviewer information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-7">☆</span> <strong>Citation file (.cff):</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-8">☆</span> <strong>Coding system information:</strong> Unknown</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-9">★</span> <strong>Brief phenotype description and usage:</strong> Auto-ingested from NaomiLaunders/Repurposing-statins-in-SMI (main) at 55a86d5fcf8e8cb851419ea126e9563b69ed1135. Source path: Code lists/DiabGold.txt.</div>
+</div>
 
 ## Downloads
 
-<ul class="phenotype-download-list"><li><a href="../source/diabetes-cprd-gold-unknown-a8135d8e.txt">Download original codelist.txt</a></li><li><a href="../csv/diabetes-cprd-gold-unknown-a8135d8e.csv">Download normalized CSV</a></li></ul>
+<ul class="phenotype-download-list"><li><a href="../../source/diabetes-cprd-gold-unknown-a8135d8e.txt" download="diabetes-cprd-gold-unknown-a8135d8e.txt">Download original codelist (.txt)</a></li></ul>
 
 ## Codelist preview
 
@@ -25,730 +40,615 @@
 <table>
 <thead>
 <tr>
-<th>code</th>
-<th>code_system</th>
-<th>include</th>
-<th>term</th>
-<th>notes</th>
+<th>medcode</th>
+<th>readcode</th>
+<th>desc</th>
+<th>cat</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>&quot;medcode&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;readcode&quot;	&quot;desc&quot;	&quot;cat&quot;</td>
-<td></td>
+<td>100033</td>
+<td>U60231E</td>
+<td>[x] adverse reaction to insulins and antidiabetic agents nos</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;100033&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;U60231E&quot;	&quot;[x] adverse reaction to insulins and antidiabetic agents nos&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>100347</td>
+<td>C10A500</td>
+<td>malnutritn-relat diabetes melitus wth periph circul complctn</td>
+<td>Other</td>
 </tr>
 <tr>
-<td>&quot;100347&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10A500&quot;	&quot;malnutritn-relat diabetes melitus wth periph circul complctn&quot;	&quot;Other&quot;</td>
-<td></td>
+<td>100422</td>
+<td>8HgC.00</td>
+<td>discharged from diabetes shared care programme</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;100422&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8HgC.00&quot;	&quot;discharged from diabetes shared care programme&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>100436</td>
+<td>679L000</td>
+<td>education in self management of diabetes</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;100436&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;679L000&quot;	&quot;education in self management of diabetes&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>100533</td>
+<td>66AQ000</td>
+<td>unsuitable for diabetes year of care programme</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;100533&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;66AQ000&quot;	&quot;unsuitable for diabetes year of care programme&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>100770</td>
+<td>C10EF12</td>
+<td>insulin dependent diabetes mellitus with diabetic cataract</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;100770&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10EF12&quot;	&quot;insulin dependent diabetes mellitus with diabetic cataract&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>100964</td>
+<td>C10F111</td>
+<td>type ii diabetes mellitus with ophthalmic complications</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;100964&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10F111&quot;	&quot;type ii diabetes mellitus with ophthalmic complications&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>10098</td>
+<td>C10yy00</td>
+<td>other specified diabetes mellitus with other spec comps</td>
+<td>Other</td>
 </tr>
 <tr>
-<td>&quot;10098&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10yy00&quot;	&quot;other specified diabetes mellitus with other spec comps&quot;	&quot;Other&quot;</td>
-<td></td>
+<td>10099</td>
+<td>F420300</td>
+<td>advanced diabetic maculopathy</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;10099&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;F420300&quot;	&quot;advanced diabetic maculopathy&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>101177</td>
+<td>66At.00</td>
+<td>diabetic dietary review</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;101177&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;66At.00&quot;	&quot;diabetic dietary review&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>101190</td>
+<td>66AQ100</td>
+<td>declined consent for diabetes year of care programme</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;101190&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;66AQ100&quot;	&quot;declined consent for diabetes year of care programme&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>101311</td>
+<td>C10EC12</td>
+<td>insulin dependent diabetes mellitus with polyneuropathy</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;101311&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10EC12&quot;	&quot;insulin dependent diabetes mellitus with polyneuropathy&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>101455</td>
+<td>9OLN.00</td>
+<td>diabetes monitor invitation by sms (short message service)</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;101455&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9OLN.00&quot;	&quot;diabetes monitor invitation by sms (short message service)&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>101456</td>
+<td>8IAs.00</td>
+<td>diabetic dietary review declined</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;101456&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8IAs.00&quot;	&quot;diabetic dietary review declined&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>101728</td>
+<td>66As.00</td>
+<td>diabetic on subcutaneous treatment</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;101728&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;66As.00&quot;	&quot;diabetic on subcutaneous treatment&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>101735</td>
+<td>C10E212</td>
+<td>insulin-dependent diabetes mellitus with neurological comps</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;101735&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10E212&quot;	&quot;insulin-dependent diabetes mellitus with neurological comps&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>101801</td>
+<td>66At100</td>
+<td>type ii diabetic dietary review</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;101801&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;66At100&quot;	&quot;type ii diabetic dietary review&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>101834</td>
+<td>9h43.00</td>
+<td>excepted from diabetes qual indicators: service unavailable</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;101834&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9h43.00&quot;	&quot;excepted from diabetes qual indicators: service unavailable&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>101881</td>
+<td>2BBr.00</td>
+<td>impaired vision due to diabetic retinopathy</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;101881&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;2BBr.00&quot;	&quot;impaired vision due to diabetic retinopathy&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>102112</td>
+<td>C10E611</td>
+<td>type i diabetes mellitus with gangrene</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;102112&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10E611&quot;	&quot;type i diabetes mellitus with gangrene&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>102163</td>
+<td>C10ED12</td>
+<td>insulin dependent diabetes mellitus with nephropathy</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;102163&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10ED12&quot;	&quot;insulin dependent diabetes mellitus with nephropathy&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>102201</td>
+<td>C10FC11</td>
+<td>type ii diabetes mellitus with nephropathy</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;102201&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10FC11&quot;	&quot;type ii diabetes mellitus with nephropathy&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>102434</td>
+<td>66Au.00</td>
+<td>diabetic erectile dysfunction review</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;102434&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;66Au.00&quot;	&quot;diabetic erectile dysfunction review&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>102490</td>
+<td>66Av.00</td>
+<td>diabetic assessment of erectile dysfunction</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;102490&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;66Av.00&quot;	&quot;diabetic assessment of erectile dysfunction&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>102611</td>
+<td>66At111</td>
+<td>type 2 diabetic dietary review</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;102611&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;66At111&quot;	&quot;type 2 diabetic dietary review&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>102620</td>
+<td>C10EL11</td>
+<td>type i diabetes mellitus with persistent microalbuminuria</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;102620&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10EL11&quot;	&quot;type i diabetes mellitus with persistent microalbuminuria&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>102704</td>
+<td>66At000</td>
+<td>type i diabetic dietary review</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;102704&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;66At000&quot;	&quot;type i diabetic dietary review&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>102740</td>
+<td>C108112</td>
+<td>type 1 diabetes mellitus with ophthalmic complications</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;102740&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C108112&quot;	&quot;type 1 diabetes mellitus with ophthalmic complications&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>102767</td>
+<td>67IJ100</td>
+<td>pre-conception advice for diabetes mellitus</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;102767&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;67IJ100&quot;	&quot;pre-conception advice for diabetes mellitus&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>102768</td>
+<td>9NiZ.00</td>
+<td>did not attend diabetes foot screening</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;102768&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9NiZ.00&quot;	&quot;did not attend diabetes foot screening&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>102946</td>
+<td>C10E012</td>
+<td>insulin-dependent diabetes mellitus with renal complications</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;102946&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10E012&quot;	&quot;insulin-dependent diabetes mellitus with renal complications&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>103743</td>
+<td>8IE2.00</td>
+<td>diabetes care plan declined</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;103743&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8IE2.00&quot;	&quot;diabetes care plan declined&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>103798</td>
+<td>9b92000</td>
+<td>diabetic medicine</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;103798&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9b92000&quot;	&quot;diabetic medicine&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>1038</td>
+<td>C100011</td>
+<td>insulin dependent diabetes mellitus</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;1038&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C100011&quot;	&quot;insulin dependent diabetes mellitus&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>103902</td>
+<td>C10FG11</td>
+<td>type ii diabetes mellitus with arthropathy</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;103902&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10FG11&quot;	&quot;type ii diabetes mellitus with arthropathy&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>103935</td>
+<td>1IA..00</td>
+<td>no evidence of diabetic nephropathy</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;103935&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;1IA..00&quot;	&quot;no evidence of diabetic nephropathy&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>10418</td>
+<td>C10ED00</td>
+<td>type 1 diabetes mellitus with nephropathy</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;10418&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10ED00&quot;	&quot;type 1 diabetes mellitus with nephropathy&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>104287</td>
+<td>8Hlc.00</td>
+<td>referral to community diabetes service</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;104287&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8Hlc.00&quot;	&quot;referral to community diabetes service&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>104323</td>
+<td>C10F511</td>
+<td>type ii diabetes mellitus with gangrene</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;104323&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10F511&quot;	&quot;type ii diabetes mellitus with gangrene&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>104374</td>
+<td>67D8.00</td>
+<td>provision of diabetes clinical summary</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;104374&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;67D8.00&quot;	&quot;provision of diabetes clinical summary&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>104453</td>
+<td>66At011</td>
+<td>type 1 diabetic dietary review</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;104453&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;66At011&quot;	&quot;type 1 diabetic dietary review&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>104639</td>
+<td>C10FF11</td>
+<td>type ii diabetes mellitus with peripheral angiopathy</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;104639&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10FF11&quot;	&quot;type ii diabetes mellitus with peripheral angiopathy&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>105207</td>
+<td>8HTE100</td>
+<td>referral to community diabetes clinic</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;105207&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8HTE100&quot;	&quot;referral to community diabetes clinic&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>105302</td>
+<td>K08yA00</td>
+<td>proteinuric diabetic nephropathy</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;105302&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;K08yA00&quot;	&quot;proteinuric diabetic nephropathy&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>105337</td>
+<td>C10E811</td>
+<td>type i diabetes mellitus - poor control</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;105337&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10E811&quot;	&quot;type i diabetes mellitus - poor control&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>105585</td>
+<td>8CMW700</td>
+<td>diabetes clinical pathway</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;105585&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8CMW700&quot;	&quot;diabetes clinical pathway&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>105740</td>
+<td>2G5d.00</td>
+<td>o/e - left diabetic foot at increased risk</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;105740&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;2G5d.00&quot;	&quot;o/e - left diabetic foot at increased risk&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>105741</td>
+<td>2G5e.00</td>
+<td>o/e - right diabetic foot at increased risk</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;105741&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;2G5e.00&quot;	&quot;o/e - right diabetic foot at increased risk&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>105784</td>
+<td>C109912</td>
+<td>type 2 diabetes mellitus without complication</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;105784&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C109912&quot;	&quot;type 2 diabetes mellitus without complication&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>105937</td>
+<td>8IEQ.00</td>
+<td>referral to community diabetes specialist nurse declined</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;105937&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8IEQ.00&quot;	&quot;referral to community diabetes specialist nurse declined&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>106061</td>
+<td>C10FP11</td>
+<td>type ii diabetes mellitus with ketoacidotic coma</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;106061&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10FP11&quot;	&quot;type ii diabetes mellitus with ketoacidotic coma&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>106269</td>
+<td>9m0..00</td>
+<td>diabetic retinopathy screening administrative status</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;106269&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9m0..00&quot;	&quot;diabetic retinopathy screening administrative status&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>106327</td>
+<td>9m04.00</td>
+<td>excluded from diabetic retinopathy screening</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;106327&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9m04.00&quot;	&quot;excluded from diabetic retinopathy screening&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>106328</td>
+<td>9m07.00</td>
+<td>excluded diabetc retinop screen as under care ophthalmolgist</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;106328&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9m07.00&quot;	&quot;excluded diabetc retinop screen as under care ophthalmolgist&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>106329</td>
+<td>9m08.00</td>
+<td>excluded from diabetic retinopathy screening as blind</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;106329&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9m08.00&quot;	&quot;excluded from diabetic retinopathy screening as blind&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>106332</td>
+<td>9m00.00</td>
+<td>eligible for diabetic retinopathy screening</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;106332&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9m00.00&quot;	&quot;eligible for diabetic retinopathy screening&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>106350</td>
+<td>9m05.00</td>
+<td>excluded from diabetic retinopathy screening as moved away</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;106350&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9m05.00&quot;	&quot;excluded from diabetic retinopathy screening as moved away&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>106352</td>
+<td>9m06.00</td>
+<td>excluded from diabetic retinopathy screening as deceased</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;106352&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9m06.00&quot;	&quot;excluded from diabetic retinopathy screening as deceased&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>106360</td>
+<td>K27y700</td>
+<td>erectile dysfunction due to diabetes mellitus</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;106360&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;K27y700&quot;	&quot;erectile dysfunction due to diabetes mellitus&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>10642</td>
+<td>ZC2C800</td>
+<td>dietary advice for diabetes mellitus</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;10642&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;ZC2C800&quot;	&quot;dietary advice for diabetes mellitus&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>106445</td>
+<td>9m0E.00</td>
+<td>excluded from diabetic retinopathy screen physical disorder</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;106445&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9m0E.00&quot;	&quot;excluded from diabetic retinopathy screen physical disorder&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>106528</td>
+<td>C10FN11</td>
+<td>type ii diabetes mellitus with ketoacidosis</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;106528&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10FN11&quot;	&quot;type ii diabetes mellitus with ketoacidosis&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>10659</td>
+<td>F464000</td>
+<td>diabetic cataract</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;10659&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;F464000&quot;	&quot;diabetic cataract&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>106679</td>
+<td>8OA3.00</td>
+<td>provision of written information about diabetes and driving</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;106679&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8OA3.00&quot;	&quot;provision of written information about diabetes and driving&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>106722</td>
+<td>9Oy0300</td>
+<td>diabetic foot screening invitation second letter</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;106722&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9Oy0300&quot;	&quot;diabetic foot screening invitation second letter&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>106723</td>
+<td>9Oy0200</td>
+<td>diabetic foot screening invitation first letter</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;106723&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9Oy0200&quot;	&quot;diabetic foot screening invitation first letter&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>106738</td>
+<td>9Oy0000</td>
+<td>diabetic foot screening invitation</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;106738&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9Oy0000&quot;	&quot;diabetic foot screening invitation&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>106778</td>
+<td>9m0C.00</td>
+<td>excluded frm diabetic retinopathy screen as terminal illness</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;106778&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9m0C.00&quot;	&quot;excluded frm diabetic retinopathy screen as terminal illness&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>10692</td>
+<td>C10EM00</td>
+<td>type 1 diabetes mellitus with ketoacidosis</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;10692&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10EM00&quot;	&quot;type 1 diabetes mellitus with ketoacidosis&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>106953</td>
+<td>8IEa.00</td>
+<td>referral to dafne diabetes structured educn prog declined</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;106953&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8IEa.00&quot;	&quot;referral to dafne diabetes structured educn prog declined&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>107361</td>
+<td>679L200</td>
+<td>education about diabetes and driving</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;107361&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;679L200&quot;	&quot;education about diabetes and driving&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>107414</td>
+<td>8I94.00</td>
+<td>diabetes structured education programme not available</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;107414&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;8I94.00&quot;	&quot;diabetes structured education programme not available&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>107423</td>
+<td>661N400</td>
+<td>diabetes self-management plan review</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;107423&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;661N400&quot;	&quot;diabetes self-management plan review&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>107452</td>
+<td>66o..00</td>
+<td>further diabetic monitoring</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;107452&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;66o..00&quot;	&quot;further diabetic monitoring&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>107464</td>
+<td>66AS000</td>
+<td>diabetes year of care annual review</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;107464&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;66AS000&quot;	&quot;diabetes year of care annual review&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>107508</td>
+<td>66AH200</td>
+<td>conversion to insulin by diabetes specialist nurse</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;107508&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;66AH200&quot;	&quot;conversion to insulin by diabetes specialist nurse&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>10755</td>
+<td>F420600</td>
+<td>non proliferative diabetic retinopathy</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;10755&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;F420600&quot;	&quot;non proliferative diabetic retinopathy&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>107597</td>
+<td>9m0D.00</td>
+<td>excluded from diabetic retinopthy screen as learn disability</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;107597&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9m0D.00&quot;	&quot;excluded from diabetic retinopthy screen as learn disability&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>107603</td>
+<td>C10P.00</td>
+<td>diabetes mellitus in remission</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;107603&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10P.00&quot;	&quot;diabetes mellitus in remission&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>107701</td>
+<td>C10FK11</td>
+<td>hyperosmolar non-ketotic state in type ii diabetes mellitus</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;107701&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10FK11&quot;	&quot;hyperosmolar non-ketotic state in type ii diabetes mellitus&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>107739</td>
+<td>679L211</td>
+<td>advice about diabetes and driving</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;107739&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;679L211&quot;	&quot;advice about diabetes and driving&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>107793</td>
+<td>9Oy0400</td>
+<td>diabetic foot screening invitation third letter</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;107793&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9Oy0400&quot;	&quot;diabetic foot screening invitation third letter&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>107824</td>
+<td>C10P100</td>
+<td>type ii diabetes mellitus in remission</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;107824&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10P100&quot;	&quot;type ii diabetes mellitus in remission&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>107881</td>
+<td>K08yA11</td>
+<td>clinical diabetic nephropathy</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;107881&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;K08yA11&quot;	&quot;clinical diabetic nephropathy&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>108005</td>
+<td>C109312</td>
+<td>type 2 diabetes mellitus with multiple complications</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;108005&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C109312&quot;	&quot;type 2 diabetes mellitus with multiple complications&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>108007</td>
+<td>C108311</td>
+<td>type i diabetes mellitus with multiple complications</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;108007&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C108311&quot;	&quot;type i diabetes mellitus with multiple complications&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>10824</td>
+<td>9N1i.00</td>
+<td>seen in diabetic foot clinic</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;10824&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9N1i.00&quot;	&quot;seen in diabetic foot clinic&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>108360</td>
+<td>C10P000</td>
+<td>type i diabetes mellitus in remission</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;108360&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10P000&quot;	&quot;type i diabetes mellitus in remission&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>108634</td>
+<td>9NJy.00</td>
+<td>in-house diabetic foot screening</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;108634&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9NJy.00&quot;	&quot;in-house diabetic foot screening&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>108724</td>
+<td>C10EQ11</td>
+<td>type i diabetes mellitus with gastroparesis</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;108724&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10EQ11&quot;	&quot;type i diabetes mellitus with gastroparesis&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>108993</td>
+<td>661M400</td>
+<td>diabetes self-management plan agreed</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;108993&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;661M400&quot;	&quot;diabetes self-management plan agreed&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>109051</td>
+<td>C10E612</td>
+<td>insulin dependent diabetes mellitus with gangrene</td>
+<td>Type 1</td>
 </tr>
 <tr>
-<td>&quot;109051&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10E612&quot;	&quot;insulin dependent diabetes mellitus with gangrene&quot;	&quot;Type 1&quot;</td>
-<td></td>
+<td>109103</td>
+<td>C109911</td>
+<td>type ii diabetes mellitus without complication</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;109103&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C109911&quot;	&quot;type ii diabetes mellitus without complication&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>109133</td>
+<td>L180700</td>
+<td>pre-existing malnutrition-related diabetes mellitus</td>
+<td>Other</td>
 </tr>
 <tr>
-<td>&quot;109133&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;L180700&quot;	&quot;pre-existing malnutrition-related diabetes mellitus&quot;	&quot;Other&quot;</td>
-<td></td>
+<td>109197</td>
+<td>C10FH11</td>
+<td>type ii diabetes mellitus with neuropathic arthropathy</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;109197&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10FH11&quot;	&quot;type ii diabetes mellitus with neuropathic arthropathy&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>109520</td>
+<td>9m03.00</td>
+<td>eligibility permanently inactive for diabetic retinop screen</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;109520&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9m03.00&quot;	&quot;eligibility permanently inactive for diabetic retinop screen&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>109521</td>
+<td>9m02.00</td>
+<td>eligibility temporarily inactive for diabetic retinop screen</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;109521&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;9m02.00&quot;	&quot;eligibility temporarily inactive for diabetic retinop screen&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>109628</td>
+<td>C10P011</td>
+<td>type 1 diabetes mellitus in remission</td>
+<td>Type 2</td>
 </tr>
 <tr>
-<td>&quot;109628&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;C10P011&quot;	&quot;type 1 diabetes mellitus in remission&quot;	&quot;Type 2&quot;</td>
-<td></td>
+<td>10977</td>
+<td>66Ac.00</td>
+<td>diabetic peripheral neuropathy screening</td>
+<td>Unknown</td>
 </tr>
 <tr>
-<td>&quot;10977&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;66Ac.00&quot;	&quot;diabetic peripheral neuropathy screening&quot;	&quot;Unknown&quot;</td>
-<td></td>
+<td>11018</td>
+<td>8HBG.00</td>
+<td>diabetic retinopathy 12 month review</td>
+<td>Unknown</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p><em>Preview shows first 100 rows.</em></p>
-
-### Metadata star legend
-
-<div class="metadata-legend">
-<div><span class="meta-star meta-star-1">★</span> 1. Dataset used</div>
-<div><span class="meta-star meta-star-2">★</span> 2. Version information</div>
-<div><span class="meta-star meta-star-3">★</span> 3. Inclusion / exclusion criteria in generating script</div>
-<div><span class="meta-star meta-star-4">★</span> 4. Pre-print / publication / protocol information</div>
-<div><span class="meta-star meta-star-5">★</span> 5. Exposure / outcome / covariate flag</div>
-<div><span class="meta-star meta-star-6">★</span> 6. Clinical or alternative reviewer information</div>
-<div><span class="meta-star meta-star-7">★</span> 7. Citation file (.cff)</div>
-<div><span class="meta-star meta-star-8">★</span> 8. Coding system information</div>
-<div><span class="meta-star meta-star-9">★</span> 9. Brief phenotype description and usage</div>
-</div>
+<p><em>Preview shows first 100 rows from the original codelist file.</em></p>
 

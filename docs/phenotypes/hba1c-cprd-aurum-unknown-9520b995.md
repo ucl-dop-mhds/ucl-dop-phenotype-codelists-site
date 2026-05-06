@@ -1,23 +1,38 @@
 # HbA1c
 
 <div class="phenotype-header-card">
-<p class="phenotype-kicker">CPRD Aurum phenotype</p>
-<h2>HbA1c</h2>
-<p class="phenotype-subtitle">Code name: <code>hba1c</code></p>
-<div class="metadata-summary"><span class="metadata-score">Metadata score: 3/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
+<div class="phenotype-header-fields">
+<div><strong>Dataset:</strong> CPRD Aurum</div>
+<div><strong>ID (phenotype-githubID-repoStart):</strong> <code>hba1c-smwu-smi</code></div>
+<div><strong>Source:</strong> <a href="https://github.com/smwu/SMI_GLP">smwu/SMI_GLP</a></div>
+<div><strong>License:</strong> MIT</div>
+<div><strong>Date Created:</strong> 2026-01-27</div>
+<div><strong>Date Imported:</strong> 2026-04-22</div>
+<div><strong>Date Updated:</strong> 2026-04-22</div>
+</div>
 </div>
 
-## Repository details
+## Metadata
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Name</dt><dd>HbA1c</dd></div><div class="phenotype-meta-row"><dt>Version</dt><dd>0.1.0</dd></div><div class="phenotype-meta-row"><dt>ID</dt><dd><code>hba1c-cprd-aurum-unknown-9520b995</code></dd></div><div class="phenotype-meta-row"><dt>Status</dt><dd>draft</dd></div><div class="phenotype-meta-row"><dt>Dataset</dt><dd>CPRD Aurum</dd></div><div class="phenotype-meta-row"><dt>Code name</dt><dd><code>hba1c</code></dd></div><div class="phenotype-meta-row"><dt>Phenotype group</dt><dd>HbA1c</dd></div><div class="phenotype-meta-row"><dt>Coding system</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Coding systems</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Phenotype role</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Created</dt><dd>2026-01-27</dd></div><div class="phenotype-meta-row"><dt>Imported</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Updated</dt><dd>2026-04-22</dd></div></div>
+<div class="metadata-summary"><span class="metadata-score">Metadata score: 3/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
 
-## Background information
+<br>
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Summary</dt><dd>Auto-ingested from smwu/SMI_GLP (main) at 1e3dfaacd5ed63663138e764d88792609878a84e. Source path: Code_Lists/HbA1c/Aurum_HbA1c_codelist_20260127.txt.</dd></div><div class="phenotype-meta-row"><dt>Usage notes</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Dataset context</dt><dd>CPRD Aurum</dd></div><div class="phenotype-meta-row"><dt>Provenance</dt><dd>Imported</dd></div><div class="phenotype-meta-row"><dt>Source citation</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source repository</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source path</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Evidence</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Review</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Contacts</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>License</dt><dd>MIT</dd></div><div class="phenotype-meta-row"><dt>Tags</dt><dd>NA</dd></div></div>
+<div class="metadata-detail-list">
+<div class="metadata-detail-row"><span class="meta-star meta-star-1">★</span> <strong>Dataset used:</strong> CPRD Aurum</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-2">★</span> <strong>Version information:</strong> 0.1.0</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-3">☆</span> <strong>Inclusion / exclusion criteria in generating script:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-4">☆</span> <strong>Pre-print / publication / protocol information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-5">☆</span> <strong>Exposure / outcome / covariate flag:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-6">☆</span> <strong>Clinical or alternative reviewer information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-7">☆</span> <strong>Citation file (.cff):</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-8">☆</span> <strong>Coding system information:</strong> Unknown</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-9">★</span> <strong>Brief phenotype description and usage:</strong> Auto-ingested from smwu/SMI_GLP (main) at 1e3dfaacd5ed63663138e764d88792609878a84e. Source path: Code_Lists/HbA1c/Aurum_HbA1c_codelist_20260127.txt.</div>
+</div>
 
 ## Downloads
 
-<ul class="phenotype-download-list"><li><a href="../source/hba1c-cprd-aurum-unknown-9520b995.txt">Download original codelist.txt</a></li><li><a href="../csv/hba1c-cprd-aurum-unknown-9520b995.csv">Download normalized CSV</a></li><li><a href="../r/hba1c-cprd-aurum-unknown-9520b995/0t_HbA1c_code_list.R">Download R script: 0t_HbA1c_code_list.R</a></li></ul>
+<ul class="phenotype-download-list"><li><a href="../../source/hba1c-cprd-aurum-unknown-9520b995.txt" download="hba1c-cprd-aurum-unknown-9520b995.txt">Download original codelist (.txt)</a></li><li><a href="../../r/hba1c-cprd-aurum-unknown-9520b995/0t_HbA1c_code_list.R">Download R script: 0t_HbA1c_code_list.R</a></li></ul>
 
 ## Codelist preview
 
@@ -25,470 +40,638 @@
 <table>
 <thead>
 <tr>
-<th>code</th>
-<th>code_system</th>
-<th>include</th>
+<th>medcodeid</th>
+<th>Observations</th>
+<th>OriginalReadCode</th>
+<th>CleansedReadCode</th>
 <th>term</th>
-<th>notes</th>
+<th>SnomedCTConceptId</th>
+<th>SnomedCTDescriptionId</th>
+<th>EmisCodeCategoryId</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>&quot;medcodeid&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Observations&quot;	&quot;OriginalReadCode&quot;	&quot;CleansedReadCode&quot;	&quot;term&quot;	&quot;SnomedCTConceptId&quot;	&quot;SnomedCTDescriptionId&quot;	&quot;EmisCodeCategoryId&quot;</td>
-<td></td>
+<td>257619018</td>
+<td>157000</td>
+<td>42W1</td>
+<td>42W1.00</td>
+<td>hb. a1c &lt; 7% - good control</td>
+<td>165679005</td>
+<td>257619018</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;257619018&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>157000	&quot;42W1&quot;	&quot;42W1.00&quot;	&quot;hb. a1c &lt; 7% - good control&quot;	&quot;165679005&quot;	&quot;257619018&quot;	11</td>
-<td></td>
+<td>257620012</td>
+<td>183036</td>
+<td>42W2</td>
+<td>42W2.00</td>
+<td>hb. a1c 7-10% - borderline</td>
+<td>165680008</td>
+<td>257620012</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;257620012&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>183036	&quot;42W2&quot;	&quot;42W2.00&quot;	&quot;hb. a1c 7-10% - borderline&quot;	&quot;165680008&quot;	&quot;257620012&quot;	11</td>
-<td></td>
+<td>257621011</td>
+<td>61895</td>
+<td>42W3</td>
+<td>42W3.00</td>
+<td>hb. a1c &gt; 10% - bad control</td>
+<td>165681007</td>
+<td>257621011</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;257621011&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>61895	&quot;42W3&quot;	&quot;42W3.00&quot;	&quot;hb. a1c &gt; 10% - bad control&quot;	&quot;165681007&quot;	&quot;257621011&quot;	11</td>
-<td></td>
+<td>257623014</td>
+<td>108503</td>
+<td>42WZ</td>
+<td>42WZ.00</td>
+<td>hb. a1c - diabetic control</td>
+<td>269823000</td>
+<td>404444016</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;257623014&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>108503	&quot;42WZ&quot;	&quot;42WZ.00&quot;	&quot;hb. a1c - diabetic control&quot;	&quot;269823000&quot;	&quot;404444016&quot;	11</td>
-<td></td>
+<td>404444016</td>
+<td>3856846</td>
+<td>42W</td>
+<td>42W..00</td>
+<td>haemoglobin a1c - diabetic control interpretation</td>
+<td>269823000</td>
+<td>1206383011</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;404444016&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>3856846	&quot;42W&quot;	&quot;42W..00&quot;	&quot;haemoglobin a1c - diabetic control interpretation&quot;	&quot;269823000&quot;	&quot;1206383011&quot;	11</td>
-<td></td>
+<td>451418011</td>
+<td>36756</td>
+<td>44TC</td>
+<td>44TC.00</td>
+<td>haemoglobin a1 level</td>
+<td>1003681000000106</td>
+<td>2577721000000116</td>
+<td>34</td>
 </tr>
 <tr>
-<td>&quot;451418011&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>36756	&quot;44TC&quot;	&quot;44TC.00&quot;	&quot;haemoglobin a1 level&quot;	&quot;1003681000000106&quot;	&quot;2577721000000116&quot;	34</td>
-<td></td>
+<td>453910015</td>
+<td>177388</td>
+<td>42c</td>
+<td>42c..00</td>
+<td>haemoglobin a1c - diabetic control finding</td>
+<td>365845005</td>
+<td>1206639010</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;453910015&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>177388	&quot;42c&quot;	&quot;42c..00&quot;	&quot;haemoglobin a1c - diabetic control finding&quot;	&quot;365845005&quot;	&quot;1206639010&quot;	11</td>
-<td></td>
+<td>457953019</td>
+<td>53952</td>
+<td>42c3</td>
+<td>42c3.00</td>
+<td>hba1 level (diabetes control and complications trial aligned)</td>
+<td>1019551000000104</td>
+<td>2583661000000115</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;457953019&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>53952	&quot;42c3&quot;	&quot;42c3.00&quot;	&quot;hba1 level (diabetes control and complications trial aligned)&quot;	&quot;1019551000000104&quot;	&quot;2583661000000115&quot;	11</td>
-<td></td>
+<td>457954013</td>
+<td>25337747</td>
+<td>42W4</td>
+<td>42W4.00</td>
+<td>hba1c level (diabetes control and complications trial aligned)</td>
+<td>1019431000000105</td>
+<td>2566161000000115</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;457954013&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>25337747	&quot;42W4&quot;	&quot;42W4.00&quot;	&quot;hba1c level (diabetes control and complications trial aligned)&quot;	&quot;1019431000000105&quot;	&quot;2566161000000115&quot;	11</td>
-<td></td>
+<td>2154205011</td>
+<td>28534</td>
+<td>44TL</td>
+<td>44TL.00</td>
+<td>total glycosylated haemoglobin level</td>
+<td>1013511000000100</td>
+<td>2574561000000110</td>
+<td>34</td>
 </tr>
 <tr>
-<td>&quot;2154205011&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>28534	&quot;44TL&quot;	&quot;44TL.00&quot;	&quot;total glycosylated haemoglobin level&quot;	&quot;1013511000000100&quot;	&quot;2574561000000110&quot;	34</td>
-<td></td>
+<td>2160141012</td>
+<td>156875</td>
+<td>66Ae</td>
+<td>66Ae.00</td>
+<td>hba1c target</td>
+<td>408591000</td>
+<td>1739591000000117</td>
+<td>1</td>
 </tr>
 <tr>
-<td>&quot;2160141012&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>156875	&quot;66Ae&quot;	&quot;66Ae.00&quot;	&quot;hba1c target&quot;	&quot;408591000&quot;	&quot;1739591000000117&quot;	1</td>
-<td></td>
+<td>129761000000114</td>
+<td>12015519</td>
+<td>44TB</td>
+<td>44TB.00</td>
+<td>haemoglobin a1c level</td>
+<td>1003671000000109</td>
+<td>2560611000000113</td>
+<td>34</td>
 </tr>
 <tr>
-<td>&quot;129761000000114&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>12015519	&quot;44TB&quot;	&quot;44TB.00&quot;	&quot;haemoglobin a1c level&quot;	&quot;1003671000000109&quot;	&quot;2560611000000113&quot;	34</td>
-<td></td>
+<td>803891000006119</td>
+<td>105808</td>
+<td>42W-2</td>
+<td>42W..12</td>
+<td>glycated haemoglobin</td>
+<td>269823000</td>
+<td>1206383011</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;803891000006119&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>105808	&quot;42W-2&quot;	&quot;42W..12&quot;	&quot;glycated haemoglobin&quot;	&quot;269823000&quot;	&quot;1206383011&quot;	11</td>
-<td></td>
+<td>804121000006112</td>
+<td>327422</td>
+<td>42W-1</td>
+<td>42W..11</td>
+<td>glycosylated hb</td>
+<td>269823000</td>
+<td>1206383011</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;804121000006112&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>327422	&quot;42W-1&quot;	&quot;42W..11&quot;	&quot;glycosylated hb&quot;	&quot;269823000&quot;	&quot;1206383011&quot;	11</td>
-<td></td>
+<td>817471000006110</td>
+<td>36916</td>
+<td>42c0</td>
+<td>42c0.00</td>
+<td>haemoglobin a1c less than 7% indicating good diabetic control</td>
+<td>165679005</td>
+<td>2770693019</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;817471000006110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>36916	&quot;42c0&quot;	&quot;42c0.00&quot;	&quot;haemoglobin a1c less than 7% indicating good diabetic control&quot;	&quot;165679005&quot;	&quot;2770693019&quot;	11</td>
-<td></td>
+<td>817481000006113</td>
+<td>14722</td>
+<td>42c2</td>
+<td>42c2.00</td>
+<td>haemoglobin a1c greater than 10% indicating poor diabetic control</td>
+<td>165681007</td>
+<td>2767754019</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;817481000006113&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>14722	&quot;42c2&quot;	&quot;42c2.00&quot;	&quot;haemoglobin a1c greater than 10% indicating poor diabetic control&quot;	&quot;165681007&quot;	&quot;2767754019&quot;	11</td>
-<td></td>
+<td>817491000006111</td>
+<td>48135</td>
+<td>42c1</td>
+<td>42c1.00</td>
+<td>haemoglobin a1c between 7%-10% indicating borderline diabetic control</td>
+<td>165680008</td>
+<td>2768430011</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;817491000006111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>48135	&quot;42c1&quot;	&quot;42c1.00&quot;	&quot;haemoglobin a1c between 7%-10% indicating borderline diabetic control&quot;	&quot;165680008&quot;	&quot;2768430011&quot;	11</td>
-<td></td>
+<td>1700711000006113</td>
+<td>77047272</td>
+<td>42W5</td>
+<td>42W5.00</td>
+<td>haemoglobin a1c level - international federation of clinical chemistry and laboratory medicine standardised</td>
+<td>999791000000106</td>
+<td>2572901000000113</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;1700711000006113&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>77047272	&quot;42W5&quot;	&quot;42W5.00&quot;	&quot;haemoglobin a1c level - international federation of clinical chemistry and laboratory medicine standardised&quot;	&quot;999791000000106&quot;	&quot;2572901000000113&quot;	11</td>
-<td></td>
+<td>1753211000006115</td>
+<td>540924</td>
+<td>66Ae0</td>
+<td>66Ae000</td>
+<td>hba1c (haemoglobin a1c) target level - ifcc (international federation of clinical chemistry and laboratory medicine) standardised</td>
+<td>446074002</td>
+<td>1725291000000118</td>
+<td>1</td>
 </tr>
 <tr>
-<td>&quot;1753211000006115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>540924	&quot;66Ae0&quot;	&quot;66Ae000&quot;	&quot;hba1c (haemoglobin a1c) target level - ifcc (international federation of clinical chemistry and laboratory medicine) standardised&quot;	&quot;446074002&quot;	&quot;1725291000000118&quot;	1</td>
-<td></td>
+<td>1927791000006119</td>
+<td>89253</td>
+<td>EMISNQRA16</td>
+<td>NA</td>
+<td>raised hba1c level</td>
+<td>1927791000006103</td>
+<td>1927791000006119</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;1927791000006119&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>89253	&quot;EMISNQRA16&quot;	NA	&quot;raised hba1c level&quot;	&quot;1927791000006103&quot;	&quot;1927791000006119&quot;	11</td>
-<td></td>
+<td>1986181000006111</td>
+<td>1204878</td>
+<td>42W50</td>
+<td>NA</td>
+<td>hba1c (haemoglobin a1c) level (diagnostic reference range) - ifcc (international federation of clinical chemistry and laboratory medicine) standardised</td>
+<td>1049301000000100</td>
+<td>2643101000000114</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;1986181000006111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1204878	&quot;42W50&quot;	NA	&quot;hba1c (haemoglobin a1c) level (diagnostic reference range) - ifcc (international federation of clinical chemistry and laboratory medicine) standardised&quot;	&quot;1049301000000100&quot;	&quot;2643101000000114&quot;	11</td>
-<td></td>
+<td>1986191000006114</td>
+<td>396443</td>
+<td>42W51</td>
+<td>NA</td>
+<td>hba1c (haemoglobin a1c) level (monitoring ranges) - ifcc (international federation of clinical chemistry and laboratory medicine) standardised</td>
+<td>1049321000000109</td>
+<td>2643141000000112</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;1986191000006114&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>396443	&quot;42W51&quot;	NA	&quot;hba1c (haemoglobin a1c) level (monitoring ranges) - ifcc (international federation of clinical chemistry and laboratory medicine) standardised&quot;	&quot;1049321000000109&quot;	&quot;2643141000000112&quot;	11</td>
-<td></td>
+<td>2397571000000119</td>
+<td>1665293</td>
+<td>44TB0</td>
+<td>44TB000</td>
+<td>haemoglobin a1c (diagnostic reference range)</td>
+<td>1010951000000100</td>
+<td>2557081000000116</td>
+<td>34</td>
 </tr>
 <tr>
-<td>&quot;2397571000000119&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1665293	&quot;44TB0&quot;	&quot;44TB000&quot;	&quot;haemoglobin a1c (diagnostic reference range)&quot;	&quot;1010951000000100&quot;	&quot;2557081000000116&quot;	34</td>
-<td></td>
+<td>2397611000000111</td>
+<td>64933</td>
+<td>44TB1</td>
+<td>44TB100</td>
+<td>haemoglobin a1c (monitoring ranges)</td>
+<td>1010941000000103</td>
+<td>2582421000000115</td>
+<td>34</td>
 </tr>
 <tr>
-<td>&quot;2397611000000111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>64933	&quot;44TB1&quot;	&quot;44TB100&quot;	&quot;haemoglobin a1c (monitoring ranges)&quot;	&quot;1010941000000103&quot;	&quot;2582421000000115&quot;	34</td>
-<td></td>
+<td>3199161000006117</td>
+<td>23538</td>
+<td>^ESCTHA319916</td>
+<td>NA</td>
+<td>haemoglobin a1c measurement</td>
+<td>43396009</td>
+<td>72395012</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;3199161000006117&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>23538	&quot;^ESCTHA319916&quot;	NA	&quot;haemoglobin a1c measurement&quot;	&quot;43396009&quot;	&quot;72395012&quot;	11</td>
-<td></td>
+<td>3199171000006112</td>
+<td>4</td>
+<td>^ESCTHE319917</td>
+<td>NA</td>
+<td>hemoglobin a1c measurement</td>
+<td>43396009</td>
+<td>72394011</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;3199171000006112&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>4	&quot;^ESCTHE319917&quot;	NA	&quot;hemoglobin a1c measurement&quot;	&quot;43396009&quot;	&quot;72394011&quot;	11</td>
-<td></td>
+<td>3199181000006110</td>
+<td>361</td>
+<td>^ESCTHB319918</td>
+<td>NA</td>
+<td>hba1c - haemoglobin a1c level</td>
+<td>43396009</td>
+<td>493589010</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;3199181000006110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>361	&quot;^ESCTHB319918&quot;	NA	&quot;hba1c - haemoglobin a1c level&quot;	&quot;43396009&quot;	&quot;493589010&quot;	11</td>
-<td></td>
+<td>3199191000006113</td>
+<td>2401</td>
+<td>^ESCTHB319919</td>
+<td>NA</td>
+<td>hba1c - hemoglobin a1c level</td>
+<td>43396009</td>
+<td>493590018</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;3199191000006113&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>2401	&quot;^ESCTHB319919&quot;	NA	&quot;hba1c - hemoglobin a1c level&quot;	&quot;43396009&quot;	&quot;493590018&quot;	11</td>
-<td></td>
+<td>5417451000006114</td>
+<td>6555</td>
+<td>^ESCTGL541745</td>
+<td>NA</td>
+<td>glycosylated haemoglobin</td>
+<td>259689004</td>
+<td>386737013</td>
+<td>32</td>
 </tr>
 <tr>
-<td>&quot;5417451000006114&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>6555	&quot;^ESCTGL541745&quot;	NA	&quot;glycosylated haemoglobin&quot;	&quot;259689004&quot;	&quot;386737013&quot;	32</td>
-<td></td>
+<td>5417461000006111</td>
+<td>22</td>
+<td>^ESCTGL541746</td>
+<td>NA</td>
+<td>glycosylated hb</td>
+<td>259689004</td>
+<td>386736016</td>
+<td>32</td>
 </tr>
 <tr>
-<td>&quot;5417461000006111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>22	&quot;^ESCTGL541746&quot;	NA	&quot;glycosylated hb&quot;	&quot;259689004&quot;	&quot;386736016&quot;	32</td>
-<td></td>
+<td>5417471000006116</td>
+<td>2</td>
+<td>^ESCTGL541747</td>
+<td>NA</td>
+<td>glycosylated hemoglobin</td>
+<td>259689004</td>
+<td>386740013</td>
+<td>32</td>
 </tr>
 <tr>
-<td>&quot;5417471000006116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>2	&quot;^ESCTGL541747&quot;	NA	&quot;glycosylated hemoglobin&quot;	&quot;259689004&quot;	&quot;386740013&quot;	32</td>
-<td></td>
+<td>5513671000006116</td>
+<td>2</td>
+<td>^ESCTHE551367</td>
+<td>NA</td>
+<td>hemoglobin a1c - diabetic control interpretation</td>
+<td>269823000</td>
+<td>404443010</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;5513671000006116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>2	&quot;^ESCTHE551367&quot;	NA	&quot;hemoglobin a1c - diabetic control interpretation&quot;	&quot;269823000&quot;	&quot;404443010&quot;	11</td>
-<td></td>
+<td>6036701000006116</td>
+<td>95</td>
+<td>^ESCTHB603670</td>
+<td>NA</td>
+<td>hba1c measurement (dcct aligned)</td>
+<td>313835008</td>
+<td>457955014</td>
+<td>31</td>
 </tr>
 <tr>
-<td>&quot;6036701000006116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>95	&quot;^ESCTHB603670&quot;	NA	&quot;hba1c measurement (dcct aligned)&quot;	&quot;313835008&quot;	&quot;457955014&quot;	31</td>
-<td></td>
+<td>6036711000006118</td>
+<td>1282</td>
+<td>^ESCTHB603671</td>
+<td>NA</td>
+<td>hba1c level (dcct aligned)</td>
+<td>313835008</td>
+<td>457954013</td>
+<td>31</td>
 </tr>
 <tr>
-<td>&quot;6036711000006118&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1282	&quot;^ESCTHB603671&quot;	NA	&quot;hba1c level (dcct aligned)&quot;	&quot;313835008&quot;	&quot;457954013&quot;	31</td>
-<td></td>
+<td>6764261000006113</td>
+<td>113652</td>
+<td>^ESCTHB676426</td>
+<td>NA</td>
+<td>hba1c target</td>
+<td>408591000</td>
+<td>2160141012</td>
+<td>1</td>
 </tr>
 <tr>
-<td>&quot;6764261000006113&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>113652	&quot;^ESCTHB676426&quot;	NA	&quot;hba1c target&quot;	&quot;408591000&quot;	&quot;2160141012&quot;	1</td>
-<td></td>
+<td>6764271000006118</td>
+<td>360</td>
+<td>^ESCTTA676427</td>
+<td>NA</td>
+<td>target hba1c level</td>
+<td>408591000</td>
+<td>2163995019</td>
+<td>1</td>
 </tr>
 <tr>
-<td>&quot;6764271000006118&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>360	&quot;^ESCTTA676427&quot;	NA	&quot;target hba1c level&quot;	&quot;408591000&quot;	&quot;2163995019&quot;	1</td>
-<td></td>
+<td>6764281000006115</td>
+<td>2</td>
+<td>^ESCTHA676428</td>
+<td>NA</td>
+<td>haemoglobin a1c (hba1c) target</td>
+<td>408591000</td>
+<td>2621920018</td>
+<td>1</td>
 </tr>
 <tr>
-<td>&quot;6764281000006115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>2	&quot;^ESCTHA676428&quot;	NA	&quot;haemoglobin a1c (hba1c) target&quot;	&quot;408591000&quot;	&quot;2621920018&quot;	1</td>
-<td></td>
+<td>6764291000006117</td>
+<td>4</td>
+<td>^ESCTHE676429</td>
+<td>NA</td>
+<td>hemoglobin a1c (hba1c) target</td>
+<td>408591000</td>
+<td>2621921019</td>
+<td>1</td>
 </tr>
 <tr>
-<td>&quot;6764291000006117&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>4	&quot;^ESCTHE676429&quot;	NA	&quot;hemoglobin a1c (hba1c) target&quot;	&quot;408591000&quot;	&quot;2621921019&quot;	1</td>
-<td></td>
+<td>7285131000006118</td>
+<td>9</td>
+<td>^ESCTOR728513</td>
+<td>NA</td>
+<td>ordinal level of haemoglobin a1c</td>
+<td>443911005</td>
+<td>2840605010</td>
+<td>31</td>
 </tr>
 <tr>
-<td>&quot;7285131000006118&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>9	&quot;^ESCTOR728513&quot;	NA	&quot;ordinal level of haemoglobin a1c&quot;	&quot;443911005&quot;	&quot;2840605010&quot;	31</td>
-<td></td>
+<td>7285141000006111</td>
+<td>113</td>
+<td>^ESCTHB728514</td>
+<td>NA</td>
+<td>hba1c (haemoglobin a1c) level</td>
+<td>443911005</td>
+<td>2840603015</td>
+<td>31</td>
 </tr>
 <tr>
-<td>&quot;7285141000006111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>113	&quot;^ESCTHB728514&quot;	NA	&quot;hba1c (haemoglobin a1c) level&quot;	&quot;443911005&quot;	&quot;2840603015&quot;	31</td>
-<td></td>
+<td>7285151000006113</td>
+<td>253</td>
+<td>^ESCTHB728515</td>
+<td>NA</td>
+<td>hba1c (hemoglobin a1c) level</td>
+<td>443911005</td>
+<td>2840604014</td>
+<td>31</td>
 </tr>
 <tr>
-<td>&quot;7285151000006113&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>253	&quot;^ESCTHB728515&quot;	NA	&quot;hba1c (hemoglobin a1c) level&quot;	&quot;443911005&quot;	&quot;2840604014&quot;	31</td>
-<td></td>
+<td>7297311000006119</td>
+<td>3</td>
+<td>^ESCTHI729731</td>
+<td>NA</td>
+<td>high haemoglobin a1c level</td>
+<td>444751005</td>
+<td>2870875017</td>
+<td>31</td>
 </tr>
 <tr>
-<td>&quot;7297311000006119&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>3	&quot;^ESCTHI729731&quot;	NA	&quot;high haemoglobin a1c level&quot;	&quot;444751005&quot;	&quot;2870875017&quot;	31</td>
-<td></td>
+<td>7318681000006111</td>
+<td>22336</td>
+<td>^ESCTHA731868</td>
+<td>NA</td>
+<td>haemoglobin a1c target value using international federation of clinical chemistry and laboratory medicine standardised method</td>
+<td>446074002</td>
+<td>2883677017</td>
+<td>1</td>
 </tr>
 <tr>
-<td>&quot;7318681000006111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>22336	&quot;^ESCTHA731868&quot;	NA	&quot;haemoglobin a1c target value using international federation of clinical chemistry and laboratory medicine standardised method&quot;	&quot;446074002&quot;	&quot;2883677017&quot;	1</td>
-<td></td>
+<td>7318691000006114</td>
+<td>3</td>
+<td>^ESCTHE731869</td>
+<td>NA</td>
+<td>hemoglobin a1c target value using international federation of clinical chemistry and laboratory medicine standardized method</td>
+<td>446074002</td>
+<td>2883676014</td>
+<td>1</td>
 </tr>
 <tr>
-<td>&quot;7318691000006114&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>3	&quot;^ESCTHE731869&quot;	NA	&quot;hemoglobin a1c target value using international federation of clinical chemistry and laboratory medicine standardized method&quot;	&quot;446074002&quot;	&quot;2883676014&quot;	1</td>
-<td></td>
+<td>7318701000006114</td>
+<td>10</td>
+<td>^ESCTHB731870</td>
+<td>NA</td>
+<td>hba1c (haemoglobin a1c) target - ifcc (international federation of clinical chemistry and laboratory medicine) standardised</td>
+<td>446074002</td>
+<td>1725281000000115</td>
+<td>1</td>
 </tr>
 <tr>
-<td>&quot;7318701000006114&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>10	&quot;^ESCTHB731870&quot;	NA	&quot;hba1c (haemoglobin a1c) target - ifcc (international federation of clinical chemistry and laboratory medicine) standardised&quot;	&quot;446074002&quot;	&quot;1725281000000115&quot;	1</td>
-<td></td>
+<td>7960861000006110</td>
+<td>130</td>
+<td>^ESCTGL796086</td>
+<td>NA</td>
+<td>glycated haemoglobin</td>
+<td>733829007</td>
+<td>3474723019</td>
+<td>31</td>
 </tr>
 <tr>
-<td>&quot;7960861000006110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>130	&quot;^ESCTGL796086&quot;	NA	&quot;glycated haemoglobin&quot;	&quot;733829007&quot;	&quot;3474723019&quot;	31</td>
-<td></td>
+<td>7960871000006115</td>
+<td>7</td>
+<td>^ESCTGL796087</td>
+<td>NA</td>
+<td>glycated hemoglobin</td>
+<td>733829007</td>
+<td>3474722012</td>
+<td>31</td>
 </tr>
 <tr>
-<td>&quot;7960871000006115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>7	&quot;^ESCTGL796087&quot;	NA	&quot;glycated hemoglobin&quot;	&quot;733829007&quot;	&quot;3474722012&quot;	31</td>
-<td></td>
+<td>7960881000006117</td>
+<td>5</td>
+<td>^ESCTGL796088</td>
+<td>NA</td>
+<td>glycated hb</td>
+<td>733829007</td>
+<td>3474724013</td>
+<td>31</td>
 </tr>
 <tr>
-<td>&quot;7960881000006117&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>5	&quot;^ESCTGL796088&quot;	NA	&quot;glycated hb&quot;	&quot;733829007&quot;	&quot;3474724013&quot;	31</td>
-<td></td>
+<td>7960891000006119</td>
+<td>43</td>
+<td>^ESCTGL796089</td>
+<td>NA</td>
+<td>glycated haemoglobin-a1c</td>
+<td>733830002</td>
+<td>3474735015</td>
+<td>31</td>
 </tr>
 <tr>
-<td>&quot;7960891000006119&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>43	&quot;^ESCTGL796089&quot;	NA	&quot;glycated haemoglobin-a1c&quot;	&quot;733830002&quot;	&quot;3474735015&quot;	31</td>
-<td></td>
+<td>7960911000006117</td>
+<td>32</td>
+<td>^ESCTHB796091</td>
+<td>NA</td>
+<td>hba1c - glycated hemoglobin-a1c</td>
+<td>733830002</td>
+<td>3474736019</td>
+<td>31</td>
 </tr>
 <tr>
-<td>&quot;7960911000006117&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>32	&quot;^ESCTHB796091&quot;	NA	&quot;hba1c - glycated hemoglobin-a1c&quot;	&quot;733830002&quot;	&quot;3474736019&quot;	31</td>
-<td></td>
+<td>7960921000006113</td>
+<td>11</td>
+<td>^ESCTHB796092</td>
+<td>NA</td>
+<td>hba1c - glycated haemoglobin-a1c</td>
+<td>733830002</td>
+<td>3474737011</td>
+<td>31</td>
 </tr>
 <tr>
-<td>&quot;7960921000006113&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>11	&quot;^ESCTHB796092&quot;	NA	&quot;hba1c - glycated haemoglobin-a1c&quot;	&quot;733830002&quot;	&quot;3474737011&quot;	31</td>
-<td></td>
+<td>8121171000006116</td>
+<td>107</td>
+<td>^ESCTHB812117</td>
+<td>NA</td>
+<td>hb a1c (haemoglobin a1c) measurement - ifcc (international federation of clinical chemistry and laboratory medicine) standardised</td>
+<td>371981000000106</td>
+<td>730981000000118</td>
+<td>31</td>
 </tr>
 <tr>
-<td>&quot;8121171000006116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>107	&quot;^ESCTHB812117&quot;	NA	&quot;hb a1c (haemoglobin a1c) measurement - ifcc (international federation of clinical chemistry and laboratory medicine) standardised&quot;	&quot;371981000000106&quot;	&quot;730981000000118&quot;	31</td>
-<td></td>
+<td>8121181000006118</td>
+<td>804</td>
+<td>^ESCTHB812118</td>
+<td>NA</td>
+<td>hb a1c (haemoglobin a1c) level - ifcc (international federation of clinical chemistry and laboratory medicine) standardised</td>
+<td>371981000000106</td>
+<td>732081000000118</td>
+<td>31</td>
 </tr>
 <tr>
-<td>&quot;8121181000006118&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>804	&quot;^ESCTHB812118&quot;	NA	&quot;hb a1c (haemoglobin a1c) level - ifcc (international federation of clinical chemistry and laboratory medicine) standardised&quot;	&quot;371981000000106&quot;	&quot;732081000000118&quot;	31</td>
-<td></td>
+<td>12622041000006111</td>
+<td>7</td>
+<td>^ESCT1262204</td>
+<td>NA</td>
+<td>hba1c (haemoglobin a1c) molar concentration in blood</td>
+<td>1107481000000106</td>
+<td>2773291000000116</td>
+<td>31</td>
 </tr>
 <tr>
-<td>&quot;12622041000006111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>7	&quot;^ESCT1262204&quot;	NA	&quot;hba1c (haemoglobin a1c) molar concentration in blood&quot;	&quot;1107481000000106&quot;	&quot;2773291000000116&quot;	31</td>
-<td></td>
+<td>14368911000006117</td>
+<td>3</td>
+<td>^ESCT1436891</td>
+<td>NA</td>
+<td>haemoglobin a1c measurement - international federation of clinical chemistry and laboratory medicine standardised</td>
+<td>371981000000106</td>
+<td>1826141000000114</td>
+<td>31</td>
 </tr>
 <tr>
-<td>&quot;14368911000006117&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>3	&quot;^ESCT1436891&quot;	NA	&quot;haemoglobin a1c measurement - international federation of clinical chemistry and laboratory medicine standardised&quot;	&quot;371981000000106&quot;	&quot;1826141000000114&quot;	31</td>
-<td></td>
+<td>14500411000006110</td>
+<td>969</td>
+<td>^ESCT1450041</td>
+<td>NA</td>
+<td>haemoglobin a1c less than 7 percent indicating good diabetic control</td>
+<td>165679005</td>
+<td>4578225017</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;14500411000006110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>969	&quot;^ESCT1450041&quot;	NA	&quot;haemoglobin a1c less than 7 percent indicating good diabetic control&quot;	&quot;165679005&quot;	&quot;4578225017&quot;	11</td>
-<td></td>
+<td>14500421000006119</td>
+<td>1238</td>
+<td>^ESCT1450042</td>
+<td>NA</td>
+<td>haemoglobin a1c between 7 percent to 10 percent indicating borderline diabetic control</td>
+<td>165680008</td>
+<td>4578415013</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;14500421000006119&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1238	&quot;^ESCT1450042&quot;	NA	&quot;haemoglobin a1c between 7 percent to 10 percent indicating borderline diabetic control&quot;	&quot;165680008&quot;	&quot;4578415013&quot;	11</td>
-<td></td>
+<td>14500431000006116</td>
+<td>309</td>
+<td>^ESCT1450043</td>
+<td>NA</td>
+<td>haemoglobin a1c greater than 10 percent indicating poor diabetic control</td>
+<td>165681007</td>
+<td>4578059010</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;14500431000006116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>309	&quot;^ESCT1450043&quot;	NA	&quot;haemoglobin a1c greater than 10 percent indicating poor diabetic control&quot;	&quot;165681007&quot;	&quot;4578059010&quot;	11</td>
-<td></td>
+<td>15098111000006110</td>
+<td>1</td>
+<td>^ESCT1509811</td>
+<td>NA</td>
+<td>haemoglobin a1c diagnostic reference range molar concentration in blood</td>
+<td>1971000237103</td>
+<td>12821000237115</td>
+<td>34</td>
 </tr>
 <tr>
-<td>&quot;15098111000006110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1	&quot;^ESCT1509811&quot;	NA	&quot;haemoglobin a1c diagnostic reference range molar concentration in blood&quot;	&quot;1971000237103&quot;	&quot;12821000237115&quot;	34</td>
-<td></td>
+<td>15098421000006111</td>
+<td>1</td>
+<td>^ESCT1509842</td>
+<td>NA</td>
+<td>haemoglobin a1 mass concentration in whole blood</td>
+<td>2281000237104</td>
+<td>11971000237117</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;15098421000006111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1	&quot;^ESCT1509842&quot;	NA	&quot;haemoglobin a1 mass concentration in whole blood&quot;	&quot;2281000237104&quot;	&quot;11971000237117&quot;	11</td>
-<td></td>
+<td>15099641000006113</td>
+<td>1743</td>
+<td>^ESCT1509964</td>
+<td>NA</td>
+<td>hba1c (glycated haemoglobin a1c)/hba1 (haemoglobin a1) percent in blood</td>
+<td>3531000237106</td>
+<td>9191000237116</td>
+<td>11</td>
 </tr>
 <tr>
-<td>&quot;15099641000006113&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>1743	&quot;^ESCT1509964&quot;	NA	&quot;hba1c (glycated haemoglobin a1c)/hba1 (haemoglobin a1) percent in blood&quot;	&quot;3531000237106&quot;	&quot;9191000237116&quot;	11</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;15102281000006115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>3	&quot;^ESCT1510228&quot;	NA	&quot;haemoglobin a1c monitoring range molar concentration in blood&quot;	&quot;6181000237109&quot;	&quot;13821000237113&quot;	34</td>
-<td></td>
+<td>15102281000006115</td>
+<td>3</td>
+<td>^ESCT1510228</td>
+<td>NA</td>
+<td>haemoglobin a1c monitoring range molar concentration in blood</td>
+<td>6181000237109</td>
+<td>13821000237113</td>
+<td>34</td>
 </tr>
 </tbody>
 </table>
-</div>
-
-### Metadata star legend
-
-<div class="metadata-legend">
-<div><span class="meta-star meta-star-1">★</span> 1. Dataset used</div>
-<div><span class="meta-star meta-star-2">★</span> 2. Version information</div>
-<div><span class="meta-star meta-star-3">★</span> 3. Inclusion / exclusion criteria in generating script</div>
-<div><span class="meta-star meta-star-4">★</span> 4. Pre-print / publication / protocol information</div>
-<div><span class="meta-star meta-star-5">★</span> 5. Exposure / outcome / covariate flag</div>
-<div><span class="meta-star meta-star-6">★</span> 6. Clinical or alternative reviewer information</div>
-<div><span class="meta-star meta-star-7">★</span> 7. Citation file (.cff)</div>
-<div><span class="meta-star meta-star-8">★</span> 8. Coding system information</div>
-<div><span class="meta-star meta-star-9">★</span> 9. Brief phenotype description and usage</div>
 </div>
 

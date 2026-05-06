@@ -1,23 +1,38 @@
 # Antidepressants
 
 <div class="phenotype-header-card">
-<p class="phenotype-kicker">CPRD Aurum phenotype</p>
-<h2>Antidepressants</h2>
-<p class="phenotype-subtitle">Code name: <code>antidepressants</code></p>
-<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-3" title="3. Inclusion / exclusion criteria in generating script" aria-label="3. Inclusion / exclusion criteria in generating script">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
+<div class="phenotype-header-fields">
+<div><strong>Dataset:</strong> CPRD Aurum</div>
+<div><strong>ID (phenotype-githubID-repoStart):</strong> <code>antidepressants-smwu-smi</code></div>
+<div><strong>Source:</strong> <a href="https://github.com/smwu/SMI_GLP">smwu/SMI_GLP</a></div>
+<div><strong>License:</strong> MIT</div>
+<div><strong>Date Created:</strong> 2025-08-01</div>
+<div><strong>Date Imported:</strong> 2026-04-22</div>
+<div><strong>Date Updated:</strong> 2026-04-22</div>
+</div>
 </div>
 
-## Repository details
+## Metadata
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Name</dt><dd>Antidepressants</dd></div><div class="phenotype-meta-row"><dt>Version</dt><dd>0.1.0</dd></div><div class="phenotype-meta-row"><dt>ID</dt><dd><code>antidepressants-cprd-aurum-unknown-9da65a8e</code></dd></div><div class="phenotype-meta-row"><dt>Status</dt><dd>draft</dd></div><div class="phenotype-meta-row"><dt>Dataset</dt><dd>CPRD Aurum</dd></div><div class="phenotype-meta-row"><dt>Code name</dt><dd><code>antidepressants</code></dd></div><div class="phenotype-meta-row"><dt>Phenotype group</dt><dd>Antidepressants</dd></div><div class="phenotype-meta-row"><dt>Coding system</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Coding systems</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Phenotype role</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Created</dt><dd>2025-08-01</dd></div><div class="phenotype-meta-row"><dt>Imported</dt><dd>2026-04-22</dd></div><div class="phenotype-meta-row"><dt>Updated</dt><dd>2026-04-22</dd></div></div>
+<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-3" title="3. Inclusion / exclusion criteria in generating script" aria-label="3. Inclusion / exclusion criteria in generating script">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
 
-## Background information
+<br>
 
-<div class="phenotype-meta-grid"><div class="phenotype-meta-row"><dt>Summary</dt><dd>Auto-ingested from smwu/SMI_GLP (main) at 1e3dfaacd5ed63663138e764d88792609878a84e. Source path: Code_Lists/Antidepressants/Aurum_Antidepressants_codelist_20250801.txt.</dd></div><div class="phenotype-meta-row"><dt>Usage notes</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Dataset context</dt><dd>CPRD Aurum</dd></div><div class="phenotype-meta-row"><dt>Provenance</dt><dd>Imported</dd></div><div class="phenotype-meta-row"><dt>Source citation</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source repository</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Source path</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Evidence</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Review</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>Contacts</dt><dd>NA</dd></div><div class="phenotype-meta-row"><dt>License</dt><dd>MIT</dd></div><div class="phenotype-meta-row"><dt>Tags</dt><dd>NA</dd></div></div>
+<div class="metadata-detail-list">
+<div class="metadata-detail-row"><span class="meta-star meta-star-1">★</span> <strong>Dataset used:</strong> CPRD Aurum</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-2">★</span> <strong>Version information:</strong> 0.1.0</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-3">★</span> <strong>Inclusion / exclusion criteria in generating script:</strong> Found in generating script</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-4">☆</span> <strong>Pre-print / publication / protocol information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-5">☆</span> <strong>Exposure / outcome / covariate flag:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-6">☆</span> <strong>Clinical or alternative reviewer information:</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-7">☆</span> <strong>Citation file (.cff):</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-8">☆</span> <strong>Coding system information:</strong> Unknown</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-9">★</span> <strong>Brief phenotype description and usage:</strong> Auto-ingested from smwu/SMI_GLP (main) at 1e3dfaacd5ed63663138e764d88792609878a84e. Source path: Code_Lists/Antidepressants/Aurum_Antidepressants_codelist_20250801.txt.</div>
+</div>
 
 ## Downloads
 
-<ul class="phenotype-download-list"><li><a href="../source/antidepressants-cprd-aurum-unknown-9da65a8e.txt">Download original codelist.txt</a></li><li><a href="../csv/antidepressants-cprd-aurum-unknown-9da65a8e.csv">Download normalized CSV</a></li><li><a href="../r/antidepressants-cprd-aurum-unknown-9da65a8e/0m_Antidepressants_code_list.R">Download R script: 0m_Antidepressants_code_list.R</a></li></ul>
+<ul class="phenotype-download-list"><li><a href="../../source/antidepressants-cprd-aurum-unknown-9da65a8e.txt" download="antidepressants-cprd-aurum-unknown-9da65a8e.txt">Download original codelist (.txt)</a></li><li><a href="../../r/antidepressants-cprd-aurum-unknown-9da65a8e/0m_Antidepressants_code_list.R">Download R script: 0m_Antidepressants_code_list.R</a></li></ul>
 
 ## Codelist preview
 
@@ -25,730 +40,1019 @@
 <table>
 <thead>
 <tr>
-<th>code</th>
-<th>code_system</th>
-<th>include</th>
-<th>term</th>
-<th>notes</th>
+<th>prodcodeid</th>
+<th>productname</th>
+<th>formulation</th>
+<th>route</th>
+<th>ingredient</th>
+<th>strength</th>
+<th>BNFChapter</th>
+<th>Antidepressant</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>&quot;prodcodeid&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;productname&quot;	&quot;formulation&quot;	&quot;route&quot;	&quot;ingredient&quot;	&quot;strength&quot;	&quot;BNFChapter&quot;	&quot;Antidepressant&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;38741000033119&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Allegron 10mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Nortriptyline&quot;	&quot;10.000mg&quot;	NA	&quot;Nortriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;38841000033112&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Allegron 25mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Nortriptyline&quot;	&quot;25.000mg&quot;	NA	&quot;Nortriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;43441000033118&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amitriptyline Sr  Capsules  75 mg&quot;	&quot;Capsule&quot;	&quot;Oral&quot;	&quot;Amitriptyline&quot;	NA	NA	&quot;Amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;43541000033117&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amitriptyline Hydrochloride  Capsules  25 mg&quot;	&quot;Capsule&quot;	&quot;Oral&quot;	&quot;Amitriptyline&quot;	NA	NA	&quot;Amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;43641000033116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amitriptyline Hydrochloride  Capsules  50 mg&quot;	&quot;Capsule&quot;	&quot;Oral&quot;	&quot;Amitriptyline&quot;	NA	NA	&quot;Amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;43741000033113&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amitriptyline Hydrochloride  Capsules  75 mg&quot;	&quot;Capsule&quot;	&quot;Oral&quot;	&quot;Amitriptyline&quot;	NA	NA	&quot;Amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;45841000033119&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amitriptyline 25mg modified-release capsules&quot;	&quot;Modified-release capsule&quot;	&quot;Oral&quot;	&quot;Amitriptyline&quot;	&quot;25.000mg&quot;	&quot;04030100&quot;	&quot;Amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;45941000033110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amitriptyline 50mg modified-release capsules&quot;	&quot;Modified-release capsule&quot;	&quot;Oral&quot;	&quot;Amitriptyline&quot;	&quot;50.000mg&quot;	&quot;04030100&quot;	&quot;Amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;50041000033116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amitriptyline Hydrochloride  Injection  10mg/ml&quot;	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Amitriptyline&quot;	NA	NA	&quot;Amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;51941000033114&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amitriptyline Hydrochloride  Mixture  Sugar Free 10 mg/5 ml&quot;	NA	NA	&quot;Amitriptyline&quot;	NA	NA	&quot;Amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;55441000033119&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amitriptyline 25mg/5ml oral solution sugar free&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Amitriptyline&quot;	&quot;5.000mg/1.000ml&quot;	&quot;04030100&quot;	&quot;Amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;55541000033118&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amitriptyline 50mg/5ml oral solution sugar free&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Amitriptyline&quot;	&quot;10.000mg/1.000ml&quot;	&quot;04030100&quot;	&quot;Amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;60441000033116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amitriptyline 10mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline&quot;	&quot;10.000mg&quot;	&quot;04030100&quot;	&quot;Amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;60541000033115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amitriptyline 50mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline&quot;	&quot;50.000mg&quot;	&quot;04030100&quot;	&quot;Amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;60641000033119&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amitriptyline 25mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Amitriptyline&quot;	&quot;25.000mg&quot;	&quot;04030100&quot;	&quot;Amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;60841000033118&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amoxapine  Tablets  25 mg&quot;	&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amoxapine&quot;	NA	NA	&quot;Amoxapine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;60941000033114&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amoxapine 50mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Amoxapine&quot;	&quot;50.000mg&quot;	&quot;04030100&quot;	&quot;Amoxapine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;61041000033116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amoxapine 100mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Amoxapine&quot;	&quot;100.000mg&quot;	&quot;04030100&quot;	&quot;Amoxapine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;61141000033117&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Amoxapine  Tablets  150 mg&quot;	&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Amoxapine&quot;	NA	NA	&quot;Amoxapine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;61941000033115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Anafranil 10mg capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Clomipramine&quot;	&quot;10.000mg&quot;	NA	&quot;Clomipramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;62041000033114&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Anafranil 25mg capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Clomipramine&quot;	&quot;25.000mg&quot;	NA	&quot;Clomipramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;62141000033113&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Anafranil 50mg capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Clomipramine&quot;	&quot;50.000mg&quot;	NA	&quot;Clomipramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;64241000033110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Anafranil  Injection  12.5mg/ml&quot;	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Clomipramine&quot;	NA	NA	&quot;Clomipramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;68641000033117&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Anafranil 25mg/5ml syrup&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Clomipramine&quot;	&quot;5.000mg/1.000ml&quot;	NA	&quot;Clomipramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;70241000033114&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Anafranil SR 75mg tablets&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Clomipramine&quot;	&quot;75.000mg&quot;	NA	&quot;Clomipramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;87641000033116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Asendis 100mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Amoxapine&quot;	&quot;100.000mg&quot;	NA	&quot;Amoxapine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;87941000033111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Asendis 50mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Amoxapine&quot;	&quot;50.000mg&quot;	NA	&quot;Amoxapine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;259141000033116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Cipramil 20mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Citalopram&quot;	&quot;20.000mg&quot;	NA	&quot;Citalopram&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;259241000033111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Citalopram 20mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Citalopram&quot;	&quot;20.000mg&quot;	&quot;04030300&quot;	&quot;Citalopram&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;262041000033115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Clomipramine 10mg capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Clomipramine&quot;	&quot;10.000mg&quot;	&quot;04030100&quot;	&quot;Clomipramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;262141000033116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Clomipramine 25mg capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Clomipramine&quot;	&quot;25.000mg&quot;	&quot;04030100&quot;	&quot;Clomipramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;262241000033111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Clomipramine 50mg capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Clomipramine&quot;	&quot;50.000mg&quot;	&quot;04030100&quot;	&quot;Clomipramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;275441000033113&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Clomipramine Hydrochloride  Injection  12.5mg/ml&quot;	&quot;Solution for injection&quot;	&quot;Intramuscular&quot;	&quot;Clomipramine&quot;	NA	NA	&quot;Clomipramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;284741000033110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Clomipramine 25mg/5ml oral solution&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Clomipramine&quot;	&quot;5.000mg/1.000ml&quot;	&quot;04030100&quot;	&quot;Clomipramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;285741000033111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Clomipramine 75mg modified-release tablets&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Clomipramine&quot;	&quot;75.000mg&quot;	&quot;04030100&quot;	&quot;Clomipramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;472141000033110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Dothapax 25 capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Dosulepin&quot;	&quot;25.000mg&quot;	NA	&quot;Dosulepin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;473041000033119&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Doxepin 10mg capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Doxepin&quot;	&quot;10.000mg&quot;	&quot;04030100&quot;	&quot;Doxepin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;473141000033115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Doxepin 25mg capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Doxepin&quot;	&quot;25.000mg&quot;	&quot;04030100&quot;	&quot;Doxepin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;473241000033110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Doxepin 50mg capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Doxepin&quot;	&quot;50.000mg&quot;	&quot;04030100&quot;	&quot;Doxepin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;473341000033117&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Doxepin 75mg capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Doxepin&quot;	&quot;75.000mg&quot;	&quot;04030100&quot;	&quot;Doxepin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;479641000033111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Dothapax 75 tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Dosulepin&quot;	&quot;75.000mg&quot;	NA	&quot;Dosulepin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;489741000033113&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Dutonin 100mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Nefazodone&quot;	&quot;100.000mg&quot;	NA	&quot;Nefazodone&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;489841000033115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Dutonin 200mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Nefazodone&quot;	&quot;200.000mg&quot;	NA	&quot;Nefazodone&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;496741000033118&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Edronax 4mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Reboxetine&quot;	&quot;4.000mg&quot;	NA	&quot;Reboxetine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;498441000033112&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Efexor XL 75mg capsules&quot;	&quot;Modified-release capsule&quot;	&quot;Oral&quot;	&quot;Venlafaxine&quot;	&quot;75.000mg&quot;	NA	&quot;Venlafaxine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;498541000033113&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Efexor XL 150mg capsules&quot;	&quot;Modified-release capsule&quot;	&quot;Oral&quot;	&quot;Venlafaxine&quot;	&quot;150.000mg&quot;	NA	&quot;Venlafaxine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;499041000033111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Efexor 37.5mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Venlafaxine&quot;	&quot;37.500mg&quot;	NA	&quot;Venlafaxine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;499141000033110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Efexor 75mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Venlafaxine&quot;	&quot;75.000mg&quot;	NA	&quot;Venlafaxine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;499241000033115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Efexor 50mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Venlafaxine&quot;	&quot;50.000mg&quot;	NA	&quot;Venlafaxine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;561941000033115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Faverin 100mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Fluvoxamine&quot;	&quot;100.000mg&quot;	NA	&quot;Fluvoxamine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;563341000033115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Faverin 50mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Fluvoxamine&quot;	&quot;50.000mg&quot;	NA	&quot;Fluvoxamine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;577841000033114&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Fluoxetine 20mg capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Fluoxetine&quot;	&quot;20.000mg&quot;	&quot;04030300&quot;	&quot;Fluoxetine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;579041000033111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Fluoxetine 60mg capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Fluoxetine&quot;	&quot;60.000mg&quot;	&quot;04030300&quot;	&quot;Fluoxetine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;592541000033118&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Fluoxetine Hydrochloride  Liquid  20 mg/5 ml&quot;	NA	NA	&quot;Fluoxetine&quot;	NA	NA	&quot;Fluoxetine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;592841000033116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Fluvoxamine 100mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Fluvoxamine&quot;	&quot;100.000mg&quot;	&quot;04030300&quot;	&quot;Fluvoxamine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;595541000033113&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Fluvoxamine 50mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Fluvoxamine&quot;	&quot;50.000mg&quot;	&quot;04030300&quot;	&quot;Fluvoxamine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;626241000033115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Gamanil 70mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Lofepramine&quot;	&quot;70.000mg&quot;	NA	&quot;Lofepramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;754141000033110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Imipramine Hydrochloride  Syrup  25 mg/5 ml&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Imipramine&quot;	NA	NA	&quot;Imipramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;754241000033115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Imipramine 25mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Imipramine&quot;	&quot;25.000mg&quot;	&quot;04030100&quot;	&quot;Imipramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;755541000033119&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Imipramine 10mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Imipramine&quot;	&quot;10.000mg&quot;	&quot;04030100&quot;	&quot;Imipramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;787141000033110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Isocarboxazid 10mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Isocarboxazid&quot;	&quot;10.000mg&quot;	&quot;04030200&quot;	&quot;Isocarboxazid&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;819741000033117&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Lentizol 25mg modified-release capsules&quot;	&quot;Modified-release capsule&quot;	&quot;Oral&quot;	&quot;Amitriptyline&quot;	&quot;25.000mg&quot;	NA	&quot;Amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;819841000033110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Lentizol 50mg modified-release capsules&quot;	&quot;Modified-release capsule&quot;	&quot;Oral&quot;	&quot;Amitriptyline&quot;	&quot;50.000mg&quot;	NA	&quot;Amitriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;849241000033115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Lofepramine 70mg/5ml oral suspension sugar free&quot;	&quot;Oral suspension&quot;	&quot;Oral&quot;	&quot;Lofepramine&quot;	&quot;14.000mg/1.000ml&quot;	&quot;04030100&quot;	&quot;Lofepramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;850141000033116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Lofepramine 70mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Lofepramine&quot;	&quot;70.000mg&quot;	&quot;04030100&quot;	&quot;Lofepramine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;853441000033119&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Ludiomil 10mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Maprotiline&quot;	&quot;10.000mg&quot;	NA	&quot;Maprotiline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;853541000033118&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Ludiomil 25mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Maprotiline&quot;	&quot;25.000mg&quot;	NA	&quot;Maprotiline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;853641000033117&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Ludiomil 50mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Maprotiline&quot;	&quot;50.000mg&quot;	NA	&quot;Maprotiline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;853741000033114&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Ludiomil 75mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Maprotiline&quot;	&quot;75.000mg&quot;	NA	&quot;Maprotiline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;854141000033113&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Lustral 100mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Sertraline&quot;	&quot;100.000mg&quot;	NA	&quot;Sertraline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;854241000033118&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Lustral 50mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Sertraline&quot;	&quot;50.000mg&quot;	NA	&quot;Sertraline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;868841000033115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Manerix 150mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Moclobemide&quot;	&quot;150.000mg&quot;	NA	&quot;Moclobemide&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;868941000033111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Manerix 300mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Moclobemide&quot;	&quot;300.000mg&quot;	NA	&quot;Moclobemide&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;870441000033114&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Maprotiline 10mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Maprotiline&quot;	&quot;10.000mg&quot;	&quot;04030100&quot;	&quot;Maprotiline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;870741000033119&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Maprotiline 25mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Maprotiline&quot;	&quot;25.000mg&quot;	&quot;04030100&quot;	&quot;Maprotiline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;870841000033112&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Maprotiline 50mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Maprotiline&quot;	&quot;50.000mg&quot;	&quot;04030100&quot;	&quot;Maprotiline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;870941000033116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Maprotiline 75mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Maprotiline&quot;	&quot;75.000mg&quot;	&quot;04030100&quot;	&quot;Maprotiline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;917541000033110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Mianserin 10mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Mianserin&quot;	&quot;10.000mg&quot;	&quot;04030100&quot;	&quot;Mianserin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;917641000033111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Mianserin 20mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Mianserin&quot;	&quot;20.000mg&quot;	&quot;04030100&quot;	&quot;Mianserin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;917741000033119&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Mianserin 30mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Mianserin&quot;	&quot;30.000mg&quot;	&quot;04030100&quot;	&quot;Mianserin&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;919641000033115&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Mirtazapine 30mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Mirtazapine&quot;	&quot;30.000mg&quot;	&quot;04030400&quot;	&quot;Mirtazapine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;923041000033117&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Molipaxin 50mg capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Trazodone&quot;	&quot;50.000mg&quot;	NA	&quot;Trazodone&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;923241000033113&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Molipaxin 100mg capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Trazodone&quot;	&quot;100.000mg&quot;	NA	&quot;Trazodone&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;929541000033113&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Molipaxin 50mg/5ml oral liquid&quot;	&quot;Oral solution&quot;	&quot;Oral&quot;	&quot;Trazodone&quot;	&quot;10.000mg/1.000ml&quot;	NA	&quot;Trazodone&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;929841000033110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Molipaxin CR 150mg tablets&quot;	&quot;Modified-release tablet&quot;	&quot;Oral&quot;	&quot;Trazodone&quot;	&quot;150.000mg&quot;	NA	&quot;Trazodone&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;937241000033118&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Moclobemide 150mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Moclobemide&quot;	&quot;150.000mg&quot;	&quot;04030200&quot;	&quot;Moclobemide&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;937841000033119&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Moclobemide 300mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Moclobemide&quot;	&quot;300.000mg&quot;	&quot;04030200&quot;	&quot;Moclobemide&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;938741000033111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Molipaxin 150mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Trazodone&quot;	&quot;150.000mg&quot;	NA	&quot;Trazodone&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;938841000033118&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Motipress tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Nortriptyline&quot;	&quot;1.500mg + 30.000mg&quot;	NA	&quot;Nortriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;938941000033114&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Motival 10mg/500microgram tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Nortriptyline&quot;	&quot;500.000microgram + 10.000mg&quot;	NA	&quot;Nortriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;955241000033110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Nardil 15mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Phenelzine&quot;	&quot;15.000mg&quot;	NA	&quot;Phenelzine&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;966141000033116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Nefazodone 100mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Nefazodone&quot;	&quot;100.000mg&quot;	&quot;04030400&quot;	&quot;Nefazodone&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;966241000033111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Nefazodone 200mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Nefazodone&quot;	&quot;200.000mg&quot;	&quot;04030400&quot;	&quot;Nefazodone&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;966341000033118&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Nefazodone Hydrochloride  Tablets (starter pack)  14 x 50 mg, 14 x 100 mg, 28 x 200 mg&quot;	&quot;Tablet&quot;	&quot;Oral&quot;	&quot;Nefazodone&quot;	NA	NA	&quot;Nefazodone&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;979241000033110&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Nortriptyline 10mg capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Nortriptyline&quot;	&quot;10.000mg&quot;	&quot;04030100&quot;	&quot;Nortriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;979341000033117&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Nortriptyline 25mg capsules&quot;	&quot;Capsule/ Oral capsule&quot;	&quot;Oral&quot;	&quot;Nortriptyline&quot;	&quot;25.000mg&quot;	&quot;04030100&quot;	&quot;Nortriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;983141000033114&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Nortriptyline  Liquid  10mg/5 ml&quot;	NA	NA	&quot;Nortriptyline&quot;	NA	NA	&quot;Nortriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;989141000033111&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Nortriptyline 10mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Nortriptyline&quot;	&quot;10.000mg&quot;	&quot;04030100&quot;	&quot;Nortriptyline&quot;</td>
-<td></td>
-</tr>
-<tr>
-<td>&quot;989241000033116&quot;</td>
-<td>UNKNOWN</td>
-<td>true</td>
-<td>&quot;Nortriptyline 25mg tablets&quot;	&quot;Tablet/ Oral Tablet&quot;	&quot;Oral&quot;	&quot;Nortriptyline&quot;	&quot;25.000mg&quot;	&quot;04030100&quot;	&quot;Nortriptyline&quot;</td>
-<td></td>
+<td>38741000033119</td>
+<td>Allegron 10mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Nortriptyline</td>
+<td>10.000mg</td>
+<td>NA</td>
+<td>Nortriptyline</td>
+</tr>
+<tr>
+<td>38841000033112</td>
+<td>Allegron 25mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Nortriptyline</td>
+<td>25.000mg</td>
+<td>NA</td>
+<td>Nortriptyline</td>
+</tr>
+<tr>
+<td>43441000033118</td>
+<td>Amitriptyline Sr  Capsules  75 mg</td>
+<td>Capsule</td>
+<td>Oral</td>
+<td>Amitriptyline</td>
+<td>NA</td>
+<td>NA</td>
+<td>Amitriptyline</td>
+</tr>
+<tr>
+<td>43541000033117</td>
+<td>Amitriptyline Hydrochloride  Capsules  25 mg</td>
+<td>Capsule</td>
+<td>Oral</td>
+<td>Amitriptyline</td>
+<td>NA</td>
+<td>NA</td>
+<td>Amitriptyline</td>
+</tr>
+<tr>
+<td>43641000033116</td>
+<td>Amitriptyline Hydrochloride  Capsules  50 mg</td>
+<td>Capsule</td>
+<td>Oral</td>
+<td>Amitriptyline</td>
+<td>NA</td>
+<td>NA</td>
+<td>Amitriptyline</td>
+</tr>
+<tr>
+<td>43741000033113</td>
+<td>Amitriptyline Hydrochloride  Capsules  75 mg</td>
+<td>Capsule</td>
+<td>Oral</td>
+<td>Amitriptyline</td>
+<td>NA</td>
+<td>NA</td>
+<td>Amitriptyline</td>
+</tr>
+<tr>
+<td>45841000033119</td>
+<td>Amitriptyline 25mg modified-release capsules</td>
+<td>Modified-release capsule</td>
+<td>Oral</td>
+<td>Amitriptyline</td>
+<td>25.000mg</td>
+<td>04030100</td>
+<td>Amitriptyline</td>
+</tr>
+<tr>
+<td>45941000033110</td>
+<td>Amitriptyline 50mg modified-release capsules</td>
+<td>Modified-release capsule</td>
+<td>Oral</td>
+<td>Amitriptyline</td>
+<td>50.000mg</td>
+<td>04030100</td>
+<td>Amitriptyline</td>
+</tr>
+<tr>
+<td>50041000033116</td>
+<td>Amitriptyline Hydrochloride  Injection  10mg/ml</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Amitriptyline</td>
+<td>NA</td>
+<td>NA</td>
+<td>Amitriptyline</td>
+</tr>
+<tr>
+<td>51941000033114</td>
+<td>Amitriptyline Hydrochloride  Mixture  Sugar Free 10 mg/5 ml</td>
+<td>NA</td>
+<td>NA</td>
+<td>Amitriptyline</td>
+<td>NA</td>
+<td>NA</td>
+<td>Amitriptyline</td>
+</tr>
+<tr>
+<td>55441000033119</td>
+<td>Amitriptyline 25mg/5ml oral solution sugar free</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Amitriptyline</td>
+<td>5.000mg/1.000ml</td>
+<td>04030100</td>
+<td>Amitriptyline</td>
+</tr>
+<tr>
+<td>55541000033118</td>
+<td>Amitriptyline 50mg/5ml oral solution sugar free</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Amitriptyline</td>
+<td>10.000mg/1.000ml</td>
+<td>04030100</td>
+<td>Amitriptyline</td>
+</tr>
+<tr>
+<td>60441000033116</td>
+<td>Amitriptyline 10mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline</td>
+<td>10.000mg</td>
+<td>04030100</td>
+<td>Amitriptyline</td>
+</tr>
+<tr>
+<td>60541000033115</td>
+<td>Amitriptyline 50mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline</td>
+<td>50.000mg</td>
+<td>04030100</td>
+<td>Amitriptyline</td>
+</tr>
+<tr>
+<td>60641000033119</td>
+<td>Amitriptyline 25mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Amitriptyline</td>
+<td>25.000mg</td>
+<td>04030100</td>
+<td>Amitriptyline</td>
+</tr>
+<tr>
+<td>60841000033118</td>
+<td>Amoxapine  Tablets  25 mg</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amoxapine</td>
+<td>NA</td>
+<td>NA</td>
+<td>Amoxapine</td>
+</tr>
+<tr>
+<td>60941000033114</td>
+<td>Amoxapine 50mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Amoxapine</td>
+<td>50.000mg</td>
+<td>04030100</td>
+<td>Amoxapine</td>
+</tr>
+<tr>
+<td>61041000033116</td>
+<td>Amoxapine 100mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Amoxapine</td>
+<td>100.000mg</td>
+<td>04030100</td>
+<td>Amoxapine</td>
+</tr>
+<tr>
+<td>61141000033117</td>
+<td>Amoxapine  Tablets  150 mg</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Amoxapine</td>
+<td>NA</td>
+<td>NA</td>
+<td>Amoxapine</td>
+</tr>
+<tr>
+<td>61941000033115</td>
+<td>Anafranil 10mg capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Clomipramine</td>
+<td>10.000mg</td>
+<td>NA</td>
+<td>Clomipramine</td>
+</tr>
+<tr>
+<td>62041000033114</td>
+<td>Anafranil 25mg capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Clomipramine</td>
+<td>25.000mg</td>
+<td>NA</td>
+<td>Clomipramine</td>
+</tr>
+<tr>
+<td>62141000033113</td>
+<td>Anafranil 50mg capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Clomipramine</td>
+<td>50.000mg</td>
+<td>NA</td>
+<td>Clomipramine</td>
+</tr>
+<tr>
+<td>64241000033110</td>
+<td>Anafranil  Injection  12.5mg/ml</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Clomipramine</td>
+<td>NA</td>
+<td>NA</td>
+<td>Clomipramine</td>
+</tr>
+<tr>
+<td>68641000033117</td>
+<td>Anafranil 25mg/5ml syrup</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Clomipramine</td>
+<td>5.000mg/1.000ml</td>
+<td>NA</td>
+<td>Clomipramine</td>
+</tr>
+<tr>
+<td>70241000033114</td>
+<td>Anafranil SR 75mg tablets</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Clomipramine</td>
+<td>75.000mg</td>
+<td>NA</td>
+<td>Clomipramine</td>
+</tr>
+<tr>
+<td>87641000033116</td>
+<td>Asendis 100mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Amoxapine</td>
+<td>100.000mg</td>
+<td>NA</td>
+<td>Amoxapine</td>
+</tr>
+<tr>
+<td>87941000033111</td>
+<td>Asendis 50mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Amoxapine</td>
+<td>50.000mg</td>
+<td>NA</td>
+<td>Amoxapine</td>
+</tr>
+<tr>
+<td>259141000033116</td>
+<td>Cipramil 20mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Citalopram</td>
+<td>20.000mg</td>
+<td>NA</td>
+<td>Citalopram</td>
+</tr>
+<tr>
+<td>259241000033111</td>
+<td>Citalopram 20mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Citalopram</td>
+<td>20.000mg</td>
+<td>04030300</td>
+<td>Citalopram</td>
+</tr>
+<tr>
+<td>262041000033115</td>
+<td>Clomipramine 10mg capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Clomipramine</td>
+<td>10.000mg</td>
+<td>04030100</td>
+<td>Clomipramine</td>
+</tr>
+<tr>
+<td>262141000033116</td>
+<td>Clomipramine 25mg capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Clomipramine</td>
+<td>25.000mg</td>
+<td>04030100</td>
+<td>Clomipramine</td>
+</tr>
+<tr>
+<td>262241000033111</td>
+<td>Clomipramine 50mg capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Clomipramine</td>
+<td>50.000mg</td>
+<td>04030100</td>
+<td>Clomipramine</td>
+</tr>
+<tr>
+<td>275441000033113</td>
+<td>Clomipramine Hydrochloride  Injection  12.5mg/ml</td>
+<td>Solution for injection</td>
+<td>Intramuscular</td>
+<td>Clomipramine</td>
+<td>NA</td>
+<td>NA</td>
+<td>Clomipramine</td>
+</tr>
+<tr>
+<td>284741000033110</td>
+<td>Clomipramine 25mg/5ml oral solution</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Clomipramine</td>
+<td>5.000mg/1.000ml</td>
+<td>04030100</td>
+<td>Clomipramine</td>
+</tr>
+<tr>
+<td>285741000033111</td>
+<td>Clomipramine 75mg modified-release tablets</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Clomipramine</td>
+<td>75.000mg</td>
+<td>04030100</td>
+<td>Clomipramine</td>
+</tr>
+<tr>
+<td>472141000033110</td>
+<td>Dothapax 25 capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Dosulepin</td>
+<td>25.000mg</td>
+<td>NA</td>
+<td>Dosulepin</td>
+</tr>
+<tr>
+<td>473041000033119</td>
+<td>Doxepin 10mg capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Doxepin</td>
+<td>10.000mg</td>
+<td>04030100</td>
+<td>Doxepin</td>
+</tr>
+<tr>
+<td>473141000033115</td>
+<td>Doxepin 25mg capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Doxepin</td>
+<td>25.000mg</td>
+<td>04030100</td>
+<td>Doxepin</td>
+</tr>
+<tr>
+<td>473241000033110</td>
+<td>Doxepin 50mg capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Doxepin</td>
+<td>50.000mg</td>
+<td>04030100</td>
+<td>Doxepin</td>
+</tr>
+<tr>
+<td>473341000033117</td>
+<td>Doxepin 75mg capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Doxepin</td>
+<td>75.000mg</td>
+<td>04030100</td>
+<td>Doxepin</td>
+</tr>
+<tr>
+<td>479641000033111</td>
+<td>Dothapax 75 tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Dosulepin</td>
+<td>75.000mg</td>
+<td>NA</td>
+<td>Dosulepin</td>
+</tr>
+<tr>
+<td>489741000033113</td>
+<td>Dutonin 100mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Nefazodone</td>
+<td>100.000mg</td>
+<td>NA</td>
+<td>Nefazodone</td>
+</tr>
+<tr>
+<td>489841000033115</td>
+<td>Dutonin 200mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Nefazodone</td>
+<td>200.000mg</td>
+<td>NA</td>
+<td>Nefazodone</td>
+</tr>
+<tr>
+<td>496741000033118</td>
+<td>Edronax 4mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Reboxetine</td>
+<td>4.000mg</td>
+<td>NA</td>
+<td>Reboxetine</td>
+</tr>
+<tr>
+<td>498441000033112</td>
+<td>Efexor XL 75mg capsules</td>
+<td>Modified-release capsule</td>
+<td>Oral</td>
+<td>Venlafaxine</td>
+<td>75.000mg</td>
+<td>NA</td>
+<td>Venlafaxine</td>
+</tr>
+<tr>
+<td>498541000033113</td>
+<td>Efexor XL 150mg capsules</td>
+<td>Modified-release capsule</td>
+<td>Oral</td>
+<td>Venlafaxine</td>
+<td>150.000mg</td>
+<td>NA</td>
+<td>Venlafaxine</td>
+</tr>
+<tr>
+<td>499041000033111</td>
+<td>Efexor 37.5mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Venlafaxine</td>
+<td>37.500mg</td>
+<td>NA</td>
+<td>Venlafaxine</td>
+</tr>
+<tr>
+<td>499141000033110</td>
+<td>Efexor 75mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Venlafaxine</td>
+<td>75.000mg</td>
+<td>NA</td>
+<td>Venlafaxine</td>
+</tr>
+<tr>
+<td>499241000033115</td>
+<td>Efexor 50mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Venlafaxine</td>
+<td>50.000mg</td>
+<td>NA</td>
+<td>Venlafaxine</td>
+</tr>
+<tr>
+<td>561941000033115</td>
+<td>Faverin 100mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Fluvoxamine</td>
+<td>100.000mg</td>
+<td>NA</td>
+<td>Fluvoxamine</td>
+</tr>
+<tr>
+<td>563341000033115</td>
+<td>Faverin 50mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Fluvoxamine</td>
+<td>50.000mg</td>
+<td>NA</td>
+<td>Fluvoxamine</td>
+</tr>
+<tr>
+<td>577841000033114</td>
+<td>Fluoxetine 20mg capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Fluoxetine</td>
+<td>20.000mg</td>
+<td>04030300</td>
+<td>Fluoxetine</td>
+</tr>
+<tr>
+<td>579041000033111</td>
+<td>Fluoxetine 60mg capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Fluoxetine</td>
+<td>60.000mg</td>
+<td>04030300</td>
+<td>Fluoxetine</td>
+</tr>
+<tr>
+<td>592541000033118</td>
+<td>Fluoxetine Hydrochloride  Liquid  20 mg/5 ml</td>
+<td>NA</td>
+<td>NA</td>
+<td>Fluoxetine</td>
+<td>NA</td>
+<td>NA</td>
+<td>Fluoxetine</td>
+</tr>
+<tr>
+<td>592841000033116</td>
+<td>Fluvoxamine 100mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Fluvoxamine</td>
+<td>100.000mg</td>
+<td>04030300</td>
+<td>Fluvoxamine</td>
+</tr>
+<tr>
+<td>595541000033113</td>
+<td>Fluvoxamine 50mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Fluvoxamine</td>
+<td>50.000mg</td>
+<td>04030300</td>
+<td>Fluvoxamine</td>
+</tr>
+<tr>
+<td>626241000033115</td>
+<td>Gamanil 70mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Lofepramine</td>
+<td>70.000mg</td>
+<td>NA</td>
+<td>Lofepramine</td>
+</tr>
+<tr>
+<td>754141000033110</td>
+<td>Imipramine Hydrochloride  Syrup  25 mg/5 ml</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Imipramine</td>
+<td>NA</td>
+<td>NA</td>
+<td>Imipramine</td>
+</tr>
+<tr>
+<td>754241000033115</td>
+<td>Imipramine 25mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Imipramine</td>
+<td>25.000mg</td>
+<td>04030100</td>
+<td>Imipramine</td>
+</tr>
+<tr>
+<td>755541000033119</td>
+<td>Imipramine 10mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Imipramine</td>
+<td>10.000mg</td>
+<td>04030100</td>
+<td>Imipramine</td>
+</tr>
+<tr>
+<td>787141000033110</td>
+<td>Isocarboxazid 10mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Isocarboxazid</td>
+<td>10.000mg</td>
+<td>04030200</td>
+<td>Isocarboxazid</td>
+</tr>
+<tr>
+<td>819741000033117</td>
+<td>Lentizol 25mg modified-release capsules</td>
+<td>Modified-release capsule</td>
+<td>Oral</td>
+<td>Amitriptyline</td>
+<td>25.000mg</td>
+<td>NA</td>
+<td>Amitriptyline</td>
+</tr>
+<tr>
+<td>819841000033110</td>
+<td>Lentizol 50mg modified-release capsules</td>
+<td>Modified-release capsule</td>
+<td>Oral</td>
+<td>Amitriptyline</td>
+<td>50.000mg</td>
+<td>NA</td>
+<td>Amitriptyline</td>
+</tr>
+<tr>
+<td>849241000033115</td>
+<td>Lofepramine 70mg/5ml oral suspension sugar free</td>
+<td>Oral suspension</td>
+<td>Oral</td>
+<td>Lofepramine</td>
+<td>14.000mg/1.000ml</td>
+<td>04030100</td>
+<td>Lofepramine</td>
+</tr>
+<tr>
+<td>850141000033116</td>
+<td>Lofepramine 70mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Lofepramine</td>
+<td>70.000mg</td>
+<td>04030100</td>
+<td>Lofepramine</td>
+</tr>
+<tr>
+<td>853441000033119</td>
+<td>Ludiomil 10mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Maprotiline</td>
+<td>10.000mg</td>
+<td>NA</td>
+<td>Maprotiline</td>
+</tr>
+<tr>
+<td>853541000033118</td>
+<td>Ludiomil 25mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Maprotiline</td>
+<td>25.000mg</td>
+<td>NA</td>
+<td>Maprotiline</td>
+</tr>
+<tr>
+<td>853641000033117</td>
+<td>Ludiomil 50mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Maprotiline</td>
+<td>50.000mg</td>
+<td>NA</td>
+<td>Maprotiline</td>
+</tr>
+<tr>
+<td>853741000033114</td>
+<td>Ludiomil 75mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Maprotiline</td>
+<td>75.000mg</td>
+<td>NA</td>
+<td>Maprotiline</td>
+</tr>
+<tr>
+<td>854141000033113</td>
+<td>Lustral 100mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Sertraline</td>
+<td>100.000mg</td>
+<td>NA</td>
+<td>Sertraline</td>
+</tr>
+<tr>
+<td>854241000033118</td>
+<td>Lustral 50mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Sertraline</td>
+<td>50.000mg</td>
+<td>NA</td>
+<td>Sertraline</td>
+</tr>
+<tr>
+<td>868841000033115</td>
+<td>Manerix 150mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Moclobemide</td>
+<td>150.000mg</td>
+<td>NA</td>
+<td>Moclobemide</td>
+</tr>
+<tr>
+<td>868941000033111</td>
+<td>Manerix 300mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Moclobemide</td>
+<td>300.000mg</td>
+<td>NA</td>
+<td>Moclobemide</td>
+</tr>
+<tr>
+<td>870441000033114</td>
+<td>Maprotiline 10mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Maprotiline</td>
+<td>10.000mg</td>
+<td>04030100</td>
+<td>Maprotiline</td>
+</tr>
+<tr>
+<td>870741000033119</td>
+<td>Maprotiline 25mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Maprotiline</td>
+<td>25.000mg</td>
+<td>04030100</td>
+<td>Maprotiline</td>
+</tr>
+<tr>
+<td>870841000033112</td>
+<td>Maprotiline 50mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Maprotiline</td>
+<td>50.000mg</td>
+<td>04030100</td>
+<td>Maprotiline</td>
+</tr>
+<tr>
+<td>870941000033116</td>
+<td>Maprotiline 75mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Maprotiline</td>
+<td>75.000mg</td>
+<td>04030100</td>
+<td>Maprotiline</td>
+</tr>
+<tr>
+<td>917541000033110</td>
+<td>Mianserin 10mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Mianserin</td>
+<td>10.000mg</td>
+<td>04030100</td>
+<td>Mianserin</td>
+</tr>
+<tr>
+<td>917641000033111</td>
+<td>Mianserin 20mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Mianserin</td>
+<td>20.000mg</td>
+<td>04030100</td>
+<td>Mianserin</td>
+</tr>
+<tr>
+<td>917741000033119</td>
+<td>Mianserin 30mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Mianserin</td>
+<td>30.000mg</td>
+<td>04030100</td>
+<td>Mianserin</td>
+</tr>
+<tr>
+<td>919641000033115</td>
+<td>Mirtazapine 30mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Mirtazapine</td>
+<td>30.000mg</td>
+<td>04030400</td>
+<td>Mirtazapine</td>
+</tr>
+<tr>
+<td>923041000033117</td>
+<td>Molipaxin 50mg capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Trazodone</td>
+<td>50.000mg</td>
+<td>NA</td>
+<td>Trazodone</td>
+</tr>
+<tr>
+<td>923241000033113</td>
+<td>Molipaxin 100mg capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Trazodone</td>
+<td>100.000mg</td>
+<td>NA</td>
+<td>Trazodone</td>
+</tr>
+<tr>
+<td>929541000033113</td>
+<td>Molipaxin 50mg/5ml oral liquid</td>
+<td>Oral solution</td>
+<td>Oral</td>
+<td>Trazodone</td>
+<td>10.000mg/1.000ml</td>
+<td>NA</td>
+<td>Trazodone</td>
+</tr>
+<tr>
+<td>929841000033110</td>
+<td>Molipaxin CR 150mg tablets</td>
+<td>Modified-release tablet</td>
+<td>Oral</td>
+<td>Trazodone</td>
+<td>150.000mg</td>
+<td>NA</td>
+<td>Trazodone</td>
+</tr>
+<tr>
+<td>937241000033118</td>
+<td>Moclobemide 150mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Moclobemide</td>
+<td>150.000mg</td>
+<td>04030200</td>
+<td>Moclobemide</td>
+</tr>
+<tr>
+<td>937841000033119</td>
+<td>Moclobemide 300mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Moclobemide</td>
+<td>300.000mg</td>
+<td>04030200</td>
+<td>Moclobemide</td>
+</tr>
+<tr>
+<td>938741000033111</td>
+<td>Molipaxin 150mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Trazodone</td>
+<td>150.000mg</td>
+<td>NA</td>
+<td>Trazodone</td>
+</tr>
+<tr>
+<td>938841000033118</td>
+<td>Motipress tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Nortriptyline</td>
+<td>1.500mg + 30.000mg</td>
+<td>NA</td>
+<td>Nortriptyline</td>
+</tr>
+<tr>
+<td>938941000033114</td>
+<td>Motival 10mg/500microgram tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Nortriptyline</td>
+<td>500.000microgram + 10.000mg</td>
+<td>NA</td>
+<td>Nortriptyline</td>
+</tr>
+<tr>
+<td>955241000033110</td>
+<td>Nardil 15mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Phenelzine</td>
+<td>15.000mg</td>
+<td>NA</td>
+<td>Phenelzine</td>
+</tr>
+<tr>
+<td>966141000033116</td>
+<td>Nefazodone 100mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Nefazodone</td>
+<td>100.000mg</td>
+<td>04030400</td>
+<td>Nefazodone</td>
+</tr>
+<tr>
+<td>966241000033111</td>
+<td>Nefazodone 200mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Nefazodone</td>
+<td>200.000mg</td>
+<td>04030400</td>
+<td>Nefazodone</td>
+</tr>
+<tr>
+<td>966341000033118</td>
+<td>Nefazodone Hydrochloride  Tablets (starter pack)  14 x 50 mg, 14 x 100 mg, 28 x 200 mg</td>
+<td>Tablet</td>
+<td>Oral</td>
+<td>Nefazodone</td>
+<td>NA</td>
+<td>NA</td>
+<td>Nefazodone</td>
+</tr>
+<tr>
+<td>979241000033110</td>
+<td>Nortriptyline 10mg capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Nortriptyline</td>
+<td>10.000mg</td>
+<td>04030100</td>
+<td>Nortriptyline</td>
+</tr>
+<tr>
+<td>979341000033117</td>
+<td>Nortriptyline 25mg capsules</td>
+<td>Capsule/ Oral capsule</td>
+<td>Oral</td>
+<td>Nortriptyline</td>
+<td>25.000mg</td>
+<td>04030100</td>
+<td>Nortriptyline</td>
+</tr>
+<tr>
+<td>983141000033114</td>
+<td>Nortriptyline  Liquid  10mg/5 ml</td>
+<td>NA</td>
+<td>NA</td>
+<td>Nortriptyline</td>
+<td>NA</td>
+<td>NA</td>
+<td>Nortriptyline</td>
+</tr>
+<tr>
+<td>989141000033111</td>
+<td>Nortriptyline 10mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Nortriptyline</td>
+<td>10.000mg</td>
+<td>04030100</td>
+<td>Nortriptyline</td>
+</tr>
+<tr>
+<td>989241000033116</td>
+<td>Nortriptyline 25mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Nortriptyline</td>
+<td>25.000mg</td>
+<td>04030100</td>
+<td>Nortriptyline</td>
+</tr>
+<tr>
+<td>1008941000033114</td>
+<td>Optimax 500mg tablets</td>
+<td>Tablet/ Oral Tablet</td>
+<td>Oral</td>
+<td>Tryptophan</td>
+<td>500.000mg</td>
+<td>NA</td>
+<td>Tryptophan</td>
 </tr>
 </tbody>
 </table>
 </div>
-<p><em>Preview shows first 100 rows.</em></p>
-
-### Metadata star legend
-
-<div class="metadata-legend">
-<div><span class="meta-star meta-star-1">★</span> 1. Dataset used</div>
-<div><span class="meta-star meta-star-2">★</span> 2. Version information</div>
-<div><span class="meta-star meta-star-3">★</span> 3. Inclusion / exclusion criteria in generating script</div>
-<div><span class="meta-star meta-star-4">★</span> 4. Pre-print / publication / protocol information</div>
-<div><span class="meta-star meta-star-5">★</span> 5. Exposure / outcome / covariate flag</div>
-<div><span class="meta-star meta-star-6">★</span> 6. Clinical or alternative reviewer information</div>
-<div><span class="meta-star meta-star-7">★</span> 7. Citation file (.cff)</div>
-<div><span class="meta-star meta-star-8">★</span> 8. Coding system information</div>
-<div><span class="meta-star meta-star-9">★</span> 9. Brief phenotype description and usage</div>
-</div>
+<p><em>Preview shows first 100 rows from the original codelist file.</em></p>
 

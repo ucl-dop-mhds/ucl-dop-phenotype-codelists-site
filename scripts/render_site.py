@@ -260,36 +260,68 @@ def render_dl_rows(rows: list[tuple[str, str | None]]) -> str:
 
 
 
-def source_repo_from_metadata(meta: dict) -> tuple[str, str, str, str] | None:
-    """Return (owner, repo, first_repo_word, owner/repo) from provenance/description."""
-    provenance = meta.get("provenance", {}) if isinstance(meta.get("provenance"), dict) else {}
-    candidates = [
-        provenance.get("source_repository"),
-        meta.get("source_repository"),
-        meta.get("description"),
-    ]
+def source_repo_from_dicts(*dicts: dict) -> tuple[str, str, str, str] | None:
+    """Return (owner, repo, first_repo_word, owner/repo). Prefer PROVENANCE.yml."""
+    candidates = []
+
+    for d in dicts:
+        if not isinstance(d, dict):
+            continue
+
+        provenance = d.get("provenance", {}) if isinstance(d.get("provenance"), dict) else {}
+
+        candidates.extend([
+            d.get("source_repository"),
+            provenance.get("source_repository"),
+            d.get("description"),
+        ])
+
     for value in candidates:
         text = clean_text(value)
         if not text:
             continue
+
         match = re.search(r"(?:github\.com/)?([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)", text)
         if not match:
             match = re.search(r"Auto-ingested from\s+([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)\s*\(", text)
+
         if match:
-            full = match.group(1)
+            full = match.group(1).rstrip("/")
             owner, repo = full.split("/", 1)
             first_word = re.split(r"[-_\s]+", repo.strip())[0] or repo
             return owner, repo, first_word, full
+
     return None
 
 
-def format_source_repo_link(meta: dict) -> str:
-    info = source_repo_from_metadata(meta)
-    if not info:
-        return "NA"
-    _, _, _, full = info
-    return f'<a href="{html.escape(f"https://github.com/{full}", quote=True)}">{html.escape(full)}</a>'
+def format_source_repo_link(*sources: dict) -> str:
+    repo = extract_source_repository(*sources)
 
+    if not repo:
+        return "NA"
+
+    url = f"https://github.com/{repo}"
+    return f'<a href="{html.escape(url, quote=True)}">{html.escape(repo)}</a>'
+
+
+def original_source_extension(provenance: dict) -> str:
+    """
+    Use the original source path extension first, because this is the true
+    file extension users expect to download.
+    """
+    source_path = clean_text(provenance.get("source_path"))
+    if source_path:
+        suffix = pathlib.Path(source_path).suffix
+        if suffix:
+            return suffix.lower()
+
+    fmt = clean_text(provenance.get("source_format"))
+    if fmt:
+        fmt = fmt.lower().lstrip(".")
+        if fmt in {"txt", "csv", "tsv", "xlsx", "xls", "json", "r", "md"}:
+            return f".{fmt}"
+
+    return ".txt"
 
 def format_catalog_short_id(pid: str, code_name: str, meta: dict) -> str:
     info = source_repo_from_metadata(meta)
@@ -307,14 +339,25 @@ def render_section(title: str, rows: list[tuple[str, str | None]]) -> list[str]:
     ]
 
 
-def render_download_list(downloads: list[tuple[str, str]]) -> str:
+def render_download_list(downloads: list[tuple[str, str] | tuple[str, str, str]]) -> str:
     items = []
-    for label, href in downloads:
+
+    for item in downloads:
+        if len(item) == 3:
+            label, href, download_name = item
+            download_attr = f' download="{html.escape(download_name, quote=True)}"'
+        else:
+            label, href = item
+            download_attr = ""
+
         items.append(
             '<li>'
-            f'<a href="{html.escape(href, quote=True)}">{html.escape(label)}</a>'
+            f'<a href="{html.escape(href, quote=True)}"{download_attr}>'
+            f'{html.escape(label)}'
+            '</a>'
             '</li>'
         )
+
     return '<ul class="phenotype-download-list">' + ''.join(items) + '</ul>'
 
 
@@ -419,74 +462,240 @@ def format_review(review: dict) -> str | None:
         bits.append(explanation)
     return ' | '.join(bits) if bits else None
 
+def render_metadata_detail_html(
+    flags: dict[str, bool],
+    meta: dict,
+    phen_path: pathlib.Path,
+    provenance: dict,
+    documentation: dict,
+    evidence: dict,
+    review: dict,
+) -> str:
+    phenotype_role = clean_text(documentation.get("phenotype_role"))
+    formatted_role = phenotype_role.replace("_", " ").title() if phenotype_role else None
+
+    usage_notes = clean_text(documentation.get("usage_notes"))
+    description = clean_text(meta.get("description"))
+
+    cff_path = directory_has_cff(phen_path)
+
+    dataset_value = (
+        format_dataset_context(meta.get("dataset_context"))
+        or clean_text(meta.get("dataset_type"))
+        or clean_text(provenance.get("dataset_type"))
+    )
+
+    coding_value = (
+        format_coding_systems(meta.get("coding_systems"))
+        or clean_text(meta.get("coding_system"))
+        or clean_text(provenance.get("coding_system"))
+    )
+
+    evidence_value = (
+        format_evidence(evidence)
+        or clean_text(provenance.get("source_citation"))
+    )
+
+    review_value = format_review(review)
+
+    role_value = formatted_role
+    if not role_value:
+        tags = [t.strip() for t in meta.get("tags", []) if isinstance(t, str) and t.strip()]
+        role_tags = [t for t in tags if t.lower() in {"exposure", "outcome", "covariate", "covariates"}]
+        role_value = ", ".join(role_tags) if role_tags else None
+
+    desc_usage = []
+    if description:
+        desc_usage.append(description)
+    if usage_notes:
+        desc_usage.append(f"Usage notes: {usage_notes}")
+
+    value_by_key = {
+        "dataset_used": dataset_value,
+        "version_info": clean_text(meta.get("version")),
+        "incl_excl_script": "Found in generating script" if flags.get("incl_excl_script") else None,
+        "publication_info": evidence_value,
+        "phenotype_role": role_value,
+        "reviewer_info": review_value,
+        "citation_file": cff_path.name if cff_path else None,
+        "coding_system_info": coding_value,
+        "description_usage": " | ".join(desc_usage) if desc_usage else None,
+    }
+
+    lines = ['<div class="metadata-detail-list">']
+
+    for number, label, key in STAR_RULES:
+        achieved = bool(flags.get(key))
+        star = "★" if achieved else "☆"
+        value = value_by_key.get(key) or "NA"
+
+        lines.append(
+            '<div class="metadata-detail-row">'
+            f'<span class="meta-star meta-star-{number}">{star}</span> '
+            f'<strong>{html.escape(label)}:</strong> '
+            f'{value if "<a " in str(value) else html.escape(str(value))}'
+            '</div>'
+        )
+
+    lines.append("</div>")
+    return "\n".join(lines)
+
+
+def render_metadata_section(
+    flags: dict[str, bool],
+    meta: dict,
+    phen_path: pathlib.Path,
+    provenance: dict,
+    documentation: dict,
+    evidence: dict,
+    review: dict,
+) -> list[str]:
+    return [
+        "## Metadata",
+        "",
+        render_star_html(flags, label_score=True),
+        "",
+        "<br>",
+        "",
+        render_metadata_detail_html(flags, meta, phen_path, provenance, documentation, evidence, review),
+        "",
+    ]
+
+
 def phenotype_anchor(dataset_type: str, display_name: str) -> str:
     return slug_anchor(f"{dataset_type}--{display_name}")
 
 
-def github_repo_url(repo: str | None) -> str | None:
-    repo = clean_text(repo)
-    if not repo:
-        return None
-    if repo.startswith("http://") or repo.startswith("https://"):
-        return repo
-    return f"https://github.com/{repo}"
-
-
-def github_repo_id(repo: str | None) -> str:
-    repo = clean_text(repo)
-    if not repo:
-        return "unknown"
-    repo = repo.rstrip("/")
-    if repo.startswith("http://") or repo.startswith("https://"):
-        repo = repo.split("github.com/")[-1]
-    return repo.split("/")[0] if "/" in repo else repo
-
-
-def first_repo_word(repo: str | None) -> str:
-    repo = clean_text(repo)
-    if not repo:
-        return "unknown"
-    repo_name = repo.rstrip("/").split("/")[-1]
-    repo_name = re.sub(r"[^A-Za-z0-9]+", "-", repo_name).strip("-")
-    return repo_name.split("-")[0] if repo_name else "unknown"
-
-
-def short_catalog_id(item: dict, provenance: dict) -> str:
-    code_name = clean_text(item.get("code_name")) or clean_text(item.get("group")) or "unknown"
-    repo = provenance.get("source_repository")
-    return f"{slug_anchor(code_name)}-{github_repo_id(repo)}-{first_repo_word(repo)}"
-
-
-def original_source_extension(provenance: dict) -> str:
-    fmt = clean_text(provenance.get("source_format"))
-    if fmt:
-        fmt = fmt.lower().lstrip(".")
-        if fmt in {"txt", "csv", "tsv", "xlsx", "xls", "json", "r", "md"}:
-            return f".{fmt}"
-
-    source_path = clean_text(provenance.get("source_path"))
-    if source_path:
-        suffix = pathlib.Path(source_path).suffix
-        if suffix:
-            return suffix
-
-    return ".txt"
-
-
-def render_codelist_preview_table(csv_path: pathlib.Path, max_rows: int = 100) -> str:
+def extract_source_repository(*sources) -> str | None:
     """
-    Renders the normalized codelist.csv as a scrollable HTML table.
-    Uses only the Python standard library.
+    Find owner/repo from PROVENANCE.yml, metadata.yml, catalogue item,
+    or any text field containing a GitHub repo.
+    """
+    candidates = []
+
+    for source in sources:
+        if not isinstance(source, dict):
+            continue
+
+        candidates.extend(
+            [
+                source.get("source_repository"),
+                source.get("repository"),
+                source.get("repo"),
+                source.get("description"),
+            ]
+        )
+
+        nested_provenance = source.get("provenance")
+        if isinstance(nested_provenance, dict):
+            candidates.extend(
+                [
+                    nested_provenance.get("source_repository"),
+                    nested_provenance.get("repository"),
+                    nested_provenance.get("repo"),
+                    nested_provenance.get("description"),
+                ]
+            )
+
+    for value in candidates:
+        text = clean_text(value)
+        if not text:
+            continue
+
+        text = text.strip().rstrip("/")
+
+        # Full GitHub URL
+        match = re.search(
+            r"github\.com/([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)",
+            text,
+        )
+        if match:
+            return match.group(1).rstrip("/")
+
+        # Plain owner/repo
+        match = re.search(
+            r"\b([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)\b",
+            text,
+        )
+        if match:
+            return match.group(1).rstrip("/")
+
+    return None
+
+
+def github_owner_from_repo(repo: str | None) -> str | None:
+    repo = clean_text(repo)
+    if not repo or "/" not in repo:
+        return None
+    return repo.split("/", 1)[0]
+
+
+def github_first_repo_word(repo: str | None) -> str | None:
+    repo = clean_text(repo)
+    if not repo or "/" not in repo:
+        return None
+
+    repo_name = repo.split("/", 1)[1]
+    repo_name = re.sub(r"[^A-Za-z0-9]+", "-", repo_name).strip("-")
+
+    if not repo_name:
+        return None
+
+    return repo_name.split("-")[0]
+
+
+def short_catalog_id(item: dict, provenance: dict, meta: dict | None = None) -> str:
+    code_name = (
+        clean_text(item.get("code_name"))
+        or clean_text(item.get("display_name"))
+        or clean_text(item.get("title"))
+        or clean_text(item.get("group"))
+        or clean_text(item.get("id"))
+        or "phenotype"
+    )
+
+    repo = extract_source_repository(provenance, meta or {}, item)
+
+    owner = github_owner_from_repo(repo)
+    first_word = github_first_repo_word(repo)
+
+    parts = [slug_anchor(code_name)]
+
+    if owner:
+        parts.append(slug_anchor(owner))
+
+    if first_word:
+        parts.append(slug_anchor(first_word))
+
+    return "-".join(parts)
+
+
+def render_codelist_preview_table(raw_path: pathlib.Path, max_rows: int = 100) -> str:
+    """
+    Render the original SOURCE.txt/SOURCE.* file as the preview.
+    The first line of the raw file determines the column names.
     """
     import csv
 
-    if not csv_path.exists():
+    if not raw_path.exists():
         return "<p>No codelist preview available.</p>"
 
     try:
-        with csv_path.open("r", encoding="utf-8", errors="ignore", newline="") as f:
-            reader = csv.reader(f)
-            rows = list(reader)
+        sample = raw_path.read_text(encoding="utf-8", errors="ignore")
+    except Exception:
+        return "<p>No codelist preview available.</p>"
+
+    if not sample.strip():
+        return "<p>No codelist preview available.</p>"
+
+    try:
+        dialect = csv.Sniffer().sniff(sample[:4096], delimiters="\t,;|")
+    except Exception:
+        # Most SOURCE.txt files in this repo are tab-delimited.
+        dialect = csv.excel_tab
+
+    try:
+        rows = list(csv.reader(sample.splitlines(), dialect))
     except Exception:
         return "<p>No codelist preview available.</p>"
 
@@ -526,7 +735,7 @@ def render_codelist_preview_table(csv_path: pathlib.Path, max_rows: int = 100) -
     ])
 
     if len(rows) - 1 > max_rows:
-        lines.append(f"<p><em>Preview shows first {max_rows} rows.</em></p>")
+        lines.append(f"<p><em>Preview shows first {max_rows} rows from the original codelist file.</em></p>")
 
     return "\n".join(lines)
 
@@ -695,7 +904,7 @@ def main() -> None:
                 if source_txt.exists():
                     out_source = docs / "source" / f"{pid}{source_ext}"
                     shutil.copy2(source_txt, out_source)
-                    source_link = f"../source/{pid}{source_ext}"
+                    source_link = f"../../source/{pid}{source_ext}"
 
                 r_links = []
                 out_r_dir = docs / "r" / pid
@@ -704,14 +913,14 @@ def main() -> None:
                     for rp in sorted(code_dir.glob("*.R")):
                         dest_r = out_r_dir / rp.name
                         shutil.copy2(rp, dest_r)
-                        r_links.append(f"../r/{pid}/{rp.name}")
+                        r_links.append(f"../../r/{pid}/{rp.name}")
 
                 cff_link = None
                 cff_path = directory_has_cff(phen_path)
                 if cff_path:
                     out_cff = docs / "cff" / f"{pid}.cff"
                     shutil.copy2(cff_path, out_cff)
-                    cff_link = f"../cff/{pid}.cff"
+                    cff_link = f"../../cff/{pid}.cff"
 
                 meta = load_yaml_dict(meta_path)
                 star_flags = infer_star_flags(meta, phen_path)
@@ -732,11 +941,19 @@ def main() -> None:
 
                 download_items = []
                 if source_link:
-                    download_items.append((f"Download original codelist{source_ext}", source_link))
-                download_items.append(("Download normalized CSV", f"../csv/{pid}.csv"))
+                    source_download_name = f"{pid}{source_ext}"
+                    download_items.append(
+                        (
+                            f"Download original codelist ({source_ext})",
+                            source_link,
+                            source_download_name,
+                        )
+                    )
+
                 for rl in r_links:
                     fname = rl.split("/")[-1]
                     download_items.append((f"Download R script: {fname}", rl))
+
                 if cff_link:
                     download_items.append(("Download citation file (.cff)", cff_link))
 
@@ -771,20 +988,78 @@ def main() -> None:
                     ("Tags", html.escape(", ".join(tag_values)) if tag_values else None),
                 ]
 
+                short_pid = short_catalog_id(item, provenance_file, meta)
+                source_repo = format_source_repo_link(provenance_file, meta)
+
+                license_value = clean_text(
+                    meta.get("license")
+                    or provenance_file.get("license")
+                    or item.get("license")
+                ) or "NA"
+
+                date_created = clean_text(
+                    meta.get("date_created")
+                    or meta.get("created")
+                    or provenance_file.get("date_created")
+                    or provenance_file.get("created")
+                    or item.get("date_created")
+                    or item.get("created")
+                ) or "NA"
+
+                date_imported = clean_text(
+                    provenance_file.get("ingested_at")
+                    or provenance_file.get("date_imported")
+                    or provenance_file.get("imported_at")
+                    or provenance_file.get("import_date")
+                    or item.get("ingested_at")
+                    or item.get("date_imported")
+                    or item.get("imported_at")
+                    or item.get("import_date")
+                ) or "NA"
+
+                date_updated = clean_text(
+                    meta.get("date_updated")
+                    or meta.get("updated")
+                    or provenance_file.get("date_updated")
+                    or provenance_file.get("updated")
+                    or provenance_file.get("last_updated")
+                    or item.get("date_updated")
+                    or item.get("updated")
+                    or item.get("last_updated")
+                ) or "NA"
+
                 page = [
                     f"# {page_title}",
                     "",
                     '<div class="phenotype-header-card">',
-                    f'<p class="phenotype-kicker">{html.escape(dataset_type)} phenotype</p>',
-                    f'<h2>{html.escape(page_title)}</h2>',
-                    f'<p class="phenotype-subtitle">Code name: <code>{html.escape(code_name)}</code></p>',
-                    render_star_html(star_flags, label_score=True),
+                    #f'<p class="phenotype-kicker">{html.escape(dataset_type)} phenotype</p>',
+                    #f'<h2>{html.escape(page_title)}</h2>',
+                    '<div class="phenotype-header-fields">',
+                    f'<div><strong>ID:</strong> <code>{html.escape(short_pid)}</code></div>',
+                    f'<div><strong>Source:</strong> {source_repo}</div>',
+                    f'<div><strong>Dataset:</strong> {html.escape(dataset_type)}</div>',
+                    f'<div><strong>License:</strong> {html.escape(license_value)}</div>',
+                    f'<div><strong>Date Created:</strong> {html.escape(date_created)}</div>',
+                    f'<div><strong>Date Imported:</strong> {html.escape(date_imported)}</div>',
+                    f'<div><strong>Date Updated:</strong> {html.escape(date_updated)}</div>',
+                    '</div>',
                     '</div>',
                     '',
                 ]
 
-                page.extend(render_section("Repository details", repository_rows))
-                page.extend(render_section("Background information", background_rows))
+                # page.extend(render_section("Repository details", repository_rows))
+                # page.extend(render_section("Background information", background_rows))
+                page.extend(
+                render_metadata_section(
+                    star_flags,
+                    meta,
+                    phen_path,
+                    provenance,
+                    documentation,
+                    evidence,
+                    review,
+                )
+            )
                 page.extend([
                     "## Downloads",
                     "",
@@ -792,22 +1067,24 @@ def main() -> None:
                     "",
                     "## Codelist preview",
                     "",
-                    render_codelist_preview_table(csv_path),
+                    render_codelist_preview_table(source_txt),
                     "",
                 ])
-                page.extend(render_star_legend_html())
+                # page.extend(render_star_legend_html())
 
                 out_page = docs / "phenotypes" / f"{pid}.md"
                 out_page.write_text("\n".join(page) + "\n", encoding="utf-8")
 
-                downloads = [f"[csv](csv/{pid}.csv)"]
+                downloads = []
+                if source_link:
+                    downloads.append(f"[{source_ext.lstrip('.')}](source/{pid}{source_ext})")
                 if r_links:
                     downloads.append(f"[R](r/{pid}/)")
                 if cff_link:
                     downloads.append(f"[cff](cff/{pid}.cff)")
 
-                short_pid = format_catalog_short_id(pid, code_name, meta)
-                source_repo = format_source_repo_link(meta)
+                short_pid = short_catalog_id(item, provenance_file, meta)
+                source_repo = format_source_repo_link(provenance_file, meta)
                 catalog_lines.append(
                     f"| [`{short_pid}`](phenotypes/{pid}.md) | {title} | {dataset_type} | {source_repo} | <div class=\"catalog-meta-cell\">{star_html}</div> | {', '.join(downloads)} |"
                 )
