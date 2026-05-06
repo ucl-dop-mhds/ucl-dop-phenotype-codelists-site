@@ -259,6 +259,45 @@ def render_dl_rows(rows: list[tuple[str, str | None]]) -> str:
     return '<div class="phenotype-meta-grid">' + ''.join(items) + '</div>'
 
 
+
+def source_repo_from_metadata(meta: dict) -> tuple[str, str, str, str] | None:
+    """Return (owner, repo, first_repo_word, owner/repo) from provenance/description."""
+    provenance = meta.get("provenance", {}) if isinstance(meta.get("provenance"), dict) else {}
+    candidates = [
+        provenance.get("source_repository"),
+        meta.get("source_repository"),
+        meta.get("description"),
+    ]
+    for value in candidates:
+        text = clean_text(value)
+        if not text:
+            continue
+        match = re.search(r"(?:github\.com/)?([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)", text)
+        if not match:
+            match = re.search(r"Auto-ingested from\s+([A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+)\s*\(", text)
+        if match:
+            full = match.group(1)
+            owner, repo = full.split("/", 1)
+            first_word = re.split(r"[-_\s]+", repo.strip())[0] or repo
+            return owner, repo, first_word, full
+    return None
+
+
+def format_source_repo_link(meta: dict) -> str:
+    info = source_repo_from_metadata(meta)
+    if not info:
+        return "NA"
+    _, _, _, full = info
+    return f'<a href="{html.escape(f"https://github.com/{full}", quote=True)}">{html.escape(full)}</a>'
+
+
+def format_catalog_short_id(pid: str, code_name: str, meta: dict) -> str:
+    info = source_repo_from_metadata(meta)
+    if not info:
+        return code_name or pid
+    owner, _, first_word, _ = info
+    return f"{code_name}-{owner}-{first_word}"
+
 def render_section(title: str, rows: list[tuple[str, str | None]]) -> list[str]:
     return [
         f"## {title}",
@@ -506,8 +545,8 @@ def main() -> None:
             catalog_lines.append(f'<a id="{section_anchor}"></a>')
             catalog_lines.append(f"### {display_name}")
             catalog_lines.append("")
-            catalog_lines.append("| ID | Title | Coding System | Status | Version | Metadata | Downloads |")
-            catalog_lines.append("|---|---|---|---|---|---|---|")
+            catalog_lines.append("| ID | Title | Database | Source | Metadata | Downloads |")
+            catalog_lines.append("|---|---|---|---|---|---|")
 
             for item in dataset_code_groups[dataset_type][code_name]:
                 pid = item.get("id")
@@ -644,8 +683,10 @@ def main() -> None:
                 if cff_link:
                     downloads.append(f"[cff](cff/{pid}.cff)")
 
+                short_pid = format_catalog_short_id(pid, code_name, meta)
+                source_repo = format_source_repo_link(meta)
                 catalog_lines.append(
-                    f"| [`{pid}`](phenotypes/{pid}.md) | {title} | {coding_system} | {status} | {version} | <div class=\"catalog-meta-cell\">{star_html}</div> | {', '.join(downloads)} |"
+                    f"| [`{short_pid}`](phenotypes/{pid}.md) | {title} | {dataset_type} | {source_repo} | <div class=\"catalog-meta-cell\">{star_html}</div> | {', '.join(downloads)} |"
                 )
 
             catalog_lines.append("")

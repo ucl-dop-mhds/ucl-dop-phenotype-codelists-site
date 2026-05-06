@@ -186,3 +186,25 @@ body,
   margin: 0.25rem 0;
   font-size: 0.7rem;
 }
+
+/* Requested website adjustments */
+.md-typeset a,
+.md-nav__link--active,
+.md-nav__link:focus,
+.md-nav__link:hover {
+  color: #a100ff;
+}
+
+.md-typeset a:hover {
+  color: #bf4dff;
+}
+
+@media screen and (min-width: 76.25em) {
+  .md-sidebar--primary {
+    display: none;
+  }
+  .md-content {
+    margin-left: 0;
+  }
+}
+
