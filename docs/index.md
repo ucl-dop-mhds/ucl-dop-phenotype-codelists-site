@@ -18,7 +18,7 @@ We provide an example R script that can be adapted to generate a phenotype codel
 
 You can:
 
-- download the [**R codelist generation template**](downloads/1a_Depression_codelist_script_r.R)
+- download the [**R codelist generation template**](https://github.com/Janeh19/Code-list-generating-template/raw/main/Depression_codelist_script_example.R)
 - read the [**step-by-step guide for generating a codelist**](generate-codelist.md)
   
 ## ✍️ How to contribute to the repository
@@ -51,14 +51,10 @@ Any code list submitted to the MHDS GitHub will be assessed for **metadata quali
 
 OR 
 
-1. Recommended phenotype metadata file containing the information above (.txt) – *please refer to code list generating script in the following section to see how to generate a metadata file*
+1. Recommended phenotype metadata file containing the information above (.txt) – *please refer to the [Codelist Generation page and script]( generate-codelist.md) to see how to generate a metadata file*
 2. A citation file (`.cff`) - *please refer to the citation section below to see how to generate a .cff file*
 3. Code list generating script
 
-### Recommended files to include
-
-- 📄 Recommended phenotype metadata file
-- 💻 Code list generating script
 
 ### Metadata stars
 

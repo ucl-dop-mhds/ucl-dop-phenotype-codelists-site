@@ -2,32 +2,32 @@
 
 <div class="phenotype-header-card">
 <div class="phenotype-header-fields">
-<div><strong>Dataset:</strong> CPRD Gold</div>
-<div><strong>ID (phenotype-githubID-repoStart):</strong> <code>smoking-smwu-smi</code></div>
+<div><strong>ID:</strong> <code>smoking-smwu-smi</code></div>
 <div><strong>Source:</strong> <a href="https://github.com/smwu/SMI_GLP">smwu/SMI_GLP</a></div>
+<div><strong>Dataset:</strong> CPRD Gold</div>
 <div><strong>License:</strong> MIT</div>
 <div><strong>Date Created:</strong> 2026-02-10</div>
-<div><strong>Date Imported:</strong> 2026-04-22</div>
-<div><strong>Date Updated:</strong> 2026-04-22</div>
+<div><strong>Date Imported:</strong> 2026-05-07</div>
+<div><strong>Date Updated:</strong> 2026-05-07</div>
 </div>
 </div>
 
 ## Metadata
 
-<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-3" title="3. Inclusion / exclusion criteria in generating script" aria-label="3. Inclusion / exclusion criteria in generating script">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
+<div class="metadata-summary"><span class="metadata-score">Metadata score: 3/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-3" title="3. Inclusion / exclusion criteria in generating script" aria-label="3. Inclusion / exclusion criteria in generating script">★</span></span></div>
 
 <br>
 
 <div class="metadata-detail-list">
 <div class="metadata-detail-row"><span class="meta-star meta-star-1">★</span> <strong>Dataset used:</strong> CPRD Gold</div>
-<div class="metadata-detail-row"><span class="meta-star meta-star-2">★</span> <strong>Version information:</strong> 0.1.0</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-2">★</span> <strong>Version information:</strong> 1.0.0</div>
 <div class="metadata-detail-row"><span class="meta-star meta-star-3">★</span> <strong>Inclusion / exclusion criteria in generating script:</strong> Found in generating script</div>
-<div class="metadata-detail-row"><span class="meta-star meta-star-4">☆</span> <strong>Pre-print / publication / protocol information:</strong> NA</div>
-<div class="metadata-detail-row"><span class="meta-star meta-star-5">☆</span> <strong>Exposure / outcome / covariate flag:</strong> NA</div>
-<div class="metadata-detail-row"><span class="meta-star meta-star-6">☆</span> <strong>Clinical or alternative reviewer information:</strong> NA</div>
-<div class="metadata-detail-row"><span class="meta-star meta-star-7">☆</span> <strong>Citation file (.cff):</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-4">☆</span> <strong>Pre-print / publication / protocol information:</strong> Unknown</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-5">☆</span> <strong>Exposure / outcome / covariate flag:</strong> Unknown</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-6">☆</span> <strong>Clinical or alternative reviewer information:</strong> Clinically Reviewed</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-7">☆</span> <strong>Citation file (.cff):</strong> Unknown</div>
 <div class="metadata-detail-row"><span class="meta-star meta-star-8">☆</span> <strong>Coding system information:</strong> Unknown</div>
-<div class="metadata-detail-row"><span class="meta-star meta-star-9">★</span> <strong>Brief phenotype description and usage:</strong> Auto-ingested from smwu/SMI_GLP (main) at 1e3dfaacd5ed63663138e764d88792609878a84e. Source path: Code_Lists/Smoking/Gold_Smoking_codelist_20260210.txt.</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-9">☆</span> <strong>Brief phenotype description and usage:</strong> Unknown</div>
 </div>
 
 ## Downloads
@@ -207,17 +207,6 @@
 <td>current or former</td>
 </tr>
 <tr>
-<td>32356</td>
-<td>8I6H.00</td>
-<td>2314</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>smoking review not indicated</td>
-<td>February 2009</td>
-<td>current or former</td>
-</tr>
-<tr>
 <td>776</td>
 <td>137K.00</td>
 <td>493151</td>
@@ -258,17 +247,6 @@
 <td>58</td>
 <td>3</td>
 <td>light smoker - 1-9 cigs/day</td>
-<td>February 2009</td>
-<td>current or former</td>
-</tr>
-<tr>
-<td>26096</td>
-<td>13cA.00</td>
-<td>2809</td>
-<td>0</td>
-<td>12</td>
-<td>0</td>
-<td>smokes drugs</td>
 <td>February 2009</td>
 <td>current or former</td>
 </tr>
@@ -856,17 +834,6 @@
 <td>current or former</td>
 </tr>
 <tr>
-<td>63717</td>
-<td>8I2J.00</td>
-<td>165</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>bupropion contraindicated</td>
-<td>February 2009</td>
-<td>current or former</td>
-</tr>
-<tr>
 <td>10211</td>
 <td>13p..00</td>
 <td>157731</td>
@@ -885,17 +852,6 @@
 <td>0</td>
 <td>0</td>
 <td>nicotine replacement therapy provided by community pharmacis</td>
-<td>February 2009</td>
-<td>current or former</td>
-</tr>
-<tr>
-<td>57639</td>
-<td>8I3M.00</td>
-<td>18</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>bupropion refused</td>
 <td>February 2009</td>
 <td>current or former</td>
 </tr>
@@ -985,17 +941,6 @@
 <td>0</td>
 <td>smokers&#x27; cough</td>
 <td>February 2009</td>
-<td>current or former</td>
-</tr>
-<tr>
-<td>107593</td>
-<td>1V09.00</td>
-<td>1</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>smokes drugs through a pipe</td>
-<td>January 2014</td>
 <td>current or former</td>
 </tr>
 <tr>
@@ -1150,6 +1095,61 @@
 <td>0</td>
 <td>smoker - amount smoked</td>
 <td>February 2009</td>
+<td>current or former</td>
+</tr>
+<tr>
+<td>66409</td>
+<td>8I2I.00</td>
+<td>59</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>nicotine replacement therapy contraindicated</td>
+<td>February 2009</td>
+<td>current or former</td>
+</tr>
+<tr>
+<td>12966</td>
+<td>137V.00</td>
+<td>8383</td>
+<td>0</td>
+<td>1</td>
+<td>0</td>
+<td>smoking reduced</td>
+<td>February 2009</td>
+<td>current or former</td>
+</tr>
+<tr>
+<td>12878</td>
+<td>137T.00</td>
+<td>81044</td>
+<td>0</td>
+<td>22</td>
+<td>0</td>
+<td>date ceased smoking</td>
+<td>February 2009</td>
+<td>current or former</td>
+</tr>
+<tr>
+<td>105572</td>
+<td>9OOB.00</td>
+<td>4442</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>stop smoking invitation short message service text message</td>
+<td>January 2013</td>
+<td>current or former</td>
+</tr>
+<tr>
+<td>100099</td>
+<td>8IAj.00</td>
+<td>123929</td>
+<td>0</td>
+<td>4393</td>
+<td>0</td>
+<td>smoking cessation advice declined</td>
+<td>July 2010</td>
 <td>current or former</td>
 </tr>
 </tbody>

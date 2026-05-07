@@ -2,32 +2,32 @@
 
 <div class="phenotype-header-card">
 <div class="phenotype-header-fields">
-<div><strong>Dataset:</strong> CPRD Aurum</div>
-<div><strong>ID (phenotype-githubID-repoStart):</strong> <code>psychotropics-smwu-smi</code></div>
+<div><strong>ID:</strong> <code>psychotropics-smwu-smi</code></div>
 <div><strong>Source:</strong> <a href="https://github.com/smwu/SMI_GLP">smwu/SMI_GLP</a></div>
+<div><strong>Dataset:</strong> CPRD Aurum</div>
 <div><strong>License:</strong> MIT</div>
 <div><strong>Date Created:</strong> 2025-08-19</div>
-<div><strong>Date Imported:</strong> 2026-04-22</div>
-<div><strong>Date Updated:</strong> 2026-04-22</div>
+<div><strong>Date Imported:</strong> 2026-05-07</div>
+<div><strong>Date Updated:</strong> 2026-05-07</div>
 </div>
 </div>
 
 ## Metadata
 
-<div class="metadata-summary"><span class="metadata-score">Metadata score: 4/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-3" title="3. Inclusion / exclusion criteria in generating script" aria-label="3. Inclusion / exclusion criteria in generating script">★</span><span class="meta-star meta-star-9" title="9. Brief phenotype description and usage" aria-label="9. Brief phenotype description and usage">★</span></span></div>
+<div class="metadata-summary"><span class="metadata-score">Metadata score: 3/9</span><span class="metadata-stars"><span class="meta-star meta-star-1" title="1. Dataset used" aria-label="1. Dataset used">★</span><span class="meta-star meta-star-2" title="2. Version information" aria-label="2. Version information">★</span><span class="meta-star meta-star-3" title="3. Inclusion / exclusion criteria in generating script" aria-label="3. Inclusion / exclusion criteria in generating script">★</span></span></div>
 
 <br>
 
 <div class="metadata-detail-list">
 <div class="metadata-detail-row"><span class="meta-star meta-star-1">★</span> <strong>Dataset used:</strong> CPRD Aurum</div>
-<div class="metadata-detail-row"><span class="meta-star meta-star-2">★</span> <strong>Version information:</strong> 0.1.0</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-2">★</span> <strong>Version information:</strong> 1.0.0</div>
 <div class="metadata-detail-row"><span class="meta-star meta-star-3">★</span> <strong>Inclusion / exclusion criteria in generating script:</strong> Found in generating script</div>
-<div class="metadata-detail-row"><span class="meta-star meta-star-4">☆</span> <strong>Pre-print / publication / protocol information:</strong> NA</div>
-<div class="metadata-detail-row"><span class="meta-star meta-star-5">☆</span> <strong>Exposure / outcome / covariate flag:</strong> NA</div>
-<div class="metadata-detail-row"><span class="meta-star meta-star-6">☆</span> <strong>Clinical or alternative reviewer information:</strong> NA</div>
-<div class="metadata-detail-row"><span class="meta-star meta-star-7">☆</span> <strong>Citation file (.cff):</strong> NA</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-4">☆</span> <strong>Pre-print / publication / protocol information:</strong> Unknown</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-5">☆</span> <strong>Exposure / outcome / covariate flag:</strong> Unknown</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-6">☆</span> <strong>Clinical or alternative reviewer information:</strong> Clinically Reviewed</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-7">☆</span> <strong>Citation file (.cff):</strong> Unknown</div>
 <div class="metadata-detail-row"><span class="meta-star meta-star-8">☆</span> <strong>Coding system information:</strong> Unknown</div>
-<div class="metadata-detail-row"><span class="meta-star meta-star-9">★</span> <strong>Brief phenotype description and usage:</strong> Auto-ingested from smwu/SMI_GLP (main) at 1e3dfaacd5ed63663138e764d88792609878a84e. Source path: Code_Lists/Psychotropics/Aurum_Psychotropics_codelist_20250819.txt.</div>
+<div class="metadata-detail-row"><span class="meta-star meta-star-9">☆</span> <strong>Brief phenotype description and usage:</strong> Unknown</div>
 </div>
 
 ## Downloads

@@ -323,12 +323,6 @@ def original_source_extension(provenance: dict) -> str:
 
     return ".txt"
 
-def format_catalog_short_id(pid: str, code_name: str, meta: dict) -> str:
-    info = source_repo_from_metadata(meta)
-    if not info:
-        return code_name or pid
-    owner, _, first_word, _ = info
-    return f"{code_name}-{owner}-{first_word}"
 
 def render_section(title: str, rows: list[tuple[str, str | None]]) -> list[str]:
     return [
@@ -527,7 +521,7 @@ def render_metadata_detail_html(
     for number, label, key in STAR_RULES:
         achieved = bool(flags.get(key))
         star = "★" if achieved else "☆"
-        value = value_by_key.get(key) or "NA"
+        value = value_by_key.get(key) or "Unknown"
 
         lines.append(
             '<div class="metadata-detail-row">'
@@ -807,9 +801,6 @@ def main() -> None:
         "",
         "This catalogue shows a colored metadata-star summary for each codelist.",
         "",
-        "!!! note \"Phenotype ID format\"",
-        "    Catalogue IDs are shortened for readability. They are derived as: `phenotype-GitHubID-firstRepoWord`, where `GitHubID` is the owner of the spoke repository and `firstRepoWord` is the first word of the spoke repository name.",
-        "",
     ]
     catalog_lines.extend(render_star_legend_html())
 
@@ -876,7 +867,7 @@ def main() -> None:
 
                 title = item.get("title") or item.get("display_name") or pid
                 status = item.get("status", "draft")
-                version = item.get("version", "0.0.0")
+                version = item.get("version", "0.0")
                 group = item.get("group", "Ungrouped")
                 coding_system = item.get("coding_system", "Unknown")
 
